@@ -1,26 +1,10 @@
-import initTranslations from '@/app/i18n';
-import TranslationsProvider from '@/providers/TranslationsProvider';
 import KumiteMarathon from "@/components/NewsCard/NewsItems/KumiteMarathon";
 
-const i18nNamespaces = ['common'];
-
-type HomeProps = {
-    params: {
-        locale: string
-    }
-}
-
-const Home = async ({params: {locale}}: HomeProps) => {
-    const {resources} = await initTranslations(locale, i18nNamespaces);
+const Page =  () => {
 
     return (
-        <TranslationsProvider
-            namespaces={i18nNamespaces}
-            locale={locale}
-            resources={resources}>
-            <KumiteMarathon/>
-        </TranslationsProvider>
+        <KumiteMarathon/>
     )
 }
 
-export default Home;
+export default Page;

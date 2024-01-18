@@ -1,26 +1,10 @@
-import initTranslations from '@/app/i18n';
-import TranslationsProvider from '@/providers/TranslationsProvider';
 import KarateBegins from "@/components/NewsCard/NewsItems/KarateBegins";
 
-const i18nNamespaces = ['common'];
-
-type HomeProps = {
-    params: {
-        locale: string
-    }
-}
-
-const Home = async ({params: {locale}}: HomeProps) => {
-    const {resources} = await initTranslations(locale, i18nNamespaces);
+const Page =  () => {
 
     return (
-        <TranslationsProvider
-            namespaces={i18nNamespaces}
-            locale={locale}
-            resources={resources}>
-            <KarateBegins/>
-        </TranslationsProvider>
+        <KarateBegins/>
     )
 }
 
-export default Home;
+export default Page;

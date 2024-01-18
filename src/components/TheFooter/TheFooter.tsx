@@ -1,23 +1,16 @@
-"use server"
-import {ReactElement} from "react";
-import initTranslations from "@/app/i18n";
+"use client"
+
 import Image from 'next/image';
 import Link from 'next/link';
 import visaIcon from "@/assets/images/footer/visa.svg";
 import masterCard from "@/assets/images/footer/mastercard.svg";
 import cn from "classnames"
 import s from "./TheFooter.module.scss";
+import {useTranslation} from "react-i18next";
 
-const i18nNamespaces = ['common'];
 
-type TheFooterProps = {
-    params: {
-        locale: string
-    }
-}
-
-const TheFooter = async ({locale}:{locale:string}): Promise<ReactElement>  => {
-    const { t } = await initTranslations(locale, i18nNamespaces);
+const TheFooter =  () => {
+    const { t } = useTranslation();
 
     return (
         <div className={s.wrapper}>
