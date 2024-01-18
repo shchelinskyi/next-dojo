@@ -1,0 +1,58 @@
+.overlay {
+  position: fixed;
+  z-index: 2002;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.content {
+  position: relative;
+  margin: auto;
+  z-index: 1001;
+  max-width: 1180px;
+  width: 1180px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: white;
+  padding: 10px;
+}
+
+.closeBtn {
+  font-size: 30px;
+  cursor: pointer;
+  color: #000000;
+  transition: all 0.25s;
+  position: absolute;
+  top: -10px;
+  right:10px;
+  z-index: 1000;
+
+  @media (max-width: 480px) {
+    font-size: 24px;
+    right: 5px;
+  }
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.image {
+  object-fit: cover;
+  max-width: 90%;
+  max-height: 85vh;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
