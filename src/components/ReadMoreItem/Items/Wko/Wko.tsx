@@ -9,16 +9,18 @@ import ru22 from "@/assets/images/readMore/ru22.webp";
 import en11 from "@/assets/images/readMore/en11.webp";
 import en22 from "@/assets/images/readMore/en22.webp";
 import s from "./Wko.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 const Wko = () => {
     const {t, i18n} = useTranslation();
-    const currentLanguage = i18n.language || 'ua';
+    const currentLanguage = i18n.language;
     const {wko} = readMoreData;
 
 
     return (
         <div className={s.container}>
-            <h4 className={s.title}>
+            <h4 className={cn(s.title, gagalinFont.className)}>
                 {t(`wko.subTitle.${currentLanguage}`, (wko.subTitle as any)[currentLanguage] as string)}
             </h4>
             {currentLanguage === 'ua' &&

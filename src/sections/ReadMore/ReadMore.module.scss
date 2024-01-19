@@ -7,7 +7,6 @@
 }
 
 .title {
-  font-family: Gagalin, sans-serif;
   font-size: 96px;
   text-align: center;
   margin-bottom: 100px;
@@ -220,6 +219,7 @@
     top: -80px;
     left: 310px;
     width: 139px;
+    height: auto;
     object-fit: cover;
   }
 
@@ -229,6 +229,7 @@
     top: -80px;
     left: 346px;
     width: 139px;
+    height: auto;
     object-fit: cover;
   }
   @media (max-width: 480px) {
@@ -244,6 +245,7 @@
     top: -80px;
     left: 320px;
     width: 139px;
+    height: auto;
     object-fit: cover;
   }
   @media (max-width: 480px) {
@@ -259,6 +261,7 @@
     top: -80px;
     left: 305px;
     width: 139px;
+    height: auto;
     object-fit: cover;
   }
 
@@ -268,6 +271,7 @@
     top: -80px;
     left: 342px;
     width: 139px;
+    height: auto;
     object-fit: cover;
   }
 
@@ -284,6 +288,7 @@
     top: -45px;
     left: 170px;
     width: 139px;
+    height: auto;
     object-fit: cover;
     transform: rotate(-30deg);
   }
@@ -297,6 +302,7 @@
     top: -40px;
     left: 220px;
     width: 139px;
+    height: auto;
     object-fit: cover;
     transform: rotate(-30deg);
   }
@@ -310,6 +316,7 @@
     top: -35px;
     left: 220px;
     width: 139px;
+    height: auto;
     object-fit: cover;
     transform: rotate(-30deg);
   }

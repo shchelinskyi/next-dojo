@@ -5,6 +5,8 @@ import CustomButton from "@/components/CustomButton";
 import GalleryCard from "@/components/GalleryCard";
 import {gallery} from "@/utils/gallery";
 import s from "./GalleryPage.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 type GalleryItem = {
     title: {
@@ -57,7 +59,7 @@ const GalleryPage = () => {
     return (
             <Container className={s.wrapper}>
                 <div className={s.container}>
-                    <h3 className={s.title}>{t("gallery")}</h3>
+                    <h3  className={cn(s.title, gagalinFont.className)}>{t("gallery")}</h3>
                     <div className={s.content}>
                         {gallery.length > 0 && galleryArray.map((galleryItem) =>  <MemoizedGalleryCard key={galleryItem.title.en} galleryItem={galleryItem}/>)}
                     </div>

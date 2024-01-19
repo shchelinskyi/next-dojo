@@ -6,6 +6,8 @@ import {Card, Container, Placeholder, Stack} from "react-bootstrap";
 import NewsCard from "@/components/NewsCard";
 import CustomButton from "@/components/CustomButton";
 import s from "./NewsPage.module.scss"
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 
 const NewsPage = () => {
@@ -53,7 +55,7 @@ const NewsPage = () => {
         <>
             <Container className={s.wrapper}>
                 <div className={s.container}>
-                    <h3 className={s.title}>{t("news")}</h3>
+                    <h3  className={cn(s.title, gagalinFont.className)}>{t("news")}</h3>
                     <div className={s.content}>
                         {Object.values(newsData)
                             .slice(0, visibleItems)

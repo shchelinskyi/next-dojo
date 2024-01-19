@@ -1,11 +1,12 @@
-import i18n from "i18next";
 import {useTranslation} from "react-i18next";
-import {readMoreData} from "../../../../utils/readMore";
+import {readMoreData} from "@/utils/readMore";
 import s from "./Biography.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 const Biography = () => {
-    const {t} = useTranslation();
-    const currentLanguage = i18n.language || 'ua';
+    const {t, i18n} = useTranslation();
+    const currentLanguage = i18n.language;
     const {biography} = readMoreData;
 
     const paragraphs1 = (biography.text1 as any)[currentLanguage] as string
@@ -55,7 +56,7 @@ const Biography = () => {
 
     return (
         <div className={s.container}>
-            <h4 className={s.title}>{t(`biography.title.${currentLanguage}`, (biography.title as any)[currentLanguage] as string)}:</h4>
+            <h4 className={cn(s.title, gagalinFont.className)}>{t(`biography.title.${currentLanguage}`, (biography.title as any)[currentLanguage] as string)}:</h4>
             {paragraphs1}
             <h5 className={s.contentTitle}>{t(`biography.title.${currentLanguage}`, (biography.label1 as any)[currentLanguage] as string)}</h5>
             {paragraphs2}

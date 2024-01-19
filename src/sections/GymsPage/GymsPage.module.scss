@@ -26,7 +26,6 @@
 }
 
 .title {
-  font-family: Gagalin, sans-serif;
   font-size: 96px;
   text-align: center;
   margin-bottom: 42px;
@@ -246,6 +245,7 @@
 
 .smileIcon {
   width: 53px;
+  height: auto;
   object-fit: contain;
   position: absolute;
   top: 33px;
@@ -288,6 +288,7 @@
 
 .signatureIcon {
   width: 53px;
+  height: auto;
   object-fit: contain;
   position: absolute;
   top: 33px;

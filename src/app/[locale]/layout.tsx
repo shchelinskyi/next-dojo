@@ -1,11 +1,13 @@
 import React from "react";
 import type {Metadata} from 'next';
-import './globals.scss'
+import './globals.scss';
 import i18nConfig from '../../../i18nConfig';
 import {dir} from 'i18next';
 import TheFooter from "@/components/TheFooter";
 import initTranslations from "@/app/i18n";
 import TranslationsProvider from "@/providers/TranslationsProvider";
+
+
 
 export const metadata: Metadata = {
     title: 'Школа Кіокушинкай карате Misak Dojo для дітей та дорослих',

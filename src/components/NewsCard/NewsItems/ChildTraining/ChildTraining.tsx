@@ -8,6 +8,8 @@ import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
 import s from "./ChildTraining.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 const ChildTraining = () => {
     const {i18n,t} = useTranslation();
@@ -34,7 +36,7 @@ const ChildTraining = () => {
                     <Image src={arrow} className={s.icon} width={32} height={32} alt="arrow"/>
                     <div className={s.publishedItem}>{t("published")}: <span>{newsItem.date}</span></div>
                 </div>
-                <h4 className={s.title}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h4>
+                <h4 className={cn(s.title, gagalinFont.className)}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h4>
                 <div className={s.videoWrapper}>
                     <iframe width="760" height="427" src="https://www.youtube.com/embed/wAj7iAPxK3c"
                             title={t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string )}

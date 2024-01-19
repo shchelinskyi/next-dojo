@@ -1,25 +1,23 @@
-'use client';
-
-import {useTranslation} from "react-i18next";
 import logo from "@/assets/images/main/logo.webp";
 import Image from "next/image";
 import s from "../ContractOffer.module.scss";
-import {useRouter} from "next/navigation";
+import Link from "next/link";
 
 const ContractOfferEN = () => {
-    const {i18n,t} = useTranslation();
-    const currentLanguage = i18n.language;
-    const router = useRouter();
 
     return (
         <div className={s.container}>
             <div className={s.content}>
-                <div className={s.logoBlock} onClick={() => router.push('/' + currentLanguage)}>
+                <div className={s.logoBlock}>
+                    <Link className={s.link2} href="/">
                         <Image className={s.logo} src={logo} alt="logo"/>
-                    <div onClick={() => router.push('/' + currentLanguage)}>
+                    </Link>
+                    <div>
+                        <Link className={s.link2} href="/">
                             <button className={s.btn}>
-                                {t("return")}
+                                BACK
                             </button>
+                        </Link>
                     </div>
                 </div>
                 <h3 className={s.mainTitle}>User agreement</h3>
@@ -480,13 +478,16 @@ const ContractOfferEN = () => {
                         sending a written notice to the PUBLIC ORGANIZATION.
                     </p>
                 </div>
-                <div className={s.logoBlock} onClick={() => router.push('/' + currentLanguage)}>
+                <div className={s.logoBlock}>
+                    <Link className={s.link2} href="/">
                         <Image className={s.logo} src={logo} alt="logo"/>
-                    <div onClick={() => router.push('/' + currentLanguage)}>
-
+                    </Link>
+                    <div>
+                        <Link className={s.link2} href="/">
                             <button className={s.btn}>
-                                {t("return")}
+                                BACK
                             </button>
+                        </Link>
                     </div>
                 </div>
             </div>

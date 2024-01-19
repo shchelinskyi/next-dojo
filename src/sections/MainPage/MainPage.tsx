@@ -22,6 +22,7 @@ import boy22 from "@/assets/images/main/boy2D.gif";
 import fingerDown from "@/assets/images/main/fingerDown.webp";
 import cn from "classnames";
 import s from "./MainPage.module.scss";
+import {gagalinFont} from "@/fonts/fonts";
 
 type RefData = {
     aboutRef: React.RefObject<HTMLDivElement> | null;
@@ -76,8 +77,8 @@ const MainPage = ({refData}:TheMainPageProps) => {
             <Container className={s.contentContainer}>
                 <div className={s.content}>
                     <div className={s.titleWrapper}>
-                        <h3 className={s.mainTitle}>{t('mainTitle1')}</h3>
-                        <h3 className={cn(s.mainTitle, s.secondLine)}>{t('mainTitle2')}</h3>
+                        <h3 className={cn(s.mainTitle, gagalinFont.className)}>{t('mainTitle1')}</h3>
+                        <h3 className={cn(s.mainTitle, gagalinFont.className, s.secondLine)}>{t('mainTitle2')}</h3>
                     </div>
                     <p className={s.offerContent}>
                         {t("offer")}

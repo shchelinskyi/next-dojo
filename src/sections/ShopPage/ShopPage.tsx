@@ -7,6 +7,7 @@ import {products} from "@/utils/shop";
 import cn from "classnames";
 import s from "./ShopPage.module.scss";
 import type {ProductItemType} from "@/components/ProductCard/ProductCard";
+import {gagalinFont} from "@/fonts/fonts";
 
 const ShopPage = () => {
 
@@ -113,7 +114,7 @@ const ShopPage = () => {
         <>
             <Container className={s.wrapper}>
                 <div className={s.container}>
-                    <h3 className={s.title}>{t("shop")}</h3>
+                    <h3 className={cn(s.title, gagalinFont.className)}>{t("shop")}</h3>
                     <Tab.Container defaultActiveKey="all" activeKey={activeKey} onSelect={(k: string | null) => setActiveKey(k as string)}>
                         <Nav className={s.tabsList}>
                             <Nav.Item>

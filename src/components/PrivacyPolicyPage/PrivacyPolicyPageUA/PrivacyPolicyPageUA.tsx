@@ -4,24 +4,27 @@ import {useTranslation} from "react-i18next";
 import logo from "@/assets/images/main/logo.webp";
 import Image from "next/image";
 import s from "../PrivacyPolicyPage.module.scss";
-import {useRouter} from "next/navigation";
+import Link from 'next/link';
 
 
 const PrivacyPolicyPageUA = () => {
-    const {i18n,t} = useTranslation();
-    const currentLanguage = i18n.language;
-    const router = useRouter();
+    const {t} = useTranslation();
+
 
 
     return (
         <div className={s.container}>
             <div className={s.content}>
-                <div className={s.logoBlock} onClick={() => router.push('/' + currentLanguage)}>
+                <div className={s.logoBlock}>
+                    <Link href="/">
                         <Image className={s.logo} src={logo} alt="logo"/>
-                    <div onClick={() => router.push('/' + currentLanguage)}>
+                    </Link>
+                    <div>
+                        <Link href="/">
                             <button className={s.btn}>
                                 {t("return")}
                             </button>
+                        </Link>
                     </div>
                 </div>
                 <h3 className={s.mainTitle}>Політика конфіденційності</h3>
@@ -246,15 +249,18 @@ const PrivacyPolicyPageUA = () => {
                         </li>
                     </ol>
                 </div>
-                <div className={s.logoBlock} onClick={() => router.push('/' + currentLanguage)}>
-                    <Image className={s.logo} src={logo} alt="logo"/>
-                    <div onClick={() => router.push('/' + currentLanguage)}>
-                        <button className={s.btn}>
-                            {t("return")}
-                        </button>
+                <div className={s.logoBlock}>
+                    <Link href="/">
+                        <Image className={s.logo} src={logo} alt="logo"/>
+                    </Link>
+                    <div>
+                        <Link href="/">
+                            <button className={s.btn}>
+                                {t("return")}
+                            </button>
+                        </Link>
                     </div>
                 </div>
-
             </div>
         </div>
     );

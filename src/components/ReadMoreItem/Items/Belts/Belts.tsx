@@ -1,12 +1,13 @@
-import i18n from "i18next";
 import {useTranslation} from "react-i18next";
-import {readMoreData} from "../../../../utils/readMore";
+import {readMoreData} from "@/utils/readMore";
 import s from "./Belts.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 
 const Belts = () => {
-    const {t} = useTranslation();
-    const currentLanguage = i18n.language || 'ua';
+    const {t, i18n} = useTranslation();
+    const currentLanguage = i18n.language;
     const {belts} = readMoreData;
 
     const paragraphs1 = (belts.text1 as any)[currentLanguage] as string
@@ -63,7 +64,7 @@ const Belts = () => {
     return (
         <div className={s.container}>
             <p className={s.note}>{t(`belts.note.${currentLanguage}`,(belts.note as any)[currentLanguage] as string)}</p>
-            <h4 className={s.title}>{t(`belts.title.${currentLanguage}`,(belts.title as any)[currentLanguage] as string)}:</h4>
+            <h4 className={cn(s.title, gagalinFont.className)}>{t(`belts.title.${currentLanguage}`,(belts.title as any)[currentLanguage] as string)}:</h4>
             <h5 className={s.contentTitle}>
                 {t(`belts.label1.${currentLanguage}`, (belts.label1 as any)[currentLanguage] as string)}
             </h5>

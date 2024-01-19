@@ -20,6 +20,7 @@ import roundLogo from "@/assets/images/team/round-logo.svg";
 import love from "@/assets/images/team/love.svg";
 import cn from "classnames";
 import s from "./TeamPage.module.scss";
+import {gagalinFont} from "@/fonts/fonts";
 
 
 
@@ -55,7 +56,7 @@ const TeamPage = () => {
 
     return (
         <Container className={s.wrapper}>
-            <h3 className={s.title}>{t("team")}</h3>
+            <h3  className={cn(s.title, gagalinFont.className)}>{t("team")}</h3>
             <div className={s.trainerDescription}>
                 <Image className={s.mainTrainerImage} src={trainerM} alt="trainer"/>
                 <TrainerLabel name= {t("trainerM")} rank={t("trainerMRank")}  mainTrainer={true}/>
@@ -194,7 +195,7 @@ const TeamPage = () => {
                     </div>
                 </div>
                 <div className={s.logoContainer}>
-                    <Image className={s.roundLogo} src={roundLogo} alt="trainer"/>
+                    <Image width={128} height={128} src={roundLogo} alt="trainer"/>
                     <Image src={love} style={{
                         width: "52px",
                         height: "79px",

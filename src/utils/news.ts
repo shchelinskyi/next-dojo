@@ -1,6 +1,6 @@
 export const newsData = {
     openCup: {
-        type: "openCup",
+        linkName: "open-cup",
         title: {
             en: "Open cup of the city of Kyiv from the kata",
             ru: "Открытый кубок г. Киева из ката",
@@ -12,6 +12,7 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання ",
         },
+        mainImg:"/images/news/291021.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1703676405/news/291021/news-1_zetxi8_dwtosb.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1703676403/news/291021/IMG_1993_li2d4q_sm7pbp.webp",
@@ -64,7 +65,7 @@ export const newsData = {
         },
     },
     kumiteMarathon: {
-        type: "kumiteMarathon",
+        linkName: "kumite-marathon",
         title: {
             en: "Kumite marathon",
             ru: "Кумите марафон",
@@ -76,6 +77,7 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання ",
         },
+        mainImg:"/images/news/221021.jpg",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701280972/news/221021/_-293_grlcv7.jpg",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701280970/news/221021/_-42_og4bwp.jpg",
@@ -109,7 +111,7 @@ export const newsData = {
         text4: "🥋👊🥋👊🥋👊🥋👊🥋👊"
     },
     summerSchool31: {
-        type: "summerSchool31",
+        linkName: "summer-school31",
         title: {
             en: "31st Kyokushinkai Karate Summer School \"Vinnytsia-2021\"",
             ru: "31-я Летняя школа Киокушинкай каратэ «Винница-2021»",
@@ -121,6 +123,7 @@ export const newsData = {
             ru: "События доджо",
             ua: "Події доджо",
         },
+        mainImg:"/images/news/220721.jpg",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701281626/news/270721/IMG_9277_s1oj2m.jpg",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701281624/news/270721/IMG_9377_g72kzq.jpg",
@@ -177,7 +180,7 @@ export const newsData = {
         }
     },
     coachDay: {
-        type: "coachDay",
+        linkName: "coach-day",
         title: {
             en: "Coach's Day is celebrated in Ukraine on July 19",
             ru: "19 июля в Украине отмечают День тренера",
@@ -189,6 +192,7 @@ export const newsData = {
             ru: "Полезная информация",
             ua: "Корисна інформація",
         },
+        mainImg:"/images/news/190721.png",
         images: ["https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701282701/news/190721/Screenshot_1_hhkc1a.png"],
         text1: {
             en: "July 19 is officially celebrated as a professional holiday in Ukraine — Coach's Day. 🥋\n" +
@@ -211,12 +215,13 @@ export const newsData = {
         }
     },
     childTraining: {
-        type: "childTraining",
+        linkName: "child-training",
         title: {
             en: "Where to send the child for training? Kyokushinka karate!",
             ru: "Куда отдать ребенка на тренировку? Киокушинка каратэ!",
             ua: "Куди віддати дитину на тренування? Кіокушинкай карате!",
         },
+        mainImg:"/images/news/291021.jpg",
         images: ["https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701287335/news/130419/11_-_Misakdojo_team__v6ackr.jpg"],
         date: "09.10.2020",
         category: {
@@ -270,7 +275,7 @@ export const newsData = {
         },
     },
     karateDay: {
-        type: "karateDay",
+        linkName: "karate-day",
         title: {
             en: "October 7 is World Karate Day",
             ru: "7 октября - Всемирный день каратэ",
@@ -282,6 +287,7 @@ export const newsData = {
             ru: "Полезная информация",
             ua: "Корисна інформація",
         },
+        mainImg:"/images/news/071020.jpg",
         images: ["https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701283449/news/071020/IMG_4392_ic4fsj.jpg"],
         text: {
             en: "Today, October 7th, is World Karate Day, also known as \"K Day.\"\n" +
@@ -328,7 +334,7 @@ export const newsData = {
         }
     },
     meaningTerm: {
-        type: "meaningTerm",
+        linkName: "meaning-term",
         title: {
             en: "The meaning of the term \"Osu\"",
             ru: "Значение термина «Осу»",
@@ -341,8 +347,8 @@ export const newsData = {
                 "Полезная информация",
             ua:
                 "Корисна інформація",
-        }
-        ,
+        },
+        mainImg:"/images/news/220919.png",
         images: ["https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701283986/news/220919/Screenshot_38_mesnq9.png"],
         text: {
             en: "In Kyokushin Karate, the answer to every question is 'Osu.' Every greeting is 'Osu.' In response to each instruction or question in class, the answer is 'Osu' instead of 'yes' or 'I understand.' When performing kihon waza (basic techniques) in class, each technique is often accompanied by a loud 'Osu.' When practicing jiu kumite (full-contact sparring) in class, and your opponent uses a good, complex technique, you say 'Osu' to acknowledge your opponent's skill. As a sign of respect, fighters at a tournament bow and say 'Osu' to the front, the referee, and each other, before and after the fight.\n" +
@@ -398,7 +404,7 @@ export const newsData = {
         }
     },
     summerSchool32: {
-        type: "summerSchool32",
+        linkName: "summer-school32",
         title: {
             en: "32nd Kyokushinkai Karate Summer School \"Vinnytsia 2019\"",
             ru: "32-я Летняя школа Киокушинкай каратэ «Винница 2019»",
@@ -409,13 +415,13 @@ export const newsData = {
             en: "Dojo events",
             ru: "События доджо",
             ua: "Події доджо",
-        }
-        ,
+        },
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701285606/news/120819/Screenshot_1_bfmgjy.png",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701285604/news/120819/Screenshot_36_yp5pgv.png",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701285544/news/120819/Screenshot_37_jqao3d.png"
         ],
+        mainImg:"/images/news/120819.png",
         text1: {
             en: "They visited the 32nd Kyokushinkai Karate Summer School under the leadership of Shikhan Honcharenko Oleksandr Valeriyovych.",
             ru: "Посетили 32-ю летнюю школу Киокушинкай каратэ под руководством шихана Гончаренко Александра Валерьевича.",
@@ -456,7 +462,7 @@ export const newsData = {
         }
     },
     championship: {
-        type: "championship",
+        linkName: "championship",
         title: {
             en: "Zhytomyr Oblast Kyokushinkai Karate Championship",
             ru: "Чемпионат Житомирской области по Киокушинкай карате",
@@ -468,6 +474,7 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання",
         },
+        mainImg:"/images/news/130419.png",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701286096/news/130419/Screenshot_33_zhh2qh.png",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1701286093/news/130419/Screenshot_32_o3xupq.png"
@@ -506,7 +513,7 @@ export const newsData = {
         }
     },
     cherkasyOblastCup: {
-        type: "cherkasyOblastCup",
+        linkName: "cherkasy-oblast-cup",
         title: {
             en: "Cherkasy Oblast Cup",
             ru: "Кубок Черкасской области",
@@ -518,7 +525,9 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання",
         },
-        images: ["https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702367349/news/190319/Screenshot_32_t0gx3n.webp",
+        mainImg:"/images/news/1010319.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702367349/news/190319/Screenshot_32_t0gx3n.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702367347/news/190319/Screenshot_29_p8xvgy.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702367347/news/190319/Screenshot_30_syjtrj.webp"
         ],
@@ -544,7 +553,7 @@ export const newsData = {
         },
     },
     fighterCup: {
-        type: "fighterCup",
+        linkName: "fighter-cup",
         title: {
             en: "SC \"Fighter\" Open Cup 2019",
             ru: "Открытый кубок СК «Файтер» 2019",
@@ -556,6 +565,7 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання ",
         },
+        mainImg:"/images/news/100319.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702369448/news/100319/Screenshot_25_jbnpoy.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702369450/news/100319/Screenshot_26_rvzupe.webp",
@@ -677,7 +687,7 @@ export const newsData = {
         },
     },
     cupIrpin: {
-        type: "cupIrpin",
+        linkName: "cup-irpin",
         title: {
             en: "Princess Olga Cup, Irpin city",
             ru: "Кубок Княгини Ольги, г. Ирпень",
@@ -689,6 +699,7 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання ",
         },
+        mainImg:"/images/news/030319.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702373551/news/030319/Screenshot_21_rsvc5c.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702373551/news/030319/Screenshot_22_rmn7fn.webp",
@@ -721,7 +732,7 @@ export const newsData = {
         },
     },
     shchoTakeZbory: {
-        type: "shchoTakeZbory",
+        linkName: "shcho-take-zbory",
         title: {
             en: "What are fees and why are they needed?",
             ru: "Что такое зборы и для чего они нужны",
@@ -733,6 +744,7 @@ export const newsData = {
             ru: "События доджо",
             ua: "Події доджо",
         },
+        mainImg:"/images/news/050219.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702374910/news/050219/Screenshot_17_lsyqjc.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702374913/news/050219/Screenshot_20_dpgjaq.webp",
@@ -786,7 +798,7 @@ export const newsData = {
         },
     },
     kievOpenCup: {
-        type: "kievOpenCup",
+        linkName: "kiev-open-cup",
         title: {
             en: "Kyiv Open Cup 2018",
             ru: "Kyiv Open Cup 2018",
@@ -798,6 +810,7 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання",
         },
+        mainImg:"/images/news/111218.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702377027/news/111218/Screenshot_14_pzui2o.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702377029/news/111218/Screenshot_15_gtmtwu.webp",
@@ -847,7 +860,7 @@ export const newsData = {
         },
     },
     karateBegins: {
-        type: "karateBegins",
+        linkName: "karate-begins",
         title: {
             en: "Where does karate begin?",
             ru: "С чего начинается каратэ",
@@ -859,6 +872,7 @@ export const newsData = {
             ru: "Полезная информация",
             ua: "Корисна інформація",
         },
+        mainImg:"/images/news/0711218.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702378795/news/071218/Screenshot_13_nrzwfe.webp"
         ],
@@ -886,7 +900,7 @@ export const newsData = {
         },
     },
     candyOrLife: {
-        type: "candyOrLife",
+        linkName: "candy-or-life",
         title: {
             en: "Candy or life",
             ru: "Конфеты или жизнь",
@@ -898,6 +912,7 @@ export const newsData = {
             ru: "События доджо",
             ua: "Події доджо",
         },
+        mainImg:"/images/news/071218.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702380343/news/061218/Screenshot_11_o6egby.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702380345/news/061218/Screenshot_12_bikjxa.webp"
@@ -925,7 +940,7 @@ export const newsData = {
         },
     },
     meansTeam: {
-        type: "meansTeam",
+        linkName: "means-team",
         title: {
             en: "What does the team at Misak Dojo mean?",
             ru: "Что значит команда в клубе «Миссак Доджо»",
@@ -937,6 +952,7 @@ export const newsData = {
             ru: "Полезная информация",
             ua: "Корисна інформація",
         },
+        mainImg:"/images/news/061218.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702381455/news/061218/IMG_5058_3_kgfo6o.webp",
         ],
@@ -988,7 +1004,7 @@ export const newsData = {
         },
     },
     karateSea: {
-        type: "karateSea",
+        linkName: "karate-sea",
         title: {
             en: "What can karate and the sea have in common?",
             ru: "Что может быть общего между каратэ и морем?",
@@ -1000,6 +1016,7 @@ export const newsData = {
             ru: "События доджо",
             ua: "Події доджо",
         },
+        mainImg:"/images/news/221018.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702382421/news/221018/Screenshot_10_urhqvs.webp",
         ],
@@ -1035,7 +1052,7 @@ export const newsData = {
         },
     },
     usefulInfo: {
-        type: "usefulInfo",
+        linkName: "useful-info",
         title: {
             en: "Useful information for beginners",
             ru: "Полезная информация для новичков",
@@ -1047,6 +1064,7 @@ export const newsData = {
             ru: "Полезная информация",
             ua: "Корисна інформація",
         },
+        mainImg:"/images/news/100918.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702390824/news/100918/IMG_5070_3_x2x2er.webp",
         ],
@@ -1142,7 +1160,7 @@ export const newsData = {
         },
     },
     openChampionship: {
-        type: "openChampionship",
+        linkName: "open-championship",
         title: {
             en: "The championship of SC \"Fighter\" 2018 is open",
             ru: "Открытое первенство СК «Файтер» 2018",
@@ -1154,6 +1172,7 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання",
         },
+        mainImg:"/images/news/220518.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702394601/news/220518/Screenshot_5_alaoxm.webp",
         ],
@@ -1219,7 +1238,7 @@ export const newsData = {
         },
     },
     enerkid: {
-        type: "enerkid",
+        linkName: "enerkid",
         title: {
             en: "Enerkid Cup 2018",
             ru: "Кубок Enerkid 2018",
@@ -1231,6 +1250,7 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання",
         },
+        mainImg:"/images/news/250418.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702396014/news/250418/Screenshot_7_rgsgj7.webp",
         ],
@@ -1282,7 +1302,7 @@ export const newsData = {
         },
     },
     championship2018: {
-        type: "championship2018",
+        linkName: "championship-2018",
         title: {
             en: "Championship of Ukraine 2018",
             ru: "Чемпионат Украины 2018",
@@ -1294,6 +1314,7 @@ export const newsData = {
             ru: "Состязание",
             ua: "Змагання",
         },
+        mainImg:"/images/news/050318.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702397284/news/050318/Screenshot_8_x9mwfe.webp",
         ],
@@ -1319,7 +1340,7 @@ export const newsData = {
         },
     },
     dojoSempai: {
-        type: "dojoSempai",
+        linkName: "dojo-sempai",
         title: {
             en: "In the dojo of Senpai Oleksandr Korolev",
             ru: "У доджо у семпая Александра Королева",
@@ -1331,6 +1352,7 @@ export const newsData = {
             ru: "События доджо",
             ua: "Події доджо",
         },
+        mainImg:"/images/news/191117.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1702403846/news/191117/Screenshot_9_jhy7nb.webp",
         ],
@@ -1361,7 +1383,7 @@ export const newsData = {
         },
     },
     vygnanecz:{
-        type: "vygnanecz",
+        linkName: "vygnanecz",
         title: {
             en: "The Exile is a short film",
             ru: "Изгнанник — короткометражный фильм",
@@ -1373,6 +1395,7 @@ export const newsData = {
             ru: "Полезная информация",
             ua: "Корисна інформація",
         },
+        mainImg:"/images/news/011017.webp",
         images: [
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1703676599/news/011017/screenshot_1_ikuyjn_cf6vhm.webp",
         ],

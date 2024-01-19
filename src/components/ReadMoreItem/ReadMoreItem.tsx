@@ -1,8 +1,7 @@
 import {ReactNode, FC, useState} from 'react';
-import i18n from "i18next";
 import {useTranslation} from "react-i18next";
 import Image from "next/image"
-import plus from "../../assets/images/readMore/plus.webp";
+import plus from "@/assets/images/readMore/plus.webp";
 import ReadMoreModalItem from "../ReadMoreModalItem";
 import s from "./ReadMoreItem.module.scss";
 
@@ -20,11 +19,12 @@ type ReadMoreItem = {
 const ReadMoreItem: FC<ReadMoreItem> = ({item, children}) => {
 
     const [isModalOpened, setIsModalOpened] = useState(false);
-    const {t} = useTranslation();
-    const currentLanguage = i18n.language || 'ua';
+    const {t, i18n} = useTranslation();
+    const currentLanguage = i18n.language;
 
     const handleOpen = () => {
-        document.body.style.overflowY = 'hidden';
+        window.document.body.style.overflowY = 'hidden';
+        console.log("hidden");
         setIsModalOpened(true);
     }
 

@@ -11,6 +11,8 @@ import waitUA from "../../assets/images/contacts/wait-ua.webp";
 import waitRU from "../../assets/images/contacts/wait-ru.webp";
 import waitEN from "../../assets/images/contacts/wait-en.webp";
 import s from "./ContactsPage.module.scss";
+import {gagalinFont} from "@/fonts/fonts";
+import cn from "classnames";
 
 const ContactsPage = () => {
     const {t, i18n} = useTranslation();
@@ -25,7 +27,7 @@ const ContactsPage = () => {
     return (
         <div className={s.wrapper}>
             <div className={s.container}>
-                <h3 className={s.contactsTitle}>{t("ourContacts")}</h3>
+                <h3 className={cn(s.contactsTitle, gagalinFont.className)}>{t("ourContacts")}</h3>
                 <div className={s.content}>
                     <ContactGymSocial
                         address={t("gymFull1")}

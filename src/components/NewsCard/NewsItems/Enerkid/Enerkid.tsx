@@ -9,6 +9,8 @@ import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
 import s from "./Enerkid.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 const Enerkid = () => {
     const {i18n,t} = useTranslation();
@@ -54,7 +56,7 @@ const Enerkid = () => {
                     <Image src={arrow} className={s.icon} width={32} height={32} alt="arrow"/>
                     <div className={s.publishedItem}>{t("published")}: <span>{newsItem.date}</span></div>
                 </div>
-                <h4 className={s.title}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h4>
+                <h4 className={cn(s.title, gagalinFont.className)}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h4>
                 <img src={newsItem.images[0]} className={s.img} alt="photo"/>
                 <div className={s.block}>
                     {paragraphs1}

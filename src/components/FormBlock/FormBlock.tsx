@@ -106,7 +106,7 @@ const FormBlock = () => {
                             <p className={s.checkboxLabel}>
                                 <span className={s.footerLabel1}>{t("formFooter1")}</span>
                                 {/*<br className={s.wrap}/>*/}
-                                <Link className={s.link} href="/privacyPolicy" onClick={handleOpenPrivacy}>
+                                <Link className={s.link} href="/privacy-policy" onClick={handleOpenPrivacy}>
                                     <span className={s.footerLabel2}>{t("formFooter2")}</span>
                                 </Link>
                             </p>

@@ -12,6 +12,8 @@ import {useTranslation} from "react-i18next";
 const TheFooter =  () => {
     const { t } = useTranslation();
 
+    console.log("Footer");
+
     return (
         <div className={s.wrapper}>
             <div className={s.contentBlock}>
@@ -33,7 +35,7 @@ const TheFooter =  () => {
                             <Image className={s.visaIcon} src={visaIcon} alt="visa"/>
                             <Image className={s.masterCardIcon} src={masterCard} alt="master-card"/>
                         </div>
-                        <Link className={s.link2} href="/contractOffer">
+                        <Link className={s.link2} href="/contract-offer">
                             <p className={s.textRightReserve}>{t("agreement")}</p>
                         </Link>
                     </div>

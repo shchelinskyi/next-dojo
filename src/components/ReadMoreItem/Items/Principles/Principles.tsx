@@ -1,7 +1,8 @@
 import {useTranslation} from "react-i18next";
-import i18n from "i18next";
-import {readMoreData} from "../../../../utils/readMore";
+import {readMoreData} from "@/utils/readMore";
 import s from "./Principles.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 type ItemProps = {
     label: string;
@@ -9,13 +10,13 @@ type ItemProps = {
 }
 
 const Principles = () => {
-    const {t} = useTranslation();
-    const currentLanguage = i18n.language || 'ua';
+    const {t, i18n} = useTranslation();
+    const currentLanguage = i18n.language;
     const {principles} = readMoreData;
 
     return (
         <div className={s.container}>
-            <h4 className={s.title}>{t(`principles.titleLabel.${currentLanguage}`, (principles.titleLabel as any)[currentLanguage] as string)}:</h4>
+            <h4 className={cn(s.title, gagalinFont.className)}>{t(`principles.titleLabel.${currentLanguage}`, (principles.titleLabel as any)[currentLanguage] as string)}:</h4>
             <div className={s.content}>
                 {((principles.list as any)[currentLanguage] as ItemProps[]).map((item: ItemProps) => (
                     <div key={item.label}>

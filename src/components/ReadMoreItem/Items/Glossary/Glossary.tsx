@@ -1,16 +1,17 @@
 import {useTranslation} from "react-i18next";
-import i18n from "i18next";
-import {readMoreData} from "../../../../utils/readMore";
+import {readMoreData} from "@/utils/readMore";
 import s from "./Glossary.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 const Glossary = () => {
-    const { t } = useTranslation();
-    const currentLanguage = i18n.language || 'ua';
+    const { t, i18n  } = useTranslation();
+    const currentLanguage = i18n.language;
     const {glossary} = readMoreData;
 
     return (
         <div className={s.container}>
-            <h4 className={s.title}>{t(`glossary.title.${currentLanguage}`, (glossary.title as any)[currentLanguage] as string)}</h4>
+            <h4 className={cn(s.title, gagalinFont.className)}>{t(`glossary.title.${currentLanguage}`, (glossary.title as any)[currentLanguage] as string)}</h4>
             <p className={s.note}>
                 {t(`glossary.note.${currentLanguage}`, (glossary.note as any)[currentLanguage] as string)}
             </p>

@@ -24,6 +24,7 @@ import titleTeamRU from "@/assets/images/about/title-team-ru.webp";
 import titleTeamEN from "@/assets/images/about/title-team-en.webp";
 import cn from "classnames";
 import s from "./AboutPage.module.scss";
+import {gagalinFont} from "@/fonts/fonts";
 
 const AboutPage = () => {
 
@@ -59,7 +60,7 @@ const AboutPage = () => {
 
                 <div className={s.aboutWrapper}>
                     <div className={s.aboutContent}>
-                        <h3 className={s.aboutTitle}>{t('aboutUs')}</h3>
+                        <h3 className={cn(s.aboutTitle, gagalinFont.className)}>{t('aboutUs')}</h3>
                         <p className={s.mainText} style={{marginBottom: "40px"}}>
                             {t("aboutText1")}
                         </p>
@@ -83,7 +84,7 @@ const AboutPage = () => {
 
                         <div className={s.totalItem}>
                             <div className={s.numberWrapper}>
-                                <h3 className={s.totalNumber}>70</h3>
+                                <h3 className={cn(s.totalNumber, gagalinFont.className)}>70</h3>
                                 <Image className={s.smilesIcon} src={smiles} alt="smiles"/>
                             </div>
                             <div className={s.totalItemTitle}>
@@ -99,7 +100,7 @@ const AboutPage = () => {
 
                         <div className={s.totalItem}>
                             <div className={s.numberWrapper}>
-                                <h3 className={s.totalNumber}>4</h3>
+                                <h3 className={cn(s.totalNumber, gagalinFont.className)}>4</h3>
                                 <Image className={s.chimanoIcon} src={chimano} alt="chimano"/>
                             </div>
                             <div className={s.totalItemTitle}>
@@ -114,7 +115,7 @@ const AboutPage = () => {
 
                         <div className={s.totalItem}>
                             <div className={s.numberWrapper}>
-                                <h3 className={s.totalNumber}>3</h3>
+                                <h3 className={cn(s.totalNumber, gagalinFont.className)}>3</h3>
                                 <Image className={s.cupIcon} src={cup} alt="cup"/>
                             </div>
                             <div className={s.totalItemTitle}>

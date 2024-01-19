@@ -22,6 +22,8 @@ import RulesKio from "@/components/ReadMoreItem/Items/RulesKio";
 import Wko from "@/components/ReadMoreItem/Items/Wko";
 import Belts from "@/components/ReadMoreItem/Items/Belts";
 import s from "./ReadMore.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 const ReadMore = () => {
     const [language, setLanguage] = useState("i18n.language");
@@ -36,7 +38,7 @@ const ReadMore = () => {
     return (
         <>
             <div className={s.wrapper}>
-                <h3 className={s.title}>{t("readMore")}</h3>
+                <h3  className={cn(s.title, gagalinFont.className)}>{t("readMore")}</h3>
                 <div className={s.contentBlock}>
                     <ReadMoreItem key={readMoreData.glossary.title.en} item={readMoreData.glossary}>
                         <Glossary/>

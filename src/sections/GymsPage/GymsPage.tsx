@@ -33,6 +33,7 @@ import saturdayEN from "@/assets/images/gyms/saturday-en.webp";
 import {address} from "@/utils/addressGym";
 import cn from "classnames";
 import s from "./GymsPage.module.scss";
+import {gagalinFont} from "@/fonts/fonts";
 
 
 const GymsPage = () => {
@@ -64,7 +65,7 @@ const GymsPage = () => {
 
     return (
         <div className={s.wrapper}>
-            <h3 className={s.title}>{t("ourGyms")}</h3>
+            <h3 className={cn(s.title, gagalinFont.className)}>{t("ourGyms")}</h3>
             <Container className={s.content}>
                 <div className={s.gymBlock}>
                     <div className={s.gymTitle}>

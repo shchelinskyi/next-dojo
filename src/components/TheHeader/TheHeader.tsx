@@ -62,7 +62,7 @@ const TheHeader = ({refData}:TheHeaderProps) => {
     };
 
 
-    const [activeLang, setActiveLang] = useState(i18n.language || 'ua');
+    const [activeLang, setActiveLang] = useState(i18n.language);
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -123,7 +123,7 @@ const TheHeader = ({refData}:TheHeaderProps) => {
     const backgroundColor = isScrolled ? 'white' : '#dedede';
 
     useEffect(() => {
-        setActiveLang(i18n.language || 'ua');
+        setActiveLang(i18n.language);
     }, [i18n.language]);
 
     const changeLanguage = (language: string) => {

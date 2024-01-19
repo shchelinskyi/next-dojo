@@ -1,12 +1,13 @@
-import i18n from "i18next";
 import {useTranslation} from "react-i18next";
-import {readMoreData} from "../../../../utils/readMore";
+import {readMoreData} from "@/utils/readMore";
 import s from "./RulesKio.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 const RulesKio = () => {
 
-    const {t} = useTranslation();
-    const currentLanguage = i18n.language || 'ua';
+    const {t, i18n} = useTranslation();
+    const currentLanguage = i18n.language;
     const {rulesKio} = readMoreData;
 
     const paragraphs1 = (rulesKio.text1 as any)[currentLanguage] as string
@@ -54,7 +55,7 @@ const RulesKio = () => {
 
     return (
         <div className={s.container}>
-            <h4 className={s.title}>
+            <h4 className={cn(s.title, gagalinFont.className)}>
                 {t(`rulesKio.title.${currentLanguage}`, (rulesKio.title as any)[currentLanguage] as string)}
             </h4>
             {paragraphs1}

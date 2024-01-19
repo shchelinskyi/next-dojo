@@ -67,6 +67,7 @@
 
 .girlImg {
   width: 33%;
+  height: auto;
   max-width: 451px;
   //flex-shrink: 1;
   @media (max-width: 992px) {
@@ -127,7 +128,6 @@
 }
 
 .centerItemTitle {
-  font-family: Gagalin, sans-serif;
   font-size: 55px;
   text-align: center;
   margin-bottom: 15px;
@@ -161,6 +161,7 @@
 
 .boyImg {
   width: 30%;
+  height: auto;
   max-width: 430px;
   //width: 430px;
   //height: 449px;

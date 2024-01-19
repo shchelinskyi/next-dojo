@@ -1,10 +1,11 @@
 import {FC} from 'react';
+import Image from "next/image";
 import {useTranslation} from "react-i18next";
 import s from "./NewsCard.module.scss";
 import Link from 'next/link';
 
 type NewsItem = {
-    type: string;
+    linkName: string;
     title: {
         en: string;
         ru: string;
@@ -16,6 +17,7 @@ type NewsItem = {
         ru: string;
         ua: string;
     };
+    mainImg: string;
     images: string[];
 }
 
@@ -27,13 +29,14 @@ const NewsCard: FC<NewsCardTypes> = ({ newsItem}) => {
     const {i18n, t} = useTranslation();
     const currentLanguage = i18n.language;
 
-    const {type} = newsItem;
+    const {linkName} = newsItem;
 
     return (
-        <Link className={s.link} href={`news/${type}`}>
+        <Link className={s.link} href={`news/${linkName}`}>
             <div className={s.card}>
                 <div className={s.imgWrapper}>
-                     <img className={s.newsImg} src={newsItem.images[0]} loading="lazy" alt="news"/>
+                     <Image className={s.newsImg} src={newsItem.mainImg} alt="misak dojo" width={370} height={330} quality={100}
+                            sizes="(min-width: 1201px) 370px, 330px, (max-width: 1200px) 290px, 260px, (max-width: 992px) 324px, 290px, (max-width: 480px) 310px, 278px "/>
                 </div>
                 <p className={s.newsDate}>{newsItem.date}</p>
                 <h6 className={s.newsTitle}>{t(`title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h6>

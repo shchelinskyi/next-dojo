@@ -1,16 +1,17 @@
 import {useTranslation} from "react-i18next";
-import i18n from "i18next";
-import {readMoreData} from "../../../../utils/readMore";
+import {readMoreData} from "@/utils/readMore";
 import s from "./DojoCun.module.scss";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 
 const DojoCun = () => {
-    const {t} = useTranslation();
-    const currentLanguage = i18n.language || 'ua';
+    const {t, i18n} = useTranslation();
+    const currentLanguage = i18n.language;
     const {dojoKun} = readMoreData;
     return (
         <div className={s.container}>
-            <h4 className={s.title}>{t(`dojoKun.subTitle.${currentLanguage}`, (dojoKun.subTitle as any)[currentLanguage] as string)}:</h4>
+            <h4 className={cn(s.title, gagalinFont.className)}>{t(`dojoKun.subTitle.${currentLanguage}`, (dojoKun.subTitle as any)[currentLanguage] as string)}:</h4>
             <div className={s.content}>
                 {((dojoKun.list as any)[currentLanguage] as string[]).map((item: string) => (
                     <div key={item}>

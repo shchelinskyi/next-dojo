@@ -10,6 +10,8 @@ import cloudRB from '@/assets/images/trial/cloud-trial-rb.svg';
 import s from './TrialLessonPage.module.scss';
 import {useAppDispatch} from "@/lib/hooks";
 import {openForm} from "@/lib/store/features/form/formTrialSessionSlice";
+import cn from "classnames";
+import {gagalinFont} from "@/fonts/fonts";
 
 interface Position {
     x: number;
@@ -46,7 +48,7 @@ const TrialLessonPage: FC = () => {
                     {/*<Image className={s.girlImg} src={girl}/>*/}
                     <Image className={s.girlImg} src={girl} style={calculateParallax(mousePosition, 50)} alt="karate girl"/>
                     <div className={s.centerItem}>
-                        <h5 className={s.centerItemTitle}>
+                        <h5 className={cn(s.centerItemTitle, gagalinFont.className)}>
                             {t('free')} <br/> {t('freeTask')}
                         </h5>
                         <p className={s.centerItemDescription}>
