@@ -24,12 +24,12 @@ const GalleryCard: FC<GalleryCardTypes> = ({galleryItem, styles}) => {
     const currentLanguage = i18n.language;
 
     const handleOpen = () => {
-        document.body.style.overflowY = 'hidden';
+        document.documentElement.style.setProperty('overflow-y', 'hidden' );
         setIsModalOpened(true);
     }
 
     const handleClose = () => {
-        document.body.style.overflowY = 'scroll';
+        document.documentElement.style.setProperty('overflow-y', 'auto');
         setIsModalOpened(false);
     }
 

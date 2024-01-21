@@ -133,7 +133,6 @@ const CartForm = () => {
         validationSchema: validationSchema,
         onSubmit: (values: TypeValue, {setSubmitting, resetForm}: FormikHelpers<TypeValue>) => {
             setSubmitting(false);
-            console.log(values);
             const cartItems = [...items].map((item) => {
                 let sizeNew = "";
 

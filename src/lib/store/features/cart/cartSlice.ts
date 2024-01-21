@@ -36,11 +36,11 @@ const cartSlice = createSlice({
     initialState,
     reducers: {
         openCartModal: (state) => {
-            document.body.style.overflowY = 'hidden';
+            document.documentElement.style.setProperty('overflow-y', 'hidden' );
             state.isOpenedCartModal = true;
         },
         closeCartModal: (state) => {
-            document.body.style.overflowY = 'auto';
+            document.documentElement.style.setProperty('overflow-y', 'auto');
             state.isOpenedCartModal = false;
         },
         addToCart: (state, action) => {
@@ -80,20 +80,20 @@ const cartSlice = createSlice({
             state.cartItems = state.cartItems.filter(item => !(item.id === id && item.color === color && item.size === size));
         },
         openAddToCartModal: (state) => {
-            document.body.style.setProperty('overflow-y', 'hidden', 'important');
+            document.documentElement.style.setProperty('overflow-y', 'hidden' );
             state.isOpenedAddToCartModal = true;
         },
         closeAddToCartModal: (state) => {
             state.isOpenedAddToCartModal = false;
-            document.body.style.overflowY = 'auto';
+            document.documentElement.style.setProperty('overflow-y', 'auto');
         },
         openOrderedModal: (state) => {
-            document.body.style.setProperty('overflow-y', 'hidden', 'important');
+            document.documentElement.style.setProperty('overflow-y', 'hidden' );
             state.isOpenedOrderedModal = true;
         },
         closeOrderedModal: (state) => {
             state.isOpenedOrderedModal = false;
-            document.body.style.overflowY = 'auto';
+            document.documentElement.style.setProperty('overflow-y', 'auto');
         },
         removeAllCartProducts:(state) => {
             state.cartItems =  [];

@@ -15,26 +15,20 @@ const formTrialSessionSlice = createSlice({
     initialState,
     reducers: {
         openForm: (state) => {
-            // document.body.classList.add('no-scroll');
-            document.body.style.overflowY = 'hidden';
-            // document.body.style.setProperty('overflow-y', 'hidden', 'important');
+            document.documentElement.style.setProperty('overflow-y', 'hidden' );
             state.isOpenedForm = true;
         },
         closeForm: (state) => {
             state.isOpenedForm = false;
-            // document.body.classList.remove('no-scroll');
-            document.body.style.overflowY = 'auto';
+            document.documentElement.style.setProperty('overflow-y', 'auto');
         },
         openInfoModal: (state) => {
-            // document.body.classList.add('no-scroll');
-            // document.body.style.overflowY = 'hidden';
-            document.body.style.setProperty('overflow-y', 'hidden', 'important');
+            document.documentElement.style.setProperty('overflow-y', 'hidden');
             state.isOpenedSuccessModal = true;
         },
         closeInfoModal: (state) => {
             state.isOpenedSuccessModal = false;
-            // document.body.classList.remove('no-scroll');
-            document.body.style.overflowY = 'auto';
+            document.documentElement.style.setProperty('overflow-y', 'auto', );
         },
     },
 });

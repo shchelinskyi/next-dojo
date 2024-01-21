@@ -23,13 +23,12 @@ const ReadMoreItem: FC<ReadMoreItem> = ({item, children}) => {
     const currentLanguage = i18n.language;
 
     const handleOpen = () => {
-        window.document.body.style.overflowY = 'hidden';
-        console.log("hidden");
+        document.documentElement.style.setProperty('overflow-y', 'hidden' );
         setIsModalOpened(true);
     }
 
     const handleClose = () => {
-        document.body.style.overflowY = 'auto';
+        document.documentElement.style.setProperty('overflow-y', 'auto');
         setIsModalOpened(false);
     }
 

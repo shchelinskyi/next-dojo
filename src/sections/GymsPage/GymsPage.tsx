@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import ContactGym from "@/components/ContactGym";
-import CustomButton from "../../components/CustomButton";
+import CustomButton from "@/components/CustomButton";
 import Image from "next/image";
 import {Container} from "react-bootstrap";
 import num1 from "@/assets/images/gyms/num1.svg";

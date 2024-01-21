@@ -18,15 +18,6 @@ const NewsPage = () => {
     const [showNewsCard, setShowNewsCard] = useState(false);
 
 
-    // useEffect(() => {
-    //     const storedVisibleItems = window.sessionStorage.getItem('visibleItems');
-    //     if (storedVisibleItems) {
-    //         setVisibleItems(Number(storedVisibleItems));
-    //     }
-    //
-    // }, []);
-
-
     useEffect(() => {
 
         const timer = setTimeout(() => {
@@ -40,13 +31,9 @@ const NewsPage = () => {
     }, [visibleItems]);
 
     const handleShowMore = () => {
-        // const itemsPerPage = window.innerWidth > 992 ? 3 : 2;
+
         const totalItems = Object.values(newsData).length;
         const newVisibleItems = Math.min(visibleItems + itemsPerPage, totalItems);
-
-
-        // window.sessionStorage.setItem('visibleItems', newVisibleItems.toString());
-
         setVisibleItems(newVisibleItems);
         setShowNewsCard(false);
     };

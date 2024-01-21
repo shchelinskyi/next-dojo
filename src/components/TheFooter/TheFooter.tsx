@@ -12,7 +12,6 @@ import {useTranslation} from "react-i18next";
 const TheFooter =  () => {
     const { t } = useTranslation();
 
-    console.log("Footer");
 
     return (
         <div className={s.wrapper}>

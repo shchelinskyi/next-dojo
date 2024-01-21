@@ -196,9 +196,7 @@ const TeamPage = () => {
                 </div>
                 <div className={s.logoContainer}>
                     <Image width={128} height={128} src={roundLogo} alt="trainer"/>
-                    <Image src={love} style={{
-                        width: "52px",
-                        height: "79px",
+                    <Image width={52} height={79}  src={love} style={{
                         position: "absolute",
                         top: "50%",
                         left: "50%",

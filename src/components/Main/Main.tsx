@@ -50,25 +50,6 @@ const Main = () => {
         dispatch(openCartModal())
     }
 
-    useEffect(() => {
-        const handleScroll = () => {
-            sessionStorage.setItem("scrollPosition", window.scrollY.toString());
-        };
-
-        window.addEventListener("scroll", handleScroll);
-
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
-
-    useEffect(() => {
-        const storedScrollPosition = sessionStorage.getItem("scrollPosition");
-        if (storedScrollPosition) {
-            window.scrollTo(0, parseInt(storedScrollPosition));
-        }
-    }, [currentPathname]);
-
 
     return (
         <>

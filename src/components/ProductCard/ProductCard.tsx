@@ -53,12 +53,12 @@ const ProductCard:FC<ProductItemProps> = ({productItem }) => {
     const [isModalOpened, setIsModalOpened] = useState(false);
 
     const handleOpenProduct = () => {
-        document.body.style.overflowY = 'hidden';
+        document.documentElement.style.setProperty('overflow-y', 'hidden' );
         setIsModalOpened(true);
     }
 
     const handleCloseProductModal = () => {
-        document.body.style.overflowY = 'auto';
+        document.documentElement.style.setProperty('overflow-y', 'auto');
         setIsModalOpened(false);
     }
 
