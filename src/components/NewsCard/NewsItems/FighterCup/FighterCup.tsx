@@ -9,7 +9,7 @@ import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
 import s from "./FighterCup.module.scss";
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 const FighterCup = () => {
     const {i18n,t} = useTranslation();

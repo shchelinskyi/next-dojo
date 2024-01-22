@@ -55,6 +55,7 @@
   "group7": "Group 7 (children 9-15 years old)",
   "group8": "Group (4-8 years)",
   "group9": "Group (adults)",
+  "group10": "Group (children to 9 years old)",
   "free": "FREE",
   "freeTask": "TRIAL LESSON",
   "freeSlogan1": "If in doubt, come to a trial training session",
@@ -158,5 +159,7 @@
   "followUs": "Follow us",
   "share": "Share",
   "ordered": "Your order has been successfully placed",
-  "orderBtn": "go to cart"
+  "orderBtn": "go to cart",
+  "designer": "Maria Oliynyk",
+  "developer": "Artem Shchelinskyi"
 }

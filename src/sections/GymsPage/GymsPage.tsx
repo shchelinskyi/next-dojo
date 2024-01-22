@@ -33,7 +33,7 @@ import saturdayEN from "@/assets/images/gyms/saturday-en.webp";
 import {address} from "@/utils/addressGym";
 import cn from "classnames";
 import s from "./GymsPage.module.scss";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 
 const GymsPage = () => {
@@ -42,15 +42,8 @@ const GymsPage = () => {
     const [isBlockVisible3, setIsBlockVisible3] = useState(false);
 
     const { i18n, t } = useTranslation();
-    const currentLanguage = i18n.language;
+    const language = i18n.language;
 
-    const [language, setLanguage] = useState("i18n.language");
-
-    const change = t("language");
-
-    useEffect(() => {
-        setLanguage(currentLanguage)
-    }, [change, currentLanguage]);
 
     const toggleVisibility = (numBlock:number) => {
         if (numBlock === 1) {
@@ -256,44 +249,44 @@ const GymsPage = () => {
                     </div>
                     <div className={cn(s.gymContent, { [s.showContent]: isBlockVisible3 }, s.thirdGym)}>
 
-                        <div className={cn(s.item2timesShot)}>
+                        <div className={cn(s.item2times)}>
                             {language === "ua" && <Image className={s.dayIcon} src={tuesdayUA} alt="вівторок"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={tuesdayRU} alt="вторник"/>}
                             {language === "en" && <Image className={s.dayIcon} src={tuesdayEN} alt="tuesday"/>}
-                            <div className={s.dataRow}>
+                            <div>
                                 <li className={s.timeText}>18:00 - 19:00</li>
-                                <p className={s.text}>{t("group8")}</p>
+                                <p className={s.text}>{t("group10")}</p>
                             </div>
-                            <div className={s.dataRow}>
+                            <div>
                                 <li className={s.timeText}>19:00 - 20:30</li>
                                 <p className={s.text}>{t("group9")}</p>
                             </div>
                         </div>
 
-                        <div className={cn(s.item2timesShot, s.order3)}>
+                        <div className={cn(s.item2times, s.order3)}>
                             {language === "ua" && <Image className={s.dayIcon} src={saturdayUA} alt="субота"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={saturdayRU} alt="суббота"/>}
                             {language === "en" && <Image className={s.dayIcon} src={saturdayEN} alt="saturday"/>}
-                            <div className={s.dataRow}>
-                                <li className={s.timeText}>10:00 - 11:00</li>
-                                <p className={s.text}>{t("group8")}</p>
+                            <div>
+                                <li className={s.timeText}>10:30 - 11:30</li>
+                                <p className={s.text}>{t("group10")}</p>
                             </div>
-                            <div className={s.dataRow}>
-                                <li className={s.timeText}>11:00 - 12:30</li>
+                            <div>
+                                <li className={s.timeText}>11:30 - 13:00</li>
                                 <p className={s.text}>{t("group9")}</p>
                             </div>
                         </div>
 
-                        <div className={cn(s.item2timesShot)}>
+                        <div className={cn(s.item2times)}>
                             <Image className={s.smile2Icon} src={smile2} alt="smile"/>
                             {language === "ua" && <Image className={s.dayIcon} src={thursdayUA} alt="четверг"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={thursdayRU} alt="четверг"/>}
                             {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}
-                            <div className={s.dataRow}>
+                            <div>
                                 <li className={s.timeText}>18:00 - 19:00</li>
-                                <p className={s.text}>{t("group8")}</p>
+                                <p className={s.text}>{t("group10")}</p>
                             </div>
-                            <div className={s.dataRow}>
+                            <div>
                                 <li className={s.timeText}>19:00 - 20:30</li>
                                 <p className={s.text}>{t("group9")}</p>
                             </div>

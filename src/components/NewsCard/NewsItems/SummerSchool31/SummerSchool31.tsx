@@ -9,7 +9,7 @@ import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
 import s from "./SummerSchool31.module.scss";
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 const SummerSchool31 = () => {
     const {i18n,t} = useTranslation();

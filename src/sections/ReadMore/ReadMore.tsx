@@ -1,4 +1,3 @@
-import {useEffect, useState} from 'react';
 import Image from 'next/image';
 import {useTranslation} from "react-i18next";
 import usefulTextUA from "@/assets/images/readMore/usefull-text-ua.webp";
@@ -21,19 +20,13 @@ import Rules from "@/components/ReadMoreItem/Items/Rules";
 import RulesKio from "@/components/ReadMoreItem/Items/RulesKio";
 import Wko from "@/components/ReadMoreItem/Items/Wko";
 import Belts from "@/components/ReadMoreItem/Items/Belts";
-import s from "./ReadMore.module.scss";
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
+import s from "./ReadMore.module.scss";
 
 const ReadMore = () => {
-    const [language, setLanguage] = useState("i18n.language");
     const {t, i18n} = useTranslation();
-    const currentLanguage = i18n.language;
-    const change = t("language");
-
-    useEffect(() => {
-        setLanguage(currentLanguage)
-    }, [change, currentLanguage]);
+    const language = i18n.language;
 
     return (
         <>
@@ -83,16 +76,16 @@ const ReadMore = () => {
                         {language === "ua" && <Image className={s.usefulTextM} src={usefulTextUA} alt="useful"/>}
                         {language === "ru" && <Image className={s.usefulTextM} src={usefulTextRU} alt="useful"/>}
                         {language === "en" && <Image className={s.usefulTextM} src={usefulTextEN} alt="useful"/>}
-                        {language === "ua" && <Image src={usefulArrowM} className={s.usefulArrowM} alt="useful"/>}
-                        {language === "ru" && <Image src={usefulArrowM} className={s.usefulArrowMRU} alt="useful"/>}
-                        {language === "en" && <Image src={usefulArrowM} className={s.usefulArrowMRU} alt="useful"/>}
+                        {language === "ua" && <Image className={s.usefulArrowM} src={usefulArrowM} alt="useful"/>}
+                        {language === "ru" && <Image className={s.usefulArrowMRU} src={usefulArrowM} alt="useful"/>}
+                        {language === "en" && <Image className={s.usefulArrowMRU} src={usefulArrowM} alt="useful"/>}
 
                         {language === "ua" && <Image className={s.usefulTextS} src={usefulTextS}  alt="useful"/>}
                         {language === "ru" && <Image className={s.usefulTextSRU} src={usefulTextRU}  alt="useful"/>}
                         {language === "en" && <Image className={s.usefulTextSEN} src={usefulTextEN}  alt="useful"/>}
-                        {language === "ua" &&<Image src={usefulArrowS} className={s.usefulArrowS} alt="useful"/>}
-                        {language === "ru" &&<Image src={usefulArrowS} className={s.usefulArrowSRU} alt="useful"/>}
-                        {language === "en" &&<Image src={usefulArrowS} className={s.usefulArrowSEN} alt="useful"/>}
+                        {language === "ua" &&<Image className={s.usefulArrowS} src={usefulArrowS} alt="useful"/>}
+                        {language === "ru" &&<Image className={s.usefulArrowSRU} src={usefulArrowS} alt="useful"/>}
+                        {language === "en" &&<Image className={s.usefulArrowSEN} src={usefulArrowS} alt="useful"/>}
                     </div>
                     <div className={s.fingerBlockS}>
                         <Image src={finger} className={s.fingerImg} alt="useful"/>

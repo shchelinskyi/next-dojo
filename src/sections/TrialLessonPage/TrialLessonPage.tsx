@@ -1,4 +1,4 @@
-import {FC, useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import {useTranslation} from 'react-i18next';
 import Image from "next/image";
 import CustomButton from '@/components/CustomButton';
@@ -7,18 +7,18 @@ import boy from '@/assets/images/trial/boy.svg';
 import cloudLeft from '@/assets/images/trial/cloud-trial-left.svg';
 import cloudRT from '@/assets/images/trial/cloud-trial-rt.svg';
 import cloudRB from '@/assets/images/trial/cloud-trial-rb.svg';
-import s from './TrialLessonPage.module.scss';
 import {useAppDispatch} from "@/lib/hooks";
 import {openForm} from "@/lib/store/features/form/formTrialSessionSlice";
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
+import s from './TrialLessonPage.module.scss';
 
 interface Position {
     x: number;
     y: number;
 }
 
-const TrialLessonPage: FC = () => {
+const TrialLessonPage = () => {
     const dispatch = useAppDispatch();
     const {t} = useTranslation();
     const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
@@ -42,14 +42,12 @@ const TrialLessonPage: FC = () => {
     });
 
     return (
-        <div className={s.wrapper}>
             <div className={s.container}>
                 <div className={s.block}>
-                    {/*<Image className={s.girlImg} src={girl}/>*/}
                     <Image className={s.girlImg} src={girl} style={calculateParallax(mousePosition, 50)} alt="karate girl"/>
                     <div className={s.centerItem}>
                         <h5 className={cn(s.centerItemTitle, gagalinFont.className)}>
-                            {t('free')} <br/> {t('freeTask')}
+                            {t('free')} <br/> <span className={s.itemLabel}>{t('freeTask')}</span>
                         </h5>
                         <p className={s.centerItemDescription}>
                             {t('freeSlogan1')} <br/> {t('freeSlogan2')}
@@ -61,11 +59,9 @@ const TrialLessonPage: FC = () => {
                         <Image className={s.cloudRightTopImg} src={cloudRT} alt="cloud"/>
                         <Image className={s.cloudRightBottomImg} src={cloudRB} alt="cloud"/>
                     </div>
-                    {/*<Image className={s.boyImg} src={boy}/>*/}
                     <Image className={s.boyImg} src={boy} style={calculateParallax(mousePosition, -50)}  alt="karate boy"/>
                 </div>
             </div>
-        </div>
     );
 };
 

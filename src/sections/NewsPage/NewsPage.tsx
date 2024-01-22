@@ -7,7 +7,7 @@ import NewsCard from "@/components/NewsCard";
 import CustomButton from "@/components/CustomButton";
 import s from "./NewsPage.module.scss"
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 
 const NewsPage = () => {
@@ -22,7 +22,7 @@ const NewsPage = () => {
 
         const timer = setTimeout(() => {
             setShowNewsCard(true);
-        }, 1500);
+        }, 2000);
 
         return () => {
             clearTimeout(timer)

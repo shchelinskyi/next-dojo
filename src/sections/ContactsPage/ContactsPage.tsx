@@ -6,13 +6,13 @@ import Image from 'next/image';
 import ContactGymSocial from "@/components/ContactGymSocial";
 import FormBlock from "@/components/FormBlock";
 import {address} from "@/utils/addressGym";
-import ua from "../../assets/images/contacts/ua.webp";
-import waitUA from "../../assets/images/contacts/wait-ua.webp";
-import waitRU from "../../assets/images/contacts/wait-ru.webp";
-import waitEN from "../../assets/images/contacts/wait-en.webp";
-import s from "./ContactsPage.module.scss";
-import {gagalinFont} from "@/fonts/fonts";
+import ua from "@/assets/images/contacts/ua.webp";
+import waitUA from "@/assets/images/contacts/wait-ua.webp";
+import waitRU from "@/assets/images/contacts/wait-ru.webp";
+import waitEN from "@/assets/images/contacts/wait-en.webp";
+import {gagalinFont} from "@/fonts";
 import cn from "classnames";
+import s from "./ContactsPage.module.scss";
 
 const ContactsPage = () => {
     const {t, i18n} = useTranslation();

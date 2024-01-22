@@ -2,7 +2,7 @@ import {useTranslation} from "react-i18next";
 import {readMoreData} from "@/utils/readMore";
 import s from "./Exam.module.scss";
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 const Exam = () => {
     const {t, i18n} = useTranslation();

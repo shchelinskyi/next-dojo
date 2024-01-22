@@ -17,7 +17,7 @@
 }
 
 .contentWrapper {
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -30,7 +30,7 @@
 }
 
 .content {
-  width: 600px;
+  max-width: 600px;
   font-size: 24px;
   font-weight: 500;
   padding: 0 10px;
@@ -63,6 +63,7 @@
 .supportLabel {
   width: 300px;
   height: auto;
+  margin-right: 10px;
   @media (max-width: 1200px) {
     width: 257px;
   }
@@ -138,7 +139,7 @@
 
   @media (max-width: 480px) {
     bottom:-25px;
-    right: 25px;
+    left: 175px;
   }
 }
 
@@ -162,6 +163,13 @@
   }
 }
 
-s.btnWrapper {
+.btnWrapper {
   width: 100%;
+}
+
+.link {
+  margin-left: 10px;
+  @media (max-width: 480px) {
+    margin-left: 10px;
+  }
 }

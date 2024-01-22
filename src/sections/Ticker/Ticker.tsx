@@ -1,6 +1,7 @@
-import s from "./Ticker.module.scss";
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
+import s from "./Ticker.module.scss";
+
 
 const Ticker = () => {
     return (

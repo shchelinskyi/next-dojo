@@ -24,7 +24,7 @@ import titleTeamRU from "@/assets/images/about/title-team-ru.webp";
 import titleTeamEN from "@/assets/images/about/title-team-en.webp";
 import cn from "classnames";
 import s from "./AboutPage.module.scss";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 const AboutPage = () => {
 

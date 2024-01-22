@@ -22,7 +22,7 @@ import boy22 from "@/assets/images/main/boy2D.gif";
 import fingerDown from "@/assets/images/main/fingerDown.webp";
 import cn from "classnames";
 import s from "./MainPage.module.scss";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 type RefData = {
     aboutRef: React.RefObject<HTMLDivElement> | null;

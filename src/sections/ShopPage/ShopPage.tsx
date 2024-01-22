@@ -7,7 +7,7 @@ import {products} from "@/utils/shop";
 import cn from "classnames";
 import s from "./ShopPage.module.scss";
 import type {ProductItemType} from "@/components/ProductCard/ProductCard";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 const ShopPage = () => {
 

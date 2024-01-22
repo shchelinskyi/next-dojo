@@ -9,7 +9,7 @@ import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
 import s from "./CandyOrLife.module.scss";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 import cn from "classnames";
 
 const CandyOrLife = () => {

@@ -2,7 +2,7 @@ import {useTranslation} from "react-i18next";
 import {readMoreData} from "@/utils/readMore";
 import s from "./Glossary.module.scss";
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 const Glossary = () => {
     const { t, i18n  } = useTranslation();

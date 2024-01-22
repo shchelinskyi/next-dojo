@@ -4,9 +4,9 @@ import {Container, Stack} from "react-bootstrap";
 import CustomButton from "@/components/CustomButton";
 import GalleryCard from "@/components/GalleryCard";
 import {gallery} from "@/utils/gallery";
-import s from "./GalleryPage.module.scss";
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
+import s from "./GalleryPage.module.scss";
 
 type GalleryItem = {
     title: {
@@ -29,12 +29,10 @@ const GalleryPage = () => {
 
     useLayoutEffect(() => {
         if (gallery.length > galleryArray.length) {
-            let itemsPerRow = 3;
+            let itemsPerRow = 6;
             const screenWidth = window.innerWidth;
-            if (screenWidth <= 480) {
+            if (screenWidth <= 992) {
                 itemsPerRow = 4;
-            } else if (screenWidth <= 992 && screenWidth > 480) {
-                itemsPerRow = 2;
             }
             const someArr = gallery.slice(0, currentIndex + itemsPerRow);
             setGalleryArray([ ...someArr])
@@ -46,9 +44,7 @@ const GalleryPage = () => {
     const handleShowMore = () => {
         let itemsPerRow = 3;
         const screenWidth = window.innerWidth;
-        if (screenWidth <= 480) {
-            itemsPerRow = 4;
-        } else if (screenWidth <= 992 && screenWidth > 480) {
+        if (screenWidth <= 992) {
             itemsPerRow = 2;
         }
         const newIndex = currentIndex + itemsPerRow;

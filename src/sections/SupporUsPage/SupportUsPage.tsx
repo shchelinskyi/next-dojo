@@ -1,4 +1,3 @@
-import {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import Image from "next/image";
 import spiral from "@/assets/images/support/spiral-support.svg";
@@ -10,22 +9,16 @@ import supportRU from "@/assets/images/support/support-ru.webp";
 import supportEN from "@/assets/images/support/support-en.webp";
 import btnLabel from "@/assets/images/support/btn-label.svg";
 import finger from "@/assets/images/support/finger-up.svg";
-import s from "./SupportUsPage.module.scss";
 import CustomButton from "@/components/CustomButton";
+import s from "./SupportUsPage.module.scss";
+
 
 
 
 const SupportUsPage = () => {
 
     const {i18n, t} = useTranslation();
-    const currentLanguage = i18n.language;
-    const [language, setLanguage] = useState("i18n.language");
-
-    const change = t("language");
-
-    useEffect(() => {
-        setLanguage(currentLanguage)
-    }, [change, currentLanguage]);
+    const language = i18n.language;
 
     return (
         <div className={s.wrapper}>
@@ -43,7 +36,7 @@ const SupportUsPage = () => {
                     {language === "ua" && <Image src={supportUA} className={s.supportLabel} alt="icon"/>}
                     {language === "ru" && <Image src={supportRU} className={s.supportLabel} alt="icon"/>}
                     {language === "en" && <Image src={supportEN} className={s.supportLabel} alt="icon"/>}
-                    <a href="https://www.buymeacoffee.com/misakdojo" target="_blank">
+                    <a href="https://www.buymeacoffee.com/misakdojo" target="_blank" className={s.link}>
                         <CustomButton>
                             <Image src={btnLabel} className={s.btnLabel} alt="icon"/>
                         </CustomButton>

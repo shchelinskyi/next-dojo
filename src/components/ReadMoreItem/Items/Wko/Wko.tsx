@@ -10,7 +10,7 @@ import en11 from "@/assets/images/readMore/en11.webp";
 import en22 from "@/assets/images/readMore/en22.webp";
 import s from "./Wko.module.scss";
 import cn from "classnames";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 const Wko = () => {
     const {t, i18n} = useTranslation();

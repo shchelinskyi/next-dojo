@@ -20,7 +20,7 @@ import roundLogo from "@/assets/images/team/round-logo.svg";
 import love from "@/assets/images/team/love.svg";
 import cn from "classnames";
 import s from "./TeamPage.module.scss";
-import {gagalinFont} from "@/fonts/fonts";
+import {gagalinFont} from "@/fonts";
 
 
 
