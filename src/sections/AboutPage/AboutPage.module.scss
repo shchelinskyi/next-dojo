@@ -196,10 +196,6 @@
     font-size: 84px;
   }
 
-  @media (max-width: 992px) {
-    font-size: 84px;
-  }
-
   @media (max-width: 480px) {
     font-size: 60px;
   }
@@ -404,11 +400,6 @@
   }
 }
 
-.line {
-  @media (max-width: 992px) {
-    display: none
-  }
-}
 
 .line2 {
   display: none;
@@ -448,6 +439,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 46px;
 }
 
 .videoItem {

@@ -16,7 +16,9 @@ const KumiteMarathon = () => {
     const currentLanguage = i18n.language;
     const {kumiteMarathon: newsItem} = newsData;
 
-    const fullUrl = `https://misakdojo.com$currentPathname}`
+    const currentPathname = usePathname();
+
+    const fullUrl = `https://misakdojo.com${currentPathname}`;
 
     const router = useRouter();
 

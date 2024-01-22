@@ -17,7 +17,7 @@ const FighterCup = () => {
     const {fighterCup: newsItem} = newsData;
     const currentPathname = usePathname();
 
-    const fullUrl = `https://misakdojo.com$currentPathname}`
+    const fullUrl = `https://misakdojo.com${currentPathname}`;
 
     const router = useRouter();
 

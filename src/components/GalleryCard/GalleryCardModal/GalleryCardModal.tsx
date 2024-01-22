@@ -1,7 +1,5 @@
 import s from "./GalleryCardModal.module.scss";
 import { Navigation, Scrollbar} from 'swiper/modules';
-import Image from "next/image"
-// import { Navigation, Pagination, Scrollbar} from 'swiper/modules';
 import {Swiper, SwiperSlide} from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -14,7 +12,6 @@ type GalleryCardModalProps = {
 
 
 const GalleryCardModal:FC<GalleryCardModalProps> = ({images, onClose}) => {
-
 
     return (
         <div className={s.overlay}  onClick={onClose}>
@@ -31,7 +28,8 @@ const GalleryCardModal:FC<GalleryCardModalProps> = ({images, onClose}) => {
                     {images.length > 0 && images.map((itemSrc) => (
                         <SwiperSlide key={itemSrc}>
                             <div className={s.imageWrapper}>
-                            <img src={itemSrc} className={s.image} loading="lazy" alt="event picture"/>
+                            <img src={itemSrc} className={s.image} alt="event picture"/>
+                                {/*<img src={itemSrc} className={s.image} loading="lazy" alt="event picture"/>*/}
                             </div>
                         </SwiperSlide>
                     ))

@@ -12,7 +12,7 @@ type GalleryCardTypes = {
             ua: string
         },
         date: string;
-        mainImg:string;
+        mainImg: string;
         images: string[]
     },
     styles?: CSSProperties;
@@ -24,7 +24,7 @@ const GalleryCard: FC<GalleryCardTypes> = ({galleryItem, styles}) => {
     const currentLanguage = i18n.language;
 
     const handleOpen = () => {
-        document.documentElement.style.setProperty('overflow-y', 'hidden' );
+        document.documentElement.style.setProperty('overflow-y', 'hidden');
         setIsModalOpened(true);
     }
 
@@ -37,9 +37,9 @@ const GalleryCard: FC<GalleryCardTypes> = ({galleryItem, styles}) => {
         <>
             <div className={s.card} onClick={handleOpen} style={styles}>
                 <div className={s.imgWrapper}>
-                <Image className={s.cardImg} src={galleryItem.mainImg} alt="🥋" width={370} height={330}
-                       quality={100}
-                       sizes="(min-width: 1201px) 370px, 330px, (max-width: 1200px) 290px, 260px, (max-width: 992px) 324px, 290px, (max-width: 480px) 310px, 278px "/>
+                    <Image className={s.cardImg} src={galleryItem.mainImg} alt="🥋" width={370} height={330}
+                           quality={100}
+                           sizes="(min-width: 1201px) 370px, 330px, (max-width: 1200px) 290px, 260px, (max-width: 992px) 324px, 290px, (max-width: 480px) 310px, 278px "/>
                 </div>
                 <p className={s.cardDate}>{galleryItem.date}</p>
                 <h6 className={s.cardTitle}>{t(`title.${currentLanguage}`, (galleryItem.title as any)[currentLanguage] as string)}</h6>

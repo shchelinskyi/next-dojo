@@ -29,13 +29,7 @@ const TeamPage = () => {
     const [screenWidth, setScreenWidth] = useState(
         typeof window !== 'undefined' ? window.innerWidth : 0
     );
-    const currentLanguage = i18n.language;
-    const [language, setLanguage] = useState("i18n.language");
-    const change = t("language");
-
-    useEffect(() => {
-        setLanguage(currentLanguage)
-    }, [change, currentLanguage]);
+    const language = i18n.language;
 
     const handleResize = () => {
         setScreenWidth(window.innerWidth);
@@ -50,8 +44,6 @@ const TeamPage = () => {
     }, []);
 
     const shouldRenderMainTrainerSlide = screenWidth <= 992 || screenWidth >= 1200;
-
-
 
 
     return (
@@ -71,7 +63,6 @@ const TeamPage = () => {
                     {language === "ua" && <Image className={s.lineHorizontalUA} src={horizontalLine} alt="line"/>}
                     {language === "en" && <Image className={s.lineHorizontalEN} src={horizontalLine} alt="line"/>}
                     {language === "ru" && <Image className={s.lineHorizontalRU} src={horizontalLine} alt="line"/>}
-
                 </div>
             </div>
             <div className={s.swiperBlock}>

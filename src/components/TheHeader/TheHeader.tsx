@@ -34,6 +34,7 @@ interface TheHeaderProps {
 const TheHeader = ({refData}:TheHeaderProps) => {
 
     const { t, i18n } = useTranslation();
+    const activeLang = i18n.language;
     const dispatch = useAppDispatch();
     const currentLocale = i18n.language;
     const router = useRouter();
@@ -62,37 +63,44 @@ const TheHeader = ({refData}:TheHeaderProps) => {
     };
 
 
-    const [activeLang, setActiveLang] = useState(i18n.language);
+    // const [activeLang, setActiveLang] = useState(i18n.language);
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const headerHeight = 100;
+
 
     const navigateToAbout = () => {
         if (refData && refData.aboutRef && refData.aboutRef.current) {
-            refData.aboutRef.current.scrollIntoView({behavior: 'smooth'})
+            const contactsTop = refData.aboutRef.current.offsetTop - headerHeight;
+            window.scrollTo({ top: contactsTop, behavior: 'smooth' });
         }
     }
 
     const navigateToGyms = () => {
         if (refData && refData.gymsRef && refData.gymsRef.current) {
-            refData.gymsRef.current.scrollIntoView({behavior: 'smooth'})
+            const contactsTop = refData.gymsRef.current.offsetTop - headerHeight;
+            window.scrollTo({ top: contactsTop, behavior: 'smooth' });
         }
     }
 
     const navigateToTeam = () => {
         if (refData && refData.teamRef && refData.teamRef.current) {
-            refData.teamRef.current.scrollIntoView({behavior: 'smooth'})
+            const contactsTop = refData.teamRef.current.offsetTop - headerHeight;
+            window.scrollTo({ top: contactsTop, behavior: 'smooth' });
         }
     }
 
     const navigateToGallery = () => {
         if (refData && refData.galleryRef && refData.galleryRef.current) {
-            refData.galleryRef.current.scrollIntoView({behavior: 'smooth'})
+            const contactsTop = refData.galleryRef.current.offsetTop - headerHeight;
+            window.scrollTo({ top: contactsTop, behavior: 'smooth' });
         }
     }
 
     const navigateToNews = () => {
         if (refData && refData.newsRef && refData.newsRef.current) {
-            refData.newsRef.current.scrollIntoView({behavior: 'smooth'})
+            const contactsTop = refData.newsRef.current.offsetTop - headerHeight;
+            window.scrollTo({ top: contactsTop, behavior: 'smooth' });
         }
     }
 
@@ -102,9 +110,11 @@ const TheHeader = ({refData}:TheHeaderProps) => {
     //     }
     // }
 
+
     const navigateToContacts = () => {
         if (refData && refData.contactsRef && refData.contactsRef.current) {
-            refData.contactsRef.current.scrollIntoView({behavior: 'smooth'})
+            const contactsTop = refData.contactsRef.current.offsetTop - headerHeight;
+            window.scrollTo({ top: contactsTop, behavior: 'smooth' });
         }
     }
 
@@ -120,15 +130,7 @@ const TheHeader = ({refData}:TheHeaderProps) => {
         };
     }, []);
 
-    const backgroundColor = isScrolled ? 'white' : '#dedede';
-
-    useEffect(() => {
-        setActiveLang(i18n.language);
-    }, [i18n.language]);
-
-    const changeLanguage = (language: string) => {
-        i18n.changeLanguage(language);
-    }
+    const backgroundColor = (isScrolled || isMenuOpen) ? 'white' : '#dedede';
 
     const handleClick = () => {
         dispatch(openForm())
@@ -138,7 +140,7 @@ const TheHeader = ({refData}:TheHeaderProps) => {
 
         if (currentPathname == "/" || currentPathname == "/ru" || currentPathname == "/en"  ) {
             window.scrollTo({
-                top: 20,
+                top: 10,
                 behavior: 'smooth',
             });
         } else {

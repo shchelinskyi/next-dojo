@@ -219,7 +219,7 @@
 
 
   @media (max-width: 480px) {
-    top: 310px;
+    top: 340px;
     left: 10vw;
     width: 157px;
     object-fit: contain;
@@ -640,7 +640,7 @@
 }
 
 .parallaxContainer {
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   position: relative;
 }

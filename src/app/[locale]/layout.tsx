@@ -6,7 +6,7 @@ import {dir} from 'i18next';
 import TheFooter from "@/components/TheFooter";
 import initTranslations from "@/app/i18n";
 import TranslationsProvider from "@/providers/TranslationsProvider";
-
+import FacebookClientProvider from "@/providers/FacebookProvider";
 
 
 export const metadata: Metadata = {
@@ -30,15 +30,17 @@ export default async function RootLayout({children, params: {locale}}: {
     const {resources} = await initTranslations(locale, i18nNamespaces);
     return (
         <html lang={locale} dir={dir(locale)}>
-            <body>
-            <TranslationsProvider
-                namespaces={i18nNamespaces}
-                locale={locale}
-                resources={resources}>
-            {children}
-            <TheFooter/>
-            </TranslationsProvider>
-            </body>
+        <body>
+        <TranslationsProvider
+            namespaces={i18nNamespaces}
+            locale={locale}
+            resources={resources}>
+            <FacebookClientProvider>
+                {children}
+                <TheFooter/>
+            </FacebookClientProvider>
+        </TranslationsProvider>
+        </body>
         </html>
     );
 }

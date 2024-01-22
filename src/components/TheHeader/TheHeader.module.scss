@@ -41,12 +41,7 @@
   }
 }
 
-//.collapse {
-//  @media (max-width: 991px) {
-//    margin-left: auto;
-//    margin-right: 0;
-//  }
-//}
+
 
 .menu {
   @media (max-width: 991px) {
@@ -67,7 +62,9 @@
   @media (max-width: 480px) {
     border-radius: 0;
     margin: 0 auto;
-    width: 320px;
+    //width: 320px;
+    width: 100vw;
+    right: 0;
   }
 }
 

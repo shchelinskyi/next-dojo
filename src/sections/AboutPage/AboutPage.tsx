@@ -1,4 +1,3 @@
-import {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import Image from "next/image";
 import {Container} from "react-bootstrap";
@@ -25,19 +24,28 @@ import titleTeamEN from "@/assets/images/about/title-team-en.webp";
 import cn from "classnames";
 import s from "./AboutPage.module.scss";
 import {gagalinFont} from "@/fonts";
+import {useEffect, useState} from "react";
 
 const AboutPage = () => {
 
     const {t, i18n} = useTranslation();
-    const currentLanguage = i18n.language;
-    const [language, setLanguage] = useState("i18n.language");
+    const language = i18n.language;
 
-    const change = t("language");
+    const [shouldAutoplay, setShouldAutoplay] = useState(false);
 
     useEffect(() => {
-        setLanguage(currentLanguage)
-    }, [change, currentLanguage]);
+        const handleResize = () => {
+            setShouldAutoplay(window.innerWidth >= 480);
+        };
 
+        window.addEventListener("resize", handleResize);
+
+        handleResize();
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
 
     return (
         <>
@@ -95,7 +103,6 @@ const AboutPage = () => {
 
                         </div>
 
-                        <Image src={line} className={s.line} alt="line"/>
                         <Image src={line2} className={s.line2} alt="line"/>
 
                         <div className={s.totalItem}>
@@ -128,11 +135,10 @@ const AboutPage = () => {
                 </Container>
             </Container>
             <div className={s.video}>
-                <video preload="auto" loop autoPlay={true} muted={true} className={s.videoItem}
+                <video preload="auto" loop autoPlay={shouldAutoplay} muted={true} className={s.videoItem}
                        controls={true}>
                     <source src="/video/karate.mp4" type="video/mp4"/>
                 </video>
-                {/*<video preload="metadata" loop autoPlay={true} muted={true}  src="https://res.cloudinary.com/dxdwrjw7w/video/upload/v1704288564/video/karate_cxyg2m.mp4" className={s.videoItem}/>*/}
                 <div className={s.titleTeamWrapper}>
                     {language === "ua" && <Image className={s.titleTeamImage} src={titleTeamUA} alt="title"/>}
                     {language === "ru" && <Image className={s.titleTeamImage} src={titleTeamRU} alt="title"/>}

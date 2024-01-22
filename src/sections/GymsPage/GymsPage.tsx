@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import {useTranslation} from "react-i18next";
 import ContactGym from "@/components/ContactGym";
 import CustomButton from "@/components/CustomButton";
@@ -31,9 +31,9 @@ import thursdayEN from "@/assets/images/gyms/thursday-en.webp";
 import fridayEN from "@/assets/images/gyms/friday-en.webp";
 import saturdayEN from "@/assets/images/gyms/saturday-en.webp";
 import {address} from "@/utils/addressGym";
+import {gagalinFont} from "@/fonts";
 import cn from "classnames";
 import s from "./GymsPage.module.scss";
-import {gagalinFont} from "@/fonts";
 
 
 const GymsPage = () => {
@@ -41,11 +41,11 @@ const GymsPage = () => {
     const [isBlockVisible2, setIsBlockVisible2] = useState(false);
     const [isBlockVisible3, setIsBlockVisible3] = useState(false);
 
-    const { i18n, t } = useTranslation();
+    const {i18n, t} = useTranslation();
     const language = i18n.language;
 
 
-    const toggleVisibility = (numBlock:number) => {
+    const toggleVisibility = (numBlock: number) => {
         if (numBlock === 1) {
             setIsBlockVisible1(!isBlockVisible1);
         } else if (numBlock === 2) {
@@ -62,12 +62,14 @@ const GymsPage = () => {
             <Container className={s.content}>
                 <div className={s.gymBlock}>
                     <div className={s.gymTitle}>
-                        <ContactGym address={t("gym1")}  addressLink={address.gym1} phone="+38 (099) 042 08 20"/>
+                        <ContactGym address={t("gym1")} addressLink={address.gym1} phone="+38 (099) 042 08 20"/>
                     </div>
                     <div className={s.btnShow}>
-                        <CustomButton style={{width:"100%"}} onClick={()=>toggleVisibility(1)}>{t("scheduleSee")}</CustomButton>
+                            <CustomButton style={{width: "100%"}} onClick={() => toggleVisibility(1)}>
+                                {!isBlockVisible1 ? t("scheduleSee") : t("scheduleHide")}
+                            </CustomButton>
                     </div>
-                    <div className={cn(s.gymContent, { [s.showContent]: isBlockVisible1 })}>
+                    <div className={cn(s.gymContent, {[s.showContent]: isBlockVisible1})}>
                         <div className={cn(s.item3times, s.order1)}>
                             {language === "ua" && <Image className={s.dayIcon} src={mondayUA} alt="понеділок"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={mondayRU} alt="понедельник"/>}
@@ -158,12 +160,15 @@ const GymsPage = () => {
 
                 <div className={s.gymBlock}>
                     <div className={s.gymTitle}>
-                        <ContactGym address={t("gym2")}  addressLink={address.gym2} phone="+38 (099) 042 08 20"/>
+                        <ContactGym address={t("gym2")} addressLink={address.gym2} phone="+38 (099) 042 08 20"/>
                     </div>
                     <div className={s.btnShow}>
-                        <CustomButton style={{width:"100%"}} onClick={()=>toggleVisibility(2)}>{t("scheduleSee")}</CustomButton>
+                        <CustomButton style={{width: "100%"}}
+                                      onClick={() => toggleVisibility(2)}>
+                            {!isBlockVisible2 ? t("scheduleSee") : t("scheduleHide")}
+                        </CustomButton>
                     </div>
-                    <div className={cn(s.gymContent, { [s.showContent]: isBlockVisible2 })}>
+                    <div className={cn(s.gymContent, {[s.showContent]: isBlockVisible2})}>
                         <div className={cn(s.item2times, s.order1)}>
                             {language === "ua" && <Image className={s.dayIcon} src={mondayUA} alt="понеділок"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={mondayRU} alt="понедельник"/>}
@@ -223,7 +228,7 @@ const GymsPage = () => {
                         </div>
 
                         <div className={cn(s.item2times, s.order4)}>
-                            {language === "ua" && <Image className={s.dayIcon} src={thursdayUA} alt="четверг" />}
+                            {language === "ua" && <Image className={s.dayIcon} src={thursdayUA} alt="четверг"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={thursdayRU} alt="четверг"/>}
                             {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}
                             <div>
@@ -242,12 +247,15 @@ const GymsPage = () => {
 
                 <div className={s.gymBlock}>
                     <div className={s.gymTitle}>
-                        <ContactGym  address={t("gym3")}  addressLink={address.gym3} phone="+38 (093) 726 54 24"/>
+                        <ContactGym address={t("gym3")} addressLink={address.gym3} phone="+38 (093) 726 54 24"/>
                     </div>
                     <div className={s.btnShow}>
-                        <CustomButton style={{width:"100%"}} onClick={()=>toggleVisibility(3)}>{t("scheduleSee")}</CustomButton>
+                        <CustomButton style={{width: "100%"}}
+                                      onClick={() => toggleVisibility(3)}>
+                            {!isBlockVisible3 ? t("scheduleSee") : t("scheduleHide")}
+                        </CustomButton>
                     </div>
-                    <div className={cn(s.gymContent, { [s.showContent]: isBlockVisible3 }, s.thirdGym)}>
+                    <div className={cn(s.gymContent, {[s.showContent]: isBlockVisible3}, s.thirdGym)}>
 
                         <div className={cn(s.item2times)}>
                             {language === "ua" && <Image className={s.dayIcon} src={tuesdayUA} alt="вівторок"/>}
