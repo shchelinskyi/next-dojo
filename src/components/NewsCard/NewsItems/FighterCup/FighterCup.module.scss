@@ -97,21 +97,14 @@
 .socialContent {
   padding: 0 10px;
   margin: 0 auto 100px;
-  padding: 0 10px;
   width: 100%;
   max-width: 1180px;
   display: flex;
   justify-content: space-between;
-  @media (max-width: 1200px) {
-
-  }
 
   @media (max-width: 992px) {
     flex-wrap: wrap;
-  }
-
-  @media (max-width: 480px) {
-    flex-wrap: wrap;
     row-gap: 20px;
   }
+
 }

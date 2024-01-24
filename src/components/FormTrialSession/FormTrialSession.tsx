@@ -5,8 +5,8 @@ import {useTranslation} from "react-i18next";
 import {Form as BootstrapForm} from 'react-bootstrap';
 import {Formik, Field, Form, ErrorMessage, FormikHelpers} from 'formik';
 import {sendMessageToTelegram} from "@/tools/sendMessageToTelegram";
-import CustomTextarea from "@/components/CustomTextArea";
-import CustomPhoneInput from "../CustomPhoneInput";
+import CustomTextArea from "@/components/CustomTextArea";
+import CustomPhoneInput from "@/components/CustomPhoneInput";
 import s from "./FormTrialSession.module.scss"
 import {useAppDispatch} from "@/lib/hooks";
 import {closeForm, openInfoModal} from "@/lib/store/features/form/formTrialSessionSlice";
@@ -112,7 +112,7 @@ const FormTrialSession = () => {
                                 <BootstrapForm.Group className="mb-3" controlId="formBasicComment">
                                     <BootstrapForm.Label
                                         className={s.formLabel}>{t("formTrialComment")}</BootstrapForm.Label>
-                                    <Field type="text" name="comment" as={CustomTextarea}
+                                    <Field type="text" name="comment" as={CustomTextArea}
                                            style={{minHeight: "50px"}}
                                            className={s.field}/>
                                     <ErrorMessage name="comment" component={BootstrapForm.Text}

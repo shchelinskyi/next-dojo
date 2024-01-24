@@ -4,17 +4,17 @@ import {useTranslation} from "react-i18next";
 import {useRef} from "react";
 import {usePathname} from "next/navigation";
 import {useAppDispatch, useAppSelector} from "@/lib/hooks";
-import MainPage from "@/sections/MainPage";
-import AboutPage from "@/sections/AboutPage";
-import NewsPage from "@/sections/NewsPage";
-import GalleryPage from "@/sections/GalleryPage";
-import TeamPage from "@/sections/TeamPage";
-import GymsPage from "@/sections/GymsPage";
+import MainSection from "@/sections/MainSection";
+import AboutSection from "@/sections/AboutSection";
+import NewsSection from "@/sections/NewsSection";
+import GallerySection from "@/sections/GallerySection";
+import TeamSection from "@/sections/TeamSection";
+import GymsSection from "@/sections/GymsSection";
 import ReadMore from "@/sections/ReadMore";
-import ContactsPage from "@/sections/ContactsPage";
-import SupportUsPage from "@/sections/SupporUsPage";
+import ContactsSection from "@/sections/ContactsSection";
+import SupportUsSection from "@/sections/SupportUsSection";
 import Ticker from "@/sections/Ticker";
-import TrialLessonPage from "@/sections/TrialLessonPage";
+import TrialLessonSection from "@/sections/TrialLessonSection";
 import FormTrialSession from "@/components/FormTrialSession";
 import InformModal from "@/components/InformModal";
 import Cart from "@/components/Cart";
@@ -64,31 +64,31 @@ const Main = () => {
             </InformModal>}
             {isOpenedOrderedModal && <InformModal onClose={() => dispatch(closeOrderedModal())}>{t("ordered")}</InformModal>}
             {isCartOpened && <Cart/>}
-            <MainPage refData={data}/>
+            <MainSection refData={data}/>
             <div ref={aboutRef} style={{paddingTop:"100px"}}>
-                <AboutPage/>
+                <AboutSection/>
             </div>
             <div ref={teamRef}>
-                <TeamPage/>
+                <TeamSection/>
             </div>
             <div ref={gymsRef}>
-                <GymsPage/>
+                <GymsSection/>
             </div>
-            <TrialLessonPage/>
+            <TrialLessonSection/>
             <div ref={galleryRef}>
-                <GalleryPage/>
+                <GallerySection/>
             </div>
-            <SupportUsPage/>
+            <SupportUsSection/>
             <Ticker/>
             {/*<div ref={shopRef}>*/}
-            {/*    <ShopPage/>*/}
+            {/*    <ShopSection/>*/}
             {/*</div>*/}
             <div ref={newsRef}>
-                <NewsPage />
+                <NewsSection />
             </div>
             <ReadMore/>
             <div ref={contactsRef}>
-                <ContactsPage/>
+                <ContactsSection/>
             </div>
         </>
     );
