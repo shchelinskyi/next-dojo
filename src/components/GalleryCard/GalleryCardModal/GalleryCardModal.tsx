@@ -19,24 +19,29 @@ const GalleryCardModal: FC<GalleryCardModalProps> = ({images, onClose}) => {
                 <div className={s.closeBtn} onClick={onClose}>&times;</div>
                 <Swiper
                     modules={[Navigation, Scrollbar]}
+                    style={{
+                        '--swiper-navigation-color': '#E1251B',
+                        '--swiper-pagination-color': '#E1251B',
+                    }}
                     navigation={true}
-                    pagination={{clickable: true}}
+                    // pagination={{clickable: true}}
                     scrollbar={{draggable: true}}
                     className="mySwiper"
-
+                    lazy={true}
                 >
                     {images.length > 0 && images.map((itemSrc) => (
                         <SwiperSlide key={itemSrc}>
                             <div className={s.imageWrapper}>
-                                {/*<img src={`${itemSrc}?w=800&h=600&crop=fill&q=80`} className={s.image}*/}
-                                {/*     alt="event picture" loading="lazy"/>*/}
+                                <img srcSet={`${itemSrc}?w=800&h=600&crop=fill&q=80 800w, ${itemSrc}?w=400&h=300&crop=fill&q=60 500w`} className={s.image}
+                                     alt="event picture" loading="lazy" />
                                 {/*<img src={itemSrc} className={s.image} loading="lazy" alt="event picture"/>*/}
-                                <img srcSet={`${itemSrc}?w=800&h=600&crop=fill&q=80 800w, ${itemSrc}?w=400&h=300&crop=fill&q=80 400w`}
-                                    sizes="(max-width: 600px) 100vw, 50vw"
-                                     className={s.image}
-                                    alt="event picture"
-                                    loading="lazy"
-                                />
+                                {/*<img srcSet={`${itemSrc}?w=800&h=600&crop=fill&q=80 800w, ${itemSrc}?w=400&h=300&crop=fill&q=80 400w`}*/}
+                                {/*    sizes="(max-width: 600px) 100vw, 50vw"*/}
+                                {/*     className={s.image}*/}
+                                {/*    alt="event picture"*/}
+                                {/*    loading="lazy"*/}
+                                {/*/>*/}
+                                <div className="swiper-lazy-preloader swiper-lazy-preloader-red"></div>
                             </div>
                         </SwiperSlide>
                     ))
