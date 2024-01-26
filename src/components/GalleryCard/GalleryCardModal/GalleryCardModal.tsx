@@ -11,7 +11,7 @@ type GalleryCardModalProps = {
 const GalleryCardModal: FC<GalleryCardModalProps> = ({ images, onClose }) => {
     const [index, setIndex] = useState(0);
 
-    const handleSelect = (selectedIndex) => {
+    const handleSelect = (selectedIndex:number) => {
         setIndex(selectedIndex);
     };
 
