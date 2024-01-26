@@ -28,8 +28,15 @@ const GalleryCardModal: FC<GalleryCardModalProps> = ({images, onClose}) => {
                     {images.length > 0 && images.map((itemSrc) => (
                         <SwiperSlide key={itemSrc}>
                             <div className={s.imageWrapper}>
-                                <img src={itemSrc} className={s.image} alt="event picture"/>
+                                {/*<img src={`${itemSrc}?w=800&h=600&crop=fill&q=80`} className={s.image}*/}
+                                {/*     alt="event picture" loading="lazy"/>*/}
                                 {/*<img src={itemSrc} className={s.image} loading="lazy" alt="event picture"/>*/}
+                                <img srcSet={`${itemSrc}?w=800&h=600&crop=fill&q=80 800w, ${itemSrc}?w=400&h=300&crop=fill&q=80 400w`}
+                                    sizes="(max-width: 600px) 100vw, 50vw"
+                                     className={s.image}
+                                    alt="event picture"
+                                    loading="lazy"
+                                />
                             </div>
                         </SwiperSlide>
                     ))
