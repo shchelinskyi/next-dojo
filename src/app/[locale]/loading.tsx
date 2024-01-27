@@ -1,7 +1,7 @@
-import s from "./Loading.module.scss";
 import loading from "@/assets/images/loading/loading.svg";
 import Image from "next/image";
 import cn from "classnames";
+import s from "./Loading.module.scss";
 
 const Loading = () => {
     return (

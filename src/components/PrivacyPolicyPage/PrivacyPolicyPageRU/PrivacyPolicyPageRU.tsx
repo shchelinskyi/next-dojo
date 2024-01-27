@@ -3,9 +3,9 @@
 import {useTranslation} from "react-i18next";
 import logo from "@/assets/images/main/logo.webp";
 import Image from "next/image";
-import s from "../PrivacyPolicyPage.module.scss";
-import cn from "classnames";
 import Link from "next/link";
+import cn from "classnames";
+import s from "../PrivacyPolicyPage.module.scss";
 
 const PrivacyPolicyPageRU = () => {
     const {t} = useTranslation();

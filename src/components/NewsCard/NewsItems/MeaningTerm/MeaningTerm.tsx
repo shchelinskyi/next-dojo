@@ -7,9 +7,9 @@ import FollowLinks from "@/components/FollowLinks";
 import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
-import s from "./MeaningTerm.module.scss";
 import cn from "classnames";
 import {gagalinFont} from "@/fonts";
+import s from "./MeaningTerm.module.scss";
 
 const MeaningTerm = () => {
     const {i18n,t} = useTranslation();

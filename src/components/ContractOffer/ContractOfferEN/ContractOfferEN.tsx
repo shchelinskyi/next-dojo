@@ -1,7 +1,7 @@
 import logo from "@/assets/images/main/logo.webp";
 import Image from "next/image";
-import s from "../ContractOffer.module.scss";
 import Link from "next/link";
+import s from "../ContractOffer.module.scss";
 
 const ContractOfferEN = () => {
 

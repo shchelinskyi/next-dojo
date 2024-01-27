@@ -8,9 +8,9 @@ import FollowLinks from "@/components/FollowLinks";
 import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
-import s from "./Championship2018.module.scss";
-import cn from "classnames";
 import {gagalinFont} from "@/fonts";
+import cn from "classnames";
+import s from "./Championship2018.module.scss";
 
 const Championship2018 = () => {
     const {i18n,t} = useTranslation();

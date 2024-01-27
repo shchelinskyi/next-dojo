@@ -7,9 +7,9 @@ import FollowLinks from "@/components/FollowLinks";
 import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
-import s from "./KumiteMarathon.module.scss";
 import cn from "classnames";
 import {gagalinFont} from "@/fonts";
+import s from "./KumiteMarathon.module.scss";
 
 const KumiteMarathon = () => {
     const {i18n,t} = useTranslation();
@@ -21,6 +21,8 @@ const KumiteMarathon = () => {
     const fullUrl = `https://misakdojo.com${currentPathname}`;
 
     const router = useRouter();
+
+
 
     return (
         <div>

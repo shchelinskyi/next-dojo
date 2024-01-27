@@ -8,9 +8,9 @@ import FollowLinks from "@/components/FollowLinks";
 import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
-import s from "./KarateSea.module.scss";
 import cn from "classnames";
 import {gagalinFont} from "@/fonts";
+import s from "./KarateSea.module.scss";
 
 const KarateSea = () => {
     const {i18n,t} = useTranslation();

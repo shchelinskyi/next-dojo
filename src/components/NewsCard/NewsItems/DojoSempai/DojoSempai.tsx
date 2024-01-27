@@ -8,9 +8,9 @@ import FollowLinks from "@/components/FollowLinks";
 import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
-import s from "./DojoSempai.module.scss";
-import cn from "classnames";
 import {gagalinFont} from "@/fonts";
+import cn from "classnames";
+import s from "./DojoSempai.module.scss";
 
 const DojoSempai = () => {
     const {i18n,t} = useTranslation();

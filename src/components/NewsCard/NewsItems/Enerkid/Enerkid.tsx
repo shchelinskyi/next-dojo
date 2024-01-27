@@ -8,9 +8,9 @@ import FollowLinks from "@/components/FollowLinks";
 import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
-import s from "./Enerkid.module.scss";
 import cn from "classnames";
 import {gagalinFont} from "@/fonts";
+import s from "./Enerkid.module.scss";
 
 const Enerkid = () => {
     const {i18n,t} = useTranslation();

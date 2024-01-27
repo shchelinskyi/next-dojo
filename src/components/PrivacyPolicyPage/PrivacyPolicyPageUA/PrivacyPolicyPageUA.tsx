@@ -3,8 +3,8 @@
 import {useTranslation} from "react-i18next";
 import logo from "@/assets/images/main/logo.webp";
 import Image from "next/image";
-import s from "../PrivacyPolicyPage.module.scss";
 import Link from 'next/link';
+import s from "../PrivacyPolicyPage.module.scss";
 
 
 const PrivacyPolicyPageUA = () => {

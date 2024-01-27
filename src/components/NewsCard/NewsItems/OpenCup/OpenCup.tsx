@@ -7,9 +7,9 @@ import FollowLinks from "@/components/FollowLinks";
 import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
-import s from "./OpenCup.module.scss";
 import cn from "classnames";
 import {gagalinFont} from "@/fonts";
+import s from "./OpenCup.module.scss";
 
 const OpenCup = () => {
     const {i18n,t} = useTranslation();
@@ -20,6 +20,8 @@ const OpenCup = () => {
     const fullUrl = `https://misakdojo.com${currentPathname}`;
 
     const router = useRouter();
+
+
 
     return (
         <div>

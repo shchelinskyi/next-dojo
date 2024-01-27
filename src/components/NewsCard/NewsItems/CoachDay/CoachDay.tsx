@@ -7,9 +7,9 @@ import FollowLinks from "@/components/FollowLinks";
 import ShareLinks from "@/components/ShareLinks";
 import arrow from "@/assets/images/news/arrow-back.svg";
 import {usePathname, useRouter} from "next/navigation";
-import s from "./CoachDay.module.scss";
-import cn from "classnames";
 import {gagalinFont} from "@/fonts";
+import cn from "classnames";
+import s from "./CoachDay.module.scss";
 
 const CoachDay = () => {
     const {i18n,t} = useTranslation();
