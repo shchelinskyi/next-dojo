@@ -1,7 +1,9 @@
 .wrapper {
   width: 100vw;
+  max-width: 2100px;
   height: 64px;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .tickerText {
