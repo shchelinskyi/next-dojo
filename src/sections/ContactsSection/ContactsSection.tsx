@@ -49,7 +49,7 @@ const ContactsSection = () => {
                         address={t("gymFull2")}
                         addressLink={address.gym2}
                         email="MisakDojo@gmail.com"
-                        phone="+38 (099) 042 08 20"
+                        phone="+380 (95) 448 63 97"
                         underground={t("underground2")}
                         socialLinks={
                             {

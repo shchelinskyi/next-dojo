@@ -207,25 +207,16 @@
   height: 485px;
   position: absolute;
   bottom: 30px;
-  left: 50px;
+  left: 35px;
   z-index: 2;
 
   @media (max-width: 480px) {
     width: 207px;
     height: 350px;
     top: 0;
-    left: 10px;
+    left: 12px;
   }
 }
-
-
-
-
-
-
-
-
-
 
 
 .trainerImg12 {
@@ -249,13 +240,13 @@
   height: 498px;
   position: absolute;
   bottom: 30px;
-  left: 0;
+  left: -22px;
   z-index: 2;
   @media (max-width: 480px) {
     width: 270px;
     height: 350px;
     top: -10px;
-    left: -20px;
+    left: -24px;
   }
 }
 
@@ -264,14 +255,14 @@
   height: 460px;
   position: absolute;
   bottom: 30px;
-  left: 40px;
+  left: 28px;
   z-index: 2;
 
   @media (max-width: 480px) {
     width: 247px;
     height: 350px;
     top: 0;
-    left: 5px;
+    left: 2px;
   }
 }
 

@@ -15,7 +15,12 @@ const TrainerLabel: FC<TrainerLabelProps> = ({name, rank, mainTrainer}) => {
     return (
         <div className={s.container}>
             <div className={cn(s.itemWrapper,{[s.mainTrainer]: mainTrainer})}>
-                <p className={s.itemText}>{name}</p>
+                {mainTrainer &&
+                    <a className={s.itemText} href="https://www.facebook.com/misakarzum" target="_blank">{name}</a>
+                }
+                {!mainTrainer &&
+                    <p className={s.itemText}>{name}</p>
+                }
                 <Image className={s.lineIcon} src={line} alt="line"/>
                 <p className={cn(s.itemText, s.hideText)}>{rank}</p>
             </div>

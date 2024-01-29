@@ -89,7 +89,7 @@ const TeamSection = () => {
                     {
                         shouldRenderMainTrainerSlide && (<SwiperSlide >
                         <div className={s.trainerCard}>
-                            <Image className={s.trainerImgM} src={trainerM} alt="trainer"/>
+                            <Image className={s.trainerImgM} src={trainerM} alt="Мисак Арзуманян"/>
                             <div className={s.trainerBg}></div>
                             <div className={s.trainerLabel}>
                                 <TrainerLabel name= {t("trainerM")} rank={t("trainerMRank")} mainTrainer={true}/>
