@@ -9,9 +9,7 @@ import supportRU from "@/assets/images/support/support-ru.webp";
 import supportEN from "@/assets/images/support/support-en.webp";
 import btnLabel from "@/assets/images/support/btn-label.svg";
 import finger from "@/assets/images/support/finger-up.svg";
-import CustomButton from "@/components/CustomButton";
 import s from "./SupportUsSection.module.scss";
-
 
 
 
@@ -19,6 +17,7 @@ const SupportUsSection = () => {
 
     const {i18n, t} = useTranslation();
     const language = i18n.language;
+
 
     return (
         <div className={s.wrapper}>
@@ -37,9 +36,9 @@ const SupportUsSection = () => {
                     {language === "ru" && <Image src={supportRU} className={s.supportLabel} alt="icon"/>}
                     {language === "en" && <Image src={supportEN} className={s.supportLabel} alt="icon"/>}
                     <a href="https://www.buymeacoffee.com/misakdojo" target="_blank" className={s.link}>
-                        <CustomButton>
+                        <button  className={s.btn}>
                             <Image src={btnLabel} className={s.btnLabel} alt="icon"/>
-                        </CustomButton>
+                        </button>
                     </a>
                     {language === "ua" && <div className={s.fingerBlock}>
                         <Image src={finger} className={s.fingerImg} alt="icon"/>

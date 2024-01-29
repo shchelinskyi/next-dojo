@@ -31,21 +31,6 @@ const AboutSection = () => {
     const {t, i18n} = useTranslation();
     const language = i18n.language;
 
-    const [shouldAutoplay, setShouldAutoplay] = useState(false);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setShouldAutoplay(window.innerWidth >= 480);
-        };
-
-        window.addEventListener("resize", handleResize);
-
-        handleResize();
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
 
     return (
         <>
@@ -136,7 +121,7 @@ const AboutSection = () => {
                 </Container>
             </Container>
             <div className={s.video}>
-                <video preload="auto" loop autoPlay={shouldAutoplay} muted={true} className={s.videoItem}
+                <video preload="auto" loop autoPlay={true} muted={true} className={s.videoItem}
                        controls={true}>
                     <source src="/video/karate.mp4" type="video/mp4"/>
                 </video>
