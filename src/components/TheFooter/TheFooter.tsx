@@ -23,7 +23,7 @@ const TheFooter =  () => {
                 </div>
                 <div className={cn(s.footerContent, s.order3)}>
                     <div className={cn(s.column, s.rightBlock)}>
-                        <p className={s.textBlock}>© Misak Dojo, 2023</p>
+                        <p className={s.textBlock}>© Misak Dojo, 2024</p>
                         <p className={s.textBlock}>{t("rights")}</p>
                     </div>
                 </div>
