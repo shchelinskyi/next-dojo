@@ -1,7 +1,7 @@
 {
   "aboutUs": "about us",
   "team": "team",
-  "gym": "dojos",
+  "gym": "dojo",
   "gallery": "gallery",
   "shop": "shop",
   "contacts": "contacts",
@@ -40,7 +40,7 @@
   "trainer4Rank": "3 kyu",
   "trainer5": "Senpai Mykola Skrypnyk",
   "trainer5Rank": "4 kyu",
-  "ourGyms": "our dojos",
+  "ourGyms": "our dojo",
   "city": "Kyiv",
   "scheduleSee": "see the schedule",
   "scheduleHide": "collapse the schedule",
