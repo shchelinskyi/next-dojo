@@ -88,7 +88,7 @@ const FormBlock = () => {
                         </BootstrapForm.Group>
 
                         <BootstrapForm.Group className="mb-3" controlId="formBasicComment">
-                            <Field type="text" name="comment" as={CustomTextarea}
+                            <Field name="comment" as={CustomTextarea}
                                    placeholder={t("formComment")}
                                    style={{minHeight: "130px"}}
                                    className={s.field}
@@ -103,13 +103,13 @@ const FormBlock = () => {
                                    onChange={handleCheckboxChange} className={s.checkbox}
                                    name="agree"/>
                             <span className={s.box}></span>
-                            <p className={s.checkboxLabel}>
+                            <div className={s.checkboxLabel}>
                                 <span className={s.footerLabel1}>{t("formFooter1")}</span>
                                 {/*<br className={s.wrap}/>*/}
-                                <Link className={s.link} href="/privacy-policy" onClick={handleOpenPrivacy}>
+                                <Link className={s.link} href="/privacy-policy" onClick={handleOpenPrivacy} target="_blank">
                                     <span className={s.footerLabel2}>{t("formFooter2")}</span>
                                 </Link>
-                            </p>
+                            </div>
                         </label>
 
 

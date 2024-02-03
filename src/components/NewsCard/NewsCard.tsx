@@ -8,13 +8,13 @@ type NewsItem = {
     title: {
         en: string;
         ru: string;
-        ua: string;
+        uk: string;
     };
     date: string;
     category: {
         en: string;
         ru: string;
-        ua: string;
+        uk: string;
     };
     mainImg: string;
     images: string[];
@@ -31,7 +31,7 @@ const NewsCard: FC<NewsCardTypes> = ({ newsItem}) => {
     const {linkName} = newsItem;
 
     return (
-        <Link className={s.link} href={`news/${linkName}`}>
+        <Link className={s.link} href={`news/${linkName}`} target="_blank">
             <div className={s.card}>
                 <div className={s.imgWrapper}>
                      <img className={s.newsImg} src={newsItem.mainImg} alt="misak dojo" width={370} height={330}

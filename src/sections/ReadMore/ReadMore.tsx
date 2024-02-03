@@ -66,24 +66,24 @@ const ReadMore = () => {
 
 
                     <div className={s.usefulBlockS}>
-                        {language === "ua" && <Image className={s.usefulText} src={usefulTextUA} alt="useful"/>}
+                        {language === "uk" && <Image className={s.usefulText} src={usefulTextUA} alt="useful"/>}
                         {language === "ru" && <Image className={s.usefulText} src={usefulTextRU} alt="useful"/>}
                         {language === "en" && <Image className={s.usefulText} src={usefulTextEN} alt="useful"/>}
-                        {language === "ua" && <Image className={s.usefulArrow} src={usefulArrow} alt="useful"/>}
+                        {language === "uk" && <Image className={s.usefulArrow} src={usefulArrow} alt="useful"/>}
                         {language === "en" && <Image className={s.usefulArrowEN} src={usefulArrow} alt="useful"/>}
                         {language === "ru" && <Image className={s.usefulArrowRU} src={usefulArrow} alt="useful"/>}
 
-                        {language === "ua" && <Image className={s.usefulTextM} src={usefulTextUA} alt="useful"/>}
+                        {language === "uk" && <Image className={s.usefulTextM} src={usefulTextUA} alt="useful"/>}
                         {language === "ru" && <Image className={s.usefulTextM} src={usefulTextRU} alt="useful"/>}
                         {language === "en" && <Image className={s.usefulTextM} src={usefulTextEN} alt="useful"/>}
-                        {language === "ua" && <Image className={s.usefulArrowM} src={usefulArrowM} alt="useful"/>}
+                        {language === "uk" && <Image className={s.usefulArrowM} src={usefulArrowM} alt="useful"/>}
                         {language === "ru" && <Image className={s.usefulArrowMRU} src={usefulArrowM} alt="useful"/>}
                         {language === "en" && <Image className={s.usefulArrowMRU} src={usefulArrowM} alt="useful"/>}
 
-                        {language === "ua" && <Image className={s.usefulTextS} src={usefulTextS}  alt="useful"/>}
+                        {language === "uk" && <Image className={s.usefulTextS} src={usefulTextS}  alt="useful"/>}
                         {language === "ru" && <Image className={s.usefulTextSRU} src={usefulTextRU}  alt="useful"/>}
                         {language === "en" && <Image className={s.usefulTextSEN} src={usefulTextEN}  alt="useful"/>}
-                        {language === "ua" &&<Image className={s.usefulArrowS} src={usefulArrowS} alt="useful"/>}
+                        {language === "uk" &&<Image className={s.usefulArrowS} src={usefulArrowS} alt="useful"/>}
                         {language === "ru" &&<Image className={s.usefulArrowSRU} src={usefulArrowS} alt="useful"/>}
                         {language === "en" &&<Image className={s.usefulArrowSEN} src={usefulArrowS} alt="useful"/>}
                     </div>

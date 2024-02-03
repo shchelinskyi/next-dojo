@@ -126,7 +126,7 @@ const AboutSection = () => {
                     <source src="/video/karate.mp4" type="video/mp4"/>
                 </video>
                 <div className={s.titleTeamWrapper}>
-                    {language === "ua" && <Image className={s.titleTeamImage} src={titleTeamUA} alt="title"/>}
+                    {language === "uk" && <Image className={s.titleTeamImage} src={titleTeamUA} alt="title"/>}
                     {language === "ru" && <Image className={s.titleTeamImage} src={titleTeamRU} alt="title"/>}
                     {language === "en" && <Image className={s.titleTeamImageEN} src={titleTeamEN} alt="title"/>}
                 </div>

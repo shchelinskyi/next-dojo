@@ -40,7 +40,7 @@ const CustomSelect = () => {
     return (
         <div className={s.selectContainer}>
             <select onChange={handleChange} value={currentLocale} className={s.selectBox}>
-                <option value="ua">UA</option>
+                <option value="uk">UA</option>
                 <option value="ru">RU</option>
                 <option value="en">ENG</option>
             </select>

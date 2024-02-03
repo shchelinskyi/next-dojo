@@ -3,7 +3,7 @@ export const gallery = [
         title: {
             en: "Club competitions 2023",
             ru: "Клубные соревнования 2023",
-            ua: "Клубні змагання 2023",
+            uk: "Клубні змагання 2023",
         },
         date: "27.12.2023",
         mainImg: "/images/gallery/271223.webp",
@@ -59,7 +59,7 @@ export const gallery = [
         title: {
             en: "Hicary Cup 2023",
             ru: "Hicary Cup 2023",
-            ua: "Hicary Cup 2023",
+            uk: "Hicary Cup 2023",
         },
         date: "18.12.2023",
         mainImg: "/images/gallery/181223.webp",
@@ -121,7 +121,7 @@ export const gallery = [
         title: {
             en: "Monolit Cup 2023",
             ru: "Monolit Cup 2023",
-            ua: "Monolit Cup 2023",
+            uk: "Monolit Cup 2023",
         },
         date: "12.12.2023",
         mainImg: "/images/gallery/121223.webp",
@@ -162,7 +162,7 @@ export const gallery = [
         title: {
             en: "Misaka's birthday 2023",
             ru: "День рождение Мисака 2023",
-            ua: "День народження Місака 2023",
+            uk: "День народження Місака 2023",
         },
         date: "06.11.2023",
         mainImg:  "/images/gallery/061123.webp",
@@ -224,7 +224,7 @@ export const gallery = [
         title: {
             en: "Kata championship 2023",
             ru: "Чемпионат по ката 2023",
-            ua: "Чемпіонат з ката 2023",
+            uk: "Чемпіонат з ката 2023",
         },
         date: "26.10.2023",
         mainImg: "/images/gallery/261023.webp",
@@ -265,7 +265,7 @@ export const gallery = [
         title: {
             en: "Khvyla 2023, day 1",
             ru: "Хвыля 2023, день 1",
-            ua: "Хвиля 2023, день 1",
+            uk: "Хвиля 2023, день 1",
         },
         date: "17.10.2023",
         mainImg: "/images/gallery/171023.webp",
@@ -326,7 +326,7 @@ export const gallery = [
         title: {
             en: "Khvyla 2023, day 2",
             ru: "Хвыля 2023, день 2",
-            ua: "Хвиля 2023, день 2",
+            uk: "Хвиля 2023, день 2",
         },
         date: "18.10.2023",
         mainImg: "/images/gallery/181023.webp",
@@ -387,7 +387,7 @@ export const gallery = [
         title: {
             en: "Khvyla 2023, day 3",
             ru: "Хвыля 2023, день 3",
-            ua: "Хвиля 2023, день 3",
+            uk: "Хвиля 2023, день 3",
         },
         date: "19.10.2023",
         mainImg: "/images/gallery/191023.webp",
@@ -424,7 +424,7 @@ export const gallery = [
         title: {
             en: "Khvyla 2023, certification p.1",
             ru: "Хвыля 2023, аттестация ч.1",
-            ua: "Хвиля 2023, атестація ч.1",
+            uk: "Хвиля 2023, атестація ч.1",
         },
         date: "20.10.2023",
         mainImg: "/images/gallery/201023.webp",
@@ -465,7 +465,7 @@ export const gallery = [
         title: {
             en: "Khvyla 2023, certification p.2",
             ru: "Хвыля 2023, аттестация ч.2",
-            ua: "Хвиля 2023, атестація ч.2",
+            uk: "Хвиля 2023, атестація ч.2",
         },
         date: "20.10.2023",
         mainImg: "/images/gallery/211023.webp",
@@ -506,7 +506,7 @@ export const gallery = [
         title: {
             en: "Burger party",
             ru: "Бургерная вечеринка",
-            ua: "Бургер вечірка",
+            uk: "Бургер вечірка",
         },
         date: "03.10.2023",
         mainImg: "/images/gallery/031023.webp",
@@ -565,7 +565,7 @@ export const gallery = [
         title: {
             en: "SK Monolith competition 2023",
             ru: "Соревнование СК «Монолит» 2023",
-            ua: "Змагання СК «Моноліт» 2023",
+            uk: "Змагання СК «Моноліт» 2023",
         },
         date: "29.09.2023",
         mainImg: "/images/gallery/290923.webp",
@@ -626,7 +626,7 @@ export const gallery = [
         title: {
             en: "Misak dojo - New Year's club competition 2022",
             ru: "Misak dojo – новогодние клубные соревнования 2022",
-            ua: "Misak dojo – новорічні клубні змагання 2022",
+            uk: "Misak dojo – новорічні клубні змагання 2022",
         },
         date: "21.12.2022",
         mainImg: "/images/gallery/211222.webp",
@@ -695,7 +695,7 @@ export const gallery = [
         title: {
             en: "SK Monolith cup competition",
             ru: "Соревнование кубок СК «Монолит»",
-            ua: "Змагання кубок СК «Моноліт»"
+            uk: "Змагання кубок СК «Моноліт»"
         },
         date: "11.12.2022",
         mainImg:  "/images/gallery/111222.webp",
@@ -751,7 +751,7 @@ export const gallery = [
         title: {
             en: "2nd closed cup of \"Sibumi\" club",
             ru: "2й закрытый кубок клуба «Сибуми»",
-            ua: "2й закритий кубок клубу «Сібумі»"
+            uk: "2й закритий кубок клубу «Сібумі»"
         },
         date: "04.12.2022",
         mainImg:  "/images/gallery/041222.webp",
@@ -805,7 +805,7 @@ export const gallery = [
         title: {
             en: "Charity competitions — fundraising for the Armed Forces.Brovary",
             ru: "Благотворительные соревнования – сбор средств для ВСУ. Бровары",
-            ua: "Благодійні змагання — збір коштів для ЗСУ. Бровари"
+            uk: "Благодійні змагання — збір коштів для ЗСУ. Бровари"
         },
         date: "25.06.2022",
         mainImg:   "/images/gallery/250622.webp",
@@ -851,7 +851,7 @@ export const gallery = [
         title: {
             en: "Kumite at Taifu Dojo. Visiting Georgy Dolinin. Brovary",
             ru: "Кумите в «Тайфу доджо». В гостях у Георгия Долинина. Бровары",
-            ua: "Куміте в «Тайфу доджо». В гостях у Георгія Долініна. Бровари",
+            uk: "Куміте в «Тайфу доджо». В гостях у Георгія Долініна. Бровари",
         },
         date: "19.06.2022",
         mainImg: "/images/gallery/190622.webp",
@@ -886,7 +886,7 @@ export const gallery = [
         title: {
             en: "Certification",
             ru: "Аттестация",
-            ua: "Атестація",
+            uk: "Атестація",
         },
         date: "18.06.2022",
         mainImg: "/images/gallery/180622.webp",
@@ -948,7 +948,7 @@ export const gallery = [
         title: {
             en: "4th Cup of Kyiv with kyokushinkai karate in the kata section",
             ru: "4-й кубок Киева с киокушинкой каратэ в разделе ката",
-            ua: "4-й кубок Києва з кіокушинкай карате у розділі ката",
+            uk: "4-й кубок Києва з кіокушинкай карате у розділі ката",
         },
         date: "24.10.2021",
         mainImg: "/images/gallery/241021.webp",
@@ -987,7 +987,7 @@ export const gallery = [
         title: {
             en: "Kumite marathon",
             ru: "Кумите марафон",
-            ua: "Куміте марафон",
+            uk: "Куміте марафон",
         },
         date: "17.10.2021",
         mainImg: "/images/gallery/171021.webp",
@@ -1048,7 +1048,7 @@ export const gallery = [
         title: {
             en: "31st Summer School \"Vinnytsia-2021\"",
             ru: "31-я Летняя школа «Винница-2021»",
-            ua: "31-ша Літня школа «Вінница-2021»",
+            uk: "31-ша Літня школа «Вінница-2021»",
         },
         date: "22.07-25.07.2021",
         mainImg: "/images/gallery/220721.webp",
@@ -1109,7 +1109,7 @@ export const gallery = [
         title: {
             en: "\"Mamuka Dojo 2021\" Cup. Khvyla sanatorium",
             ru: "Кубок «Мамука Доджо 2021». Санаторий Хвыля",
-            ua: "Кубок «Мамука доджо 2021». Санаторій Хвиля",
+            uk: "Кубок «Мамука доджо 2021». Санаторій Хвиля",
         },
         date: "25.04.2021",
         mainImg: "/images/gallery/250421.webp",
@@ -1170,7 +1170,7 @@ export const gallery = [
         title: {
             en: "4 annual educational and training meetings \"Misak dojo\" -  Khvyla 2021",
             ru: "4 ежегодное учебно-тренировочное собрание «Мисак доджо» — Хвыля 2021",
-            ua: "4 щорічні навчально-тренувальні збори «Місак доджо» — Хвиля 2021",
+            uk: "4 щорічні навчально-тренувальні збори «Місак доджо» — Хвиля 2021",
         },
         date: "22-25.04.2021",
         mainImg: "/images/gallery/260421.webp",
@@ -1232,7 +1232,7 @@ export const gallery = [
         title: {
             en: "Kata championship",
             ru: "Чемпионат по ката",
-            ua: "Чемпіонат з ката",
+            uk: "Чемпіонат з ката",
         },
         date: "14.03.2021",
         mainImg: "/images/gallery/140321.webp",
@@ -1270,7 +1270,7 @@ export const gallery = [
         title: {
             en: "Championship \"Way of the Warrior\"",
             ru: "Чемпионат «Путь воина»",
-            ua: "Чемпіонат «Шлях воїна»",
+            uk: "Чемпіонат «Шлях воїна»",
         },
         date: "28.02.2021",
         mainImg: "/images/gallery/280221.webp",
@@ -1330,7 +1330,7 @@ export const gallery = [
         title: {
             en: "The first club tournament \"Misak dojo\" with kumite",
             ru: "Первый клубный турнир «Мисак доджо» по кумите",
-            ua: "Перший клубний турнір «Місак доджо» з куміте",
+            uk: "Перший клубний турнір «Місак доджо» з куміте",
         },
         date: "12.02.2021",
         mainImg: "/images/gallery/120221.webp",
@@ -1391,7 +1391,7 @@ export const gallery = [
         title: {
             en: "III annual meeting of the Misak Dojo - Khvylya 2020",
             ru: "III ежегодное собрание СККК «Мисак доджо» – Хвыля 2020",
-            ua: "III щорічні збори СККК «Місак доджо» – Хвиля 2020",
+            uk: "III щорічні збори СККК «Місак доджо» – Хвиля 2020",
         },
         date: "22-25.10.2020",
         mainImg: "/images/gallery/221020.webp",
@@ -1423,7 +1423,7 @@ export const gallery = [
         title: {
             en: "Kyiv Open Championship",
             ru: "Открытый чемпионат Киева",
-            ua: "Відкритий чемпіонат Києва",
+            uk: "Відкритий чемпіонат Києва",
         },
         date: "20.09.2020",
         mainImg: "/images/gallery/200920.webp",
@@ -1476,7 +1476,7 @@ export const gallery = [
         title: {
             en: "Training in Natalka Park",
             ru: "Тренировка в парке «Наталка»",
-            ua: "Тренування у парку «Наталка»",
+            uk: "Тренування у парку «Наталка»",
         },
         date: "01.08.2020",
         mainImg: "/images/gallery/010820.webp",
@@ -1514,7 +1514,7 @@ export const gallery = [
         title: {
             en: "Halloween celebration 2019",
             ru: "Празднование Хэллоуина 2019",
-            ua: "Святкування Хелловіну 2019",
+            uk: "Святкування Хелловіну 2019",
         },
         date: "30.10.2019",
         mainImg: "/images/gallery/301019.webp",
@@ -1543,7 +1543,7 @@ export const gallery = [
         title: {
             en: "Summer school in Vinnytsia",
             ru: "Летняя школа в Виннице",
-            ua: "Літня школа у Вінниці",
+            uk: "Літня школа у Вінниці",
         },
         date: "12.08.2019",
         mainImg: "/images/gallery/120819.webp",
@@ -1588,7 +1588,7 @@ export const gallery = [
         title: {
             en: "Cherkasy Oblast Cup",
             ru: "Кубок Черкасской области",
-            ua: "Кубок Черкаської області",
+            uk: "Кубок Черкаської області",
         },
         date: "17.05.2019",
         mainImg: "/images/gallery/170519.webp",
@@ -1633,7 +1633,7 @@ export const gallery = [
         title: {
             en: "\"Princess Olga's Cup\" in Irpin",
             ru: "«Кубок Княгини Ольги» в г.Ирпень",
-            ua: "«Кубок Княгині Ольги» у м.Ірпінь",
+            uk: "«Кубок Княгині Ольги» у м.Ірпінь",
         },
         date: "03.05.2019",
         mainImg: "/images/gallery/030519.webp",
@@ -1668,7 +1668,7 @@ export const gallery = [
         title: {
             en: "SC Fighter Cup 2019",
             ru: "Кубок СК Файтер 2019",
-            ua: "Кубок СК Файтер 2019",
+            uk: "Кубок СК Файтер 2019",
         },
         date: "10.03.2019",
         mainImg: "/images/gallery/100319.webp",
@@ -1708,7 +1708,7 @@ export const gallery = [
         title: {
             en: "Photo session of the \"MisakDojo\" team",
             ru: "Фотосессия команды «MisakDojo»",
-            ua: "Фотосесія команди «MisakDojo»",
+            uk: "Фотосесія команди «MisakDojo»",
         },
         date: "17.02.2019",
         mainImg: "/images/gallery/170219.webp",
@@ -1735,7 +1735,7 @@ export const gallery = [
         title: {
             en: "Visiting the dojo of O. Korolev",
             ru: "В гостях у доджо О.Королева",
-            ua: "В гостях у доджо О.Корольова",
+            uk: "В гостях у доджо О.Корольова",
         },
         date: "10.11.2018",
         mainImg: "/images/gallery/101118.webp",
@@ -1766,7 +1766,7 @@ export const gallery = [
         title: {
             en: "Halloween celebration 2018",
             ru: "Празднование Хэллоуина 2018",
-            ua: "Святкування Хелловіну 2018",
+            uk: "Святкування Хелловіну 2018",
         },
         date: "30.10.2018",
         mainImg:  "/images/gallery/301018.webp",
@@ -1811,7 +1811,7 @@ export const gallery = [
         title: {
             en: "Trip to Skole",
             ru: "Поездка в г.Сколе",
-            ua: "Поїздка у м.Сколе",
+            uk: "Поїздка у м.Сколе",
         },
         date: "01.05.2018",
         mainImg:  "/images/gallery/010518.webp",
@@ -1845,7 +1845,7 @@ export const gallery = [
         title: {
             en: "Enerkid 2018 competition",
             ru: "Соревнования Enerkid 2018",
-            ua: "Змагання Enerkid 2018",
+            uk: "Змагання Enerkid 2018",
         },
         date: "21.04.2018",
         mainImg:  "/images/gallery/210418.webp",
@@ -1876,7 +1876,7 @@ export const gallery = [
         title: {
             en: "\"Kyiv Open Cup 2018\" competition",
             ru: "Соревнования «Kyiv Open Cup 2018»",
-            ua: "Змагання «Kyiv Open Cup 2018»",
+            uk: "Змагання «Kyiv Open Cup 2018»",
         },
         date: "26.03.2018",
         mainImg:  "/images/gallery/260318.webp",
@@ -1907,7 +1907,7 @@ export const gallery = [
         title: {
             en: "SC Fighter Cup 2018",
             ru: "Кубок СК Файтер 2018",
-            ua: "Кубок СК Файтер 2018",
+            uk: "Кубок СК Файтер 2018",
         },
         date: "03.03.2018",
         mainImg:  "/images/gallery/030318.webp",
@@ -1925,7 +1925,7 @@ export const gallery = [
         title: {
             en: "Team training",
             ru: "Тренировка команды",
-            ua: "Тренування команди",
+            uk: "Тренування команди",
         },
         date: "10.11.2017",
         mainImg:   "/images/gallery/101117.webp",

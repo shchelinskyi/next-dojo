@@ -112,7 +112,7 @@ const FormTrialSession = () => {
                                 <BootstrapForm.Group className="mb-3" controlId="formBasicComment">
                                     <BootstrapForm.Label
                                         className={s.formLabel}>{t("formTrialComment")}</BootstrapForm.Label>
-                                    <Field type="text" name="comment" as={CustomTextArea}
+                                    <Field name="comment" as={CustomTextArea}
                                            style={{minHeight: "50px"}}
                                            className={s.field}/>
                                     <ErrorMessage name="comment" component={BootstrapForm.Text}
@@ -124,13 +124,13 @@ const FormTrialSession = () => {
                                            onChange={handleCheckboxChange} className={s.checkbox}
                                            name="agree"/>
                                     <span className={s.box}></span>
-                                    <p className={s.checkboxLabel}>
+                                    <div className={s.checkboxLabel}>
                                         <span className={s.footerLabel1}>{t("formFooter1")}</span>
                                         <br className={s.wrap}/>
-                                        <Link className={s.link} href="/privacy-policy" onClick={handleOpenPrivacy}>
+                                        <Link className={s.link} href="/privacy-policy" onClick={handleOpenPrivacy} target="_blank">
                                             <span className={s.footerLabel2}>{t("formFooter2")}</span>
                                         </Link>
-                                    </p>
+                                    </div>
                                 </label>
 
                                 <div className={s.btnBlock}>

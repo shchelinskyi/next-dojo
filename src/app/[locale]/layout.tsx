@@ -38,7 +38,7 @@ export const metadata: Metadata = {
                 alt: 'Dojo',
             },
         ],
-        locale: 'ua',
+        locale: 'uk',
     },
     robots: {
         index: true,

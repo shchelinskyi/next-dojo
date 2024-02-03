@@ -60,7 +60,7 @@ const TeamSection = () => {
                     <p className={s.trainerText}>
                         {t("trainerText2")}
                     </p>
-                    {language === "ua" && <Image className={s.lineHorizontalUA} src={horizontalLine} alt="line"/>}
+                    {language === "uk" && <Image className={s.lineHorizontalUA} src={horizontalLine} alt="line"/>}
                     {language === "en" && <Image className={s.lineHorizontalEN} src={horizontalLine} alt="line"/>}
                     {language === "ru" && <Image className={s.lineHorizontalRU} src={horizontalLine} alt="line"/>}
                 </div>

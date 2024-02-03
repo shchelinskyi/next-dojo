@@ -97,6 +97,7 @@
 
 .btnLabel {
   width: 170px;
+  height: auto;
 }
 
 .spiralImg {
@@ -173,6 +174,8 @@
   @media (max-width: 480px) {
     margin-left: 10px;
     align-self: center;
+    display: flex;
+    justify-content: center;
   }
 }
 

@@ -151,7 +151,7 @@ const TheHeader = ({refData}:TheHeaderProps) => {
     }
 
     return (
-        <>
+        <header>
             <Navbar expand="lg" className={s.wrapper} style={{ backgroundColor }} expanded={isMenuOpen} onToggle={(expanded) => setIsMenuOpen(expanded)}>
                 <Container className={s.container} style={{minWidth: "335px"}}>
                     <Navbar.Brand onClick={() => clickLogo()} style={{cursor: "pointer"}}>
@@ -175,8 +175,8 @@ const TheHeader = ({refData}:TheHeaderProps) => {
                             <Nav.Link className={s.link} onClick={() => {navigateToNews(); setIsMenuOpen(false);}}>{t('news')}</Nav.Link>
                             <Nav.Link className={s.link} onClick={() => {navigateToContacts(); setIsMenuOpen(false);}}>{t('contacts')}</Nav.Link>
                             <div className={s.langToggle}>
-                            <span className={activeLang === 'ua' ? s.activeLang : s.notActiveLang}
-                                  onClick={() => {handleChange('ua'); setIsMenuOpen(false);}}>UA</span>
+                            <span className={activeLang === 'uk' ? s.activeLang : s.notActiveLang}
+                                  onClick={() => {handleChange('uk'); setIsMenuOpen(false);}}>UA</span>
                                 <span className={activeLang === 'en' ? s.activeLang : s.notActiveLang}
                                       onClick={() => {handleChange('en'); setIsMenuOpen(false);}}>ENG</span>
                                 <span className={activeLang === 'ru' ? s.activeLang : s.notActiveLang}
@@ -194,7 +194,7 @@ const TheHeader = ({refData}:TheHeaderProps) => {
                 </Container>
 
             </Navbar>
-        </>
+        </header>
     );
 };
 

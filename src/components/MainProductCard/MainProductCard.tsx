@@ -172,10 +172,10 @@ const MainProductCard: FC<MainProductCardProps> = ({productItem, onClose}) => {
                             {t("buy")}
                         </button>
                         <p className={s.productDescription}>
-                            {productItem.description.ua != "" && <>{t(`description.${currentLanguage}`, (productItem.description as any)[currentLanguage] as string)}</>}
+                            {productItem.description.uk != "" && <>{t(`description.${currentLanguage}`, (productItem.description as any)[currentLanguage] as string)}</>}
                         </p>
                         <p className={s.productComment}>
-                            {productItem.comment.ua != "" && <>{t(`description.${currentLanguage}`, (productItem.comment as any)[currentLanguage] as string)}</>}
+                            {productItem.comment.uk != "" && <>{t(`description.${currentLanguage}`, (productItem.comment as any)[currentLanguage] as string)}</>}
                         </p>
                         <div className={s.additionalData}>
                             {(productItem.category !== "case" && productItem.category !== "support") &&

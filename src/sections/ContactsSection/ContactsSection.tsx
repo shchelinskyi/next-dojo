@@ -75,10 +75,10 @@ const ContactsSection = () => {
                     <div className={s.line}></div>
                     <FormBlock/>
                     <div className={s.logoContainer}>
-                        {language === "ua" && <Image className={s.logo} src={waitUA} alt="logo"/>}
+                        {language === "uk" && <Image className={s.logo} src={waitUA} alt="logo"/>}
                         {language === "ru" && <Image className={s.logo} src={waitRU} alt="logo"/>}
                         {language === "en" && <Image className={s.logo} src={waitEN} alt="logo"/>}
-                        <Image className={s.uaIcon} src={ua} alt="ua"/>
+                        <Image className={s.uaIcon} src={ua} alt="uk"/>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ export const products = [
         title: {
             en: "Misak Dojo t-shirt",
             ru: "Футболка Misak Dojo",
-            ua: "Футболка Misak Dojo"
+            uk: "Футболка Misak Dojo"
         },
         price: 390,
         images: [
@@ -17,7 +17,7 @@ export const products = [
         material: {
             en: "100% cotton",
             ru: "100% хлопок",
-            ua: "100% бавовна"
+            uk: "100% бавовна"
         },
         color: ["white"],
         children: true,
@@ -25,12 +25,12 @@ export const products = [
         description: {
             en: "Misak Dojo school logo on the front, What do you figt for? on the left sleeve and on the back Shinkyokushinkai Karate Misak Dojo.",
             ru: "Впереди логотип школы Misak Dojo, на левом рукаве надпись What do you figt for? и на спине Shinkyokushinkai Karate Misak Dojo.",
-            ua: "Спереду логотип школи Misak Dojo, на лівому рукаві напис What do you figt for? та на спині Shinkyokushinkai Karate Misak Dojo."
+            uk: "Спереду логотип школи Misak Dojo, на лівому рукаві напис What do you figt for? та на спині Shinkyokushinkai Karate Misak Dojo."
         },
         briefDescription: {
             en: "T-shirt with short sleeves and black inserts on the sleeves and collar.",
             ru: "Футболка с короткими рукавами и черными вставками на рукавах и воротнике.",
-            ua: "Футболка з коротким рукавом та чорними вставками на рукавах та комірці."
+            uk: "Футболка з коротким рукавом та чорними вставками на рукавах та комірці."
         },
         model: "",
         producer: "",
@@ -38,7 +38,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -46,7 +46,7 @@ export const products = [
         title: {
             en: "T-shirt Karate shinkyokushinkai",
             ru: "Футболка Karate shinkyokushinkai",
-            ua: "Футболка Karate shinkyokushinkai"
+            uk: "Футболка Karate shinkyokushinkai"
         },
         price: 390,
         images: [
@@ -58,7 +58,7 @@ export const products = [
         material: {
             en: "100% cotton",
             ru: "100% хлопок",
-            ua: "100% бавовна",
+            uk: "100% бавовна",
         },
         color: ["white", "black"],
         children: true,
@@ -66,12 +66,12 @@ export const products = [
         description: {
             en: "The original Shinkyokushinka karate print is on the front. This t-shirt will be relevant in your basic wardrobe at any time of the year.",
             ru: "Спереди оригинальный принт Шинкиокушинка каратэ. Эта футболка будет актуальна в Вашем базовом гардеробе в любое время года.",
-            ua: "Спереду оригінальний принт Шинкіокушинкай карате. Ця футболка буде актуальною у Вашому базовому гардеробі в будь-яку пору року."
+            uk: "Спереду оригінальний принт Шинкіокушинкай карате. Ця футболка буде актуальною у Вашому базовому гардеробі в будь-яку пору року."
         },
         briefDescription: {
             en: "A versatile classic T-shirt with short sleeves. The material is soft, pleasant to the touch and allows the skin to breathe.",
             ru: "Спереди оригинальный принт Шинкиокушинка каратэ. Эта футболка будет актуальна в Вашем базовом гардеробе в любое время года.",
-            ua: "Універсальна класична футболка з коротким рукавом. Матеріал м'який, приємний на дотик і дозволяє шкірі дихати."
+            uk: "Універсальна класична футболка з коротким рукавом. Матеріал м'який, приємний на дотик і дозволяє шкірі дихати."
         },
         model: "",
         producer: "",
@@ -79,7 +79,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -87,7 +87,7 @@ export const products = [
         title: {
             en: "T-shirt Misak Dojo and Kyokushinkai",
             ru: "Футболка Misak Dojo та Kyokushinkai",
-            ua: "Футболка Misak Dojo та Kyokushinkai"
+            uk: "Футболка Misak Dojo та Kyokushinkai"
         },
         price: 500,
         images: [
@@ -99,7 +99,7 @@ export const products = [
         material: {
             en: "100% cotton",
             ru: "100% хлопок",
-            ua: "100% бавовна",
+            uk: "100% бавовна",
         },
         color: ["white", "black"],
         children: true,
@@ -107,12 +107,12 @@ export const products = [
         description: {
             en: "T-shirt with short sleeves. On the front, on the background of the colors of the karate belts, there is the logo of the Misak Dojo school or the inscription Kyokushinkai Karate.",
             ru: "Футболка с коротким рукавом. Впереди на фоне цветов каратэ поясов — логотип школы Misak Dojo или надпись Kyokushinkai Karate.",
-            ua: "Футболка з коротким рукавом. Спереду на фоні кольорів поясів карате — логотип школи Misak Dojo або напис Kyokushinkai Karate."
+            uk: "Футболка з коротким рукавом. Спереду на фоні кольорів поясів карате — логотип школи Misak Dojo або напис Kyokushinkai Karate."
         },
         briefDescription: {
             en: "T-shirt with short sleeves. On the front, on the background of the colors of the karate belts, there is the logo of the Misak Dojo school or the inscription Kyokushinkai Karate.",
             ru: "Футболка с коротким рукавом. Впереди на фоне цветов каратэ поясов — логотип школы Misak Dojo или надпись Kyokushinkai Karate.",
-            ua: "Футболка з коротким рукавом. Спереду на фоні кольорів поясів карате — логотип школи Misak Dojo або напис Kyokushinkai Karate."
+            uk: "Футболка з коротким рукавом. Спереду на фоні кольорів поясів карате — логотип школи Misak Dojo або напис Kyokushinkai Karate."
         },
         model: "",
         producer: "",
@@ -120,7 +120,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -128,7 +128,7 @@ export const products = [
         title: {
             en: "T-shirt with the club's mascot",
             ru: "Футболка с талисманом клуба",
-            ua: "Футболка з талісманом клубу"
+            uk: "Футболка з талісманом клубу"
         },
         price: 600,
         images: [
@@ -139,7 +139,7 @@ export const products = [
         material: {
             en: "100% cotton",
             ru: "100% хлопок",
-            ua: "100% бавовна",
+            uk: "100% бавовна",
         },
         color: ["white"],
         children: true,
@@ -147,12 +147,12 @@ export const products = [
         description: {
             en: "The image of the club mascot is placed in front.",
             ru: "Впереди размещается изображение талисмана клуба.",
-            ua: "Спереду розташовується зображення талісману клубу."
+            uk: "Спереду розташовується зображення талісману клубу."
         },
         briefDescription: {
             en: "A versatile classic T-shirt with short sleeves. The material is soft, pleasant to the touch and allows the skin to breathe.",
             ru: "Универсальная классическая футболка с коротким рукавом. Материал мягкий, приятный на ощупь и позволяет коже дышать.",
-            ua: "Універсальна класична футболка з коротким рукавом. Матеріал м'який, приємний на дотик і дозволяє шкірі дихати."
+            uk: "Універсальна класична футболка з коротким рукавом. Матеріал м'який, приємний на дотик і дозволяє шкірі дихати."
         },
         model: "",
         producer: "",
@@ -160,7 +160,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -168,7 +168,7 @@ export const products = [
         title: {
             en: "Black sweatshirt Just say osu and do it",
             ru: "Черный свитшот Just say osu and do it",
-            ua: "Чорний світшот Just say osu and do it"
+            uk: "Чорний світшот Just say osu and do it"
         },
         price: 1000,
         images: [
@@ -180,7 +180,7 @@ export const products = [
         material: {
             en: "Cotton 98%, Elastane 2%",
             ru: "Котон 98%, Эластан 2%",
-            ua: "Котон 98%, Еластан 2%"
+            uk: "Котон 98%, Еластан 2%"
         },
         color: ["black"],
         children: true,
@@ -188,12 +188,12 @@ export const products = [
         description: {
             en: "With embroidered prints. On the front is the inscription Just say osu and do it, on the back is the inscription Shinkyokushinkai.",
             ru: "С вышитыми принтами. Спереди надпись Just say osu and do it, на спине размещается надпись Шинкиокушинкай.",
-            ua: "З вишитими принтами. Спереду напис Just say osu and do it, на спині розташовується напис Шинкіокушинкай."
+            uk: "З вишитими принтами. Спереду напис Just say osu and do it, на спині розташовується напис Шинкіокушинкай."
         },
         briefDescription: {
             en: "With embroidered prints. On the front is the inscription Just say osu and do it, on the back is the inscription Shinkyokushinkai.",
             ru: "С вышитыми принтами. Спереди надпись Just say osu and do it, на спине размещается надпись Шинкиокушинкай.",
-            ua: "З вишитими принтами. Спереду напис Just say osu and do it, на спині розташовується напис Шинкіокушинкай."
+            uk: "З вишитими принтами. Спереду напис Just say osu and do it, на спині розташовується напис Шинкіокушинкай."
         },
         model: "",
         producer: "",
@@ -201,7 +201,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -209,7 +209,7 @@ export const products = [
         title: {
             en: "Backpack bag with Misak Dojo club logo",
             ru: "Рюкзак-мешок с логотипом клуба Misak Dojo",
-            ua: "Рюкзак-мішок з логотипом клубу Misak Dojo",
+            uk: "Рюкзак-мішок з логотипом клубу Misak Dojo",
         },
         price: 350,
         images: [
@@ -220,7 +220,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер",
+            uk: "поліестер",
         },
         color: ["red", "black"],
         children: true,
@@ -228,12 +228,12 @@ export const products = [
         description: {
             en: "A backpack for shoes is an incredibly useful bag in which you can carry a change of shoes to the office, school, kindergarten, and for training. Size: 26-36 cm.",
             ru: "Рюкзак для обуви – невероятно полезная сумка, в которой вы можете переносить сменную обувь как в офис, школу, детский сад, так и на тренировку. Размер: 26-36 см.",
-            ua: "Рюкзак для взуття — неймовірно корисна сумка, в якій ви можете переносити змінне взуття як в офіс, школу, дитячий садок, так і на тренування. Розмір: 26-36 см.",
+            uk: "Рюкзак для взуття — неймовірно корисна сумка, в якій ви можете переносити змінне взуття як в офіс, школу, дитячий садок, так і на тренування. Розмір: 26-36 см.",
         },
         briefDescription: {
             en: "A backpack for shoes is an incredibly useful bag in which you can carry a change of shoes to the office, school, kindergarten, and for training.",
             ru: "Рюкзак для обуви – невероятно полезная сумка, в которой вы можете переносить сменную обувь как в офис, школу, детский сад, так и на тренировку.",
-            ua: "Рюкзак для взуття — неймовірно корисна сумка, в якій ви можете переносити змінне взуття як в офіс, школу, дитячий садок, так і на тренування.",
+            uk: "Рюкзак для взуття — неймовірно корисна сумка, в якій ви можете переносити змінне взуття як в офіс, школу, дитячий садок, так і на тренування.",
         },
         model: "",
         producer: "",
@@ -241,7 +241,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -249,7 +249,7 @@ export const products = [
         title: {
             en: "Shinkyokushinkoy backpack What do you fight for? | CAMPING BACKPACK",
             ru: "Рюкзак шинкиокушинкой What do you fight for? | CAMPING BACKPACK",
-            ua: "Рюкзак шинкіокушинкай What do you fight for? | CAMPING BACKPACK"
+            uk: "Рюкзак шинкіокушинкай What do you fight for? | CAMPING BACKPACK"
         },
         price: 1000,
         images: [
@@ -260,7 +260,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["black"],
         children: true,
@@ -282,7 +282,7 @@ export const products = [
                 "Подкладка: 100% полиэстер.\n" +
                 "Нашивка и пулер из натуральной кожи.\n" +
                 "Уплотненное дно из очень крепкого полиэстера. Объем: 26 л. Размер: 44-27-15 см.",
-            ua: "Ви зможете взяти з собою особисті речі, ноутбук, планшет, документи та розмістити їх всередині рюкзака максимально ергономічно.\n" +
+            uk: "Ви зможете взяти з собою особисті речі, ноутбук, планшет, документи та розмістити їх всередині рюкзака максимально ергономічно.\n" +
                 "Зовнішній матеріал: міцний водонепроникний поліестер.\n" +
                 "Основне відділення, горловина якого регулюється шнуром, закривається клапаном на застібках.\n" +
                 "3 кишені: відділення для ноутбука діагоналлю до 15.6 дюймів всередині, велика накладна кишеня на блискавці спереду, і ще одна кишеня на блискавці розташована на клапані рюкзака.\n" +
@@ -294,7 +294,7 @@ export const products = [
         briefDescription: {
             en: "Universal and reliable backpack, ideal for everyday use.",
             ru: "Универсальный и надежный рюкзак, идеально подходящий для повседневного использования.",
-            ua: "Універсальний і надійний рюкзак, що ідеально підходить для повсякденного використання."
+            uk: "Універсальний і надійний рюкзак, що ідеально підходить для повсякденного використання."
         },
         model: "CAMPING BACKPACK",
         producer: "",
@@ -302,7 +302,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -310,7 +310,7 @@ export const products = [
         title: {
             en: "Shinkyokushinkoy backpack What do you fight for? | Rolltop",
             ru: "Рюкзак шинкиокушинкой What do you fight for? | Rolltop",
-            ua: "Рюкзак шинкіокушинкай What do you fight for? | Rolltop"
+            uk: "Рюкзак шинкіокушинкай What do you fight for? | Rolltop"
         },
         price: 1000,
         images: [
@@ -321,7 +321,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["black"],
         children: true,
@@ -339,7 +339,7 @@ export const products = [
                 "Плотный полиэстер, из которого изготовлен рюкзак, делает его водонепроницаемым и устойчивым к перепадам температуры.\n" +
                 "Внутри основного отделения карман для ноутбука диагональю до 15.6 дюймов. Спереди накладной карман на молнии для мелочей. Вы можете взять с собой личные вещи, ноутбук, планшет, документы и расположить их снутри рюкзака очень эргономично.\n" +
                 "Надежный и трендовый аксессуар, идеально подходящий для повседневного использования. Объем: 25(30) л. Размер: 42(60)-28-14 см.",
-            ua: "Унікальна застібка основної кишені затягується ззаду, завдяки чому стропа щільно прилягає до рюкзака та не стукає при ходьбі або під час бігу!\n" +
+            uk: "Унікальна застібка основної кишені затягується ззаду, завдяки чому стропа щільно прилягає до рюкзака та не стукає при ходьбі або під час бігу!\n" +
                 "Анатомічні м'які ручки прошиті спеціальною 3D сіткою Air Mesh, що дозволить зручно носити рюкзак.\n" +
                 "Спинка рюкзака також оснащена 3D сіткою Air Mesh, яка відповідає за циркуляцію повітря для більшого комфорту та зручності.\n" +
                 "Щільний поліестер, з якого виготовлено рюкзак, робить його водонепроникним та стійким до перепадів температури.\n" +
@@ -349,7 +349,7 @@ export const products = [
         briefDescription: {
             en: "A convenient model of a rolltop backpack will come in handy both in the city and outside of it.",
             ru: "Удобная модель рюкзака типа роллтоп пригодится как в городе, так и за его пределами.",
-            ua: "Зручна модель рюкзака типу роллтоп стане в нагоді як у місті, так і за його межами."
+            uk: "Зручна модель рюкзака типу роллтоп стане в нагоді як у місті, так і за його межами."
         },
         model: "Rolltop",
         producer: "",
@@ -357,7 +357,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -365,7 +365,7 @@ export const products = [
         title: {
             en: "Kimono with the symbols of the Misak Dojo karate school",
             ru: "Кимоно с символикой школы каратэ Misak Dojo",
-            ua: "Кімоно з символікою школи карате Misak Dojo"
+            uk: "Кімоно з символікою школи карате Misak Dojo"
         },
         price: 850,
         images: [
@@ -376,7 +376,7 @@ export const products = [
         material: {
             en: "100% cotton",
             ru: "100% хлопок",
-            ua: "100% бавовна",
+            uk: "100% бавовна",
         },
         color: ["white"],
         children: true,
@@ -384,12 +384,12 @@ export const products = [
         description: {
             en: "The kimono meets all the requirements for participation in Ukrainian and international competitions.",
             ru: "Кимоно отвечает всем требованиям для участия в украинских и международных соревнованиях.",
-            ua: "Кімоно відповідає всім вимогам для участі в українських і міжнародних змаганнях."
+            uk: "Кімоно відповідає всім вимогам для участі в українських і міжнародних змаганнях."
         },
         briefDescription: {
             en: "Kimono for Shinkyokushinkai karate classes with Misak Dojo club emblem. White color.",
             ru: "Кимоно для занятий Шинкиокушинкой каратэ с клубной эмблемой Misak Dojo. Белый цвет.",
-            ua: "Кімоно для занять Шинкіокушинкай карате з клубною емблемою Misak Dojo. Білого кольору."
+            uk: "Кімоно для занять Шинкіокушинкай карате з клубною емблемою Misak Dojo. Білого кольору."
         },
         model: "",
         producer: "Ukraine",
@@ -397,7 +397,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -405,7 +405,7 @@ export const products = [
         title: {
             en: "Color belt for kimono Shinkyokushikai karate",
             ru: "Цветной пояс для кимоно Шинкиокушикай каратэ",
-            ua: "Кольоровий пояс для кімоно Шинкіокушикай карате"
+            uk: "Кольоровий пояс для кімоно Шинкіокушикай карате"
         },
         price: 150,
         images: [
@@ -416,7 +416,7 @@ export const products = [
         material: {
             en: "100% cotton",
             ru: "100% хлопок",
-            ua: "100% бавовна",
+            uk: "100% бавовна",
         },
         color: ["white", "black", "orange", "yellow", "green", "brown", "blue"],
         children: true,
@@ -424,12 +424,12 @@ export const products = [
         description: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         briefDescription: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         model: "",
         producer: "Ukraine",
@@ -437,7 +437,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -445,7 +445,7 @@ export const products = [
         title: {
             en: "Name belt Shinkyokushinkai karate",
             ru: "Именный пояс Шинкиокушинкай каратэ",
-            ua: "Іменний пояс Шинкіокушинкай карате"
+            uk: "Іменний пояс Шинкіокушинкай карате"
         },
         price: 500,
         images: [
@@ -456,7 +456,7 @@ export const products = [
         material: {
             en: "100% cotton",
             ru: "100% хлопок",
-            ua: "100% бавовна",
+            uk: "100% бавовна",
         },
         color: ["white", "black", "orange", "yellow", "green", "brown", "blue"],
         children: true,
@@ -464,12 +464,12 @@ export const products = [
         description: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         briefDescription: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         model: "",
         producer: "Ukraine",
@@ -477,7 +477,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -485,7 +485,7 @@ export const products = [
         title: {
             en: "A phone case with a shinkyokushinka logo",
             ru: "Чехол для телефона с логотипом шинкиокушинкой",
-            ua: "Чохол для телефону з логотипом шинкіокушинкай"
+            uk: "Чохол для телефону з логотипом шинкіокушинкай"
         },
         price: 300,
         images: [
@@ -496,7 +496,7 @@ export const products = [
         material: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         color: ["black"],
         children: true,
@@ -504,12 +504,12 @@ export const products = [
         description: {
             en: "Emphasizes the individuality of the phone and protects it from dust and scratches.",
             ru: "Подчеркивает индивидуальность телефона и защищает его от пыли и царапин.",
-            ua: "Підкреслює індивідуальність телефону та захищає його від пилу та подряпин."
+            uk: "Підкреслює індивідуальність телефону та захищає його від пилу та подряпин."
         },
         briefDescription: {
             en: "A black phone case with a ham logo and the inscription \"A thousand days of training - the beginning of a military path.\"",
             ru: "Черный чехол для телефона с логотипом окорока и надписью «Тысяча дней тренировок — начало воинскому пути».",
-            ua: "Чорний чохол для телефону з логотипом шинкіокушинкай та написом «Тисяча днів тренувань — початок воїнському шляху»."
+            uk: "Чорний чохол для телефону з логотипом шинкіокушинкай та написом «Тисяча днів тренувань — початок воїнському шляху»."
         },
         model: "",
         producer: "Ukraine",
@@ -517,7 +517,7 @@ export const products = [
         comment: {
             en: "We can make it for any model. When ordering, specify in the comments which phone model you need a case for.",
             ru: "Можем изготовить на любую модель. При заказе укажите в комментариях на какую модель телефона нужен чехол.",
-            ua: "Можемо виготовити на будь-яку модель. При замовленні, вкажіть в коментарях на яку модель телефону потрібен чохол."
+            uk: "Можемо виготовити на будь-яку модель. При замовленні, вкажіть в коментарях на яку модель телефону потрібен чохол."
         }
     },
     {
@@ -525,7 +525,7 @@ export const products = [
         title: {
             en: "Phone case \"Absolute Truth\"",
             ru: "Чехол для телефона «Абсолютная истина»",
-            ua: "Чохол для телефону «Абсолютна істина»"
+            uk: "Чохол для телефону «Абсолютна істина»"
         },
         price: 300,
         images: [
@@ -536,7 +536,7 @@ export const products = [
         material: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         color: ["black"],
         children: true,
@@ -544,12 +544,12 @@ export const products = [
         description: {
             en: "Emphasizes the individuality of the phone and protects it from dust and scratches.",
             ru: "Подчеркивает индивидуальность телефона и защищает его от пыли и царапин.",
-            ua: "Підкреслює індивідуальність телефону та захищає його від пилу та подряпин."
+            uk: "Підкреслює індивідуальність телефону та захищає його від пилу та подряпин."
         },
         briefDescription: {
             en: "Black phone case with \"Absolute Truth\" print",
             ru: "Черный чехол для телефона с принтом «Абсолютная истина»",
-            ua: "Чорний чохол для телефону з принтом «Абсолютна істина»"
+            uk: "Чорний чохол для телефону з принтом «Абсолютна істина»"
         },
         model: "",
         producer: "Ukraine",
@@ -557,7 +557,7 @@ export const products = [
         comment: {
             en: "We can make it for any model. When ordering, specify in the comments which phone model you need a case for.",
             ru: "Можем изготовить на любую модель. При заказе укажите в комментариях на какую модель телефона нужен чехол.",
-            ua: "Можемо виготовити на будь-яку модель. При замовленні, вкажіть в коментарях на яку модель телефону потрібен чохол."
+            uk: "Можемо виготовити на будь-яку модель. При замовленні, вкажіть в коментарях на яку модель телефону потрібен чохол."
         }
     },
     {
@@ -565,7 +565,7 @@ export const products = [
         title: {
             en: "Phone case \"A thousand days of training - the beginning of a warrior's path\"",
             ru: "Чехол для телефона «Тысяча дней тренировок – начало воинскому пути»",
-            ua: "Чохол для телефону «Тисяча днів тренувань — початок воїнському шляху»"
+            uk: "Чохол для телефону «Тисяча днів тренувань — початок воїнському шляху»"
         },
         price: 300,
         images: [
@@ -576,7 +576,7 @@ export const products = [
         material: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         color: ["black"],
         children: true,
@@ -584,12 +584,12 @@ export const products = [
         description: {
             en: "Emphasizes the individuality of the phone and protects it from dust and scratches.",
             ru: "Подчеркивает индивидуальность телефона и защищает его от пыли и царапин.",
-            ua: "Підкреслює індивідуальність телефону та захищає його від пилу та подряпин."
+            uk: "Підкреслює індивідуальність телефону та захищає його від пилу та подряпин."
         },
         briefDescription: {
             en: "Black phone case with the print \"A thousand days of training - the beginning of the warrior's path\".",
             ru: "Черный чехол для телефона с принтом «Тысяча дней тренировок – начало воинскому пути».",
-            ua: "Чорний чохол для телефону з принтом «Тисяча днів тренувань — початок воїнському шляху»."
+            uk: "Чорний чохол для телефону з принтом «Тисяча днів тренувань — початок воїнському шляху»."
         },
         model: "",
         producer: "Ukraine",
@@ -597,7 +597,7 @@ export const products = [
         comment: {
             en: "We can make it for any model. When ordering, specify in the comments which phone model you need a case for.",
             ru: "Можем изготовить на любую модель. При заказе укажите в комментариях на какую модель телефона нужен чехол.",
-            ua: "Можемо виготовити на будь-яку модель. При замовленні, вкажіть в коментарях на яку модель телефону потрібен чохол."
+            uk: "Можемо виготовити на будь-яку модель. При замовленні, вкажіть в коментарях на яку модель телефону потрібен чохол."
         }
     },
     {
@@ -605,7 +605,7 @@ export const products = [
         title: {
             en: "Leather gloves (Shinkyokushinkai)",
             ru: "Перчатки кожаные (Шинкиокушинкой)",
-            ua: "Рукавиці шкіряні (Шинкіокушинкай)"
+            uk: "Рукавиці шкіряні (Шинкіокушинкай)"
         },
         price: 490,
         images: [
@@ -616,7 +616,7 @@ export const products = [
         material: {
             en: "leather",
             ru: "кожа",
-            ua: "шкіра",
+            uk: "шкіра",
         },
         color: ["black"],
         children: true,
@@ -624,12 +624,12 @@ export const products = [
         description: {
             en: "Gloves for training in pairs and working on shells.",
             ru: "Перчатки для тренировок в парах и работы на снарядах.",
-            ua: "Рукавиці для тренувань в парах та роботи на снарядах."
+            uk: "Рукавиці для тренувань в парах та роботи на снарядах."
         },
         briefDescription: {
             en: "Gloves for training in pairs and working on shells",
             ru: "Перчатки для тренировок в парах и работы на снарядах",
-            ua: "Рукавиці для тренувань в парах та роботи на снарядах"
+            uk: "Рукавиці для тренувань в парах та роботи на снарядах"
         },
         model: "",
         producer: "Ukraine",
@@ -637,7 +637,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -645,7 +645,7 @@ export const products = [
         title: {
             en: "Leather gloves (Shinkyokushinkai)",
             ru: "Перчатки кожаные (Шинкиокушинкой)",
-            ua: "Рукавиці шкіряні (Шинкіокушинкай)"
+            uk: "Рукавиці шкіряні (Шинкіокушинкай)"
         },
         price: 490,
         images: [
@@ -656,7 +656,7 @@ export const products = [
         material: {
             en: "leather",
             ru: "кожа",
-            ua: "шкіра",
+            uk: "шкіра",
         },
         color: ["white"],
         children: true,
@@ -664,12 +664,12 @@ export const products = [
         description: {
             en: "Gloves for training in pairs and working on shells.",
             ru: "Перчатки для тренировок в парах и работы на снарядах.",
-            ua: "Рукавиці для тренувань в парах та роботи на снарядах."
+            uk: "Рукавиці для тренувань в парах та роботи на снарядах."
         },
         briefDescription: {
             en: "Gloves for training in pairs and working on shells",
             ru: "Перчатки для тренировок в парах и работы на снарядах",
-            ua: "Рукавиці для тренувань в парах та роботи на снарядах"
+            uk: "Рукавиці для тренувань в парах та роботи на снарядах"
         },
         model: "",
         producer: "Ukraine",
@@ -677,7 +677,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -685,7 +685,7 @@ export const products = [
         title: {
             en: "Gloves (stocking)",
             ru: "Перчатки (чулок)",
-            ua: "Рукавиці (панчоха)"
+            uk: "Рукавиці (панчоха)"
         },
         price: 190,
         images: [
@@ -696,7 +696,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["white"],
         children: true,
@@ -704,12 +704,12 @@ export const products = [
         description: {
             en: "Gloves for training in pairs and working on shells.",
             ru: "Перчатки для тренировок в парах и работы на снарядах.",
-            ua: "Рукавиці для тренувань в парах та роботи на снарядах."
+            uk: "Рукавиці для тренувань в парах та роботи на снарядах."
         },
         briefDescription: {
             en: "Gloves for training in pairs and working on shells",
             ru: "Перчатки для тренировок в парах и работы на снарядах",
-            ua: "Рукавиці для тренувань в парах та роботи на снарядах"
+            uk: "Рукавиці для тренувань в парах та роботи на снарядах"
         },
         model: "",
         producer: "Ukraine",
@@ -717,7 +717,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -725,7 +725,7 @@ export const products = [
         title: {
             en: "Breast protector",
             ru: "Протектор груди",
-            ua: "Протектор грудей"
+            uk: "Протектор грудей"
         },
         price: 490,
         images: [
@@ -736,7 +736,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["white"],
         children: true,
@@ -744,12 +744,12 @@ export const products = [
         description: {
             en: "Chest protector with cups for work in sparring. Fixed with elastic straps and Velcro.",
             ru: "Протектор груди с чашками для работы в спарринге. Фиксируется с помощью эластичных ремней и липучки.",
-            ua: "Протектор грудей з чашками для роботи в спарингу. Фіксується за допомогою еластичних ремнів та липучки."
+            uk: "Протектор грудей з чашками для роботи в спарингу. Фіксується за допомогою еластичних ремнів та липучки."
         },
         briefDescription: {
             en: "Chest protector with cups for work in sparring. Fixed with elastic straps and Velcro",
             ru: "Протектор груди с чашками для работы в спарринге. Фиксируется с помощью эластичных ремней и липучки",
-            ua: "Протектор грудей з чашками для роботи в спарингу. Фіксується за допомогою еластичних ремнів та липучки"
+            uk: "Протектор грудей з чашками для роботи в спарингу. Фіксується за допомогою еластичних ремнів та липучки"
         },
         model: "",
         producer: "Ukraine",
@@ -757,7 +757,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -766,7 +766,7 @@ export const products = [
             en: "Children's chest protector (Kyokushinkai)\n" +
                 "\n",
             ru: "Протектор груди детский (Киокушинкай)",
-            ua: "Протектор грудей дитячий (Кіокушинкай)"
+            uk: "Протектор грудей дитячий (Кіокушинкай)"
         },
         price: 250,
         images: [
@@ -777,7 +777,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["white"],
         children: true,
@@ -785,12 +785,12 @@ export const products = [
         description: {
             en: "Breastplate for shock absorption during sparring. The children's model is fixed with elastic straps and Velcro.",
             ru: "Нагрудник для амортизации ударов во время спарринга. Модель для детей фиксируется с помощью эластичных ремней и липучки.",
-            ua: "Нагрудник для амортизації ударів під час спарингів. Модель для дітей, фіксується за допомогою еластичних ремнів та липучки."
+            uk: "Нагрудник для амортизації ударів під час спарингів. Модель для дітей, фіксується за допомогою еластичних ремнів та липучки."
         },
         briefDescription: {
             en: "Breastplate for shock absorption during sparring. The children's model is fixed with elastic straps and Velcro",
             ru: "Нагрудник для амортизации ударов во время спарринга. Модель для детей фиксируется с помощью эластичных ремней и липучки",
-            ua: "Нагрудник для амортизації ударів під час спарингів. Модель для дітей, фіксується за допомогою еластичних ремнів та липучки"
+            uk: "Нагрудник для амортизації ударів під час спарингів. Модель для дітей, фіксується за допомогою еластичних ремнів та липучки"
         },
         model: "",
         producer: "Ukraine",
@@ -798,7 +798,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -807,7 +807,7 @@ export const products = [
             en: "Children's chest protector (Shinkyokushinkai)\n" +
                 "\n",
             ru: "Протектор груди детский (Шинкиокушинкай)",
-            ua: "Протектор грудей дитячий (Шинкіокушинкай)"
+            uk: "Протектор грудей дитячий (Шинкіокушинкай)"
         },
         price: 250,
         images: [
@@ -818,7 +818,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["white"],
         children: true,
@@ -826,12 +826,12 @@ export const products = [
         description: {
             en: "Breastplate for shock absorption during sparring. The children's model is fixed with elastic straps and Velcro.",
             ru: "Нагрудник для амортизации ударов во время спарринга. Модель для детей фиксируется с помощью эластичных ремней и липучки.",
-            ua: "Нагрудник для амортизації ударів під час спарингів. Модель для дітей, фіксується за допомогою еластичних ремнів та липучки."
+            uk: "Нагрудник для амортизації ударів під час спарингів. Модель для дітей, фіксується за допомогою еластичних ремнів та липучки."
         },
         briefDescription: {
             en: "Breastplate for shock absorption during sparring. The children's model is fixed with elastic straps and Velcro",
             ru: "Нагрудник для амортизации ударов во время спарринга. Модель для детей фиксируется с помощью эластичных ремней и липучки",
-            ua: "Нагрудник для амортизації ударів під час спарингів. Модель для дітей, фіксується за допомогою еластичних ремнів та липучки"
+            uk: "Нагрудник для амортизації ударів під час спарингів. Модель для дітей, фіксується за допомогою еластичних ремнів та липучки"
         },
         model: "",
         producer: "Ukraine",
@@ -839,7 +839,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -847,7 +847,7 @@ export const products = [
         title: {
             en: "Chest protector",
             ru: "Протектор груди",
-            ua: "Протектор грудей"
+            uk: "Протектор грудей"
         },
         price: 650,
         images: [
@@ -858,7 +858,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["white"],
         children: true,
@@ -866,12 +866,12 @@ export const products = [
         description: {
             en: "Chest protector, in the form of a top, for work in sparring.",
             ru: "Протектор груди в виде топа для работы в спарринге.",
-            ua: "Протектор грудей, у вигляді топу, для роботи в спарингу."
+            uk: "Протектор грудей, у вигляді топу, для роботи в спарингу."
         },
         briefDescription: {
             en: "Chest protector, in the form of a top, for work in sparring",
             ru: "Протектор груди в виде топа для работы в спарринге",
-            ua: "Протектор грудей, у вигляді топу, для роботи в спарингу"
+            uk: "Протектор грудей, у вигляді топу, для роботи в спарингу"
         },
         model: "",
         producer: "Ukraine",
@@ -879,7 +879,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -887,7 +887,7 @@ export const products = [
         title: {
             en: "Shin protector (stocking)",
             ru: "Протектор голени (чулок)",
-            ua: "Протектор гомілки (панчоха)"
+            uk: "Протектор гомілки (панчоха)"
         },
         price: 240,
         images: [
@@ -898,7 +898,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["white"],
         children: true,
@@ -906,12 +906,12 @@ export const products = [
         description: {
             en: "Leg and leg protection, with foam base.",
             ru: "Защита голени и подъема ноги, с поролоновым основанием.",
-            ua: "Захист гомілки та підйому ноги, з поролоновою основою."
+            uk: "Захист гомілки та підйому ноги, з поролоновою основою."
         },
         briefDescription: {
             en: "Leg and leg protection, with foam base",
             ru: "Защита голени и подъема ноги, с поролоновым основанием",
-            ua: "Захист гомілки та підйому ноги, з поролоновою основою"
+            uk: "Захист гомілки та підйому ноги, з поролоновою основою"
         },
         model: "",
         producer: "",
@@ -919,7 +919,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -927,7 +927,7 @@ export const products = [
         title: {
             en: "Reinforced shin protector (Kyokushinkai)",
             ru: "Протектор голени усиленный (Киокушинкай)",
-            ua: "Протектор гомілки посилений (Кіокушинкай)"
+            uk: "Протектор гомілки посилений (Кіокушинкай)"
         },
         price: 320,
         images: [
@@ -938,7 +938,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["white"],
         children: true,
@@ -946,12 +946,12 @@ export const products = [
         description: {
             en: "Reinforced shin and rise protection. Velcro fastening.",
             ru: "Защита голени и подъема усиленного типа. Крепление на липучке.",
-            ua: "Захист гомілки та підйому, посиленого типу. Кріплення на липучку."
+            uk: "Захист гомілки та підйому, посиленого типу. Кріплення на липучку."
         },
         briefDescription: {
             en: "Reinforced shin and rise protection",
             ru: "Защита голени и подъема, усиленного типа",
-            ua: "Захист гомілки та підйому, посиленого типу"
+            uk: "Захист гомілки та підйому, посиленого типу"
         },
         model: "",
         producer: "",
@@ -959,7 +959,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -967,7 +967,7 @@ export const products = [
         title: {
             en: "Groin protector (men's)",
             ru: "Протектор паха (муж.)",
-            ua: "Протектор паху (чол.)"
+            uk: "Протектор паху (чол.)"
         },
         price: 190,
         images: [
@@ -978,7 +978,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["white"],
         children: true,
@@ -986,12 +986,12 @@ export const products = [
         description: {
             en: "Protection against groin strikes.",
             ru: "Защита от ударов в пах.",
-            ua: "Захист від ударів в пах."
+            uk: "Захист від ударів в пах."
         },
         briefDescription: {
             en: "Protection against groin strikes",
             ru: "Защита от ударов в пах",
-            ua: "Захист від ударів в пах"
+            uk: "Захист від ударів в пах"
         },
         model: "",
         producer: "",
@@ -999,7 +999,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -1007,7 +1007,7 @@ export const products = [
         title: {
             en: "Groin protector (women's)",
             ru: "Протектор паха (жен.)",
-            ua: "Протектор паху (жін.)"
+            uk: "Протектор паху (жін.)"
         },
         price: 250,
         images: [
@@ -1018,7 +1018,7 @@ export const products = [
         material: {
             en: "polyester",
             ru: "полиэстер",
-            ua: "поліестер"
+            uk: "поліестер"
         },
         color: ["white"],
         children: true,
@@ -1026,12 +1026,12 @@ export const products = [
         description: {
             en: "Protection against groin strikes.",
             ru: "Защита от ударов в пах.",
-            ua: "Захист від ударів в пах."
+            uk: "Захист від ударів в пах."
         },
         briefDescription: {
             en: "Protection against groin strikes",
             ru: "Защита от ударов в пах",
-            ua: "Захист від ударів в пах"
+            uk: "Захист від ударів в пах"
         },
         model: "",
         producer: "",
@@ -1039,7 +1039,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -1047,7 +1047,7 @@ export const products = [
         title: {
             en: "Sholom with a visor",
             ru: "Шлем с забралом",
-            ua: "Шолом з забралом"
+            uk: "Шолом з забралом"
         },
         price: 900,
         images: [
@@ -1058,7 +1058,7 @@ export const products = [
         material: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         color: ["blue"],
         children: true,
@@ -1066,12 +1066,12 @@ export const products = [
         description: {
             en: "Helmet with removable metal visor at the front to provide maximum face protection from impacts.",
             ru: "Шлем со съемным металлическим забралом спереди для обеспечения максимальной защиты лица от ударов.",
-            ua: "Шолом зі знімним металевим забралом спереду, для забезпечення максимального захисту обличчя від ударів."
+            uk: "Шолом зі знімним металевим забралом спереду, для забезпечення максимального захисту обличчя від ударів."
         },
         briefDescription: {
             en: "Helmet with a removable metal visor in front to ensure maximum protection of the face from impacts.",
             ru: "Шлем со съемным металлическим забралом спереди для обеспечения максимальной защиты лица от ударов.",
-            ua: "Шолом зі знімним металевим забралом спереду, для забезпечення максимального захисту обличчя від ударів"
+            uk: "Шолом зі знімним металевим забралом спереду, для забезпечення максимального захисту обличчя від ударів"
         },
         model: "",
         producer: "",
@@ -1079,7 +1079,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -1087,7 +1087,7 @@ export const products = [
         title: {
             en: "Misak Dojo cup",
             ru: "Чашка Misak Dojo",
-            ua: "Чашка Misak Dojo"
+            uk: "Чашка Misak Dojo"
         },
         price: 350,
         images: [
@@ -1099,7 +1099,7 @@ export const products = [
         material: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         color: ["white"],
         children: true,
@@ -1107,12 +1107,12 @@ export const products = [
         description: {
             en: "White, ceramic cup with Misak Dojo logo and club mascot. Diameter: 8.2 cm, height 9.5 cm.",
             ru: "Белая, керамическая чашка с логотипом Misak Dojo и клуб талисмана. Диаметр: 8,2см, высота 9,5см.",
-            ua: "Біла, керамічна чашка з логотипом Misak Dojo та талісманом клубу. Діаметр: 8,2 см, висота 9,5 см."
+            uk: "Біла, керамічна чашка з логотипом Misak Dojo та талісманом клубу. Діаметр: 8,2 см, висота 9,5 см."
         },
         briefDescription: {
             en: "White, ceramic cup with Misak Dojo logo and club mascot. Diameter: 8.2 cm, height 9.5 cm.",
             ru: "Белая, керамическая чашка с логотипом Misak Dojo и клуб талисмана. Диаметр: 8,2см, высота 9,5см.",
-            ua: "Біла, керамічна чашка з логотипом Misak Dojo та талісманом клубу. Діаметр: 8,2 см, висота 9,5 см."
+            uk: "Біла, керамічна чашка з логотипом Misak Dojo та талісманом клубу. Діаметр: 8,2 см, висота 9,5 см."
         },
         model: "",
         producer: "",
@@ -1120,7 +1120,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -1128,7 +1128,7 @@ export const products = [
         title: {
             en: "Support us",
             ru: "Поддержите нас",
-            ua: "Підтримайте нас"
+            uk: "Підтримайте нас"
         },
         price: 50,
         images: [
@@ -1139,7 +1139,7 @@ export const products = [
         material: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         color: [],
         children: true,
@@ -1159,7 +1159,7 @@ export const products = [
                 "Наша команда очень благодарна за любую поддержку! Присоединяйтесь к нашему спортивному клубу и развивайте силу и дух настоящего воина!\n" +
                 "\n" +
                 "Осу!",
-            ua: "Ви можете підтримати наш спортивний клуб. Всі отримані кошти підуть на покращення Доджо, поновлення спортивного інвентарю для учнів та розвиток клубу «MisakDojo».\n" +
+            uk: "Ви можете підтримати наш спортивний клуб. Всі отримані кошти підуть на покращення Доджо, поновлення спортивного інвентарю для учнів та розвиток клубу «MisakDojo».\n" +
                 "\n" +
                 "Ви можете придбати речі з нашого магазину або ж надіслати бажану суму на рахунок нашого тренера — Місак Арзуманян Алексанович.\n" +
                 "\n" +
@@ -1170,7 +1170,7 @@ export const products = [
         briefDescription: {
             en: "You can support our sports club, and all funds received will go to improve the Dojo and develop the team",
             ru: "Вы можете поддержать наш спортивный клуб, а все полученные средства пойдут на улучшение Доджо и развитие команды",
-            ua: "Ви можете підтримати наш спортивний клуб, а всі отримані кошти підуть на покращення Доджо та розвиток команди"
+            uk: "Ви можете підтримати наш спортивний клуб, а всі отримані кошти підуть на покращення Доджо та розвиток команди"
         },
         model: "",
         producer: "",
@@ -1178,7 +1178,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -1186,7 +1186,7 @@ export const products = [
         title: {
             en: "Support us",
             ru: "Поддержите нас",
-            ua: "Підтримайте нас"
+            uk: "Підтримайте нас"
         },
         price: 100,
         images: [
@@ -1197,7 +1197,7 @@ export const products = [
         material: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         color: [],
         children: true,
@@ -1217,7 +1217,7 @@ export const products = [
                 "Наша команда очень благодарна за любую поддержку! Присоединяйтесь к нашему спортивному клубу и развивайте силу и дух настоящего воина!\n" +
                 "\n" +
                 "Осу!",
-            ua: "Ви можете підтримати наш спортивний клуб. Всі отримані кошти підуть на покращення Доджо, поновлення спортивного інвентарю для учнів та розвиток клубу «MisakDojo».\n" +
+            uk: "Ви можете підтримати наш спортивний клуб. Всі отримані кошти підуть на покращення Доджо, поновлення спортивного інвентарю для учнів та розвиток клубу «MisakDojo».\n" +
                 "\n" +
                 "Ви можете придбати речі з нашого магазину або ж надіслати бажану суму на рахунок нашого тренера — Місак Арзуманян Алексанович.\n" +
                 "\n" +
@@ -1228,7 +1228,7 @@ export const products = [
         briefDescription: {
             en: "You can support our sports club, and all funds received will go to improve the Dojo and develop the team",
             ru: "Вы можете поддержать наш спортивный клуб, а все полученные средства пойдут на улучшение Доджо и развитие команды",
-            ua: "Ви можете підтримати наш спортивний клуб, а всі отримані кошти підуть на покращення Доджо та розвиток команди"
+            uk: "Ви можете підтримати наш спортивний клуб, а всі отримані кошти підуть на покращення Доджо та розвиток команди"
         },
         model: "",
         producer: "",
@@ -1236,7 +1236,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
     {
@@ -1244,7 +1244,7 @@ export const products = [
         title: {
             en: "Support us",
             ru: "Поддержите нас",
-            ua: "Підтримайте нас"
+            uk: "Підтримайте нас"
         },
         price: 500,
         images: [
@@ -1255,7 +1255,7 @@ export const products = [
         material: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         },
         color: [],
         children: true,
@@ -1275,7 +1275,7 @@ export const products = [
                 "Наша команда очень благодарна за любую поддержку! Присоединяйтесь к нашему спортивному клубу и развивайте силу и дух настоящего воина!\n" +
                 "\n" +
                 "Осу!",
-            ua: "Ви можете підтримати наш спортивний клуб. Всі отримані кошти підуть на покращення Доджо, поновлення спортивного інвентарю для учнів та розвиток клубу «MisakDojo».\n" +
+            uk: "Ви можете підтримати наш спортивний клуб. Всі отримані кошти підуть на покращення Доджо, поновлення спортивного інвентарю для учнів та розвиток клубу «MisakDojo».\n" +
                 "\n" +
                 "Ви можете придбати речі з нашого магазину або ж надіслати бажану суму на рахунок нашого тренера — Місак Арзуманян Алексанович.\n" +
                 "\n" +
@@ -1286,7 +1286,7 @@ export const products = [
         briefDescription: {
             en: "You can support our sports club, and all funds received will go to improve the Dojo and develop the team",
             ru: "Вы можете поддержать наш спортивный клуб, а все полученные средства пойдут на улучшение Доджо и развитие команды",
-            ua: "Ви можете підтримати наш спортивний клуб, а всі отримані кошти підуть на покращення Доджо та розвиток команди"
+            uk: "Ви можете підтримати наш спортивний клуб, а всі отримані кошти підуть на покращення Доджо та розвиток команди"
         },
         model: "",
         producer: "",
@@ -1294,7 +1294,7 @@ export const products = [
         comment: {
             en: "",
             ru: "",
-            ua: ""
+            uk: ""
         }
     },
 

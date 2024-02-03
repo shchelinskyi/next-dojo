@@ -10,7 +10,7 @@ type ReadMoreItem = {
         title: {
             en: string;
             ru: string;
-            ua: string;
+            uk: string;
         }
     },
     children: ReactNode;

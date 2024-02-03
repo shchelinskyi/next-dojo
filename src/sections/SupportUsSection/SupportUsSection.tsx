@@ -10,6 +10,7 @@ import supportEN from "@/assets/images/support/support-en.webp";
 import btnLabel from "@/assets/images/support/btn-label.svg";
 import finger from "@/assets/images/support/finger-up.svg";
 import s from "./SupportUsSection.module.scss";
+import cn from "classnames";
 
 
 
@@ -32,15 +33,13 @@ const SupportUsSection = () => {
                 </div>
                 <div className={s.supportBlock}>
                     <Image src={spiral} className={s.spiralImg} alt="icon"/>
-                    {language === "ua" && <Image src={supportUA} className={s.supportLabel} alt="icon"/>}
+                    {language === "uk" && <Image src={supportUA} className={s.supportLabel} alt="icon"/>}
                     {language === "ru" && <Image src={supportRU} className={s.supportLabel} alt="icon"/>}
                     {language === "en" && <Image src={supportEN} className={s.supportLabel} alt="icon"/>}
-                    <a href="https://www.buymeacoffee.com/misakdojo" target="_blank" className={s.link}>
-                        <button  className={s.btn}>
-                            <Image src={btnLabel} className={s.btnLabel} alt="icon"/>
-                        </button>
+                    <a href="https://www.buymeacoffee.com/misakdojo" target="_blank" className={cn(s.link,s.btn)}>
+                            <Image src={btnLabel} className={s.btnLabel} alt="icon" loading="lazy"/>
                     </a>
-                    {language === "ua" && <div className={s.fingerBlock}>
+                    {language === "uk" && <div className={s.fingerBlock}>
                         <Image src={finger} className={s.fingerImg} alt="icon"/>
                         <span>{t("click")}</span>
                     </div>}

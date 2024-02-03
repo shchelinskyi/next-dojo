@@ -23,7 +23,7 @@ const Wko = () => {
             <h4 className={cn(s.title, gagalinFont.className)}>
                 {t(`wko.subTitle.${currentLanguage}`, (wko.subTitle as any)[currentLanguage] as string)}
             </h4>
-            {currentLanguage === 'ua' &&
+            {currentLanguage === 'uk' &&
                 <div className={s.imageBlock}>
                     <Image className={s.img} src={ua11} alt="shin"/>
                     <Image className={s.img} src={ua22} alt="shin"/>

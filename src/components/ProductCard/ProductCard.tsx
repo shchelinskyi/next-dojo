@@ -8,7 +8,7 @@ export type ProductItemType = {
     title: {
         en: string,
         ru: string,
-        ua: string
+        uk: string
     };
     price: number;
     images: string[] | [];
@@ -17,7 +17,7 @@ export type ProductItemType = {
     material?: {
         en: string,
         ru: string,
-        ua: string
+        uk: string
     };
     color: string[] | [];
     children: boolean;
@@ -25,12 +25,12 @@ export type ProductItemType = {
     description: {
         en: string,
         ru: string,
-        ua: string
+        uk: string
     },
     briefDescription: {
         en: string,
         ru: string,
-        ua: string
+        uk: string
     },
     model?: string;
     producer?: string;
@@ -38,7 +38,7 @@ export type ProductItemType = {
     comment:{
         en: string,
         ru: string,
-        ua: string
+        uk: string
     };
 }
 

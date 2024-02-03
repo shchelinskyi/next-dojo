@@ -13,7 +13,7 @@ const TheFooter =  () => {
     const { t } = useTranslation();
 
     return (
-        <div className={s.wrapper}>
+        <footer className={s.wrapper}>
             <div className={s.contentBlock}>
                 <div className={cn(s.footerContent, s.order2)}>
                     <div className={cn(s.column, s.links)}>
@@ -33,13 +33,13 @@ const TheFooter =  () => {
                             <Image className={s.visaIcon} src={visaIcon} alt="visa"/>
                             <Image className={s.masterCardIcon} src={masterCard} alt="master-card"/>
                         </div>
-                        <Link className={s.link2} href="/contract-offer">
+                        <Link className={s.link2} href="/contract-offer" target="_blank">
                             <p className={s.textRightReserve}>{t("agreement")}</p>
                         </Link>
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
 

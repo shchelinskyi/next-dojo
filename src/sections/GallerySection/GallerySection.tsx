@@ -12,7 +12,7 @@ type GalleryItem = {
     title: {
         en: string;
         ru: string;
-        ua: string;
+        uk: string;
     };
     date: string;
     mainImg:string;

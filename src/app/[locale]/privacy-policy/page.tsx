@@ -12,7 +12,7 @@ const Page =  ({params: {locale}}: PageProps) => {
 
     return (
         <>
-                {locale === "ua" &&  <PrivacyPolicyPageUA/>}
+                {locale === "uk" &&  <PrivacyPolicyPageUA/>}
                 {locale === "ru" &&  <PrivacyPolicyPageRU/>}
                 {locale === "en" &&  <PrivacyPolicyPageEN/>}
         </>

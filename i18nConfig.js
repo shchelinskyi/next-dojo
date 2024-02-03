@@ -1,8 +1,8 @@
 const i18nConfig = {
-    locales:['ua','ru', 'en'],
-    defaultLocale: 'ua',
+    locales:['uk','ru', 'en'],
+    defaultLocale: 'uk',
     localeDetector: (request, config) => {
-        return 'ua';
+        return 'uk';
     }
 };
 

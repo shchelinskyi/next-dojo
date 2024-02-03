@@ -342,13 +342,13 @@ const CartForm = () => {
                            onChange={handleCheckboxChange} className={s.checkbox}
                            name="agree"/>
                     <span className={s.box}></span>
-                    <p className={s.checkboxLabel}>
+                    <div className={s.checkboxLabel}>
                         <span className={s.footerLabel1}>{t("formFooter1")}</span>
                         <br/>
-                        <Link className={s.link2} href="/privacy-policy" onClick={() => dispatch(closeCartModal())}>
+                        <Link className={s.link2} href="/privacy-policy" onClick={() => dispatch(closeCartModal())} target="_blank">
                             <span className={s.footerLabel2}>{t("formFooter2")}</span>
                         </Link>
-                    </p>
+                    </div>
                 </label>
 
                 <div className="d-flex justify-content-end">
