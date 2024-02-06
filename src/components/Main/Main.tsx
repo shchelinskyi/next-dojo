@@ -65,31 +65,31 @@ const Main = () => {
             {isOpenedOrderedModal && <InformModal onClose={() => dispatch(closeOrderedModal())}>{t("ordered")}</InformModal>}
             {isCartOpened && <Cart/>}
             <MainSection refData={data}/>
-            <div ref={aboutRef} style={{paddingTop:"100px"}}>
+            <section ref={aboutRef} style={{paddingTop:"100px"}}>
                 <AboutSection/>
-            </div>
-            <div ref={teamRef}>
+            </section>
+            <section ref={teamRef}>
                 <TeamSection/>
-            </div>
-            <div ref={gymsRef}>
+            </section>
+            <section ref={gymsRef}>
                 <GymsSection/>
-            </div>
+            </section>
             <TrialLessonSection/>
-            <div ref={galleryRef}>
+            <section ref={galleryRef}>
                 <GallerySection/>
-            </div>
+            </section>
             <SupportUsSection/>
             <Ticker/>
             {/*<div ref={shopRef}>*/}
             {/*    <ShopSection/>*/}
             {/*</div>*/}
-            <div ref={newsRef}>
+            <section ref={newsRef}>
                 <NewsSection />
-            </div>
+            </section>
             <ReadMore/>
-            <div ref={contactsRef}>
+            <section ref={contactsRef}>
                 <ContactsSection/>
-            </div>
+            </section>
         </>
     );
 };

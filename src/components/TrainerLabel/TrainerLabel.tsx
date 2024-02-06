@@ -1,6 +1,7 @@
 import {FC} from 'react';
 import line from "@/assets/images/team/line.png";
 import Image from "next/image";
+import Link from "next/link";
 import cn from "classnames";
 import s from "./TrainerLabel.module.scss";
 
@@ -16,7 +17,7 @@ const TrainerLabel: FC<TrainerLabelProps> = ({name, rank, mainTrainer}) => {
         <div className={s.container}>
             <div className={cn(s.itemWrapper,{[s.mainTrainer]: mainTrainer})}>
                 {mainTrainer &&
-                    <a className={s.itemText} href="https://www.facebook.com/misakarzum" target="_blank">{name}</a>
+                    <Link className={cn(s.itemText, s.linkText)} href="https://facebook.com/misakarzum" target="_blank">{name}</Link>
                 }
                 {!mainTrainer &&
                     <p className={s.itemText}>{name}</p>

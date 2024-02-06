@@ -63,11 +63,17 @@ const TheHeader = ({refData}:TheHeaderProps) => {
     };
 
 
-    // const [activeLang, setActiveLang] = useState(i18n.language);
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const headerHeight = 100;
 
+    useEffect(() => {
+        if (!isMenuOpen) {
+            document.documentElement.style.setProperty('overflow-y', 'auto');
+        } else {
+            document.documentElement.style.setProperty('overflow-y', 'hidden' );
+        }
+    }, [isMenuOpen]);
 
     const navigateToAbout = () => {
         if (refData && refData.aboutRef && refData.aboutRef.current) {

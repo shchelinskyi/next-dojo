@@ -29,7 +29,7 @@ const ReadMore = () => {
     const language = i18n.language;
 
     return (
-        <>
+        <section>
             <div className={s.wrapper}>
                 <h3  className={cn(s.title, gagalinFont.className)}>{t("readMore")}</h3>
                 <div className={s.contentBlock}>
@@ -93,7 +93,7 @@ const ReadMore = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     );
 };
 

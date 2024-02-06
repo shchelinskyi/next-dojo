@@ -59,6 +59,15 @@
   @media (max-width: 480px) {
     font-size: 14px;
   }
+
+}
+
+.linkText {
+  transition: all 0.25s;
+  &:hover {
+    color: #c41414;
+    transform: scale(1.03);
+  }
 }
 
 .hideText {

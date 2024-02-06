@@ -14,7 +14,6 @@ import trainer2 from "@/assets/images/team/trainer-2.webp";
 import trainer3 from "@/assets/images/team/trainer-3.webp";
 import trainer4 from "@/assets/images/team/trainer-4.webp";
 import trainer5 from "@/assets/images/team/trainer-5.webp";
-import trainerBg from "@/assets/images/team/trainer-bg.svg";
 import spiral from "@/assets/images/team/spiral.svg";
 import roundLogo from "@/assets/images/team/round-logo.svg";
 import love from "@/assets/images/team/love.svg";
@@ -74,11 +73,11 @@ const TeamSection = () => {
                              },
                              640: {
                                  slidesPerView: 1.5,
-                                 spaceBetween: 10,
+                                 spaceBetween: 20,
                              },
                              768: {
                                  slidesPerView: 1.5,
-                                 spaceBetween: 10,
+                                 spaceBetween: 20,
                              },
                              993: {
                                  slidesPerView: 2.5,
@@ -108,7 +107,7 @@ const TeamSection = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.trainerCard}>
-                            <Image className={s.trainerBg} src={trainerBg} alt="trainer"/>
+                            <div className={s.trainerBg}></div>
                             <Image className={s.trainerImgTwo} src={trainer2} alt="trainer"/>
                             <div className={s.trainerLabel}>
                                 <TrainerLabel name= {t("trainer2")} rank={t("trainer2Rank")}/>
@@ -117,7 +116,7 @@ const TeamSection = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.trainerCard}>
-                            <Image className={s.trainerBg} src={trainerBg} alt="trainer"/>
+                            <div className={s.trainerBg}></div>
                             <Image className={s.trainerImg3} src={trainer3} alt="trainer"/>
                             <div className={s.trainerLabel}>
                                 <TrainerLabel name= {t("trainer3")} rank={t("trainer3Rank")}/>
@@ -126,7 +125,7 @@ const TeamSection = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.trainerCard}>
-                            <Image className={s.trainerBg} src={trainerBg} alt="trainer"/>
+                            <div className={s.trainerBg}></div>
                             <Image className={cn(s.trainerImg,s.trainerImg4)}
                                    src={trainer4} alt="trainer"/>
                             <div className={s.trainerLabel}>
@@ -136,7 +135,7 @@ const TeamSection = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.trainerCard}>
-                            <Image className={s.trainerBg} src={trainerBg} alt="trainer"/>
+                            <div className={s.trainerBg}></div>
                             <Image className={cn(s.trainerImg,s.trainerImg5)}
                                    src={trainer5} alt="trainer"/>
                             <div className={s.trainerLabel}>
@@ -149,28 +148,28 @@ const TeamSection = () => {
 
             <div className={s.trainersBlock}>
                 <div className={s.trainerCard}>
-                    <Image className={s.trainerBg} src={trainerBg} alt="trainer"/>
+                    <div className={s.trainerBg}></div>
                     <Image className={s.trainerImg} src={trainer1} alt="trainer"/>
                     <div className={s.trainerLabel}>
                         <TrainerLabel name= {t("trainer1")} rank={t("trainer1Rank")}/>
                     </div>
                 </div>
                 <div className={s.trainerCard}>
-                    <Image className={s.trainerBg} src={trainerBg} alt="trainer"/>
+                    <div className={s.trainerBg}></div>
                     <Image className={s.trainerImg} src={trainer2} alt="trainer"/>
                     <div className={s.trainerLabel}>
                         <TrainerLabel name= {t("trainer2")} rank={t("trainer2Rank")}/>
                     </div>
                 </div>
                 <div className={s.trainerCard}>
-                    <Image className={s.trainerBg} src={trainerBg} alt="trainer"/>
+                    <div className={s.trainerBg}></div>
                     <Image className={s.trainerImg3} src={trainer3} alt="trainer"/>
                     <div className={s.trainerLabel}>
                         <TrainerLabel name= {t("trainer3")} rank={t("trainer3Rank")}/>
                     </div>
                 </div>
                 <div className={s.trainerCard}>
-                    <Image className={s.trainerBg} src={trainerBg} alt="trainer"/>
+                    <div className={s.trainerBg}></div>
                     <Image style={{height: "450px", width: "324px"}} className={s.trainerImg}
                            src={trainer4} alt="trainer"/>
                     <div className={s.trainerLabel}>
@@ -178,7 +177,7 @@ const TeamSection = () => {
                     </div>
                 </div>
                 <div className={s.trainerCard}>
-                    <Image className={s.trainerBg} src={trainerBg} alt="trainer"/>
+                    <div className={s.trainerBg}></div>
                     <Image style={{height: "456px", width: "417px"}} className={s.trainerImg}
                            src={trainer5} alt="trainer"/>
                     <div className={s.trainerLabel}>

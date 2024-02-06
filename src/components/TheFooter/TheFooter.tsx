@@ -11,6 +11,10 @@ import s from "./TheFooter.module.scss";
 
 const TheFooter =  () => {
     const { t } = useTranslation();
+    const getCurrentYear = () => {
+        return new Date().getFullYear();
+    };
+    const currentYear = getCurrentYear();
 
     return (
         <footer className={s.wrapper}>
@@ -23,7 +27,7 @@ const TheFooter =  () => {
                 </div>
                 <div className={cn(s.footerContent, s.order3)}>
                     <div className={cn(s.column, s.rightBlock)}>
-                        <p className={s.textBlock}>© Misak Dojo, 2024</p>
+                        <p className={s.textBlock}>© Misak Dojo, {currentYear}</p>
                         <p className={s.textBlock}>{t("rights")}</p>
                     </div>
                 </div>
