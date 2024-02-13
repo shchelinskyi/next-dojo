@@ -129,6 +129,16 @@
   }
 }
 
+.firstGym {
+  max-height: 800px;
+  @media (max-width: 1200px) {
+    max-height: 700px;
+  }
+  @media (max-width: 700px) {
+    max-height: unset;
+  }
+}
+
 .thirdGym {
   max-height: 600px;
   @media (max-width: 1200px) {
@@ -171,6 +181,9 @@
 .item3times {
   position: relative;
   background-image: url("../../assets/images/gyms/bg-3times.png");
+  background-size: contain;
+  background-position: center;
+  border-radius: 46px;
   width: 380px;
   height: 331px;
   padding: 50px 40px;
@@ -197,6 +210,9 @@
   background-image: url("../../assets/images/gyms/bg-2times.png");
   width: 380px;
   height: 264px;
+  background-size: contain;
+  background-position: center;
+  border-radius: 46px;
   padding: 50px 40px;
   display: flex;
   flex-direction: column;
@@ -318,31 +334,31 @@
 }
 
 .order1 {
-  @media (max-width: 480px) {
+  @media (max-width: 700px) {
     order:2;
   }
 }
 
 .order2 {
-  @media (max-width: 480px) {
+  @media (max-width: 700px) {
    order:2;
   }
 }
 
 .order3 {
-  @media (max-width: 480px) {
+  @media (max-width: 700px) {
     order:3;
   }
 }
 
 .order4 {
-  @media (max-width: 480px) {
+  @media (max-width: 700px) {
     order:4;
   }
 }
 
 .order5 {
-  @media (max-width: 480px) {
+  @media (max-width: 700px) {
     order:5;
   }
 }
