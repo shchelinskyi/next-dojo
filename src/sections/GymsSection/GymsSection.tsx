@@ -196,29 +196,11 @@ const GymsSection = () => {
                             {!isBlockVisible2 ? t("scheduleSee") : t("scheduleHide")}
                         </CustomButton>
                     </div>
-                    <div className={cn(s.gymContent, {[s.showContent]: isBlockVisible2})}>
+                    <div className={cn(s.gymContent, {[s.showContent]: isBlockVisible2},  s.firstGym)}>
                         <div className={cn(s.item2times, s.order1)}>
                             {language === "uk" && <Image className={s.dayIcon} src={mondayUA} alt="понеділок"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={mondayRU} alt="понедельник"/>}
                             {language === "en" && <Image className={s.dayIcon} src={mondayEN} alt="monday"/>}
-                            <div>
-                                <ul className={s.list}>
-                                    <li className={s.timeText}>18:00 - 19:00</li>
-                                </ul>
-                                <p className={s.text}>{t("group6")}</p>
-                            </div>
-                            <div>
-                                <ul className={s.list}>
-                                    <li className={s.timeText}>19:00 - 20:00</li>
-                                </ul>
-                                <p className={s.text}>{t("group7")}</p>
-                            </div>
-                        </div>
-
-                        <div className={cn(s.item2times, s.order3)}>
-                            {language === "uk" && <Image className={s.dayIcon} src={wednesdayUA} alt="середа"/>}
-                            {language === "ru" && <Image className={s.dayIcon} src={wednesdayRU} alt="среда"/>}
-                            {language === "en" && <Image className={s.dayIcon} src={wednesdayEN} alt="wednesday"/>}
                             <div>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>18:00 - 19:00</li>
@@ -252,11 +234,10 @@ const GymsSection = () => {
                             </div>
                         </div>
 
-                        <div className={cn(s.item2times, s.order2)}>
-                            {language === "uk" && <Image className={s.dayIcon} src={tuesdayUA} alt="вівторок"/>}
-                            {language === "ru" && <Image className={s.dayIcon} src={tuesdayRU} alt="вторник"/>}
-                            {language === "en" && <Image className={s.dayIcon} src={tuesdayEN} alt="tuesday"/>}
-                            <Image className={s.eyesIcon} src={eyes} alt="eyes"/>
+                        <div className={cn(s.item2times, s.order3)}>
+                            {language === "uk" && <Image className={s.dayIcon} src={wednesdayUA} alt="середа"/>}
+                            {language === "ru" && <Image className={s.dayIcon} src={wednesdayRU} alt="среда"/>}
+                            {language === "en" && <Image className={s.dayIcon} src={wednesdayEN} alt="wednesday"/>}
                             <div>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>18:00 - 19:00</li>
@@ -271,23 +252,44 @@ const GymsSection = () => {
                             </div>
                         </div>
 
-                        <div className={cn(s.item2times, s.order4)}>
-                            {language === "uk" && <Image className={s.dayIcon} src={thursdayUA} alt="четверг"/>}
-                            {language === "ru" && <Image className={s.dayIcon} src={thursdayRU} alt="четверг"/>}
-                            {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}
-                            <div>
-                                <ul className={s.list}>
-                                    <li className={s.timeText}>18:00 - 19:00</li>
-                                </ul>
-                                <p className={s.text}>{t("group6")}</p>
-                            </div>
-                            <div>
-                                <ul className={s.list}>
-                                    <li className={s.timeText}>19:00 - 20:00</li>
-                                </ul>
-                                <p className={s.text}>{t("group7")}</p>
-                            </div>
-                        </div>
+
+
+                        {/*<div className={cn(s.item2times, s.order2)}>*/}
+                        {/*    {language === "uk" && <Image className={s.dayIcon} src={tuesdayUA} alt="вівторок"/>}*/}
+                        {/*    {language === "ru" && <Image className={s.dayIcon} src={tuesdayRU} alt="вторник"/>}*/}
+                        {/*    {language === "en" && <Image className={s.dayIcon} src={tuesdayEN} alt="tuesday"/>}*/}
+                        {/*    <Image className={s.eyesIcon} src={eyes} alt="eyes"/>*/}
+                        {/*    <div>*/}
+                        {/*        <ul className={s.list}>*/}
+                        {/*            <li className={s.timeText}>18:00 - 19:00</li>*/}
+                        {/*        </ul>*/}
+                        {/*        <p className={s.text}>{t("group6")}</p>*/}
+                        {/*    </div>*/}
+                        {/*    <div>*/}
+                        {/*        <ul className={s.list}>*/}
+                        {/*            <li className={s.timeText}>19:00 - 20:00</li>*/}
+                        {/*        </ul>*/}
+                        {/*        <p className={s.text}>{t("group7")}</p>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
+
+                        {/*<div className={cn(s.item2times, s.order4)}>*/}
+                        {/*    {language === "uk" && <Image className={s.dayIcon} src={thursdayUA} alt="четверг"/>}*/}
+                        {/*    {language === "ru" && <Image className={s.dayIcon} src={thursdayRU} alt="четверг"/>}*/}
+                        {/*    {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}*/}
+                        {/*    <div>*/}
+                        {/*        <ul className={s.list}>*/}
+                        {/*            <li className={s.timeText}>18:00 - 19:00</li>*/}
+                        {/*        </ul>*/}
+                        {/*        <p className={s.text}>{t("group6")}</p>*/}
+                        {/*    </div>*/}
+                        {/*    <div>*/}
+                        {/*        <ul className={s.list}>*/}
+                        {/*            <li className={s.timeText}>19:00 - 20:00</li>*/}
+                        {/*        </ul>*/}
+                        {/*        <p className={s.text}>{t("group7")}</p>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
                     <Image className={s.numIcon} src={num2} alt="number"/>
                     <div className={s.line}></div>
