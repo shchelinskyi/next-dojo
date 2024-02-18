@@ -10,11 +10,13 @@ type sendMessageValues = {
 
 export const sendMessageToTelegram = (values:sendMessageValues) => {
     const TOKEN = "6256749568:AAHTtPs90MP3gNYCio0QQCbTZHkyHLv0am4";
-    //Previous chat settings
+    // Previous chat settings
     // const CHAT_ID = "-1001905245481";
     const CHAT_ID = "-1002036629099";
 
     const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
+    const cleanedNumber = values.phone.replace(/\D/g, "");
+    const formattedNumber = `+${cleanedNumber}`;
 
     let message = `<b>Заявка з сайту</b>\n`;
     message += `<b>Iм'я: ${values.name}</b>\n`;
@@ -24,7 +26,7 @@ export const sendMessageToTelegram = (values:sendMessageValues) => {
     if (values.email) {
         message += `<b>Email: ${values.email}</b>\n`;
     }
-    message += `<b>Телефон: ${values.phone}</b>\n`;
+    message += `<b>Телефон: ${formattedNumber}</b>\n`;
 
     if (values.comment) {
         message += `<b>Коментар: ${values.comment}</b>\n`;
