@@ -7,11 +7,9 @@ import {Container} from "react-bootstrap";
 import num1 from "@/assets/images/gyms/num1.svg";
 import num2 from "@/assets/images/gyms/num2.svg";
 import num3 from "@/assets/images/gyms/num3.svg";
-import signature from "@/assets/images/gyms/signature.svg";
 import smile from "@/assets/images/gyms/smile.svg";
 import smile2 from "@/assets/images/gyms/smile2.svg";
 import scroll from "@/assets/images/gyms/scroll.svg";
-import eyes from "@/assets/images/gyms/eyes.svg";
 import mondayUA from "@/assets/images/gyms/monday-ua.webp";
 import tuesdayUA from "@/assets/images/gyms/tuesday-ua.webp";
 import wednesdayUA from "@/assets/images/gyms/wednesday-ua.webp";
@@ -136,51 +134,6 @@ const GymsSection = () => {
                                 <p className={s.text}>{t("group1")}</p>
                             </div>
                         </div>
-
-
-
-                        {/*<div className={cn(s.item2times, s.order2)}>*/}
-                        {/*    <Image className={s.signatureIcon} src={signature} alt="signature"/>*/}
-                        {/*    {language === "uk" && <Image className={s.dayIcon} src={tuesdayUA} alt="вівторок"/>}*/}
-                        {/*    {language === "ru" && <Image className={s.dayIcon} src={tuesdayRU} alt="вторник"/>}*/}
-                        {/*    {language === "en" && <Image className={s.dayIcon} src={tuesdayEN} alt="tuesday"/>}*/}
-                        {/*    <div>*/}
-                        {/*        <ul className={s.list}>*/}
-                        {/*            <li className={s.timeText}>19:00 - 20:00</li>*/}
-                        {/*        </ul>*/}
-                        {/*        <p className={s.text}>{t("group4")}</p>*/}
-                        {/*    </div>*/}
-                        {/*    <div>*/}
-                        {/*        <ul className={s.list}>*/}
-                        {/*            <li className={s.timeText}>20:00 - 21:00</li>*/}
-                        {/*        </ul>*/}
-                        {/*        <p className={s.text}>{t("group5")}</p>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
-
-                        {/*<div className={cn(s.item3times, s.order4)}>*/}
-                        {/*    {language === "uk" && <Image className={s.dayIcon} src={thursdayUA} alt="четвер"/>}*/}
-                        {/*    {language === "ru" && <Image className={s.dayIcon} src={thursdayRU} alt="четверг"/>}*/}
-                        {/*    {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}*/}
-                        {/*    <div>*/}
-                        {/*        <ul className={s.list}>*/}
-                        {/*            <li className={s.timeText}>17:30 - 18:30</li>*/}
-                        {/*        </ul>*/}
-                        {/*        <p className={s.text}>{t("group3")}</p>*/}
-                        {/*    </div>*/}
-                        {/*    <div>*/}
-                        {/*        <ul className={s.list}>*/}
-                        {/*            <li className={s.timeText}>18:30 - 20:00</li>*/}
-                        {/*        </ul>*/}
-                        {/*        <p className={s.text}>{t("group2")}</p>*/}
-                        {/*    </div>*/}
-                        {/*    <div>*/}
-                        {/*        <ul className={s.list}>*/}
-                        {/*            <li className={s.timeText}>20:00 - 22:00</li>*/}
-                        {/*        </ul>*/}
-                        {/*        <p className={s.text}>{t("group1")}</p>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                     </div>
                     <Image className={s.numIcon} src={num1} alt="number"/>
                     <div className={s.line}></div>
@@ -251,45 +204,6 @@ const GymsSection = () => {
                                 <p className={s.text}>{t("group7")}</p>
                             </div>
                         </div>
-
-
-
-                        {/*<div className={cn(s.item2times, s.order2)}>*/}
-                        {/*    {language === "uk" && <Image className={s.dayIcon} src={tuesdayUA} alt="вівторок"/>}*/}
-                        {/*    {language === "ru" && <Image className={s.dayIcon} src={tuesdayRU} alt="вторник"/>}*/}
-                        {/*    {language === "en" && <Image className={s.dayIcon} src={tuesdayEN} alt="tuesday"/>}*/}
-                        {/*    <Image className={s.eyesIcon} src={eyes} alt="eyes"/>*/}
-                        {/*    <div>*/}
-                        {/*        <ul className={s.list}>*/}
-                        {/*            <li className={s.timeText}>18:00 - 19:00</li>*/}
-                        {/*        </ul>*/}
-                        {/*        <p className={s.text}>{t("group6")}</p>*/}
-                        {/*    </div>*/}
-                        {/*    <div>*/}
-                        {/*        <ul className={s.list}>*/}
-                        {/*            <li className={s.timeText}>19:00 - 20:00</li>*/}
-                        {/*        </ul>*/}
-                        {/*        <p className={s.text}>{t("group7")}</p>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
-
-                        {/*<div className={cn(s.item2times, s.order4)}>*/}
-                        {/*    {language === "uk" && <Image className={s.dayIcon} src={thursdayUA} alt="четверг"/>}*/}
-                        {/*    {language === "ru" && <Image className={s.dayIcon} src={thursdayRU} alt="четверг"/>}*/}
-                        {/*    {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}*/}
-                        {/*    <div>*/}
-                        {/*        <ul className={s.list}>*/}
-                        {/*            <li className={s.timeText}>18:00 - 19:00</li>*/}
-                        {/*        </ul>*/}
-                        {/*        <p className={s.text}>{t("group6")}</p>*/}
-                        {/*    </div>*/}
-                        {/*    <div>*/}
-                        {/*        <ul className={s.list}>*/}
-                        {/*            <li className={s.timeText}>19:00 - 20:00</li>*/}
-                        {/*        </ul>*/}
-                        {/*        <p className={s.text}>{t("group7")}</p>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                     </div>
                     <Image className={s.numIcon} src={num2} alt="number"/>
                     <div className={s.line}></div>

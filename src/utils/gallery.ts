@@ -1,6 +1,49 @@
 export const gallery = [
     {
         title: {
+            en: "\"Princess Olga's Cup\" in Irpin 2024",
+            ru: "«Кубок Княгини Ольги» в г.Ирпень 2024",
+            uk: "«Кубок Княгині Ольги» у м.Ірпінь 2024",
+        },
+        date: "03.03.2024",
+        mainImg: "/images/gallery/030324.webp",
+        images: [
+            "/images/gallery/030324.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061047/gallery/030324/DSC04131_yjlafn.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061047/gallery/030324/DSC04177_useppn.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061047/gallery/030324/DSC04224-Enhanced-NR_wihlsf.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061046/gallery/030324/DSC04066_qme5vv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061046/gallery/030324/DSC04054_ifrmmk.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061046/gallery/030324/DSC04060_mfam2s.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061045/gallery/030324/DSC04024_zpvwwd.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061045/gallery/030324/DSC04018_vyorsn.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061045/gallery/030324/DSC04018_vyorsn.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061045/gallery/030324/DSC04018_vyorsn.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061044/gallery/030324/DSC03882_yckxsx.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061044/gallery/030324/DSC03832_jwzjnb.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061044/gallery/030324/DSC03956_av1ckg.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061044/gallery/030324/DSC03806_v6qkux.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061044/gallery/030324/DSC03811_dz4fys.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061043/gallery/030324/DSC03783_oaypww.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061043/gallery/030324/DSC03370_fprwon.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061043/gallery/030324/DSC03780_gn3gmq.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061043/gallery/030324/DSC03677_wkemww.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061043/gallery/030324/DSC03647_sczlpv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061042/gallery/030324/DSC03609_ojbdyg.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061042/gallery/030324/DSC03555_dih0nz.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061042/gallery/030324/DSC03419_dbn1fv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061041/gallery/030324/DSC03596_e3bwuc.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061041/gallery/030324/DSC03627_cre8ed.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061040/gallery/030324/DSC03304_todqin.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061040/gallery/030324/DSC03216_enwm50.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061040/gallery/030324/DSC03333_durtig.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061040/gallery/030324/DSC03260_dtfqq9.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061040/gallery/030324/DSC03398_uyaxaw.webp"
+
+        ]
+    },
+    {
+        title: {
             en: "Club competitions 2023",
             ru: "Клубные соревнования 2023",
             uk: "Клубні змагання 2023",
@@ -8,7 +51,7 @@ export const gallery = [
         date: "27.12.2023",
         mainImg: "/images/gallery/271223.webp",
         images: [
-            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704276305/gallery/271223/DSC05556-Enhanced-NR_jqfcrz.webp",
+            "/images/gallery/271223.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704276212/gallery/271223/DSC06216-Enhanced-NR_qaso68.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704276278/gallery/271223/DSC05819_axryyv.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704276303/gallery/271223/DSC05557_ooin6w.webp",
@@ -64,7 +107,7 @@ export const gallery = [
         date: "18.12.2023",
         mainImg: "/images/gallery/181223.webp",
         images: [
-            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704273166/gallery/181223/DSC02319_n2ycce.webp",
+            "/images/gallery/181223.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704273164/gallery/181223/DSC02321_uhxzzx.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704273141/gallery/181223/DSC02710_tdalbz.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704273143/gallery/181223/DSC02676_ko9tzw.webp",
@@ -126,7 +169,7 @@ export const gallery = [
         date: "12.12.2023",
         mainImg: "/images/gallery/121223.webp",
         images: [
-            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704279487/gallery/121223/DSC00798-Enhanced-NR_ihlbvj.webp",
+            "/images/gallery/121223.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704279472/gallery/121223/DSC08525_dt5asa.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704279470/gallery/121223/DSC08526_upqxzn.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704279468/gallery/121223/DSC08528_myayjg.webp",
@@ -167,7 +210,7 @@ export const gallery = [
         date: "06.11.2023",
         mainImg:  "/images/gallery/061123.webp",
         images: [
-            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704269201/gallery/061123/DSC08055-Enhanced-NR_xpl5w2.webp",
+            "/images/gallery/061123.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704269193/gallery/061123/DSC08169-Enhanced-NR_hon39r.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704269192/gallery/061123/DSC08225-Enhanced-NR_zevavo.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704269192/gallery/061123/DSC08189-Enhanced-NR_efciy6.webp",
@@ -229,7 +272,7 @@ export const gallery = [
         date: "26.10.2023",
         mainImg: "/images/gallery/261023.webp",
         images: [
-            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704221054/gallery/261023/DSC06711_mp0vvb.webp",
+            "/images/gallery/261023.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704221044/gallery/261023/DSC07118_g0nusd.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704221055/gallery/261023/DSC06699_vrjdnx.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704221055/gallery/261023/DSC06694_fesgru.webp",
