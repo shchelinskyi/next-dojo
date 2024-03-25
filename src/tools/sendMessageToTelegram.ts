@@ -18,18 +18,18 @@ export const sendMessageToTelegram = (values:sendMessageValues) => {
     const cleanedNumber = values.phone.replace(/\D/g, "");
     const formattedNumber = `+${cleanedNumber}`;
 
-    let message = `<b>Заявка з сайту</b>\n`;
-    message += `<b>Iм'я: ${values.name}</b>\n`;
+    let message = `Заявка з сайту\n`;
+    message += `Iм'я: ${values.name}\n`;
     if (values.age) {
-        message += `<b>Вік: ${values.age}</b>\n`;
+        message += `Вік: ${values.age}\n`;
     }
     if (values.email) {
-        message += `<b>Email: ${values.email}</b>\n`;
+        message += `Email: ${values.email}\n`;
     }
-    message += `<b>Телефон: ${formattedNumber}</b>\n`;
+    message += `Телефон: ${formattedNumber}\n`;
 
     if (values.comment) {
-        message += `<b>Коментар: ${values.comment}</b>\n`;
+        message += `Коментар: ${values.comment}\n`;
     }
 
 
