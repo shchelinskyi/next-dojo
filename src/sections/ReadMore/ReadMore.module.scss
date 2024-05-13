@@ -1,8 +1,17 @@
 .wrapper {
-  margin: 0 auto;
+  margin: 0 auto 80px;
   width: 1328px;
+  max-width: 95vw;
   @media (max-width: 1200px) {
+    margin-bottom: 70px;
     width: 100%;
+    max-width: 1000px;
+  }
+  @media (max-width: 992px) {
+    margin-bottom: 60px;
+  }
+  @media (max-width: 480px) {
+    margin-bottom: 30px;
   }
 }
 
@@ -21,9 +30,14 @@
     margin-bottom: 60px;
   }
 
+  @media (max-width: 550px) {
+    padding: 0 20px;
+  }
+
   @media (max-width: 480px) {
     font-size: 60px;
     margin-bottom: 40px;
+    padding: 0 70px;
   }
 }
 
@@ -45,6 +59,7 @@
   }
 
   @media (max-width: 480px) {
+    gap: 10px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -88,9 +103,13 @@
 
   @media (max-width: 480px) {
     left: unset;
-    top: 33px;
+    top: 45px;
     right: 5%;
   }
+}
+
+.fingerText {
+  font-size: 12px;
 }
 
 .usefulBlockS {

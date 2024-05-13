@@ -4,7 +4,6 @@ import {useTranslation} from "react-i18next";
 import {newsData} from "@/utils/news";
 import {Card, Container, Placeholder, Stack} from "react-bootstrap";
 import NewsCard from "@/components/NewsCard";
-import CustomButton from "@/components/CustomButton";
 import {gagalinFont} from "@/fonts";
 import cn from "classnames";
 import s from "./NewsSection.module.scss"
@@ -13,7 +12,19 @@ import s from "./NewsSection.module.scss"
 const NewsSection = () => {
     const { t } = useTranslation();
     const isClient = typeof window !== 'undefined';
-    const itemsPerPage = isClient ? (window.innerWidth > 480 && window.innerWidth <= 992) ? 2 : 3 : 3;
+    let itemsPerPage: number = 2;
+
+    if (isClient) {
+        const windowWidth = window.innerWidth;
+        if (windowWidth <= 992) {
+            itemsPerPage = 2;
+        } else if (windowWidth <= 1200) {
+            itemsPerPage = 3;
+        } else {
+            itemsPerPage = 6;
+        }
+    }
+
     const [visibleItems, setVisibleItems] = useState(itemsPerPage);
     const [showNewsCard, setShowNewsCard] = useState(false);
 
@@ -22,7 +33,7 @@ const NewsSection = () => {
 
         const timer = setTimeout(() => {
             setShowNewsCard(true);
-        }, 2000);
+        }, 500);
 
         return () => {
             clearTimeout(timer)
@@ -73,9 +84,9 @@ const NewsSection = () => {
                         }
                     </div>
                     {visibleItems < Object.values(newsData).length && (
-                        <Stack direction="horizontal" style={{ justifyContent: "center", marginTop: "70px" }}>
-                            <CustomButton onClick={handleShowMore}>{t("showMore")}</CustomButton>
-                        </Stack>
+                        <div className={s.btnWrapper}>
+                            <button onClick={handleShowMore} className={s.customButton}>{t("showMore")}</button>
+                        </div>
                     )}
                 </div>
             </Container>

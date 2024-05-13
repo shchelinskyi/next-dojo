@@ -87,7 +87,12 @@ const MainSection = ({refData}:TheMainPageProps) => {
                     <p className={s.offerContent}>
                         {t("offer")}
                     </p>
-                    <div className={s.btnWrapper}>
+                    <div className={cn(s.btnWrapper, s.btnBSize)}>
+                        <CustomButton onClick={handleOpenModal} style={{width: "100%", padding:"16px 40px", borderRadius:"14px"}}>
+                            {t("wantToBe")}
+                        </CustomButton>
+                    </div>
+                    <div className={cn(s.btnWrapper, s.btnSSize)}>
                         <CustomButton onClick={handleOpenModal}>
                             {t("wantToBe")}
                         </CustomButton>

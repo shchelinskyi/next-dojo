@@ -3,16 +3,29 @@
   border-radius: 46px;
   padding-top:128px;
   max-width: 1720px;
+  width: 90vw;
   height: 400px;
-  background-image: url("../../assets/images/support/bg-support.webp");
+  background-image: url("../../assets/images/support/bg-supportXl.svg");
   background-size: cover;
 
+  @media (max-width: 1600px) {
+    width: 100vw;
+    max-width: 1360px;
+    background-image: url("../../assets/images/support/bg-supportX.svg");
+  }
+
+  @media (max-width: 1200px) {
+    background-image: url("../../assets/images/support/bg-supportL.svg");
+  }
+
   @media (max-width: 992px) {
+    background-image: url("../../assets/images/support/bg-supportM.svg");
     padding-top:70px;
   }
   @media (max-width: 480px) {
     padding-bottom:80px;
     height: auto;
+    background-image: url("../../assets/images/support/bg-support.webp");
   }
 }
 
@@ -48,6 +61,25 @@
     text-align: unset;
   }
 
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 500;
+  @media (max-width: 1200px) {
+    font-size: 20px;
+  }
+  @media (max-width: 992px) {
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    line-height: 36px;
+    font-size: 18px;
+    text-align: unset;
+  }
 }
 
 .handsIcon {
@@ -133,6 +165,11 @@
   align-items: flex-end;
   font-size: 16px;
 
+  @media (max-width: 1200px) {
+    bottom:-20px;
+    right: 10px;
+  }
+
   @media (max-width: 992px) {
     bottom:-25px;
     right: -25px;
@@ -180,12 +217,12 @@
 }
 
 .btn {
-  padding: 8px 12px;
+  padding: 10px 12px;
   background-color: #E1251B;
   border-top: 2px solid black;
   border-left: 2px solid black;
-  border-right: 4px solid black;
-  border-bottom: 4px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
   border-radius: 12px;
   font-size: 14px;
   font-weight: bold;
@@ -196,6 +233,7 @@
   
   @media (max-width: 480px) {
     width: 90vw;
+    padding: 9px 12px;
   }
 
   &:hover {
@@ -212,5 +250,12 @@
 
   &:disabled::after {
     background-color: transparent;
+  }
+}
+
+.block {
+  display: none;
+  @media (max-width: 480px) {
+    display:block;
   }
 }

@@ -123,6 +123,22 @@
   z-index: 999;
 }
 
+.btnBSize {
+  display: none;
+  @media (max-width: 480px) {
+    display: block;
+    max-width: 90vw;
+    width: 100%;
+  }
+}
+
+.btnSSize {
+  display: none;
+  @media (min-width: 481px) {
+    display: block;
+  }
+}
+
 .logoContainer {
   position: absolute;
   top: 165px;
@@ -219,14 +235,14 @@
 
 
   @media (max-width: 480px) {
-    top: 340px;
+    top: 383px;
     left: 10vw;
     width: 157px;
     object-fit: contain;
   }
 
   @media (max-width: 430px) {
-    top: 340px;
+    top: 383px;
     left: 5vw;
     width: 157px;
     object-fit: contain;
@@ -270,7 +286,7 @@
   @media (max-width: 480px) {
     width: 140px;
     object-fit: contain;
-    top: 430px;
+    top: 473px;
     right: 20vw;
     z-index: 7;
   }
@@ -278,7 +294,7 @@
   @media (max-width: 430px) {
     width: 140px;
     object-fit: contain;
-    top: 430px;
+    top: 473px;
     right: 10vw;
     z-index: 7;
   }
@@ -339,7 +355,7 @@
   width: 1035px;
   height: auto;
   position: absolute;
-  top: 450px;
+  top: 493px;
   left: -750px;
   animation-name: welcome__cloud-bottom-left;
   animation-duration: 4s;
@@ -360,7 +376,7 @@
 
   @media (max-width: 993px) {
     width: 665px;
-    top: 550px;
+    top: 593px;
     left: -320px;
     animation-name: welcome__cloud-bottom-left-m;
     z-index: 11;
@@ -369,7 +385,7 @@
 
   @media (max-width: 480px) {
     width: 394px;
-    top: 550px;
+    top: 593px;
     left: -100px;
     animation-name: welcome__cloud-bottom-left-s;
     z-index: 11;
@@ -380,7 +396,7 @@
   width: 1334px;
   height: auto;
   position: absolute;
-  top: 370px;
+  top: 413px;
   right: -350px;
   animation-name: welcome__cloud-bottom-right-back;
   animation-duration: 4s;
@@ -393,7 +409,7 @@
 
   @media (max-width: 1200px) {
     width: 1000px;
-    top: 500px;
+    top: 543px;
     right: -300px;
     animation-name: welcome__cloud-bottom-right-back-l;
     z-index: 10;
@@ -401,7 +417,7 @@
 
   @media (max-width: 993px) {
     width: 843px;
-    top: 500px;
+    top: 543px;
     right: -350px;
     animation-name: welcome__cloud-bottom-right-back-m;
     z-index: 10;
@@ -410,7 +426,7 @@
 
   @media (max-width: 480px) {
     width: 500px;
-    top: 500px;
+    top: 543px;
     right: -250px;
     animation-name: welcome__cloud-bottom-right-back-s;
     z-index: 10;
@@ -421,7 +437,7 @@
   width: 1071px;
   height: auto;
   position: absolute;
-  top: 550px;
+  top: 593px;
   right: -500px;
   animation-name: welcome__cloud-bottom-right-front;
   animation-duration: 4s;
@@ -433,20 +449,20 @@
 
   @media (max-width: 1200px) {
     width: 803px;
-    top: 650px;
+    top: 693px;
     right: -450px;
     animation-name: welcome__cloud-bottom-right-front-l;
   }
 
   @media (max-width: 993px) {
     width: 676px;
-    top: 650px;
+    top: 693px;
     right: -450px;
     animation-name: welcome__cloud-bottom-right-front-m;
   }
 
   @media (max-width: 480px) {
-    width: 400px;
+    width: 443px;
     top: 600px;
     right: -250px;
     animation-name: welcome__cloud-bottom-right-front-s;

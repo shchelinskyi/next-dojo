@@ -21,7 +21,11 @@ const TheFooter =  () => {
             <div className={s.contentBlock}>
                 <div className={cn(s.footerContent, s.order2)}>
                     <div className={cn(s.column, s.links)}>
-                        <p className={s.textContent}>{t("design")}: <span className={s.designerTitle}>{t("designer")}</span></p>
+                        <p className={s.textContent}>{t("design")}: <span className={s.designerTitle}>
+                            {/*{t("designer")}*/}
+                            Misak Dojo
+                        </span></p>
+
                         <p className={s.textContent}>{t("development")}: <a href="https://www.linkedin.com/in/shchelinskyi/" className={s.link} target="_blank">{t("developer")}</a></p>
                     </div>
                 </div>

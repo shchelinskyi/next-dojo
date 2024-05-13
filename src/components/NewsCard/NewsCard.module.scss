@@ -16,7 +16,7 @@
 .imgWrapper {
   width: 370px;
   height: 330px;
-  background-color: #f9d3d1;
+  background-color: #ffffff;
   border-radius: 46px;
   @media (max-width: 1200px) {
     width: 290px;
@@ -24,31 +24,31 @@
   }
   @media (max-width: 992px) {
     width: 324px;
-    height: 290px;
+    height: 288px;
   }
   @media (max-width: 480px) {
     width: 310px;
-    height: 278px;
+    height: 276px;
   }
 }
 
 .newsImg {
-  width: 370px;
+  width: 380px;
   height: 330px;
   object-fit: cover;
   object-position: center;
   border-radius: 46px;
   @media (max-width: 1200px) {
-    width: 290px;
+    width: 300px;
     height: 260px;
   }
   @media (max-width: 992px) {
-    width: 324px;
-    height: 290px;
+    width: 334px;
+    height: 288px;
   }
   @media (max-width: 480px) {
-    width: 310px;
-    height: 278px;
+    width: 320px;
+    height: 276px;
   }
 }
 

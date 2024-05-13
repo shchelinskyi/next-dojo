@@ -24,12 +24,13 @@ const SupportUsSection = () => {
         <div className={s.wrapper}>
             <div className={s.contentWrapper}>
                 <div className={s.content}>
-                    <span>{t("support1")}</span>
+                    <span className={s.text}>{t("support1")}</span>
                     <Image src={hands} className={s.handsIcon} alt="icon"/>
-                    <span> {t("support2")}</span><br/>
+                    <span className={s.text}> {t("support2")} </span>
+                    {/*<br className={s.block}/>*/}
                     <Image src={heartY} className={s.heartIcon} alt="icon" />
                     <Image src={heartB} className={s.heartIcon} alt="icon" />
-                    <span>{t("support3")}</span>
+                    <span className={s.text}> {t("support3")}</span>
                 </div>
                 <div className={s.supportBlock}>
                     <Image src={spiral} className={s.spiralImg} alt="icon"/>

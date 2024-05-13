@@ -34,7 +34,7 @@ const NewsCard: FC<NewsCardTypes> = ({ newsItem}) => {
         <Link className={s.link} href={`news/${linkName}`} target="_blank">
             <div className={s.card}>
                 <div className={s.imgWrapper}>
-                     <img className={s.newsImg} src={newsItem.mainImg} alt="misak dojo" width={370} height={330}
+                     <img className={s.newsImg} src={newsItem.mainImg} alt=".     dojo" width={370} height={330}
                             sizes="(min-width: 1201px) 370px, 330px, (max-width: 1200px) 290px, 260px, (max-width: 992px) 324px, 290px, (max-width: 480px) 310px, 278px "/>
                 </div>
                 <p className={s.newsDate}>{newsItem.date}</p>
