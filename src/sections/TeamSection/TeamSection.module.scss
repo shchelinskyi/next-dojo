@@ -1,13 +1,23 @@
 
 .wrapper {
+  max-width: 1180px;
   position: relative;
-  margin-top: 70px;
-  padding-top: 100px;
+  margin: 70px auto 0;
+  padding-top: 170px;
+
+  @media (max-width: 1600px) {
+    padding-top: 150px;
+  }
+
+  @media (max-width: 1200px) {
+    padding-top: 120px;
+  }
 
   @media (max-width: 992px) {
     margin-top: 0;
   }
   @media (max-width: 480px) {
+    padding-top: 80px;
     margin-top: 0;
   }
 }

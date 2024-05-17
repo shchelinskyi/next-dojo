@@ -52,6 +52,13 @@
   object-fit: cover;
 }
 
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  margin-right: 2px;
+}
+
 
 .text {
   font-size: 18px;

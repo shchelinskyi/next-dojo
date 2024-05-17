@@ -46,20 +46,31 @@ const TrialLessonSection = () => {
                 <div className={s.block}>
                     <Image className={s.girlImg} src={girl} style={calculateParallax(mousePosition, 50)} alt="karate girl"/>
                     <div className={s.centerItem}>
-                        <h5 className={cn(s.centerItemTitle, gagalinFont.className)}>
-                            {t('free')} <br/> <span className={s.itemLabel}>{t('freeTask')}</span>
-                        </h5>
+                        <div className={s.titleBlockS}>
+                            <h5 className={cn(s.centerItemTitle, gagalinFont.className)}>
+                                {t('freeS1')} <br/> {t('freeS2')} <span className={s.itemLabel}>{t('freeTask')}</span>
+                            </h5>
+                        </div>
+                        <div className={s.titleBlockML}>
+                            <h5 className={cn(s.centerItemTitle, gagalinFont.className)}>
+                                {t('free')} <br/> <span className={s.itemLabel}>{t('freeTask')}</span>
+                            </h5>
+                        </div>
                         <p className={s.centerItemDescription}>
                             {t('freeSlogan1')} <br/> {t('freeSlogan2')}
                         </p>
                         <div className={s.btnBlock}>
-                            <CustomButton onClick={() => dispatch(openForm())}>{t('signUpforClasses')}</CustomButton>
+                            <button onClick={() => dispatch(openForm())}  className={s.customButton}>{t('signUpforClasses')}</button>
                         </div>
+
+
+
                         <Image className={s.cloudLeftImg} src={cloudLeft} alt="cloud"/>
                         <Image className={s.cloudRightTopImg} src={cloudRT} alt="cloud"/>
                         <Image className={s.cloudRightBottomImg} src={cloudRB} alt="cloud"/>
                     </div>
-                    <Image className={s.boyImg} src={boy} style={calculateParallax(mousePosition, -50)}  alt="karate boy"/>
+                    <Image className={s.boyImg} src={boy} style={calculateParallax(mousePosition, -50)}
+                           alt="karate boy"/>
                 </div>
             </div>
     );

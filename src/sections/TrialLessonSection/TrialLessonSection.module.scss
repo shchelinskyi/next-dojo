@@ -7,7 +7,7 @@
 
 .container {
   max-width: 1720px;
-  width: 100vw;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +17,11 @@
   background-color: #EDEDED;
   border-radius: 46px;
 
+  @media (max-width: 1600px) {
+    width: 100vw;
+    max-width: 1360px;
+  }
+
   @media (max-width: 1200px) {
     padding-top: 70px;
     padding-bottom: 164px;
@@ -24,14 +29,13 @@
   }
 
   @media (max-width: 700px) {
-    padding-top: 70px;
+    padding-top: 110px;
     padding-bottom: 120px;
     margin-bottom: 50px;
   }
 
   @media (max-width: 480px) {
-    padding-top: 38px;
-    padding-bottom: 50px;
+    padding: 38px 17px 50px;
     margin-bottom: 50px;
   }
 }
@@ -79,9 +83,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 12px;
   @media (max-width: 992px) {
     align-self: flex-start;
     width: 30%;
+    min-width: 326px;
   }
 
   @media (max-width: 700px) {
@@ -92,13 +98,33 @@
 
 }
 
+.titleBlockS {
+  display: none;
+  @media (max-width: 480px) {
+   display: block;
+  }
+}
+
+.titleBlockML {
+  display: block;
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
+
+
 .centerItemTitle {
   font-size: 55px;
   text-align: center;
   margin-bottom: 15px;
 
   @media (max-width: 900px) {
-    font-size: 40px;
+    font-size: 55px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 52px;
+    text-align: center
   }
 
 }
@@ -116,6 +142,10 @@
     font-size: 16px;
   }
   @media (max-width: 992px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 480px) {
     font-size: 14px;
   }
 
@@ -123,8 +153,71 @@
 
 .btnBlock {
   align-self: center;
-  max-width: 292px;
+  //max-width: 292px;
   z-index: 1999;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 480px) {
+    margin-bottom: 35px;
+  }
+}
+
+
+.btnWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+
+  @media (max-width: 480px) {
+    margin-top: 40px;
+  }
+
+}
+
+.customButton {
+  padding: 18px 36px;
+  background-color: #E1251B;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  color:#ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  transition: all 0.3s;
+
+  &:hover {
+    border: 2px solid black;
+  }
+
+  &:active {
+    background-color: black;
+  }
+
+  &:disabled {
+    background-color: #CDCBCA;
+  }
+
+  &:disabled::after {
+    background-color: transparent;
+
+  }
+
+  @media (max-width: 1200px) {
+    padding: 16px 30px;
+    font-size: 12px;
+  }
+
+
+  @media (max-width: 480px) {
+    width: 90%;
+  }
 }
 
 .boyImg {

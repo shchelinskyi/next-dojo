@@ -21,12 +21,16 @@ const ContactGym:FC<ContactGymProps> = ({address, addressLink, phone}) => {
     return (
         <div className={s.block}>
             <a href={addressLink} className={s.contactItem} target="_blank">
-                <Image className={s.locationIcon} src={location} alt="location"/>
+                <div className={s.imgWrapper}>
+                    <Image className={s.locationIcon} src={location} alt="location"/>
+                </div>
                 <p className={s.text}>{t("city")}, <br className={s.wrap}/>{address}</p>
             </a>
             <a href={phoneLink} className={s.contactItem} target="_blank">
-                <Image className={s.phoneIcon} src={telIcon} alt="phone"/>
-                <p className={s.text}>{phone}</p>
+                <div className={s.imgWrapper}>
+                    <Image className={s.phoneIcon} src={telIcon} alt="phone"/>
+                </div>
+                    <p className={s.text}>{phone}</p>
             </a>
             <Image className={s.clipIcon} src={clip} alt="clip"/>
         </div>

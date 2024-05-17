@@ -8,7 +8,7 @@ export const gallery = [
         date: "16.03.2024",
         mainImg: "/images/gallery/160324.webp",
         images: [
-            "/images/gallery/160324.webp",
+            "/images/gallery/bigSize/160324.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1711305653/gallery/160324/DSC05019_eiulzz.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1711305652/gallery/160324/DSC05011_konsxv.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1711305651/gallery/160324/DSC05002-Enhanced-NR_xeqtuc.webp",
@@ -48,7 +48,7 @@ export const gallery = [
         date: "16.03.2024",
         mainImg: "/images/gallery/170324.webp",
         images: [
-            "/images/gallery/170324.webp",
+            "/images/gallery/bigSize/170324.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1711308722/gallery/170324/DSC05033-Enhanced-NR_fgkung.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1711308750/gallery/170324/DSC05558_nybuyy.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1711308748/gallery/170324/DSC05539_wwph7g.webp",
@@ -89,7 +89,7 @@ export const gallery = [
         date: "03.03.2024",
         mainImg: "/images/gallery/030324.webp",
         images: [
-            "/images/gallery/030324.webp",
+            "/images/gallery/bigSize/030324.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061047/gallery/030324/DSC04131_yjlafn.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061047/gallery/030324/DSC04177_useppn.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1710061047/gallery/030324/DSC04224-Enhanced-NR_wihlsf.webp",
@@ -132,7 +132,7 @@ export const gallery = [
         date: "27.12.2023",
         mainImg: "/images/gallery/271223.webp",
         images: [
-            "/images/gallery/271223.webp",
+            "/images/gallery/bigSize/271223.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704276212/gallery/271223/DSC06216-Enhanced-NR_qaso68.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704276278/gallery/271223/DSC05819_axryyv.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704276303/gallery/271223/DSC05557_ooin6w.webp",
@@ -188,7 +188,7 @@ export const gallery = [
         date: "18.12.2023",
         mainImg: "/images/gallery/181223.webp",
         images: [
-            "/images/gallery/181223.webp",
+            "/images/gallery/bigSize/181223.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704273164/gallery/181223/DSC02321_uhxzzx.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704273141/gallery/181223/DSC02710_tdalbz.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704273143/gallery/181223/DSC02676_ko9tzw.webp",
@@ -250,7 +250,7 @@ export const gallery = [
         date: "12.12.2023",
         mainImg: "/images/gallery/121223.webp",
         images: [
-            "/images/gallery/121223.webp",
+            "/images/gallery/bigSize/121223.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704279472/gallery/121223/DSC08525_dt5asa.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704279470/gallery/121223/DSC08526_upqxzn.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704279468/gallery/121223/DSC08528_myayjg.webp",
@@ -291,7 +291,7 @@ export const gallery = [
         date: "06.11.2023",
         mainImg:  "/images/gallery/061123.webp",
         images: [
-            "/images/gallery/061123.webp",
+            "/images/gallery/bigSize/061123.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704269193/gallery/061123/DSC08169-Enhanced-NR_hon39r.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704269192/gallery/061123/DSC08225-Enhanced-NR_zevavo.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704269192/gallery/061123/DSC08189-Enhanced-NR_efciy6.webp",
@@ -353,7 +353,7 @@ export const gallery = [
         date: "26.10.2023",
         mainImg: "/images/gallery/261023.webp",
         images: [
-            "/images/gallery/261023.webp",
+            "/images/gallery/bigSize/261023.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704221044/gallery/261023/DSC07118_g0nusd.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704221055/gallery/261023/DSC06699_vrjdnx.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1704221055/gallery/261023/DSC06694_fesgru.webp",

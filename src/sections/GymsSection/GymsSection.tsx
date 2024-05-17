@@ -4,6 +4,8 @@ import ContactGym from "@/components/ContactGym";
 import CustomButton from "@/components/CustomButton";
 import Image from "next/image";
 import {Container} from "react-bootstrap";
+import markUp from "@/assets/images/gyms/markUp.svg";
+import markDown from "@/assets/images/gyms/markDown.svg";
 import num1 from "@/assets/images/gyms/num1.svg";
 import num2 from "@/assets/images/gyms/num2.svg";
 import num3 from "@/assets/images/gyms/num3.svg";
@@ -63,28 +65,31 @@ const GymsSection = () => {
                         <ContactGym address={t("gym1")} addressLink={address.gym1} phone="+38 (099) 042 08 20"/>
                     </div>
                     <div className={s.btnShow}>
-                        <CustomButton style={{width: "100%"}} onClick={() => toggleVisibility(1)}>
-                            {!isBlockVisible1 ? t("scheduleSee") : t("scheduleHide")}
-                        </CustomButton>
+                        <button className={s.customButton} onClick={() => toggleVisibility(1)}>
+                            {!isBlockVisible1
+                                ? <>{t("scheduleSee")}<Image className={s.imgMark} src={markDown} alt="mark"/></>
+                                : <>{t("scheduleHide")}<Image className={s.imgMark} src={markUp} alt="mark"/></>
+                            }
+                        </button>
                     </div>
                     <div className={cn(s.gymContent, {[s.showContent]: isBlockVisible1}, s.firstGym)}>
                         <div className={cn(s.item3times, s.order1)}>
                             {language === "uk" && <Image className={s.dayIcon} src={mondayUA} alt="понеділок"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={mondayRU} alt="понедельник"/>}
                             {language === "en" && <Image className={s.dayIcon} src={mondayEN} alt="monday"/>}
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>17:30 - 18:30</li>
                                 </ul>
                                 <p className={s.text}>{t("group3")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>18:30 - 20:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group2")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>20:00 - 22:00</li>
                                 </ul>
@@ -96,13 +101,13 @@ const GymsSection = () => {
                             {language === "uk" && <Image className={s.dayIcon} src={fridayUA} alt="п'ятниця"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={fridayRU} alt="пятница"/>}
                             {language === "en" && <Image className={s.dayIcon} src={fridayEN} alt="friday"/>}
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>19:00 - 20:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group4")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>20:00 - 21:00</li>
                                 </ul>
@@ -115,19 +120,19 @@ const GymsSection = () => {
                             {language === "uk" && <Image className={s.dayIcon} src={wednesdayUA} alt="середа"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={wednesdayRU} alt="среда"/>}
                             {language === "en" && <Image className={s.dayIcon} src={wednesdayEN} alt="wednesday"/>}
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>17:30 - 18:30</li>
                                 </ul>
                                 <p className={s.text}>{t("group3")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>18:30 - 20:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group2")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>20:00 - 22:00</li>
                                 </ul>
@@ -144,23 +149,25 @@ const GymsSection = () => {
                         <ContactGym address={t("gym2")} addressLink={address.gym2} phone="+380 (95) 448 63 97"/>
                     </div>
                     <div className={s.btnShow}>
-                        <CustomButton style={{width: "100%"}}
-                                      onClick={() => toggleVisibility(2)}>
-                            {!isBlockVisible2 ? t("scheduleSee") : t("scheduleHide")}
-                        </CustomButton>
+                        <button className={s.customButton} onClick={() => toggleVisibility(2)}>
+                            {!isBlockVisible2
+                                ? <>{t("scheduleSee")}<Image className={s.imgMark} src={markDown} alt="mark"/></>
+                                : <>{t("scheduleHide")}<Image className={s.imgMark} src={markUp} alt="mark"/></>
+                            }
+                        </button>
                     </div>
-                    <div className={cn(s.gymContent, {[s.showContent]: isBlockVisible2},  s.firstGym)}>
+                    <div className={cn(s.gymContent, {[s.showContent]: isBlockVisible2}, s.firstGym)}>
                         <div className={cn(s.item2times, s.order1)}>
                             {language === "uk" && <Image className={s.dayIcon} src={mondayUA} alt="понеділок"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={mondayRU} alt="понедельник"/>}
                             {language === "en" && <Image className={s.dayIcon} src={mondayEN} alt="monday"/>}
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>18:00 - 19:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group6")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>19:00 - 20:00</li>
                                 </ul>
@@ -173,13 +180,13 @@ const GymsSection = () => {
                             {language === "ru" && <Image className={s.dayIcon} src={fridayRU} alt="пятница"/>}
                             {language === "en" && <Image className={s.dayIcon} src={fridayEN} alt="friday"/>}
                             <Image className={s.scrollIcon} src={scroll} alt="scroll"/>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>18:00 - 19:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group6")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>19:00 - 20:00</li>
                                 </ul>
@@ -191,13 +198,13 @@ const GymsSection = () => {
                             {language === "uk" && <Image className={s.dayIcon} src={wednesdayUA} alt="середа"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={wednesdayRU} alt="среда"/>}
                             {language === "en" && <Image className={s.dayIcon} src={wednesdayEN} alt="wednesday"/>}
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>18:00 - 19:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group6")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>19:00 - 20:00</li>
                                 </ul>
@@ -214,10 +221,12 @@ const GymsSection = () => {
                         <ContactGym address={t("gym3")} addressLink={address.gym3} phone="+38 (093) 726 54 24"/>
                     </div>
                     <div className={s.btnShow}>
-                        <CustomButton style={{width: "100%"}}
-                                      onClick={() => toggleVisibility(3)}>
-                            {!isBlockVisible3 ? t("scheduleSee") : t("scheduleHide")}
-                        </CustomButton>
+                        <button className={s.customButton} onClick={() => toggleVisibility(3)}>
+                            {!isBlockVisible3
+                                ? <>{t("scheduleSee")}<Image className={s.imgMark} src={markDown} alt="mark"/></>
+                                : <>{t("scheduleHide")}<Image className={s.imgMark} src={markUp} alt="mark"/></>
+                            }
+                        </button>
                     </div>
                     <div className={cn(s.gymContent, {[s.showContent]: isBlockVisible3}, s.thirdGym)}>
 
@@ -225,13 +234,13 @@ const GymsSection = () => {
                             {language === "uk" && <Image className={s.dayIcon} src={tuesdayUA} alt="вівторок"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={tuesdayRU} alt="вторник"/>}
                             {language === "en" && <Image className={s.dayIcon} src={tuesdayEN} alt="tuesday"/>}
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>18:00 - 19:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group10")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>19:00 - 20:30</li>
                                 </ul>
@@ -243,13 +252,13 @@ const GymsSection = () => {
                             {language === "uk" && <Image className={s.dayIcon} src={saturdayUA} alt="субота"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={saturdayRU} alt="суббота"/>}
                             {language === "en" && <Image className={s.dayIcon} src={saturdayEN} alt="saturday"/>}
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>10:30 - 11:30</li>
                                 </ul>
                                 <p className={s.text}>{t("group10")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>11:30 - 13:00</li>
                                 </ul>
@@ -262,13 +271,13 @@ const GymsSection = () => {
                             {language === "uk" && <Image className={s.dayIcon} src={thursdayUA} alt="четверг"/>}
                             {language === "ru" && <Image className={s.dayIcon} src={thursdayRU} alt="четверг"/>}
                             {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>18:00 - 19:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group10")}</p>
                             </div>
-                            <div>
+                            <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>19:00 - 20:30</li>
                                 </ul>

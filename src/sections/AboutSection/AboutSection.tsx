@@ -1,6 +1,8 @@
 import {useTranslation} from "react-i18next";
 import Image from "next/image";
 import {Container} from "react-bootstrap";
+import markUp from "@/assets/images/about/markUp.svg";
+import markDown from "@/assets/images/about/markDown.svg";
 import members from "@/assets/images/about/members.webp";
 import heart from "@/assets/images/about/heart.webp";
 import handL from "@/assets/images/about/handL.webp";
@@ -28,14 +30,16 @@ import {useEffect, useState} from "react";
 
 const AboutSection = () => {
 
+    const [isShowMore, setIsShowMore] = useState(false);
     const {t, i18n} = useTranslation();
     const language = i18n.language;
 
 
+
     return (
         <>
-            <Container>
-                <Container>
+            <div>
+                <div>
                     <div className={s.sloganWrapper}>
                         {t('slogan1')}
                         <Image className={s.membersIcon} src={members} alt="members"/>
@@ -49,17 +53,31 @@ const AboutSection = () => {
                             <Image className={s.handRIcon} src={handR} alt="hand"/>
                         </span>
                     </div>
-                </Container>
+                </div>
 
                 <div className={s.aboutWrapper}>
                     <div className={s.aboutContent}>
                         <h3 className={cn(s.aboutTitle, gagalinFont.className)}>{t('aboutUs')}</h3>
                         <p className={s.mainText} style={{marginBottom: "40px"}}>
                             {t("aboutText1")}
+                            {!isShowMore && <span className={s.textFragment}>..</span>}
                         </p>
-                        <p className={s.mainText}>
+                        <p className={s.mainText2}>
                             {t("aboutText2")}
                         </p>
+                        <div className={s.mainTextWrapper}>
+                            {
+                                isShowMore && <p className={s.mainText}>{t("aboutText2")}</p>
+                            }
+                        </div>
+
+
+                        <button className={s.btn} onClick={() => setIsShowMore(!isShowMore)}>
+                            {isShowMore
+                                ? <>{t("less")} <Image className={s.imgMark} src={markDown} alt="mark"/></>
+                                : <>{t("more")} <Image className={s.imgMark} src={markUp} alt="mark"/></>
+                            }
+                        </button>
                         <Image className={s.starsImg} src={stars} alt="stars"/>
                         <Image className={s.starsImg2} src={stars2} alt="stars"/>
                     </div>
@@ -72,7 +90,7 @@ const AboutSection = () => {
                     </div>
                 </div>
 
-                <Container className={s.dataWrapper}>
+                <div className={s.dataWrapper}>
                     <div className={s.totalContainer}>
 
                         <div className={s.totalItem}>
@@ -118,8 +136,8 @@ const AboutSection = () => {
                         </div>
 
                     </div>
-                </Container>
-            </Container>
+                </div>
+            </div>
             <div className={s.video}>
                 <video preload="auto" loop autoPlay={true} muted={true} className={s.videoItem}
                        controls={true}>

@@ -58,6 +58,8 @@
   "group9": "Group (adults)",
   "group10": "Group (children to 9 years old)",
   "free": "FREE",
+  "freeS1": "FREE",
+  "freeS2": "",
   "freeTask": "TRIAL LESSON",
   "freeSlogan1": "If in doubt, come to a trial training session",
   "freeSlogan2": "and test your strength with us!",
@@ -162,5 +164,7 @@
   "ordered": "Your order has been successfully placed",
   "orderBtn": "go to cart",
   "designer": "Maria Oliynyk",
-  "developer": "Artem Shchelinskyi"
+  "developer": "Artem Shchelinskyi",
+  "more": "More",
+  "less": "Less"
 }

@@ -38,7 +38,6 @@
   }
 
   @media (max-width: 992px) {
-    font-size: 84px;
     margin-bottom: 60px;
   }
 
@@ -162,3 +161,56 @@
   }
 }
 
+.btnWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+
+  @media (max-width: 480px) {
+    margin-top: 40px;
+  }
+
+}
+
+.customButton {
+  padding: 18px 36px;
+  background-color: #E1251B;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  color:#ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  transition: all 0.3s;
+
+  &:hover {
+    border: 2px solid black;
+  }
+
+  &:active {
+    background-color: black;
+  }
+
+  &:disabled {
+    background-color: #CDCBCA;
+  }
+
+  &:disabled::after {
+    background-color: transparent;
+
+  }
+
+  @media (max-width: 992px) {
+    font-size: 12px;
+    padding: 16px 30px;
+  }
+
+  @media (max-width: 785px) {
+    width: 90%;
+  }
+}

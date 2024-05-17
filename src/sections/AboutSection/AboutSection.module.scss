@@ -1,4 +1,5 @@
 .sloganWrapper {
+  border: 2px solid red;
   margin: 0 auto;
   max-width: 850px;
   display: flex;
@@ -15,6 +16,10 @@
   @media (max-width: 993px) {
     max-width: 620px;
     font-size: 18px;
+    padding: 0 40px;
+  }
+  @media (max-width: 480px) {
+    padding: 0 15px;
   }
 }
 
@@ -54,18 +59,23 @@
 }
 
 .aboutWrapper {
+  border: 2px solid black;
+  max-width: 1180px;
+  width: 100vw;
   margin: 161px auto 0;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 20px;
 
   @media (max-width: 1200px) {
+    justify-content: unset;
     gap: 10px;
     margin-top: 120px;
   }
   @media (max-width: 992px) {
     flex-wrap: wrap;
-    padding: 0 20px;
+    padding: 0 40px;
     margin-top: 110px;
   }
 
@@ -75,12 +85,13 @@
 }
 
 .aboutContent {
+  max-width: 1180px;
   position: relative;
   width: 780px;
   height: 710px;
   padding: 70px 100px;
   border-radius: 46px;
-  background-image: url("../../assets/images/about/bg-about.webp");
+  background-image: url("../../assets/images/about/bg-aboutM.png");
   background-size: cover;
 
   @media (max-width: 1200px) {
@@ -90,13 +101,14 @@
   }
 
   @media (max-width: 992px) {
+
     width: 100vw;
     height: auto;
-    padding: 70px 20px;
+    padding: 70px 40px;
   }
 
   @media (max-width: 480px) {
-    width: 90vw;
+    background-image: url("../../assets/images/about/bg-aboutS.webp");
     height: auto;
     padding: 50px 20px;
   }
@@ -204,10 +216,36 @@
 .mainText {
   font-size: 18px;
   line-height: 170%;
+  text-align: justify;
 
   @media (max-width: 1200px) {
     font-size: 16px;
   }
+}
+
+.mainText2 {
+  display: block;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+
+  @media (max-width: 1200px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 16px;
+    display: none;
+  }
+}
+
+.mainTextWrapper {
+  display: none;
+
+  @media (max-width: 480px) {
+    display: block;
+  }
+
 }
 
 .starsImg {
@@ -242,6 +280,9 @@
 .dataWrapper{
   margin-top: 18px;
   margin-bottom: 170px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   @media (max-width: 1200px) {
     margin-bottom: 130px;
   }
@@ -256,6 +297,8 @@
 }
 
 .totalContainer {
+  max-width: 1180px;
+  width: 100%;
   padding: 0 5px;
   background-color: #F7F7F7;
   max-height: 140px;
@@ -471,4 +514,34 @@
   width: 30vw;
   height: auto;
   max-width: 783px;
+}
+
+.btn {
+  display: none;
+
+  @media (max-width: 480px) {
+    background-color: transparent;
+    border: none;
+    color: #8D8D8D;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}
+
+.imgMark {
+  width: 11px;
+  height: 6px;
+}
+
+.textFragment {
+  display: none;
+  @media (max-width: 480px) {
+   display: inline;
+  }
 }

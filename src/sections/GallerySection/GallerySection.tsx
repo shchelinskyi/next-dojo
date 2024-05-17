@@ -1,7 +1,6 @@
 import React, {useLayoutEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
-import {Container, Stack} from "react-bootstrap";
-import CustomButton from "@/components/CustomButton";
+import {Container} from "react-bootstrap";
 import GalleryCard from "@/components/GalleryCard";
 import {gallery} from "@/utils/gallery";
 import cn from "classnames";
@@ -61,9 +60,9 @@ const GallerySection = () => {
                     </div>
                     {
                         (galleryArray.length !== gallery.length) &&
-                        (<Stack direction="horizontal" style={{justifyContent: "center", marginTop: "70px"}}>
-                            <CustomButton onClick={handleShowMore}>{t("showMore")}</CustomButton>
-                        </Stack>)
+                        (<div className={s.btnWrapper}>
+                            <button onClick={handleShowMore} className={s.customButton}>{t("showMore")}</button>
+                        </div>)
                     }
                 </div>
             </Container>

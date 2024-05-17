@@ -6,23 +6,34 @@
   background-color: #EDEDED;
   border-radius: 46px;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+  @media (max-width: 1600px) {
+    margin-top: 150px;
+  }
 
   @media (max-width: 1200px) {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 130px;
+    padding: 100px 100px;
   }
 
   @media (max-width: 992px) {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 120px;
+    padding: 100px 20px;
   }
 
 
   @media (max-width: 700px) {
-    padding: 50px 20px;
+
+    padding: 50px 20px 60px;
     box-sizing: border-box;
     min-width: 360px;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 80px;
   }
 }
 
@@ -35,9 +46,6 @@
     font-size: 84px;
   }
 
-  @media (max-width: 992px) {
-    font-size: 84px;
-  }
 
   @media (max-width: 480px) {
     font-size: 60px;
@@ -51,12 +59,14 @@
 }
 
 .gymBlock {
+  max-width: 1180px;
   position: relative;
   margin-top: 58px;
   display: flex;
-  column-gap: 10px;
+  column-gap: 30px;
   flex-wrap: wrap;
   @media (max-width: 1200px) {
+    column-gap: 10px;
    row-gap: 20px;
     //width:100%;
   }
@@ -95,7 +105,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-  column-gap: 10px;
+  column-gap: 30px;
   max-height: 1000px;
   flex-wrap: wrap;
 
@@ -169,12 +179,15 @@
   margin-right: auto;
   height: 5px;
   background-color: #D8D8D8;
-  margin-top: 138px;
+  //margin-top: 138px;
+  margin-top: 90px;
+
+  @media (max-width: 1200px) {
+    margin-top: 40px;
+  }
 
   @media (max-width: 700px) {
-    //width: calc(100% - 40px);
     width: 100%;
-    margin-top: 20px;
   }
 }
 
@@ -191,6 +204,7 @@
   flex-direction: column;
   gap:20px;
 
+
   @media (max-width: 993px) {
     width: 334px;
     height: 316px;
@@ -198,7 +212,7 @@
   }
 
   @media (max-width: 480px) {
-    padding: 30px 0 30px 30px;
+    padding: 30px 0 30px 0;
     width: 320px;
     height: 276px;
     background-image: url("../../assets/images/gyms/bg-3times-s.png");
@@ -213,7 +227,7 @@
   background-size: contain;
   background-position: center;
   border-radius: 46px;
-  padding: 50px 40px;
+  padding: 50px 0px;
   display: flex;
   flex-direction: column;
   gap:20px;
@@ -225,7 +239,7 @@
   }
 
   @media (max-width: 480px) {
-    padding: 30px 0 30px 30px;
+    padding: 30px 0 30px 0;
     width: 320px;
     height: 214px;
     background-image: url("../../assets/images/gyms/bg-2times-s.png");
@@ -243,6 +257,7 @@
   gap:20px;
 
   @media (max-width: 993px) {
+    padding: 50px 0;
     width: 334px;
     background-image: url("../../assets/images/gyms/bg-2times-m.png");
     background-position: center;
@@ -364,9 +379,61 @@
 }
 
 .list {
-  padding: 0;
+  padding-left: 25px;
   margin: 0;
 }
 
+.listWrapper {
+  padding-left: 25px;
+}
+
+.customButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  padding: 18px 36px;
+  background-color: #E1251B;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  color:#ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  transition: all 0.3s;
+
+  &:hover {
+    border: 2px solid black;
+  }
+
+  &:active {
+    background-color: black;
+  }
+
+  &:disabled {
+    background-color: #CDCBCA;
+  }
+
+  &:disabled::after {
+    background-color: transparent;
+
+  }
+
+  @media (max-width: 992px) {
+    font-size: 12px;
+    padding: 16px 30px;
+  }
+
+}
+
+.imgMark {
+  width: 11px;
+  height: 6px;
+}
 
 
