@@ -79,6 +79,7 @@
   }
 
   @media (max-width: 480px) {
+    padding: 0;
     margin-top: 80px;
   }
 }
@@ -107,6 +108,7 @@
   }
 
   @media (max-width: 480px) {
+    width: 100vw;
     background-image: url("../../assets/images/about/bg-aboutS.webp");
     height: auto;
     padding: 50px 20px;

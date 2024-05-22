@@ -26,27 +26,27 @@ const NewsSection = () => {
     }
 
     const [visibleItems, setVisibleItems] = useState(itemsPerPage);
-    const [showNewsCard, setShowNewsCard] = useState(false);
+    // const [showNewsCard, setShowNewsCard] = useState(false);
 
 
-    useEffect(() => {
-
-        const timer = setTimeout(() => {
-            setShowNewsCard(true);
-        }, 500);
-
-        return () => {
-            clearTimeout(timer)
-        };
-
-    }, [visibleItems]);
+    // useEffect(() => {
+    //
+    //     const timer = setTimeout(() => {
+    //         setShowNewsCard(true);
+    //     }, 500);
+    //
+    //     return () => {
+    //         clearTimeout(timer)
+    //     };
+    //
+    // }, [visibleItems]);
 
     const handleShowMore = () => {
 
         const totalItems = Object.values(newsData).length;
         const newVisibleItems = Math.min(visibleItems + itemsPerPage, totalItems);
         setVisibleItems(newVisibleItems);
-        setShowNewsCard(false);
+        // setShowNewsCard(false);
     };
 
     return (
@@ -57,30 +57,7 @@ const NewsSection = () => {
                     <div className={s.content}>
                         {Object.values(newsData)
                             .slice(0, visibleItems)
-                            .map((newsItem, index) => {
-                                if (index < visibleItems-itemsPerPage) {
-                                    return  <NewsCard key={newsItem.title.en} newsItem={newsItem}/>
-                                } else {
-                                    return <div key={newsItem.title.en}>
-                                        {!showNewsCard &&
-                                            <div className={s.placeholderContainer}>
-                                                <Placeholder as={Card.Text} animation="glow">
-                                                    <Placeholder className={s.placeholderImg} bg="primary"/>
-                                                </Placeholder>
-                                                <div>
-                                                    <Placeholder as={Card.Text} animation="glow">
-                                                        <Placeholder className={s.placeholderDate} bg="primary"/>
-                                                        <Placeholder className={s.placeholderTitle} bg="primary"/>
-                                                    </Placeholder>
-                                                </div>
-                                            </div>
-                                        }
-                                        {showNewsCard &&
-                                            <NewsCard key={newsItem.title.en} newsItem={newsItem}/>
-                                        }
-                                    </div>
-                                }
-                            })
+                            .map((newsItem, index) => (<NewsCard key={newsItem.title.en} newsItem={newsItem}/>))
                         }
                     </div>
                     {visibleItems < Object.values(newsData).length && (
