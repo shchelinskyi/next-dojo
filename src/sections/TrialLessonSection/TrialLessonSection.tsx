@@ -1,7 +1,6 @@
 import {useEffect, useState} from 'react';
 import {useTranslation} from 'react-i18next';
 import Image from "next/image";
-import CustomButton from '@/components/CustomButton';
 import girl from '@/assets/images/trial/girl.png';
 import boy from '@/assets/images/trial/boy.png';
 import cloudLeft from '@/assets/images/trial/cloud-trial-left.svg';

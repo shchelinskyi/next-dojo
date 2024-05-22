@@ -165,7 +165,7 @@ const TheHeader = ({refData}:TheHeaderProps) => {
                         <Image className={s.fistLogo} src={fistLogo} width={65} height={50}  alt="dojo-logo"/>
                     </Navbar.Brand>
                     <div className={s.btnWrapper}>
-                        <CustomButton onClick={handleClick} style={{padding:"10px 22px"}}>{t('signUp')}</CustomButton>
+                        <CustomButton onClick={handleClick}>{t('signUp')}</CustomButton>
                     </div>
                     <Navbar.Toggle style={{border: "none"}} as="div">
                         <CustomNavbarToggle isOpen={isMenuOpen} setIsOpen={setIsMenuOpen}/>

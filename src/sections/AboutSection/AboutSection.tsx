@@ -121,10 +121,10 @@ const AboutSection = () => {
 
                         </div>
 
-                        <Image src={line} className={s.line} alt="line"/>
-                        <Image src={line2} className={s.line2} alt="line"/>
+                        <Image src={line} className={cn(s.line, s.itemHidden)} alt="line"/>
+                        <Image src={line2} className={cn(s.line2, s.itemHidden)} alt="line"/>
 
-                        <div className={s.totalItem}>
+                        <div className={cn(s.totalItem, s.itemHidden)}>
                             <div className={s.numberWrapper}>
                                 <h3 className={cn(s.totalNumber, gagalinFont.className)}>3</h3>
                                 <Image className={s.cupIcon} src={cup} alt="cup"/>

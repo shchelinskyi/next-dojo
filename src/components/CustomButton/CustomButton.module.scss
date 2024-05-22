@@ -1,11 +1,12 @@
 .btn {
-  padding: 8px 12px;
+  position: relative;
+  padding: 12px 24px;
   background-color: #E1251B;
   border-top: 2px solid black;
   border-left: 2px solid black;
   border-right: 5px solid black;
   border-bottom: 5px solid black;
-  border-radius: 12px;
+  border-radius: 8px;
   font-size: 14px;
   font-weight: bold;
   color:#ffffff;
@@ -13,8 +14,13 @@
   letter-spacing: 0.6px;
   transition: all 0.3s;
 
+  //&:hover::after {
+  //  display: none;
+  //}
+
   &:hover {
-    border: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
   }
 
   &:active {
@@ -25,8 +31,27 @@
     background-color: #CDCBCA;
   }
 
-  &:disabled::after {
-    background-color: transparent;
+  //&:disabled::after {
+  //  background-color: transparent;
+  //}
+
+  //&::after {
+  //  position: absolute;
+  //  content: "";
+  //  border-radius: 8px;
+  //  top: 0;
+  //  left: 0;
+  //  z-index: -1;
+  //  width: calc(100% + 3px);
+  //  height: calc(100% + 3px);
+  //  transition: all 0.3s;
+  //  background-color: black;
+  //  border: 3px solid black;
+  //}
+
+  @media (max-width: 1200px) {
+    font-size: 12px;
+    padding: 10px 22px;
   }
 }
 
