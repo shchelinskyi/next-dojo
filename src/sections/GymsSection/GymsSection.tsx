@@ -145,7 +145,7 @@ const GymsSection = () => {
 
                 <div className={s.gymBlock}>
                     <div className={s.gymTitle}>
-                        <ContactGym address={t("gym2")} addressLink={address.gym2} phone="+380 (95) 448 63 97"/>
+                        <ContactGym address={t("gym2")} addressLink={address.gym2} phone="+38 (099) 042 08 20"/>
                     </div>
                     <div className={s.btnShow}>
                         <button className={s.customButton} onClick={() => toggleVisibility(2)}>

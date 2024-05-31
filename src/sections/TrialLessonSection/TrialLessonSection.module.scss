@@ -153,11 +153,16 @@
 
 .btnBlock {
   align-self: center;
+  height: 61px;
   //max-width: 292px;
   z-index: 1999;
   width: 100%;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 992px) {
+    height: 54px;
+  }
 
   @media (max-width: 480px) {
     margin-bottom: 35px;

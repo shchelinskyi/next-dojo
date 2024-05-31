@@ -194,7 +194,7 @@ const TheHeader = ({refData}:TheHeaderProps) => {
                     <div className={s.mediaWrapper}>
                         <CustomSelect/>
                     </div>
-                    <div className={s.mediaWrapper}>
+                    <div className={s.mediaWrapperBtn}>
                         <CustomButton onClick={handleClick}>{t('signUp')}</CustomButton>
                     </div>
                 </Container>

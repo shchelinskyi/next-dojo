@@ -107,6 +107,16 @@
   }
 }
 
+.mediaWrapperBtn {
+  width: 158px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
+
 .btnWrapper {
   display: none;
   @media (max-width: 991px) {
