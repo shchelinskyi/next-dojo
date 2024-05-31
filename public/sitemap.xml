@@ -23,6 +23,16 @@
         <priority>1.00</priority>
     </url>
     <url>
+        <loc>https://misakdojo.com/news/kozak-cup-2024</loc>
+        <lastmod>2024-03-16T18:18:22+00:00</lastmod>
+        <priority>0.50</priority>
+    </url>
+    <url>
+        <loc>https://misakdojo.com/news/cup-irpin-2024</loc>
+        <lastmod>2024-03-03T18:18:22+00:00</lastmod>
+        <priority>0.50</priority>
+    </url>
+    <url>
         <loc>https://misakdojo.com/news/open-cup</loc>
         <lastmod>2024-01-22T18:18:22+00:00</lastmod>
         <priority>0.50</priority>
