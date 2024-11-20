@@ -1,6 +1,45 @@
 export const gallery = [
     {
         title: {
+            en: "Party at the Dojo",
+            ru: "Вечеринка в Доджо",
+            uk: "Вечірка в Доджо",
+        },
+        date: "04.11.2024",
+        mainImg: "/images/gallery/041124.webp",
+        images: [
+            "/images/gallery/041124.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732110616/gallery/041124/DSC04689-Enhanced-NR_vak0la.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732110616/gallery/041124/DSC04669-Enhanced-NR_yhyoh0.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732110616/gallery/041124/DSC04678-Enhanced-NR_eed6la.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112370/gallery/041124/DSC04731-Enhanced-NR_zilxs3.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112370/gallery/041124/DSC04691-Enhanced-NR_se5ebi.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112371/gallery/041124/DSC04758-Enhanced-NR_aaqwji.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112371/gallery/041124/DSC04758-Enhanced-NR_aaqwji.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112371/gallery/041124/DSC04824-Enhanced-NR_jdisms.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112371/gallery/041124/DSC04750-Enhanced-NR_lbhxua.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112371/gallery/041124/DSC04861-Enhanced-NR_sb60vc.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112371/gallery/041124/DSC04754-Enhanced-NR_riozoy.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112372/gallery/041124/DSC04908-Enhanced-NR_vwbpkn.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112371/gallery/041124/DSC05026-Enhanced-NR_nvo8qt.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112372/gallery/041124/DSC05128-Enhanced-NR_zyhdyi.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112372/gallery/041124/DSC05182-Enhanced-NR_l2bkmj.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112373/gallery/041124/DSC05057-Enhanced-NR_mmdfs1.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112376/gallery/041124/DSC05203-Enhanced-NR_oi9oev.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112376/gallery/041124/DSC05207-Enhanced-NR_kjbg0c.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112376/gallery/041124/DSC05244-Enhanced-NR_nzrpij.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112377/gallery/041124/DSC05290-Enhanced-NR_sqyffu.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112377/gallery/041124/DSC05281-Enhanced-NR_xexvpz.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112377/gallery/041124/DSC05227-Enhanced-NR_uqo4xn.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112377/gallery/041124/DSC05293-Enhanced-NR_xifubl.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112377/gallery/041124/DSC05268-Enhanced-NR_a1nabz.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1732112377/gallery/041124/DSC05268-Enhanced-NR_a1nabz.webp",
+
+
+        ]
+    },
+    {
+        title: {
             en: "Khvyla Autumn 2024 Certification",
             ru: "Хвыля Осень 2024 Аттестация",
             uk: "Хвиля Осінь 2024 Атестація",
