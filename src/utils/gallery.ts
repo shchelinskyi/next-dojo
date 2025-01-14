@@ -1,6 +1,47 @@
 export const gallery = [
     {
         title: {
+            en: "Awards for the best athletes and coaches of the year from KMFKK",
+            ru: "Награды лучшим спортсменам и тренерам года от КМФКК",
+            uk: "Відзнаки найкращих спортсменів та тренерів року від КМФКК",
+        },
+        date: "26.12.2024",
+        mainImg: "/images/gallery/261224.webp",
+        images: [
+            "/images/gallery/261224.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861967/gallery/261224/IMG_6086_lrcxnb.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861967/gallery/261224/IMG_6085_k0q65w.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861967/gallery/261224/IMG_6084_uuogod.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861967/gallery/261224/IMG_6083_daissv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861967/gallery/261224/IMG_6083_daissv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861968/gallery/261224/IMG_6082_puieyd.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861967/gallery/261224/IMG_6081_d3t1ne.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861967/gallery/261224/IMG_6081_d3t1ne.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861968/gallery/261224/IMG_6079_pueyne.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861968/gallery/261224/IMG_6078_xjhhxx.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861968/gallery/261224/IMG_6077_fgch7m.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861968/gallery/261224/IMG_6076_lvlswz.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861969/gallery/261224/IMG_6075_iusfhp.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861969/gallery/261224/IMG_6074_zmkdev.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861969/gallery/261224/IMG_6073_sglx1x.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861969/gallery/261224/IMG_6072_ime2vy.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861969/gallery/261224/IMG_6071_gux5yp.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861969/gallery/261224/IMG_6070_c9sipw.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861970/gallery/261224/IMG_6069_bv7dnt.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861970/gallery/261224/IMG_6068_sjj8ka.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861970/gallery/261224/IMG_6067_jzzeuw.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861970/gallery/261224/IMG_6066_pn9jlx.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861976/gallery/261224/IMG_6065_nlbfvx.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861976/gallery/261224/IMG_6064_rf05ez.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861977/gallery/261224/IMG_6063_qtr6a0.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861977/gallery/261224/IMG_6062_do8myk.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861977/gallery/261224/IMG_6061_yzlbqb.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861977/gallery/261224/IMG_6060_i1krfx.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1736861977/gallery/261224/IMG_6058_ppixly.webp"
+        ]
+    },
+    {
+        title: {
             en: "Party at the Dojo",
             ru: "Вечеринка в Доджо",
             uk: "Вечірка в Доджо",
