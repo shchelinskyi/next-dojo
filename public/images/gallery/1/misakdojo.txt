@@ -1,0 +1,123 @@
+Місак Доджо - хостинг
+https://hostiq.ua/clients/clientarea.php
+
+Логін: misak.arzumanyan@gmail.com
+Пароль: A986ACd72d
+------------------------------------------
+
+Для старой версии на WP учетка
+
+Місак Доджо - сайт
+https://www.misakdojo.com/wp-admin
+
+Логін: MisakDojo
+Пароль: 8WB6s&UNVAq1TuuXRW
+------------------------------------------
+
+
+Изображения галереи и новостей лежат по папкам на ресурсе cloudinary
+---------------------------------------
+Логин
+misakDojo7@gmail.com
+Пароль
+DojoMisak7!
+
+---------------------------------------
+Резервная старая версия сайта лежит Google Disk
+misakDojo7@gmail.com
+DojoMisak7!
+
+
+
+ОБНОВЛЕНИЕ ИНФОРМАЦИИ
+////////////////////
+вход по root
+ssh root@45.83.192.4
+Hs8ro7xFC5C3K0Hmq2
+
+или вход по пользователю
+ssh admin@45.83.192.4
+adminDojo777!
+
+1. Обновить данные с репозитория
+входим как админ
+
+2. Заходим в папку
+cd next-dojo
+
+3. Скачиваем с репозитория
+git pull origin main
+
+4. Обновляем build
+npm run build
+
+5. В этой же папке запущен pm2 и необходимо его перегрузить процес
+npx pm2 restart dojo
+
+NGINX
+////////////////////
+Информация nginx
+Файл конфигурации лежит в папке
+cd /etc/nginx/sites-available
+
+sudo nano misakdojo.com.conf
+
+выглядит следующим образом
+
+
+server {
+    listen 80;
+    server_name misakdojo.com;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://127.0.0.1:3000;
+    }
+
+
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name misakdojo.com;
+
+    ssl_certificate /home/admin/ssl/cert/misakdojo_com.crt;
+    ssl_certificate_key /home/admin/ssl/private/misakdojo_com.key;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://127.0.0.1:3000;
+    }
+}
+
+старт nginx
+sudo /etc/init.d/nginx start
+
+CТАРАЯ ВЕРСИЯ САЙТА
+////////////////////
+
+лежит по пути
+пользователь создавался hostiq при переносе
+имя пользователя 
+misakdoj
+соответственно была скопирована папка на WP
+/home/misakdoj/public_html
+
+
+Создание сертификата
+1. При создании дается ключ, его оставляем. Он может на почту прийти.
+2. При подаче, прикрепляем, ложим к сайту в public файл который в панели на hostic будет.
+Как пример:
+"\next-dojo\public\.well-known\pki-validation\B98F0E4F5DA81356F11A8AF7ABF974B4.txt"
+3. Ждем создание, объединям ключ с папки линукс и основной сертификат и смотрим чтоб файл был нормально форматирован ВАЖНО!
+4. Проверяем чтоб файл ключа так же был нормально скопирован даже наличие знаков дефис - имеет значение.
+5. В конфигурации nginx если пути сертификата и ключа меняются то тоже меням.
+6. Тестируем 
+sudo nginx -t
+7. Делаем перезагрузку
+sudo nginx -s reload
+8. На ресурсе можно протестировать и понять сертификат ок или нет, и соответ. https уже говорит и наличие
+validator.w3.org
+активный до 2025-02-16 
+

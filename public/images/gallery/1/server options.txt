@@ -1,0 +1,201 @@
+Обновление пакетов Ubuntu
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install vim
+установка vim читать текстовые файлы
+лучше использовать nano
+nano сохранить Ctrl + O, потом Enter, потом Ctrl + X
+
+1. открывает терминал и подключаемся к серверу
+
+root
+Hs8ro7xFC5C3K0Hmq2
+
+ssh admin@45.83.192.4
+
+adminDojo777!
+
+или по домену вместо ip
+Вводим пароль
+
+2. добавляем пользователя
+adduser admin
+Вводим пароль
+
+3. добавляем в группу судо
+
+usermod -aG sudo admin
+
+4. Выходим 
+exit
+
+5. Чтоб перегрузить сервер 
+sudo systemctl restart ssh
+
+можно посмотреть его статус
+sudo systemctl status ssh
+
+6. Установить ноду
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+7. Пробуем nvm и ставим ноду
+
+nvm
+
+устанавливаем последнюю
+nvm install --lts
+
+
+9. Клонируем репозиторий
+git clone https://github.com/shchelinskyi/next-dojo.git
+
+
+10. Заходим в папку устанавливаем зависимости и делаем build
+
+cd next-dojo
+npm ci
+npm run build
+
+остановить процесс в терминали ctrl + C
+
+11. Чтоб после закрытия сервер не перестал работать
+
+Дадим имя процесу dojo
+npx pm2 start npm --name dojo -- start
+
+12. Чтоб перезапустился при запуске системы
+npx pm2 startup
+
+Посмотреть нужно ли вставить старт скрипт
+скопировать вставить
+
+13. Для настройки файрвола
+sudo apt-get install ufw
+
+Статус sudo ufw status verbose
+
+Будет inactive
+
+sudo ufw allow ssh
+sudo ufw allow http
+
+По 3000 порту не достучимся
+
+sudo ufw enable
+
+14. Прокси сервер, обязательно enable чтоб был включен после перезагрузки
+
+sudo apt install nginx
+
+sudo systemctl enable nginx
+
+sudo systemctl is-enabled nginx
+
+15. Заходим в конфигурационный файл
+
+cd /etc/nginx/
+
+ls
+
+заходим 
+
+sudo nano nginx.conf
+
+16. Cоздаем конфиг и удаляем дефолтный
+cd /etc/nginx/sites-available
+sudo rm default
+
+sudo nano misakdojo.com.conf
+
+
+Копируем конфигурацию
+
+server {
+    listen 80;
+    server_name misakdojo.com;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://127.0.0.1:3000;
+    }
+
+
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name misakdojo.com;
+
+    ssl_certificate /home/admin/ssl/cert/misakdojo_com.crt;
+    ssl_certificate_key /home/admin/ssl/private/misakdojo_com.key;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://127.0.0.1:3000;
+    }
+}
+
+
+
+Далее выходим 
+
+
+17. Делаем ссылку c  одной папки в другую
+
+sudo ln -s /etc/nginx/sites-available/misakdojo.com.conf  /etc/nginx/sites-enabled/
+
+
+18. Перезапустим nginx
+
+Сначала протестируем
+sudo nginx -t
+
+Запуск
+
+sudo /etc/init.d/nginx start
+
+А это когда уже запущен можно перезагружать!!!!
+
+sudo nginx -s reload
+Который подгружает новую конфигурацию и перегружает сервер
+
+
+19. Сертификат настройка если нет купленых сертификатов
+
+sudo apt install certbot python3-certbot-nginx
+
+запускаем
+
+sudo certbot --nginx -d misakdojo.com
+
+добавляем email
+
+заходим посмотреть в конфиге
+
+sudo nano misakdojo.com.conf
+должен был добавить дополнительную конфигурацию
+
+выходим 
+
+
+Дополнительная инфо
+
+остановить процесс
+npx pm2 stop dojo
+
+запустить
+npx pm2 start dojo
+
+перезапустить
+npx pm2 restart dojo
+
+npx pm2 list показывает какие запущено процессы
+
