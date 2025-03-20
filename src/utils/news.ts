@@ -1,4 +1,69 @@
 export const newsData = {
+    kozakCup2025: {
+        linkName: "kozak-cup-2025",
+        title: {
+            en: "The 3rd Cup of sports school \"KOZAK\" in KYOKUSHIN KARATE",
+            ru: "3-й кубок КДЮСШ «КОЗАК» по КИОКУШИНКАЙ КАРАТЕ",
+            uk: "3-й кубок КДЮСШ «КОЗАК» з КІОКУШИНКАЙ КАРАТЕ",
+        },
+        date: "16.03.2025",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/160325.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1742474513/gallery/160325/IMG_7196_ekovai.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1742474512/gallery/160325/IMG_7206_zw7cu2.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1742474491/gallery/160325/IMG_7239_vzphui.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1742474507/gallery/160325/IMG_7240_jd96lb.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1742474500/gallery/160325/IMG_7213_k1efdq.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1742474493/gallery/160325/IMG_7227_vocyv2.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1742474492/gallery/160325/IMG_7226_k5gkiq.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1742474494/gallery/160325/IMG_7224_c57ip4.webp"
+        ],
+        text1: {
+            en: "Team spirit starts with each of us! Every competition is not just about personal victory but also about the collective result of our team. Misak Dojo – one team, one path, one victory! 押忍!",
+            ru: "Командный дух начинается с каждого из нас! Каждые соревнования — это не только про личную победу, но и про общий результат нашей команды. Misak Dojo – одна команда, один путь, одна победа! 押忍!",
+            uk: "Командний дух починається з кожного з нас! Кожні змагання – це не лише про особисту перемогу, а й про спільний результат нашої команди. Misak Dojo – одна команда, один шлях, одна перемога! 押忍!"
+        },
+        text5: {
+            en: "Results of the KOZAK competition on March 16, 2025:",
+            ru: "Результаты соревнований КОЗАК 16.03.2025:",
+            uk: "Результати змагань КОЗАК 16.03.2025:",
+        },
+        wins1: {
+            en: ["🥇 1st place — Fil Denis", "🥇 1st place — Kaminska Anna", "🥇 1st place — Karlyshev Ivan", "🥇 1st place — Volik Katya", "🥇 1st place — Artyukh Dima", "🥇 1st place — Shedenko Yaroslava", "🥇 1st place — Tsvetkova Iryna"],
+            ru: ["🥇 1 место — Филь Денис", "🥇 1 место — Каминская Анна", "🥇 1 место — Карлышев Иван", "🥇 1 место — Волик Катя", "🥇 1 место — Артюх Дима", "🥇 1 место — Шеденко Ярослава", "🥇 1 место — Цветкова Ирина"],
+            uk: ["🥇 1 місце — Філь Денис", "🥇 1 місце — Камінська Анна", "🥇 1 місце — Карлишев Іван", "🥇 1 місце — Волік Катя", "🥇 1 місце — Артюх Діма", "🥇 1 місце — Шеденко Ярослава", "🥇 1 місце — Цвєткова Ірина "]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Yaroshenko Danya", "🥈 2nd place — Savchenko Timur", "🥈 2nd place — Nimchenko Artem", "🥈 2nd place — Salivonenko Kostya", "🥈 2nd place — Kupriyanov Danil", "🥈 2nd place — Krymsky Ivan"],
+            ru: ["🥈 2 место — Ярошенко Даня", "🥈 2 место — Савченко Тимур", "🥈 2 место — Нимченко Артём", "🥈 2 место — Саливоненко Костя", "🥈 2 место — Куприянов Данил", "🥈 2 место — Крымский Иван"],
+            uk: ["🥈 2 місце — Ярошенко Даня", "🥈 2 місце — Савченко Тимур", "🥈 2 місце — Німченко Артем", "🥈 2 місце — Саливоненко Костя", "🥈 2 місце — Купріянов Данил", "🥈 2 місце — Кримський Іван"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Mirny Yegor","🥉 3rd place — Antonenko Timur","🥉 3rd place — Avramov Lev","🥉 3rd place — Moroz Roman","🥉 3rd place — Nimchenko Matviy","🥉 3rd place — Ivanitsky Yegor","🥉 3rd place — Kelepko Denis","🥉 3rd place — Tsal-Tsalko Tikhon","🥉 3rd place — Ivashkovets Yevhen"],
+            ru: ["🥉 3 место — Мирный Егор","🥉 3 место — Антоненко Тимур","🥉 3 место — Аврамов Лев","🥉 3 место — Мороз Роман","🥉 3 место — Нимченко Матвей","🥉 3 место — Иваницкий Егор","🥉 3 место — Келепко Денис","🥉 3 место — Цал-Цалко Тихон","🥉 3 место — Ивашковец Евгений"],
+            uk: ["🥉 3 місце — Мирний Єгор", "🥉 3 місце — Антоненко Тимур", "🥉 3 місце — Аврамов Лев ", "🥉 3 місце — Мороз Роман", "🥉 3 місце — Німченко Матвій","🥉 3 місце — Іваницький Єгор","🥉 3 місце — Келепко Денис","🥉 3 місце — Цал-Цалко Тихон","🥉 3 місце — Івашковець Євген"]
+        },
+        wins4: {
+            en: ["🏅 4th place — Gavrelyuk Gleb", "🏅 4th place — Udovichenko Sasha", "🏅 4th place — Netrebchuk Ostap"],
+            ru: ["🏅 4 место — Гаврелюк Глеб", "🏅 4 место — Удовиченко Саша", "🏅 4 место — Нетребчук Остап"],
+            uk: ["🏅 4 місце — Гаврелюк Глєб", "🏅 4 місце — Удовиченко Саша", "🏅 4 місце — Нетребчук Остап" ]
+        },
+        text6: {
+            en: "🔥We are walking the path of Kyokushin Karate🥋",
+            ru: "🔥Мы идем по пути Киокушинкай каратэ🥋",
+            uk: "🔥Ми йдемо шляхом Кіокушинкай карате🥋"
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
     awards2024: {
         linkName: "awards-2024",
         title: {
