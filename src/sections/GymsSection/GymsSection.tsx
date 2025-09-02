@@ -84,13 +84,13 @@ const GymsSection = () => {
                             {/*</div>*/}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>18:30 - 20:00</li>
+                                    <li className={s.timeText}>18:00 - 19:30</li>
                                 </ul>
                                 <p className={s.text}>{t("group2")}</p>
                             </div>
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>20:00 - 22:00</li>
+                                    <li className={s.timeText}>19:30 - 21:30</li>
                                 </ul>
                                 <p className={s.text}>{t("group1")}</p>
                             </div>
@@ -102,13 +102,13 @@ const GymsSection = () => {
                             {language === "en" && <Image className={s.dayIcon} src={fridayEN} alt="friday"/>}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>18:30 - 20:00</li>
+                                    <li className={s.timeText}>18:00 - 19:30</li>
                                 </ul>
                                 <p className={s.text}>{t("group2")}</p>
                             </div>
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>20:00 - 22:00</li>
+                                    <li className={s.timeText}>19:30 - 21:30</li>
                                 </ul>
                                 <p className={s.text}>{t("group1")}</p>
                             </div>
@@ -127,13 +127,13 @@ const GymsSection = () => {
                             {/*</div>*/}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>18:30 - 20:00</li>
+                                    <li className={s.timeText}>18:00 - 19:30</li>
                                 </ul>
                                 <p className={s.text}>{t("group2")}</p>
                             </div>
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>20:00 - 22:00</li>
+                                    <li className={s.timeText}>19:30 - 21:30</li>
                                 </ul>
                                 <p className={s.text}>{t("group1")}</p>
                             </div>
