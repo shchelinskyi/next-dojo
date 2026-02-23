@@ -1,6 +1,42 @@
 export const gallery = [
     {
         title: {
+            en: "Kyiv Championship 15.02.2026",
+            ru: "Чемпионат Киева 15.02.2026",
+            uk: "Чемпіонат Києва 15.02.2026",
+        },
+        date: "15.02.2026",
+        mainImg: "/images/gallery/150226.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838535/gallery/150226/DSC05019_result_u9ymji.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838534/gallery/150226/DSC05011_result_okwz6y.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838534/gallery/150226/DSC05015_result_sxqquj.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838533/gallery/150226/DSC05005_result_uk8mfs.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838534/gallery/150226/DSC05009_result_bzvqm5.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838532/gallery/150226/DSC04999_result_hpi0fz.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838532/gallery/150226/DSC04996_result_fmfoon.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838532/gallery/150226/DSC04972_result_vq17od.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838531/gallery/150226/DSC04887_result_vyhc7j.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838531/gallery/150226/DSC04962_result_ojo3qu.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838531/gallery/150226/DSC04950_result_frequc.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838530/gallery/150226/DSC04905_result_ov6v7u.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04855_result_qvqyle.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838530/gallery/150226/DSC04857_result_uocdff.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04798_result_mctqag.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04787_result_pcxwae.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04817_result_ls8zk9.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04793_result_hfa4lv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04773_result_hwmnnj.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04764_result_kzr5oa.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838528/gallery/150226/DSC04709_result_fq4bds.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838528/gallery/150226/DSC04701_result_sonwd0.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838528/gallery/150226/DSC04736_result_vxovds.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838528/gallery/150226/DSC04753_result_lg8n19.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838528/gallery/150226/DSC04698_result_tqwh3k.webp"
+        ]
+    },
+    {
+        title: {
             en: "Hikari Cup 2025",
             ru: "Hikari Cup 2025",
             uk: "Hikari Cup 2025",
