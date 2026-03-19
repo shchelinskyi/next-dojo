@@ -1,4 +1,129 @@
 export const newsData = {
+    kozakCup2026: {
+        linkName: "kozak-cup-2026",
+        title: {
+            en: "The 4th Cup of sports school \"KOZAK\" in KYOKUSHIN KARATE",
+            ru: "4-й кубок КДЮСШ «КОЗАК» по КИОКУШИНКАЙ КАРАТЕ",
+            uk: "4-й кубок КДЮСШ «КОЗАК» з КІОКУШИНКАЙ КАРАТЕ",
+        },
+        date: "15.03.2026",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/150326.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906407/gallery/150326/DSC01321_result_paatxb.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906599/gallery/150326/DSC02201_result_o2mrly.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906406/gallery/150326/DSC01252_result_wwgefl.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906413/gallery/150326/DSC01543_result_csiqr1.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906413/gallery/150326/DSC01533_result_kcwo9u.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906413/gallery/150326/DSC01538_result_rlkb4z.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906579/gallery/150326/DSC01754_result_d1a2cv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906579/gallery/150326/DSC01751_result_hunw0c.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906595/gallery/150326/DSC02169_result_c4aoeh.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906595/gallery/150326/DSC02163_result_pbzyxn.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906595/gallery/150326/DSC02157_result_igm55c.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906596/gallery/150326/DSC02178_result_bs7b20.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906598/gallery/150326/DSC02190_result_xvmayp.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906598/gallery/150326/DSC02184_result_xycysm.webp"
+        ],
+        text1: {
+            en: "Ukraine’s capital hosted a major event — the IV Cup of the \"KOZAK\" Youth Sports School in Kyokushin Karate. More than 500 athletes from dozens of clubs across the country took part in the competition. The tournament became an important platform where participants demonstrated their spirit, improved their skills, and gained valuable competitive experience! 押忍!",
+            ru: "Столица Украины приняла масштабный турнир — IV Кубок КДЮСШ «Козак» по киокушин карате. В соревнованиях приняли участие более 500 спортсменов из десятков клубов со всей страны. Турнир стал важной площадкой, где участники смогли проявить характер, повысить уровень мастерства и получить ценный соревновательный опыт! 押忍!",
+            uk: "Столиця України прийняла масштабний турнір — IV Кубок КДЮСШ «Козак» з кіокушинкай карате. У змаганнях взяли участь понад 500 спортсменів, які представляли десятки клубів з усієї країни. Подія стала важливою спортивною ареною, де учасники змогли проявити характер, підвищити свій рівень майстерності та отримати цінний змагальний досвід! 押忍!"
+        },
+        text5: {
+            en: "Results of the KOZAK competition on March 15, 2026:",
+            ru: "Результаты соревнований КОЗАК 15.03.2026:",
+            uk: "Результати змагань КОЗАК 15.03.2026:",
+        },
+        wins1: {
+            en: [
+                "🥇 1st place — Kupriianov Danylo",
+                "🥇 1st place — Sydorova Daryna",
+                "🥇 1st place — Kondakov Heorhii",
+                "🥇 1st place — Antonenko Tymur"
+            ],
+            ru: [
+                "🥇 1 место — Куприянов Данил",
+                "🥇 1 место — Сидорова Дарина",
+                "🥇 1 место — Кондаков Георгий",
+                "🥇 1 место — Антоненко Тимур"
+            ],
+            uk: [
+                "🥇 1 місце — Купріянов Данил",
+                "🥇 1 місце — Сидорова Дарина",
+                "🥇 1 місце — Кондаков Георгій",
+                "🥇 1 місце — Антоненко Тимур"
+            ]
+        },
+        wins2: {
+            en: [
+                "🥈 2nd place — Salivonenko Kostiantyn",
+                "🥈 2nd place — Karlyshev Ivan"
+            ],
+            ru: [
+                "🥈 2 место — Саливоненко Константин",
+                "🥈 2 место — Карлышев Иван"
+            ],
+            uk: [
+                "🥈 2 місце —  Саливоненко Костянтин",
+                "🥈 2 місце — Карлишев Іван"
+            ]
+        },
+        wins3: {
+            en: [
+                "🥉 3rd place — Kelepko Denys",
+                "🥉 3rd place — Babenko Viktoriia",
+                "🥉 3rd place — Zavarskyi Zakhar",
+                "🥉 3rd place — Kravtsova Kateryna"
+            ],
+            ru: [
+                "🥉 3 место — Келепко Денис",
+                "🥉 3 место — Бабенко Виктория",
+                "🥉 3 место — Заварский Захар",
+                "🥉 3 место — Кравцова Екатерина"
+            ],
+            uk: [
+                "🥉 3 місце — Келепко Денис ",
+                "🥉 3 місце — Бабенко Вікторія",
+                "🥉 3 місце — Заварський Захар",
+                "🥉 3 місце — Кравцова Катерина"
+            ]
+        },
+        wins4: {
+            en: [
+                "🏅 4th place — Volik Kateryna",
+                "🏅 4th place — Plakhotnyk Makar",
+                "🏅 4th place — Moroz Roman",
+                "🏅 4th place — Udovychenko Oleksandr"
+            ],
+            ru: [
+                "🏅 4 место — Волик Екатерина",
+                "🏅 4 место — Плахотник Макар",
+                "🏅 4 место — Мороз Роман",
+                "🏅 4 место — Удовиченко Александр"
+            ],
+            uk: [
+                "🏅 4 місце — Волік Катерина",
+                "🏅 4 місце — Плахотник Макар",
+                "🏅 4 місце — Мороз Роман",
+                "🏅 4 місце — Удовиченко Олександр"
+            ]
+        },
+        text6: {
+            en: "🔥We are walking the path of Kyokushin Karate🥋",
+            ru: "🔥Мы идем по пути Киокушинкай каратэ🥋",
+            uk: "🔥Ми йдемо шляхом Кіокушинкай карате🥋"
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
     kozakCup2025: {
         linkName: "kozak-cup-2025",
         title: {
