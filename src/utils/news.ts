@@ -124,6 +124,56 @@ export const newsData = {
             uk: "ОСУ!"
         },
     },
+    cupIrpin2026: {
+        linkName: "cup-irpin-2026",
+        title: {
+            en: "Princess Olga Cup, Irpin city 2026",
+            ru: "Кубок Княгини Ольги, г. Ирпень 2026",
+            uk: "Кубок Княгині Ольги, м. Ірпінь 2026",
+        },
+        date: "01.03.2026",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/010326.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1774288092/gallery/010326/DSC09805_result_pzd7ew.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1774288093/gallery/010326/DSC09806_result_hahzyn.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1774288093/gallery/010326/DSC09816_result_jn1gwi.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1774288078/gallery/010326/DSC00157_result_lopkvv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1774288077/gallery/010326/DSC00110_result_u8si4v.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1774288077/gallery/010326/DSC00109_result_vntgwp.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1774288078/gallery/010326/DSC00176_result_gclvcn.webp"
+
+        ],
+        text1: {
+            en: "March 1st was truly a busy and productive day for our team. In Irpin, the \"Princess Olga Cup\" tournament took place, where:",
+            ru: "1 марта стал по-настоящему насыщенным и результативным днём для нашей команды. В Ирпене прошли соревнования «Кубок княгини Ольги», где:",
+            uk: "1 березня був по-справжньому насичений і результативний день для нашої команди. В Ірпені відбулися змагання «Кубок княгині Ольги», де:"
+        },
+        text2: {
+            en: "🥈 Danylo Kupriyanov won second place, delivering excellent matches and confidently advancing to the final. Strong technique and fighting spirit — a достой result!",
+            ru: "🥈 Даниил Куприянов завоевал второе место, проведя отличные поединки и уверенно дойдя до финала. Мощная техника и боевой дух — достойный результат!",
+            uk: "🥈 Куприянов Данил виборов друге місце, провівши дуже класні поєдинки та впевнено дійшовши до фіналу. Потужна техніка та бойовий дух — гідний результат!"
+        },
+        text3: {
+            en: "🥉 Arina Tyukova took third place, delivering a strong and intense match against an opponent with a higher belt and greater physical advantage. A true display of character and will to win!",
+            ru: "🥉 Арина Тюкова заняла третье место, проведя напряжённый и сильный поединок против соперницы с более высоким поясом и большими габаритами. Настоящее проявление характера и воли к победе!",
+            uk: "🥉 Аріна Тюкова посіла третє місце. Провела насичений і сильний поєдинок із суперницею з вищим поясом та більшою за габаритами. Справжнє проявлення характеру та волі до перемоги!"
+        },
+        text4: {
+            en: "These achievements are the result of the hard work, strength of spirit, and unwavering belief of our athletes. Behind every award stand hours of training, resilience, and a strong desire to win. We are truly proud of you!",
+            ru: "Эти достижения — результат упорного труда, силы духа и непоколебимой веры наших спортсменов. За каждой наградой стоят часы тренировок, выдержка и большое стремление к победе. Мы искренне гордимся вами!",
+            uk: "Ці досягнення — результат наполегливої праці, сили духу та незламної віри наших спортсменів. За кожною нагородою стоять години тренувань, витримка й велике прагнення до перемоги. Ми щиро пишаємося вами!"
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
     kozakCup2025: {
         linkName: "kozak-cup-2025",
         title: {
