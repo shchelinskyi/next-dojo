@@ -174,6 +174,131 @@ export const newsData = {
             uk: "ОСУ!"
         },
     },
+    championshipKyiv2026: {
+        linkName: "championship-kyiv-2026",
+        title: {
+            en: "Kyiv Championship 15.02.2026",
+            ru: "Чемпионат Киева 15.02.2026",
+            uk: "Чемпіонат Києва 15.02.2026",
+        },
+        date: "15.02.2026",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/150226.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838535/gallery/150226/DSC05019_result_u9ymji.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838534/gallery/150226/DSC05015_result_sxqquj.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838531/gallery/150226/DSC04962_result_ojo3qu.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04787_result_pcxwae.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04793_result_hfa4lv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838529/gallery/150226/DSC04764_result_kzr5oa.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1771838528/gallery/150226/DSC04736_result_vxovds.webp"
+        ],
+        text1: {
+            en: "On February 15, the 2026 season officially kicked off right here — at the Kyiv Kyokushin Karate Cup!",
+            ru: "15 февраля сезон 2026 года стартовал именно здесь — на Кубке Киева по киокушинкай каратэ!",
+            uk: "15 лютого сезон 2026 року стартував саме тут — на Кубку Києва з кіокушинкай карате!"
+        },
+        text2: {
+            en: "Results of the Kyiv Championship (15.02.2026):",
+            ru: "Результаты Чемпионата Киева (15.02.2026):",
+            uk: "Результати Чемпіонату Києва (15.02.2026):",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
+    hikariCup2025: {
+        linkName: "hikari-cup-2025",
+        title: {
+            en: "Hikari Cup 2025",
+            ru: "Hikari Cup 2025",
+            uk: "Hikari Cup 2025",
+        },
+        date: "06.12.2025",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/061225.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899366/gallery/061225/DSC04052-Enhanced-NR_result_mea7o1.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899366/gallery/061225/DSC04042_result_jmc1k7.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899365/gallery/061225/DSC04034_result_zhagfd.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899364/gallery/061225/DSC04021_result_futqdx.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899363/gallery/061225/DSC04015_result_xt3lms.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899362/gallery/061225/DSC04008_result_r5ie64.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899360/gallery/061225/DSC04004_result_slzkbe.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899359/gallery/061225/DSC03991_result_ixykfi.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899359/gallery/061225/DSC03999_result_ybtw4e.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899359/gallery/061225/DSC03994_result_x9cksk.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1765899358/gallery/061225/DSC03978_result_muuejt.webp"
+        ],
+        text1: {
+            en: "This year, the Hikari Cup became a truly powerful tournament, organized by Anna Izdebska and Shiro Dojo together with the Kyiv City Federation and its member clubs.\n" +
+                "The strongest fighters from Kyiv, Kyiv region, and across Ukraine gathered on the tatami — the level was serious, with no random victories or easy paths.",
+            ru: "В этом году Hikari Cup стал по-настоящему мощным турниром, организованным Anna Izdebska и Shiro Dojo совместно с Киевской городской федерацией и клубами-членами федерации.\n" +
+                "На татами собрались сильнейшие бойцы Киева, Киевской области и всей Украины — уровень был серьёзный, без случайных побед и лёгких путей.",
+            uk: "Hikari Cup цього року став по-справжньому потужним турніром, який організувала Anna Izdebska та Shiro dojo спільно з Київською міською федерацією та клубами членами федераії.\n" +
+                "На татамі зібралися найсильніші бійці Київа, Київської області та України — рівень був серйозний, без випадкових перемог і легких шляхів."
+        },
+        text2: {
+            en: "And our kids from Misak Dojo stepped onto the tatami and delivered.",
+            ru: "И наши дети из Misak Dojo вышли на татами и сделали это.",
+            uk: "І наші діти з Misak Dojo вийшли та зробили це.",
+        },
+        text3: {
+            en: "These were fights of character. Tough, principled, emotional. No fear. No retreat. All the way. 💪",
+            ru: "Это были поединки характера. Жёсткие, принципиальные, эмоциональные. Без страха. Без отступления. До конца. 💪",
+            uk: "Це були поєдинки характеру. Жорсткі, принципові, емоційні. Без страху. Без відступу. До кінця. 💪",
+        },
+        text4: {
+            en: "🏆 We return with podium places and victories. But most importantly — with the experience of fighting the strongest opponents in the country. These results are no coincidence. They are the result of systematic training, discipline, endurance, and daily work in the gym.",
+            ru: "🏆 Мы возвращаемся с призовыми местами и победами. Но главное — с опытом поединков против сильнейших соперников страны. Эти результаты — не случайность. Это системная подготовка, дисциплина, выносливость и ежедневная работа в зале.",
+            uk: "🏆 Ми повертаємось із призовими місцями та перемогами. Але головне — з досвідом боїв проти найпотужніших суперників країни. Ці результати — не випадковість. Це системна підготовка, дисципліна, витримка і щоденна робота в залі.",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
     kozakCup2025: {
         linkName: "kozak-cup-2025",
         title: {
