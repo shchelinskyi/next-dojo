@@ -1,0 +1,1 @@
+export  {default} from "./Khvyla2025Certification"

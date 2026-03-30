@@ -1,0 +1,1 @@
+export  {default} from "./FreedomCup2025"

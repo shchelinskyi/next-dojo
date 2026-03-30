@@ -214,7 +214,7 @@ export const newsData = {
         },
         wins2: {
             en: ["🥈 2nd place — Mohyla Matvii"],
-            ru: ["🥈 2 место — Могила Матвий"],
+            ru: ["🥈 2 место — Могила Матвей"],
             uk: ["🥈 2 місце — Могила Матвій"]
         },
         wins3: {
@@ -299,6 +299,571 @@ export const newsData = {
             uk: "ОСУ!"
         },
     },
+    freedomCup2025: {
+        linkName: "freedom-cup-2025",
+        title: {
+            en: "Freedom Cup 2025",
+            ru: "Freedom Cup 2025",
+            uk: "Freedom Cup 2025",
+        },
+        date: "23.11.2025",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/231125.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835632/gallery/231125/DSC02929-Enhanced-NR_hrgqcq.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835631/gallery/231125/DSC02727-Enhanced-NR_v6e0f1.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835631/gallery/231125/DSC02820-Enhanced-NR_smfc1n.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835631/gallery/231125/DSC02865-Enhanced-NR_bislvf.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835630/gallery/231125/DSC02907-Enhanced-NR_vyfhmt.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835630/gallery/231125/DSC02932-Enhanced-NR_rotyzt.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835630/gallery/231125/DSC02943-Enhanced-NR_iuvbhj.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835630/gallery/231125/DSC09928-Enhanced-NR_wwb4rb.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835630/gallery/231125/DSC09932-Enhanced-NR_xzfqxt.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835630/gallery/231125/DSC09883-Enhanced-NR_glliqm.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764835633/gallery/231125/DSC02356_wlqnpf.webp"
+        ],
+        text1: {
+            en: "On November 23, the Freedom Cup 2025 tournament took place. Our club also participated and delivered a strong result.",
+            ru: "23 ноября состоялся турнир Freedom Cup 2025. Наш клуб также принял участие и показал достойный результат.",
+            uk: "23 листопада відбулися змагання Freedom Cup 2025. Наш клуб також вирушив на турнір та показав гідний результат."
+        },
+        text2: {
+            en: "Young athletes and juniors stepped onto the tatami — for many of them, this day became an important step forward. Those who are taking their first steps in sport today will shape a strong, resilient, and worthy future tomorrow.",
+            ru: "На татами вышли юные спортсмены и молодежь — для многих из них этот день стал важным шагом вперед. Ведь те, кто сегодня делает первые шаги в спорте, уже завтра будут формировать сильное, выносливое и достойное будущее.",
+            uk: "На татамі вийшли юні спортсмени та молодь, для яких цей день став важливим кроком уперед. Адже ті, хто сьогодні робить перші кроки в спорті, вже завтра формуватимуть майбутнє — сильне, витривале й гідне.",
+        },
+        text3: {
+            en: "The event was organized by Monolit Club and Valentyn Popil, bringing together over 300 athletes from various clubs in one venue.",
+            ru: "Организаторами мероприятия стали клуб «Монолит» и Валентин Попил, которые собрали на одной площадке более 300 спортсменов из разных клубов.",
+            uk: "Організаторами заходу стали Клуб Моноліт та Валентин Попіл, які зібрали на одному майданчику понад 300 спортсменів з різних клубів.",
+        },
+        text4: {
+            en: "We sincerely thank the organizers for their work, support, and the opportunity for young fighters to showcase themselves at such a level!",
+            ru: "Искренне благодарим организаторов за их работу, поддержку и возможность для молодых бойцов проявить себя на таком уровне!",
+            uk: "Щиро дякуємо організаторам за їхню роботу, підтримку та можливість для молодих бійців проявити себе на такому рівні!",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
+    kyivCup2025: {
+        linkName: "kyiv-cup-2025",
+        title: {
+            en: "Kyiv Cup 15.11.2025",
+            ru: "Kубок Киева 15.11.2025",
+            uk: "Кубок Києва 15.11.2025",
+        },
+        date: "15.11.2025",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/151125.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838449/gallery/151125/DSC06443-Enhanced-NR_result_gbacct.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838448/gallery/151125/DSC06436_result_ieowhs.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838447/gallery/151125/DSC06409_result_rulewm.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838446/gallery/151125/DSC06390_result_kkfwvg.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838445/gallery/151125/DSC06380_result_qhithc.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838445/gallery/151125/DSC06332_result_ptn4si.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838445/gallery/151125/DSC06371_result_zfukqu.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838444/gallery/151125/DSC06360_result_rnoajl.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838443/gallery/151125/DSC06298_result_xf24uw.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838441/gallery/151125/DSC06259-Enhanced-NR_result_v8rqbb.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764838440/gallery/151125/DSC06271-Enhanced-NR_result_vjsgf0.webp"
+        ],
+        text1: {
+            en: "On November 15, the tatami in the capital were filled with a true fighting spirit. Kyiv hosted athletes from all over the country at the Open Kyiv Kyokushin Karate Cup — a tournament dedicated to the “Angels of Sport,” athletes who stood up to defend Ukraine and gave the most precious thing — their lives.",
+            ru: "15 ноября столичные татами были наполнены настоящим боевым духом. Киев принимал спортсменов со всей страны на Открытом кубке Киева по киокушинкай каратэ — турнире, посвящённом «Ангелам спорта», спортсменам, которые встали на защиту Украины и отдали самое ценное — свою жизнь.",
+            uk: "15 листопада столичні татамі палали справжнім бойовим духом. Київ приймав спортсменів з усієї країни на Відкритому кубку Києва з КІОКУШИНКАЙ КАРАТЕ — турнірі, присвяченому «Янголам спорту», спортсменам, які стали на захист України та віддали за нас найцінніше — своє життя."
+        },
+        text2: {
+            en: "This year, the competition brought together representatives from 9 regions and Kyiv — around 300 participants in total. Each of them stepped onto the tatami not only to win, but also to honor the memory of true Heroes.",
+            ru: "В этом году соревнования объединили представителей 9 областей и Киева — всего около 300 участников. Каждый из них вышел на татами не только ради победы, но и ради почтения памяти настоящих Героев.",
+            uk: "Цього року змагання об’єднали представників 9 областей та Києва — загалом близько 300 учасників, кожен із яких вийшов на татамі не лише заради перемоги, а й заради вшанування пам’яті справжніх Героїв.",
+        },
+        text3: {
+            en: "Events like this show that the strength of karate lies not only in strikes, but also in unity, character, and respect for those who are no longer with us, but will forever remain in our hearts.",
+            ru: "Именно такие события показывают, что сила каратэ — не только в ударах, но и в единстве, характере и уважении к тем, кого уже нет рядом, но кто навсегда останется в наших сердцах.",
+            uk: "Саме такі події показують, що сила карате — не лише в ударах, а й у єдності, характері та повазі до тих, хто більше не поруч, але назавжди в наших серцях.",
+        },
+        text4: {
+            en: "Osu! We continue to train champions at Misak Dojo! 🔥🥋",
+            ru: "Ос! Продолжаем готовить чемпионов в Misak Dojo! 🔥🥋",
+            uk: "Ос! Продовжуємо готувати чемпіонів у Misak Dojo! 🔥🥋",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
+    britishCup2025: {
+        linkName: "british-cup-2025",
+        title: {
+            en: "Competition British Open 2025",
+            ru: "Соревнование British Open 2025",
+            uk: "Змагання British Open 2025",
+        },
+        date: "15.11.2025",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/051025.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764850462/gallery/051025/IMG_2111_uteq6w.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764850459/gallery/051025/IMG_2120_mhgttu.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764850457/gallery/051025/IMG_2119_eawgcl.webp",
+        ],
+        text1: {
+            en: "November 15, 2025 — a date worth remembering.",
+            ru: "15.11.2025 — дата, которую стоит запомнить.",
+            uk: "15.11.2025 – дата, яку варто запам’ятати."
+        },
+        text2: {
+            en: "Back in 2017, Ivan first stepped into Misak Dojo. He was only six years old — a small boy with a big fire in his eyes and a strong desire to try himself in Kyokushin.",
+            ru: "В далёком 2017 году Иван впервые переступил порог Misak Dojo. Ему было всего шесть лет — маленький мальчик с большим огнём в глазах и желанием попробовать себя в киокушинкай.",
+            uk: "У далекому 2017 році Іван уперше переступив поріг Misak Dojo. Йому було всього шість. Маленький хлопець, великий вогонь в очах — і бажання спробувати себе у Кіокушинкай.",
+        },
+        text3: {
+            en: "From that day on, he chose a difficult path: discipline, training, strikes, falls, and getting back up again. Not once did he turn away. His victory today is no coincidence — it is years of hard work, the support of his parents, and the strength of the team and spirit of our dojo. 🤍🥋👊",
+            ru: "С того дня он выбрал непростой путь: дисциплина, тренировки, удары, падения и новые подъёмы. И ни разу не свернул с него. Его сегодняшняя победа — не случайность. Это годы работы над собой, поддержка родителей, сила команды и дух нашего доджо. 🤍🥋👊",
+            uk: "З того дня він обрав нелегкий шлях: дисципліна, тренування, удари, падіння, знову підйоми. І жодного разу не звернув убік. Його сьогоднішня перемога — це не випадковість. Це роки роботи над собою, це підтримка батьків, це сила команди та духу нашого доджо.🤍🥋👊",
+        },
+        text4: {
+            en: "Osu! We continue to raise champions at Misak Dojo! 🔥🥋",
+            ru: "Ос! Продолжаем воспитывать чемпионов в Misak Dojo! 🔥🥋",
+            uk: "Ос! Продовжуємо готувати чемпіонів у Misak Dojo! 🔥🥋",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
+    misakDojoParty: {
+        linkName: "misak-dojo-party",
+        title: {
+            en: "Misak Dojo Party 2025",
+            ru: "Мисак Доджо Party 2025",
+            uk: "Місак Доджо Party 2025",
+        },
+        date: "03.11.2025",
+        category: {
+            en: "Dojo events",
+            ru: "События доджо",
+            uk: "Події доджо",
+        },
+        mainImg:"/images/news/031125.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839645/gallery/031125/DSC03942-Enhanced-NR_result_axjpkf.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839643/gallery/031125/DSC03891-Enhanced-NR_result_u6alif.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839642/gallery/031125/DSC03839-Enhanced-NR_result_gvr6dr.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839641/gallery/031125/DSC03830-Enhanced-NR_result_qtgerr.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839639/gallery/031125/DSC03785-Enhanced-NR_result_tkhql2.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839637/gallery/031125/DSC03747-Enhanced-NR_result_bd0ukx.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839635/gallery/031125/DSC03600-Enhanced-NR_result_zkb4rp.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839634/gallery/031125/DSC03593-Enhanced-NR_result_cvtoha.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839632/gallery/031125/DSC03489-Enhanced-NR_result_kzzime.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839624/gallery/031125/DSC03294-Enhanced-NR_result_mqgdlb.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764839618/gallery/031125/DSC03153-Enhanced-NR_result_laixc3.webp"
+        ],
+        text1: {
+            en: "🎉 Sensei’s birthday Ninja Turtles-style — mission accomplished 100%! Our amazing little karate kids celebrated like real heroes at Misak Dojo 🥋🐢",
+            ru: "🎉 День рождения Сенсея в стиле Черепашек-ниндзя — миссия выполнена на 100%! Наши лучшие маленькие каратисты праздновали как настоящие герои в Misak Dojo 🥋🐢",
+            uk: "🎉 День народження Сенсея у стилі ніндзя-черепашок — місія виконана на 💯! Наші найкращі маленькі каратисти святкували як справжні герої у Місак Доджо 🥋🐢"
+        },
+        text2: {
+            en: "A big thank you to the Kyiv event agency for the incredible atmosphere, to the parents for their support and love, and of course to our Sensei — for strength, wisdom, and inspiration every single day 💪",
+            ru: "Огромная благодарность ивент-агентству Киева за невероятную атмосферу, родителям — за поддержку и любовь, и, конечно, нашему Сенсею — за силу, мудрость и вдохновение каждый день 💪",
+            uk: "Дякуємо Івент-агенції Київ за неймовірну атмосферу, батькам — за підтримку і любов, і, звісно, нашому Сенсею — за силу, мудрість і натхнення кожного дня 💪",
+        },
+        text3: {
+            en: "Misak Dojo — a place where true warriors of spirit grow! ❤️🔥",
+            ru: "Misak Dojo — место, где растут настоящие воины духа! ❤️🔥",
+            uk: "Місак Доджо — місце, де зростають справжні воїни духу! ❤️🔥",
+        },
+        text4: {
+            en: "Those who train hard — celebrate well! 🥳",
+            ru: "Кто много работает на тренировках — тот классно празднует! 🥳",
+            uk: "Хто багато працює на тренуванні - той класно святкує 🥳",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
+    khvyla2025Certification: {
+        linkName: "khvyla-2025-certification",
+        title: {
+            en: "Khvyla 2025 Certification",
+            ru: "Хвыля 2025 Аттестация",
+            uk: "Хвиля 2025 Атестація",
+        },
+        date: "05.10.2025",
+        category: {
+            en: "Dojo events",
+            ru: "События доджо",
+            uk: "Події доджо",
+        },
+        mainImg:"/images/news/061025.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921539/gallery/061025/DSC03724-Enhanced-NR_result_kr15tf.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921538/gallery/061025/DSC03707_result_e3q4jk.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921538/gallery/061025/DSC03703_result_ro2wwt.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921536/gallery/061025/DSC03701_result_ss5kgc.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921535/gallery/061025/DSC03685_result_urpwo4.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921535/gallery/061025/DSC03681_result_zuaj60.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921534/gallery/061025/DSC03675_result_r1zd3v.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921532/gallery/061025/DSC03670_result_cjeukd.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921532/gallery/061025/DSC03668_result_mxe8rh.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921531/gallery/061025/DSC03661_result_ottjrv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921531/gallery/061025/DSC03659_result_fktn1c.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921530/gallery/061025/DSC03656_result_ath7n1.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921529/gallery/061025/DSC03650_result_g6g071.webp"
+        ],
+        text1: {
+            en: "Kyokushin Karate grading is a moment of truth. It’s when every drop of sweat, every effort, and every training session gains meaning. It’s a challenge not only for the body, but also for the spirit — a true test of character and self-belief.",
+            ru: "Аттестация в киокушинкай каратэ — это момент истины. Это когда каждая капля пота, каждое усилие и каждая тренировка обретают смысл. Это вызов не только для тела, но и для духа — настоящее испытание силы характера и веры в себя.",
+            uk: "Атестація в Кіокушинкай Карате — це момент істини. Це коли кожна крапля поту, кожне зусилля, кожне тренування набувають сенсу. Це виклик не лише для тіла, а й для духу — справжнє випробування сили характеру та віри в себе."
+        },
+        text2: {
+            en: "Three days of intense training, pushing limits, and total dedication — and then the day comes when you must give it your all. Under the strict eye of the commission, our students proved they are ready to move forward — stronger, more confident, and more resilient.",
+            ru: "Три дня напряжённых сборов, борьбы с собой и полной самоотдачи — и вот наступает день, когда нужно выложиться на максимум. Под пристальным взглядом комиссии наши ученики доказали: они готовы идти дальше — сильнее, увереннее и выносливее.",
+            uk: "Три дні напружених зборів, боротьби із собою, самовідданої праці — і ось він, день, коли потрібно було викластися на повну. Під пильним поглядом комісії наші учні доводили: вони готові йти далі, сильніші, впевненіші, стійкіші.",
+        },
+        text3: {
+            en: "We are incredibly proud of everyone who earned a new belt! But remember — this is only a step forward, not the finish line. The path of karate is endless, and every victory is just the beginning of new heights. Believe in yourself, work every day — and the impossible will become possible!",
+            ru: "Мы безмерно гордимся каждым, кто получил новый пояс! Но помните — это лишь шаг вперёд, а не финиш. Путь каратэ бесконечен, и каждая победа — это только начало новых высот. Верьте в себя, работайте каждый день — и невозможное станет возможным!",
+            uk: "Ми безмежно пишаємося кожним, хто здобув новий пояс! Але пам’ятайте — це лише крок уперед, а не фініш. Шлях карате нескінченний, і кожна перемога — це лише початок нових вершин. Вірте в себе, працюйте щодня — і неможливе стане досяжним!",
+        },
+        text4: {
+            en: "Those who train hard — celebrate well! 🥳",
+            ru: "Кто хорошо работает на тренировках — тот классно празднует! 🥳",
+            uk: "Хто багато працює на тренуванні - той класно святкує 🥳",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
+    competitionMisakDojo: {
+        linkName: "competition-misak-dojo",
+        title: {
+            en: "Competition Misak Dojo",
+            ru: "Соревнование Мисак Доджо",
+            uk: "Змагання Місак Доджо",
+        },
+        date: "04.10.2025",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/041025.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849740/gallery/041025/DSC02864-Enhanced-NR_result_hfhmbx.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849736/gallery/041025/DSC02862-Enhanced-NR_result_f1cvzu.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849729/gallery/041025/DSC02842-Enhanced-NR_result_vga7io.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849726/gallery/041025/DSC02834-Enhanced-NR_result_tq3msl.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849722/gallery/041025/DSC02832-Enhanced-NR_result_jxraav.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849719/gallery/041025/DSC02825-Enhanced-NR_result_pflvmh.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849714/gallery/041025/DSC02820_result_mtihvg.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849713/gallery/041025/DSC02812_result_xvwqp2.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849708/gallery/041025/DSC02811_result_oykcyg.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849705/gallery/041025/DSC02801_result_mqgml6.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849701/gallery/041025/DSC02796_result_wxbdsa.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849698/gallery/041025/DSC02789_result_vtnhsw.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849693/gallery/041025/DSC02787_result_g6m9c7.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849691/gallery/041025/DSC02768_result_a1vzye.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849421/gallery/041025/DSC01932_result_rzijzg.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764849629/gallery/041025/DSC02072-Enhanced-NR_result_yjehcm.webp"
+        ],
+        text1: {
+            en: "On October 4, 2025, our Misak Dojo club held its competitions 🔥🥋",
+            ru: "4 октября 2025 года состоялись соревнования нашего клуба Misak Dojo 🔥🥋",
+            uk: "04 жовтня 2025 року відбулися змагання нашого клубу Misak Dojo 🔥🥋"
+        },
+        text2: {
+            en: "It was a day of strength, endurance, and true fighting spirit. Every participant stepped onto the tatami to test themselves and take another step forward.",
+            ru: "Это был день силы, выносливости и настоящего боевого духа. Каждый участник вышел на татами, чтобы испытать себя и сделать ещё один шаг вперёд.",
+            uk: "Це був день сили, витримки та справжнього бойового духу. Кожен учасник вийшов на татамі, щоб випробувати себе і зробити ще один крок вперед.",
+        },
+        text3: {
+            en: "The event was organized by Monolit Club and Valentyn Popil, bringing together over 300 athletes from various clubs on one площадке.",
+            ru: "Организаторами мероприятия стали клуб «Монолит» и Валентин Попиль, которые собрали на одной площадке более 300 спортсменов из разных клубов.",
+            uk: "Організаторами заходу стали Клуб Моноліт та Валентин Попіл, які зібрали на одному майданчику понад 300 спортсменів з різних клубів.",
+        },
+        text4: {
+            en: "We sincerely thank the organizers for their work, support, and the opportunity for young fighters to showcase themselves at such a level!",
+            ru: "Искренне благодарим организаторов за их работу, поддержку и возможность для молодых бойцов проявить себя на таком уровне!",
+            uk: "Щиро дякуємо організаторам за їхню роботу, підтримку та можливість для молодих бійців проявити себе на такому рівні!",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
+    khvyla2025: {
+        linkName: "khvyla-2025",
+        title: {
+            en: "Khvyla 2025",
+            ru: "Хвыля 2025",
+            uk: "Хвиля 2025",
+        },
+        date: "02.10.2025",
+        category: {
+            en: "Dojo events",
+            ru: "События доджо",
+            uk: "Події доджо",
+        },
+        mainImg:"/images/news/021025.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921539/gallery/061025/DSC03724-Enhanced-NR_result_kr15tf.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921538/gallery/061025/DSC03707_result_e3q4jk.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921538/gallery/061025/DSC03703_result_ro2wwt.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921536/gallery/061025/DSC03701_result_ss5kgc.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921535/gallery/061025/DSC03685_result_urpwo4.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921535/gallery/061025/DSC03681_result_zuaj60.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921534/gallery/061025/DSC03675_result_r1zd3v.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921532/gallery/061025/DSC03670_result_cjeukd.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921532/gallery/061025/DSC03668_result_mxe8rh.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921531/gallery/061025/DSC03661_result_ottjrv.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921531/gallery/061025/DSC03659_result_fktn1c.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921530/gallery/061025/DSC03656_result_ath7n1.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764921529/gallery/061025/DSC03650_result_g6g071.webp"
+        ],
+        text1: {
+            en: "The first day of our annual training camp. We started with energy, discipline, and strong team spirit 🥋🔥",
+            ru: "Первый день наших ежегодных учебно-тренировочных сборов. Начали с энергии, дисциплины и командного драйва 🥋🔥",
+            uk: "Перший день наших щорічних тренувальних зборів. Почали з енергії, дисципліни та командного драйву 🥋🔥"
+        },
+        text2: {
+            en: "The second day of our training camp began calmly but productively — a morning swim in the pool helped restore energy, clear the mind, and prepare for a busy day.",
+            ru: "Второй день наших учебно-тренировочных сборов начался спокойно, но с пользой — утреннее плавание в бассейне помогло восстановить силы, собраться с мыслями и подготовиться к насыщенному дню.",
+            uk: "Другий день наших навчально-тренувальних зборів розпочався спокійно, але з користю — ранкове плавання в басейні допомогло відновити сили, зібрати думки й підготуватися до насиченого дня.",
+        },
+        text3: {
+            en: "Then came two intense training sessions where everyone worked on technique, endurance, and focus. It wasn’t easy, but it’s exactly through moments like these that true fighting spirit is built.",
+            ru: "Далее — два интенсивных тренирования, где каждый работал над техникой, выносливостью и концентрацией. Было непросто, но именно в такие моменты формируется настоящий боевой дух.",
+            uk: "Далі — два інтенсивних тренування, де кожен працював над технікою, витривалістю та концентрацією. Було непросто, але саме через такі моменти формується справжній бойовий дух.",
+        },
+        text4: {
+            en: "The day was dynamic, focused, and full of team spirit — another step toward new results 💥🥋",
+            ru: "День прошёл в динамике, сосредоточенности и командном настрое — ещё один шаг к новым результатам 💥🥋",
+            uk: "День пройшов у динаміці, зосередженості й командному настрої — ще один крок до нових результатів 💥🥋",
+        },
+        text5: {
+            en: "The third day of our camp began with preparations for the main event — the fights. In the morning, we worked together as a team to set up the hall: laying tatami mats, arranging trophies, and hanging banners. In the evening came the most exciting part — kumite matches with our friends from the Hermes club. Real emotions, fighting spirit, and mutual respect — everything we train for.",
+            ru: "Третий день наших сборов начался с подготовки к главному событию — поединкам. С утра мы всей командой готовили зал: раскладывали татами, расставляли кубки, развешивали баннеры. А вечером наступила самая интересная часть — поединки по кумите вместе с нашими друзьями из клуба «Гермес». Настоящие эмоции, боевой дух и взаимное уважение — всё, ради чего мы тренируемся.",
+            uk: "Третій день наших зборів розпочався з підготовки до головної події — поєдинків. Зранку ми  командою облаштовували залу: розкладали татамі, встановлювали кубки, вішали банери. А вже ввечері настала найцікавіша частина — змагання з куміте разом із нашими друзями з клубу \"Гермес\". Справжні емоції, бойовий дух і взаємна повага — усе, заради чого ми тренуємося.",
+        },
+        text6: {
+            en: "This day became a perfect ending to the camp — full of energy and shared effort.",
+            ru: "Этот день стал отличным завершением сборов — наполненным энергией и общей работой.",
+            uk: "Цей день став чудовим завершенням зборів: наповненим енергією та спільною працею.",
+        },
+        text7: {
+            en: "The fourth day of our training camp became decisive — the final training session before the grading. The atmosphere was highly focused: every movement, every detail was another step toward an important challenge.",
+            ru: "Четвёртый день наших учебно-тренировочных сборов стал решающим — последняя тренировка перед аттестацией. Атмосфера была максимально сосредоточенной: каждое движение, каждый акцент — ещё один шаг к важному испытанию.",
+            uk: "Четвертий день наших навчально-тренувальних зборів став вирішальним — останнє тренування перед атестацією. Атмосфера була максимально зосередженою: кожен рух, кожен акцент — ще один крок до важливого випробування.",
+        },
+        text8: {
+            en: "Everyone listened carefully to the sensei’s guidance — every word mattered, every piece of advice could be decisive. Ahead is the grading. Time to show everything we have been working on. Osu!",
+            ru: "Все внимательно слушали наставления сенсея — каждое слово было важным, каждый совет мог стать решающим. Впереди аттестация. Время показать всё, над чем мы работали. Ос!",
+            uk: "Усі уважно слухали настанови сенсея — кожне слово було важливим, кожна порада могла стати вирішальною. Попереду — атестація. Час показати все, над чим ми працювали. Оc!",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
+    oyamaCup2025: {
+        linkName: "oyama-cup-2025",
+        title: {
+            en: "Oyama Cup 2025",
+            ru: "Кубок Оямы 2025",
+            uk: "Кубок Оями 2025",
+        },
+        date: "14.09.2025",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/140925.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841399/gallery/140925/DSC04782_result_s3ly0o.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841396/gallery/140925/DSC04769_result_xlya9w.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841394/gallery/140925/DSC04761_result_frfknw.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841385/gallery/140925/DSC04715_result_czcrtq.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841380/gallery/140925/DSC04664_result_hbig0o.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841368/gallery/140925/DSC04492_result_xiimuo.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841365/gallery/140925/DSC04416_result_pvkj13.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841362/gallery/140925/DSC04404_result_bacryj.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841359/gallery/140925/DSC04394-Enhanced-NR_result_i05ogh.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841268/gallery/140925/DSC04374_result_qa5fmh.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1764841148/gallery/140925/DSC04291_result_wyrupw.webp"
+        ],
+        text1: {
+            en: "On September 14, 2025, the Oyama Cup kumite tournament took place in Irpin, organized by Sanchin Sports Club and Iryna Petrenko. The participants demonstrated the true spirit of Kyokushin — uncompromising fights, strong character, and a drive for victory.",
+            ru: "14 сентября 2025 года в городе Ирпень состоялся турнир по кумите — Кубок Оямы, организованный СК «Санчин» и Ириной Петренко. Участники продемонстрировали настоящий дух киокушина — бескомпромиссные поединки, сильный характер и стремление к победе.",
+            uk: "14 вересня 2025 року в місті Ірпінь відбувся турнір з куміте — Кубок Оями, організований СК \"Санчін\" та Іриною Петренко. Учасники продемонстрували справжній дух КІОКУШИНУ — безкомпромісні поєдинки, сильний характер і прагнення до перемоги."
+        },
+        text2: {
+            en: "💪 We congratulate our fighters on their excellent results and thank everyone who made this day a true celebration of karate! 🥋",
+            ru: "💪 Поздравляем наших бойцов с отличными результатами и благодарим всех, кто сделал этот день настоящим праздником каратэ! 🥋",
+            uk: "💪 Вітаємо наших бійців із чудовими результатами та дякуємо всім, хто зробив цей день справжнім святом карате! 🥋",
+        },
+        text3: {
+            en: "The event was organized by Monolit Club and Valentyn Popil, bringing together over 300 athletes from various clubs on one площадке.",
+            ru: "Организаторами мероприятия стали клуб «Монолит» и Валентин Попиль, которые собрали на одной площадке более 300 спортсменов из разных клубов.",
+            uk: "Організаторами заходу стали Клуб Моноліт та Валентин Попіл, які зібрали на одному майданчику понад 300 спортсменів з різних клубів.",
+        },
+        text4: {
+            en: "We sincerely thank the organizers for their work, support, and the opportunity for young fighters to showcase themselves at such a level!",
+            ru: "Искренне благодарим организаторов за их работу, поддержку и возможность для молодых бойцов проявить себя на таком уровне!",
+            uk: "Щиро дякуємо організаторам за їхню роботу, підтримку та можливість для молодих бійців проявити себе на такому рівні!",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
     kozakCup2025: {
         linkName: "kozak-cup-2025",
         title: {
@@ -357,6 +922,74 @@ export const newsData = {
             en: "🔥We are walking the path of Kyokushin Karate🥋",
             ru: "🔥Мы идем по пути Киокушинкай каратэ🥋",
             uk: "🔥Ми йдемо шляхом Кіокушинкай карате🥋"
+        },
+        osu: {
+            en: "OSY!",
+            ru: "ОСУ!",
+            uk: "ОСУ!"
+        },
+    },
+    kyivCupJan: {
+        linkName: "kyiv-cup-jan",
+        title: {
+            en: "Kyiv Cup January 2025",
+            ru: "Кубок Киева Январь 2025",
+            uk: "Кубок Києва Січень 2025 ",
+        },
+        date: "26.01.2025",
+        category: {
+            en: "Competition",
+            ru: "Состязание",
+            uk: "Змагання ",
+        },
+        mainImg:"/images/news/260125.webp",
+        images: [
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265893/gallery/260125/DSC00289-Enhanced-NR_b9uxum.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265889/gallery/260125/DSC00299-Enhanced-NR_efnr6z.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265889/gallery/260125/DSC00294-Enhanced-NR_vdlkn1.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265889/gallery/260125/DSC00303-Enhanced-NR_quenzd.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265889/gallery/260125/DSC00307-Enhanced-NR_aiv39m.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265888/gallery/260125/DSC00312-Enhanced-NR_roakad.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265888/gallery/260125/DSC00319-Enhanced-NR_fgupak.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265888/gallery/260125/DSC00323-Enhanced-NR_qf2inp.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265884/gallery/260125/DSC00331-Enhanced-NR_uoefa4.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265884/gallery/260125/DSC00342-Enhanced-NR_yosde8.webp",
+            "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1738265882/gallery/260125/DSC09442_oklqec.webp"
+        ],
+        text1: {
+            en: "Victory in competition begins in the dojo — in sweat, discipline, and hard work. This is where a warrior’s spirit is built, along with precision and endurance. Those who give 200% in training step onto the tatami already as winners! 🥇",
+            ru: "Победа на соревнованиях начинается в доджо — в поте, дисциплине и упорной работе. Именно здесь формируется дух воина, точность ударов и выносливость. Тот, кто выкладывается на тренировках на 200%, выходит на татами уже победителем! 🥇",
+            uk: "Перемога на змаганнях починається в доджо – у поті, дисципліні та наполегливій роботі. Саме тут формується дух воїна, точність ударів і витривалість. Той, хто викладається на тренуваннях на 200%, виходить на татамі вже переможцем!🥇"
+        },
+        text2: {
+            en: "The foundation of success is daily work, not chance. As we say in Kyokushin Karate: “Osu! Never give up!”",
+            ru: "Основа успеха — это ежедневный труд, а не случайность. Как говорят у нас в киокушинкай каратэ: «Ос! Никогда не сдавайся!»",
+            uk: "Основа успіху – це щоденна праця, а не випадковість. Як кажуть у нас в Кіокушинкай карате: “Осу! Ніколи не здавайся!”",
+        },
+        text3: {
+            en: "We continue to build champions at Misak Dojo! 🔥🥋",
+            ru: "Продолжаем воспитывать чемпионов в Misak Dojo! 🔥🥋",
+            uk: "Продовжуємо готувати чемпіонів у Misak Dojo! 🔥🥋",
+        },
+        text4: {
+            en: "We sincerely thank the organizers for their work, support, and the opportunity for young fighters to showcase themselves at such a level!",
+            ru: "Искренне благодарим организаторов за их работу, поддержку и возможность для молодых бойцов проявить себя на таком уровне!",
+            uk: "Щиро дякуємо організаторам за їхню роботу, підтримку та можливість для молодих бійців проявити себе на такому рівні!",
+        },
+        wins1: {
+            en: ["🥇 1st place — Shedenko Yaroslava"],
+            ru: ["🥇 1 место — Шеденко Ярослава"],
+            uk: ["🥇 1 місце — Шеденко Ярослава"]
+        },
+        wins2: {
+            en: ["🥈 2nd place — Mohyla Matvii"],
+            ru: ["🥈 2 место — Могила Матвий"],
+            uk: ["🥈 2 місце — Могила Матвій"]
+        },
+        wins3: {
+            en: ["🥉 3rd place — Nimchenko Artem"],
+            ru: ["🥉 3 место — Нимченко Артем"],
+            uk: ["🥉 3 місце — Німченко Артем"]
         },
         osu: {
             en: "OSY!",
