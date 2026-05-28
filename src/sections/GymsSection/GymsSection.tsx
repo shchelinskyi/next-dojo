@@ -265,15 +265,15 @@ const GymsSection = () => {
                             {language === "en" && <Image className={s.dayIcon} src={tuesdayEN} alt="tuesday"/>}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>18:00 - 19:00</li>
+                                    <li className={s.timeText}>18:30 - 19:30</li>
                                 </ul>
-                                <p className={s.text}>{t("group10")}</p>
+                                <p className={s.text}>{t("group12")}</p>
                             </div>
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>19:00 - 20:30</li>
+                                    <li className={s.timeText}>19:30 - 21:00</li>
                                 </ul>
-                                <p className={s.text}>{t("group9")}</p>
+                                <p className={s.text}>{t("group13")}</p>
                             </div>
                         </div>
 
@@ -284,15 +284,15 @@ const GymsSection = () => {
                             {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>18:00 - 19:00</li>
+                                    <li className={s.timeText}>18:30 - 19:30</li>
                                 </ul>
-                                <p className={s.text}>{t("group10")}</p>
+                                <p className={s.text}>{t("group12")}</p>
                             </div>
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>19:00 - 20:30</li>
+                                    <li className={s.timeText}>19:30 - 21:00</li>
                                 </ul>
-                                <p className={s.text}>{t("group9")}</p>
+                                <p className={s.text}>{t("group13")}</p>
                             </div>
                         </div>
 
@@ -302,15 +302,15 @@ const GymsSection = () => {
                             {language === "en" && <Image className={s.dayIcon} src={saturdayEN} alt="saturday"/>}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>10:30 - 11:30</li>
+                                    <li className={s.timeText}>11:00 - 12:00</li>
                                 </ul>
-                                <p className={s.text}>{t("group10")}</p>
+                                <p className={s.text}>{t("group12")}</p>
                             </div>
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>11:30 - 13:00</li>
+                                    <li className={s.timeText}>12:00 - 13:30</li>
                                 </ul>
-                                <p className={s.text}>{t("group9")}</p>
+                                <p className={s.text}>{t("group13")}</p>
                             </div>
                         </div>
 
