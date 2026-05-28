@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images:{
+    images: {
         remotePatterns: [
             {
                 protocol: 'https',
@@ -18,8 +18,23 @@ const nextConfig = {
                 port: '',
             }
         ]
+    },
 
-    }
+    async redirects() {
+        return [
+            {
+                source: '/:path*',
+                has: [
+                    {
+                        type: 'host',
+                        value: 'www.misakdojo.com',
+                    },
+                ],
+                destination: 'https://misakdojo.com/:path*',
+                permanent: true,
+            },
+        ]
+    },
 }
 
 module.exports = nextConfig
