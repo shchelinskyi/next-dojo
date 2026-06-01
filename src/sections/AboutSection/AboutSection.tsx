@@ -57,7 +57,7 @@ const AboutSection = () => {
 
                 <div className={s.aboutWrapper}>
                     <div className={s.aboutContent}>
-                        <h3 className={cn(s.aboutTitle, gagalinFont.className)}>{t('aboutUs')}</h3>
+                        <h2 className={cn(s.aboutTitle, gagalinFont.className)}>{t('aboutUs')}</h2>
                         <p className={s.mainText} style={{marginBottom: "40px"}}>
                             {t("aboutText1")}
                             {!isShowMore && <span className={s.textFragment}>..</span>}
@@ -99,7 +99,7 @@ const AboutSection = () => {
                                 <Image className={s.smilesIcon} src={smiles} alt="smiles"/>
                             </div>
                             <div className={s.totalItemTitle}>
-                                <h4 className={s.subTitle}>{t("whoTraining1")}</h4>
+                                <h3 className={s.subTitle}>{t("whoTraining1")}</h3>
                                 <p className={s.subMain}>{t("whoTraining2")} <br
                                     className={s.wrap}/> {t("whoTraining3")}</p>
                             </div>
@@ -115,7 +115,7 @@ const AboutSection = () => {
                                 <Image className={s.chimanoIcon} src={chimano} alt="chimano"/>
                             </div>
                             <div className={s.totalItemTitle}>
-                                <h4 className={s.subTitle}>{t("howMany1")}</h4>
+                                <h3 className={s.subTitle}>{t("howMany1")}</h3>
                                 <p className={s.subMain}>{t("howMany2")} <br className={s.wrap}/> {t("howMany3")}</p>
                             </div>
 
@@ -130,7 +130,7 @@ const AboutSection = () => {
                                 <Image className={s.cupIcon} src={cup} alt="cup"/>
                             </div>
                             <div className={s.totalItemTitle}>
-                                <h4 className={s.subTitle}>{t("winners1")}</h4>
+                                <h3 className={s.subTitle}>{t("winners1")}</h3>
                                 <p className={s.subMain}>{t("winners2")} <br className={s.wrap}/> {t("winners3")}</p>
                             </div>
                         </div>

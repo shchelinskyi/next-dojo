@@ -94,6 +94,18 @@
   }
 }
 
+.subtitle {
+  line-height: 180%;
+  font-size:22px;
+  font-weight: 700;
+  margin: 0;
+  text-align: justify;
+
+  @media (max-width: 480px) {
+    font-size: 18px;
+  }
+}
+
 .socialContent {
   padding: 0 10px;
   margin: 0 auto 100px;

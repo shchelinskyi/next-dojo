@@ -29,16 +29,16 @@ const CupIrpin2026 = () => {
                     <Image src={arrow} className={s.icon} width={32} height={32} alt="arrow"/>
                     <div className={s.publishedItem}>{t("published")}: <span>{newsItem.date}</span></div>
                 </div>
-                <h4 className={cn(s.title, gagalinFont.className)}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h4>
+                <h1 className={cn(s.title, gagalinFont.className)}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h1>
                 <div className={s.videoWrapper}>
                     <iframe width="760" height="427" src="https://www.youtube.com/embed/CBUDTjfFb6c?si=HXBY77mzCC90ABox"
                             title="YouTube video player" frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen></iframe>
                 </div>
-                <p className={s.textItem}>
+                <h2 className={s.subtitle}>
                     {t(`newsItem.text1.${currentLanguage}`, (newsItem.text1 as any)[currentLanguage] as string)}
-                </p>
+                </h2>
                 <p className={s.textItem}>
                     {t(`newsItem.text2.${currentLanguage}`, (newsItem.text2 as any)[currentLanguage] as string)}
                 </p>

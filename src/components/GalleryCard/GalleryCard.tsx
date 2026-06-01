@@ -40,7 +40,7 @@ const GalleryCard: FC<GalleryCardTypes> = ({galleryItem, styles}) => {
                            sizes="(min-width: 1201px) 370px, 330px, (max-width: 1200px) 290px, 260px, (max-width: 992px) 324px, 290px, (max-width: 480px) 310px, 278px "/>
                 </div>
                 <p className={s.cardDate}>{galleryItem.date}</p>
-                <h6 className={s.cardTitle}>{t(`title.${currentLanguage}`, (galleryItem.title as any)[currentLanguage] as string)}</h6>
+                <h3 className={s.cardTitle}>{t(`title.${currentLanguage}`, (galleryItem.title as any)[currentLanguage] as string)}</h3>
             </div>
             {isModalOpened && <GalleryCardModal images={galleryItem.images} onClose={handleClose}/>}
         </>

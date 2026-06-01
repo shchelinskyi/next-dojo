@@ -31,7 +31,7 @@ const Championship2018 = () => {
                     <Image src={arrow} className={s.icon} width={32} height={32} alt="arrow"/>
                     <div className={s.publishedItem}>{t("published")}: <span>{newsItem.date}</span></div>
                 </div>
-                <h4 className={cn(s.title, gagalinFont.className)}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h4>
+                <h1 className={cn(s.title, gagalinFont.className)}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h1>
                 <img src={newsItem.images[0]} className={s.img} alt="photo"/>
                 <p className={s.textItem}>
                     {t(`newsItem.text1.${currentLanguage}`, (newsItem.text1 as any)[currentLanguage] as string)}
@@ -39,12 +39,12 @@ const Championship2018 = () => {
                 <p className={s.textItem}>
                     {t(`newsItem.text2.${currentLanguage}`, (newsItem.text2 as any)[currentLanguage] as string)}
                 </p>
-                <p className={s.textItem}>
-                    {t(`newsItem.text3.${currentLanguage}`, (newsItem.text3 as any)[currentLanguage] as string)}
-                    <a  className={s.link} href="https://kyokushinkarate.news/news_ukraine/4235-poedinki-sredi-muzhchin-75" target="_blank">
-                        https://kyokushinkarate.news/news_ukraine/4235-poedinki-sredi-muzhchin-75
-                    </a>
-                </p>
+                {/*<p className={s.textItem}>*/}
+                {/*    {t(`newsItem.text3.${currentLanguage}`, (newsItem.text3 as any)[currentLanguage] as string)}*/}
+                {/*    <a  className={s.link} href="https://kyokushinkarate.news/news_ukraine/4235-poedinki-sredi-muzhchin-75" target="_blank">*/}
+                {/*        https://kyokushinkarate.news/news_ukraine/4235-poedinki-sredi-muzhchin-75*/}
+                {/*    </a>*/}
+                {/*</p>*/}
                 <p className={s.textItem}>
                     {t(`newsItem.osu.${currentLanguage}`, (newsItem.osu as any)[currentLanguage] as string)}
                 </p>

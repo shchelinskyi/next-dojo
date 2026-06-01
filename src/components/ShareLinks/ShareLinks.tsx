@@ -20,7 +20,7 @@ const ShareLinks:FC<ShareLinksProps> = ({url,quote }) => {
 
             <span>{t("share")}:</span>
 
-            <FacebookShareButton url={url}  hashtag="misakDojo" className={s.shareFacebook}>
+            <FacebookShareButton url={url}  hashtag="misakDojo" className={s.shareFacebook} aria-label="Share on Facebook">
                 <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                      height="524"
                      viewBox="0 0 512 524" version="1.1">
@@ -33,7 +33,7 @@ const ShareLinks:FC<ShareLinksProps> = ({url,quote }) => {
                 </svg>
             </FacebookShareButton>
 
-            <TwitterShareButton url={url}  title={quote} className={s.shareFacebook}>
+            <TwitterShareButton url={url}  title={quote} className={s.shareFacebook} aria-label="Share on X">
                 <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="171" height="169" viewBox="0 0 171 169" version="1.1">
                     <path
                         d="M 40.400 24.826 C 35.165 28.620, 30.667 34.700, 30.667 37.982 C 30.667 40.035, 32.604 42.509, 38.966 48.580 C 45.712 55.018, 64.669 75.484, 73.348 85.699 C 75.164 87.836, 75.143 87.940, 72.192 91.687 C 70.540 93.784, 66.181 101.125, 62.505 108 C 58.830 114.875, 55.204 121.191, 54.449 122.037 C 47.320 130.016, 50.609 141.710, 60.504 143.567 C 68.298 145.029, 72.982 139.942, 85.143 116.807 C 88.556 110.313, 91.715 105, 92.162 105 C 92.609 105, 98.508 110.287, 105.270 116.750 C 112.032 123.213, 120.903 131.089, 124.985 134.253 C 132.835 140.339, 134.836 140.743, 138.160 136.913 C 139.073 135.861, 140.264 135, 140.807 135 C 142.729 135, 147.932 127.966, 149.033 123.879 C 150.178 119.627, 149.669 115, 148.058 115 C 147.560 115, 144.078 111.963, 140.319 108.250 C 136.561 104.537, 129.214 98.055, 123.993 93.845 C 118.772 89.634, 113.237 84.859, 111.694 83.232 L 108.888 80.274 117.301 67.387 C 135.208 39.954, 137.191 33.991, 130.600 27.400 C 127.749 24.549, 126.480 24, 122.735 24 C 116.624 24, 114.173 26.200, 107.364 37.800 C 104.232 43.135, 99.336 50.995, 96.485 55.266 L 91.301 63.032 80.274 51.266 C 54.926 24.219, 52.494 22, 48.202 22 C 45.507 22, 43.094 22.874, 40.400 24.826 M 45.534 35.945 C 45.213 36.465, 47.820 39.803, 51.329 43.364 C 54.837 46.924, 64.521 57.455, 72.849 66.766 C 88.136 83.858, 123.284 118.143, 130.299 122.805 C 133.727 125.084, 134.249 125.180, 135.645 123.783 C 137.042 122.387, 136.665 121.708, 131.779 116.823 C 128.802 113.845, 122.015 107.910, 116.697 103.632 C 111.378 99.355, 93.660 82.163, 77.323 65.428 C 60.986 48.692, 47.281 35, 46.869 35 C 46.456 35, 45.855 35.425, 45.534 35.945"
@@ -44,7 +44,7 @@ const ShareLinks:FC<ShareLinksProps> = ({url,quote }) => {
                 </svg>
             </TwitterShareButton>
 
-            <a href={telegramLink} target="_blank" rel="noopener noreferrer">
+            <a href={telegramLink} target="_blank" rel="noopener noreferrer"  aria-label="Share on Telegram">
                 <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                      height="477"
                      viewBox="0 0 512 477" version="1.1">

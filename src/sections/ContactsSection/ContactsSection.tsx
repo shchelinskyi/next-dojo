@@ -27,7 +27,7 @@ const ContactsSection = () => {
     return (
         <div className={s.wrapper}>
             <div className={s.container}>
-                <h3 className={cn(s.contactsTitle, gagalinFont.className)}>{t("ourContacts")}</h3>
+                <h2 className={cn(s.contactsTitle, gagalinFont.className)}>{t("ourContacts")}</h2>
                 <div className={s.content}>
                     <ContactGymSocial
                         address={t("gymFull1")}

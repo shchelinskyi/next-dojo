@@ -36,7 +36,7 @@ const ChildTraining = () => {
                     <Image src={arrow} className={s.icon} width={32} height={32} alt="arrow"/>
                     <div className={s.publishedItem}>{t("published")}: <span>{newsItem.date}</span></div>
                 </div>
-                <h4 className={cn(s.title, gagalinFont.className)}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h4>
+                <h1 className={cn(s.title, gagalinFont.className)}>{t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h1>
                 <div className={s.videoWrapper}>
                     <iframe width="760" height="427" src="https://www.youtube.com/embed/wAj7iAPxK3c"
                             title={t(`newsItem.title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string )}

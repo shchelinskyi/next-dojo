@@ -54,7 +54,7 @@ const GallerySection = () => {
     return (
             <Container className={s.wrapper}>
                 <div className={s.container}>
-                    <h3  className={cn(s.title, gagalinFont.className)}>{t("gallery")}</h3>
+                    <h2  className={cn(s.title, gagalinFont.className)}>{t("gallery")}</h2>
                     <div className={s.content}>
                         {gallery.length > 0 && galleryArray.map((galleryItem) =>  <MemoizedGalleryCard key={galleryItem.title.en} galleryItem={galleryItem}/>)}
                     </div>

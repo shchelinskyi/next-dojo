@@ -30,9 +30,14 @@ export const newsData = {
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906598/gallery/150326/DSC02184_result_xycysm.webp"
         ],
         text1: {
-            en: "Ukraine’s capital hosted a major event — the IV Cup of the \"KOZAK\" Youth Sports School in Kyokushin Karate. More than 500 athletes from dozens of clubs across the country took part in the competition. The tournament became an important platform where participants demonstrated their spirit, improved their skills, and gained valuable competitive experience! 押忍!",
-            ru: "Столица Украины приняла масштабный турнир — IV Кубок КДЮСШ «Козак» по киокушин карате. В соревнованиях приняли участие более 500 спортсменов из десятков клубов со всей страны. Турнир стал важной площадкой, где участники смогли проявить характер, повысить уровень мастерства и получить ценный соревновательный опыт! 押忍!",
-            uk: "Столиця України прийняла масштабний турнір — IV Кубок КДЮСШ «Козак» з кіокушинкай карате. У змаганнях взяли участь понад 500 спортсменів, які представляли десятки клубів з усієї країни. Подія стала важливою спортивною ареною, де учасники змогли проявити характер, підвищити свій рівень майстерності та отримати цінний змагальний досвід! 押忍!"
+            en: "Ukraine’s capital hosted a major event — the IV Cup of the \"KOZAK\" Youth Sports School in Kyokushin Karate.",
+            ru: "Столица Украины приняла масштабный турнир — IV Кубок КДЮСШ «Козак» по киокушин карате.",
+            uk: "Столиця України прийняла масштабний турнір — IV Кубок КДЮСШ «Козак» з кіокушинкай карате."
+        },
+        text2: {
+            en: "More than 500 athletes from dozens of clubs across the country took part in the competition. The tournament became an important platform where participants demonstrated their spirit, improved their skills, and gained valuable competitive experience! 押忍!",
+            ru: "В соревнованиях приняли участие более 500 спортсменов из десятков клубов со всей страны. Турнир стал важной площадкой, где участники смогли проявить характер, повысить уровень мастерства и получить ценный соревновательный опыт! 押忍!",
+            uk: "У змаганнях взяли участь понад 500 спортсменів, які представляли десятки клубів з усієї країни. Подія стала важливою спортивною ареною, де учасники змогли проявити характер, підвищити свій рівень майстерності та отримати цінний змагальний досвід! 押忍!"
         },
         text5: {
             en: "Results of the KOZAK competition on March 15, 2026:",
@@ -1894,7 +1899,7 @@ export const newsData = {
         text1: {
             en: "This Sunday, experienced fighters from our club took part in the championship of Irpin city, 'Princess Olga Cup' in Kyokushin Karate (WKO).",
             ru: "Это воскресенье опытные бойцы нашего клуба приняли участие в первенстве города Ирпень 'Кубок Княгини Ольги' по Киокушинкай карате (WKO).",
-            uk: "Цієї неділі досвідчені бійці нашого клубу взяли участь у першості м.Ірпіня «Кубку Княгині Ольги» з Кіокушинкай карате (WKO).\n."
+            uk: "Цієї неділі досвідчені бійці нашого клубу взяли участь у першості м.Ірпіня «Кубку Княгині Ольги» з Кіокушинкай карате (WKO).\n"
         },
         text2: {
             en: "Our karatekas fought very honorably and had 3 matches:",

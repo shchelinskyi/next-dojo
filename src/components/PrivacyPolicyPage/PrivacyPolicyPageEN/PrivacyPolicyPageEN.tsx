@@ -24,8 +24,8 @@ const PrivacyPolicyPageEN = () => {
                         </Link>
                     </div>
                 </div>
-                <h3 className={s.mainTitle}>Privacy Policy</h3>
-                <h5 className={s.title}>1. General Provisions</h5>
+                <h1 className={s.mainTitle}>Privacy Policy</h1>
+                <h2 className={s.title}>1. General Provisions</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         This policy for the processing of personal data was created in accordance with the requirements
@@ -46,7 +46,7 @@ const PrivacyPolicyPageEN = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>2. Basic concepts used in Politics</h5>
+                <h2 className={s.title}>2. Basic concepts used in Politics</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -117,7 +117,7 @@ const PrivacyPolicyPageEN = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>3. The Operator may process the following personal data of the User</h5>
+                <h2 className={s.title}>3. The Operator may process the following personal data of the User</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -139,7 +139,7 @@ const PrivacyPolicyPageEN = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>4. The purpose of personal data processing</h5>
+                <h2 className={s.title}>4. The purpose of personal data processing</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -160,7 +160,7 @@ const PrivacyPolicyPageEN = () => {
 
                     </ol>
                 </div>
-                <h5 className={s.title}>5. Legal grounds for personal data processing</h5>
+                <h2 className={s.title}>5. Legal grounds for personal data processing</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -177,9 +177,9 @@ const PrivacyPolicyPageEN = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>
+                <h2 className={s.title}>
                     6. Procedure for collection, storage, transfer and other types of personal data processing
-                </h5>
+                </h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         The security of personal data processed by the Operator is ensured by implementing the legal,
@@ -207,7 +207,7 @@ const PrivacyPolicyPageEN = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>7. Cross-border transfer of personal data</h5>
+                <h2 className={s.title}>7. Cross-border transfer of personal data</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -223,7 +223,7 @@ const PrivacyPolicyPageEN = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>8. Final provisions</h5>
+                <h2 className={s.title}>8. Final provisions</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>

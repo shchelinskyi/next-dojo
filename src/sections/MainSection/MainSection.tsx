@@ -81,8 +81,8 @@ const MainSection = ({refData}:TheMainPageProps) => {
             <Container className={s.contentContainer}>
                 <div className={s.content}>
                     <div className={s.titleWrapper}>
-                        <h3 className={cn(s.mainTitle, gagalinFont.className)}>{t('mainTitle1')}</h3>
-                        <h3 className={cn(s.mainTitle, gagalinFont.className, s.secondLine)}>{t('mainTitle2')}</h3>
+                        <h1 className={cn(s.mainTitle, gagalinFont.className)}>{t('mainTitle1')}</h1>
+                        <h1 className={cn(s.mainTitle, gagalinFont.className, s.secondLine)}>{t('mainTitle2')}</h1>
                     </div>
                     <p className={s.offerContent}>
                         {t("offer")}

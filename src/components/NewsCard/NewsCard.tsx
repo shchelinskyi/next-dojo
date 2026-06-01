@@ -38,7 +38,7 @@ const NewsCard: FC<NewsCardTypes> = ({ newsItem}) => {
                             sizes="(min-width: 1201px) 370px, 330px, (max-width: 1200px) 290px, 260px, (max-width: 992px) 324px, 290px, (max-width: 480px) 310px, 278px "/>
                 </div>
                 <p className={s.newsDate}>{newsItem.date}</p>
-                <h6 className={s.newsTitle}>{t(`title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h6>
+                <h3 className={s.newsTitle}>{t(`title.${currentLanguage}`, (newsItem.title as any)[currentLanguage] as string)}</h3>
             </div>
         </Link>
     );

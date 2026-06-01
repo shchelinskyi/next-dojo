@@ -57,7 +57,7 @@ const GymsSection = () => {
 
     return (
         <div className={s.wrapper}>
-            <h3 className={cn(s.title, gagalinFont.className)}>{t("ourGyms")}</h3>
+            <h2 className={cn(s.title, gagalinFont.className)}>{t("ourGyms")}</h2>
             <Container className={s.content}>
                 <div className={s.gymBlock}>
                     <div className={s.gymTitle}>

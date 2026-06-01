@@ -26,8 +26,8 @@ const PrivacyPolicyPageRU = () => {
                         </Link>
                     </div>
                 </div>
-                <h3 className={cn(s.mainTitle, s.titleRU)}>Политика конфиденциальности</h3>
-                <h5 className={s.title}>1. Общие положения</h5>
+                <h1 className={cn(s.mainTitle, s.titleRU)}>Политика конфиденциальности</h1>
+                <h2 className={s.title}>1. Общие положения</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         Настоящая политика обработки персональных данных создана в соответствии с требованиями закона
@@ -48,7 +48,7 @@ const PrivacyPolicyPageRU = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>2. Основные понятия, используемые в Политике</h5>
+                <h2 className={s.title}>2. Основные понятия, используемые в Политике</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -123,7 +123,7 @@ const PrivacyPolicyPageRU = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>3. Оператор может обрабатывать следующие персональные данные Пользователя</h5>
+                <h2 className={s.title}>3. Оператор может обрабатывать следующие персональные данные Пользователя</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -144,7 +144,7 @@ const PrivacyPolicyPageRU = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>4. Цель обработки персональных данных</h5>
+                <h2 className={s.title}>4. Цель обработки персональных данных</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -166,7 +166,7 @@ const PrivacyPolicyPageRU = () => {
 
                     </ol>
                 </div>
-                <h5 className={s.title}>5. Правовые основания обработки персональных данных</h5>
+                <h2 className={s.title}>5. Правовые основания обработки персональных данных</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -184,9 +184,9 @@ const PrivacyPolicyPageRU = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>
+                <h2 className={s.title}>
                     6. Порядок сбора, хранения, передачи и других видов обработки персональных данных.
-                </h5>
+                </h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         Безопасность персональных данных, обрабатываемых Оператором, обеспечивается путем принятия
@@ -215,7 +215,7 @@ const PrivacyPolicyPageRU = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>7. Трансграничная передача персональных данных</h5>
+                <h2 className={s.title}>7. Трансграничная передача персональных данных</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -231,7 +231,7 @@ const PrivacyPolicyPageRU = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>8. Заключительные положения</h5>
+                <h2 className={s.title}>8. Заключительные положения</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>

@@ -47,7 +47,7 @@ const TeamSection = () => {
 
     return (
         <Container className={s.wrapper}>
-            <h3  className={cn(s.title, gagalinFont.className)}>{t("team")}</h3>
+            <h2  className={cn(s.title, gagalinFont.className)}>{t("team")}</h2>
             <div className={s.trainerDescription}>
                 <Image className={s.mainTrainerImage} src={trainerM} alt="trainer"/>
                 <TrainerLabel name= {t("trainerM")} rank={t("trainerMRank")}  mainTrainer={true}/>

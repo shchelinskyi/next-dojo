@@ -31,7 +31,7 @@ const ReadMore = () => {
     return (
         <section>
             <div className={s.wrapper}>
-                <h3  className={cn(s.title, gagalinFont.className)}>{t("readMore")}</h3>
+                <h2  className={cn(s.title, gagalinFont.className)}>{t("readMore")}</h2>
                 <div className={s.contentBlock}>
                     <ReadMoreItem key={readMoreData.glossary.title.en} item={readMoreData.glossary}>
                         <Glossary/>

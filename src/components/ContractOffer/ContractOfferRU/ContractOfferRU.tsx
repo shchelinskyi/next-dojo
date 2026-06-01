@@ -20,7 +20,7 @@ const ContractOfferRU = () => {
                         </Link>
                     </div>
                 </div>
-                <h3 className={s.mainTitle}>Соглашение пользователя </h3>
+                <h1 className={s.mainTitle}>Соглашение пользователя </h1>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         Это соглашение, адресованное неопределенному кругу лиц — физическим и юридическим лицам —
@@ -32,7 +32,7 @@ const ContractOfferRU = () => {
                         указаны ниже:
                     </p>
                 </div>
-                <h5 className={s.title}>Термины и определения:</h5>
+                <h2 className={s.title}>Термины и определения:</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         <b>Акцепт</b> — полное и безусловное принятие пользовательского соглашения путем совершения
@@ -93,7 +93,7 @@ const ContractOfferRU = () => {
                         образцов, которые являются собственностью Общественной организации..
                     </p>
                 </div>
-                <h5 className={s.title}>1. Предмет договора-оферты</h5>
+                <h2 className={s.title}>1. Предмет договора-оферты</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         1.1. ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ обязуется передать в собственность БЛАГОТВОРИТЕЛЯ, а
@@ -131,7 +131,7 @@ const ContractOfferRU = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>2. Момент заключения договора</h5>
+                <h2 className={s.title}>2. Момент заключения договора</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         2.1. Текст данного Договора является публичной офертой (в соответствии со ст. 638 и ст. 641
@@ -192,7 +192,7 @@ const ContractOfferRU = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>3. Цена ТОВАРА</h5>
+                <h2 className={s.title}>3. Цена ТОВАРА</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         3.1. Цены в Интернет-магазине указаны в гривнах за единицу ТОВАРА.
@@ -215,7 +215,7 @@ const ContractOfferRU = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>4. Оплата ТОВАРА</h5>
+                <h2 className={s.title}>4. Оплата ТОВАРА</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         4.1. При наличной форме оплаты БЛАГОТВОРИТЕЛЬ обязан оплатить ОБЩЕСТВЕННОЙ ОРГАНИЗАЦИИ
@@ -249,7 +249,7 @@ const ContractOfferRU = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>5. Доставка ТОВАРА</h5>
+                <h2 className={s.title}>5. Доставка ТОВАРА</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         5.1. ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ осуществляет доставку ТОВАРОВ с помощью собственной или внешней
@@ -295,7 +295,7 @@ const ContractOfferRU = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>6. Права и обязанности сторон</h5>
+                <h2 className={s.title}>6. Права и обязанности сторон</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         <b>6.1. ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ обязуется:</b> <br/>
@@ -350,7 +350,7 @@ const ContractOfferRU = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>7. Ответственность сторон и разрешение споров</h5>
+                <h2 className={s.title}>7. Ответственность сторон и разрешение споров</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         7.1. Стороны несут ответственность за неисполнение или ненадлежащее исполнение настоящего
@@ -410,7 +410,7 @@ const ContractOfferRU = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>8. Возврат и обмен товара</h5>
+                <h2 className={s.title}>8. Возврат и обмен товара</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         8.1. ТОВАР, полученный Благотворителем от ОБЩЕСТВЕННОЙ ОРГАНИЗАЦИИ взамен на добровольное
@@ -422,7 +422,7 @@ const ContractOfferRU = () => {
 
                 </div>
 
-                <h5 className={s.title}>9. Форс-мажорные обстоятельства</h5>
+                <h2 className={s.title}>9. Форс-мажорные обстоятельства</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         9.1. Стороны освобождаются от ответственности за неисполнение или ненадлежащее исполнение
@@ -437,7 +437,7 @@ const ContractOfferRU = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>10. Срок действия договора</h5>
+                <h2 className={s.title}>10. Срок действия договора</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         10.1. Настоящий Договор вступает в силу с момента обращения Благотворителя в Интернет-магазин и
@@ -446,7 +446,7 @@ const ContractOfferRU = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>11. Персональные данные</h5>
+                <h2 className={s.title}>11. Персональные данные</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         11.1. ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ собирает и обрабатывает персональные данные БЛАГОТВОРИТЕЛЕЙ (а

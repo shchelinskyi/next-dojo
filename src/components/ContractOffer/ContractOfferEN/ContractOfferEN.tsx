@@ -20,7 +20,7 @@ const ContractOfferEN = () => {
                         </Link>
                     </div>
                 </div>
-                <h3 className={s.mainTitle}>User agreement</h3>
+                <h1 className={s.mainTitle}>User agreement</h1>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         This agreement, addressed to an indefinite circle of persons — individuals and legal entities —
@@ -32,7 +32,7 @@ const ContractOfferEN = () => {
                         referred to as the Benefactor), the subject and conditions of which are specified below:
                     </p>
                 </div>
-                <h5 className={s.title}>Terms and definitions:</h5>
+                <h2 className={s.title}>Terms and definitions:</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         <b>Acceptance</b> — full and unconditional acceptance of the user agreement by doing actions to
@@ -93,7 +93,7 @@ const ContractOfferEN = () => {
                         Site in the form of photo samples, which are the property of the Public Organization.
                     </p>
                 </div>
-                <h5 className={s.title}>1. Subject of the offer agreement</h5>
+                <h2 className={s.title}>1. Subject of the offer agreement</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         1.1. The PUBLIC ORGANIZATION undertakes to transfer the ownership to the BENEFACTOR, and the
@@ -132,7 +132,7 @@ const ContractOfferEN = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>2. The moment of the contact conclusion</h5>
+                <h2 className={s.title}>2. The moment of the contact conclusion</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         2.1. The text of this Agreement is a public offer (in accordance with Art. 638 and Art. 641 of
@@ -193,7 +193,7 @@ const ContractOfferEN = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>3. Price of the GOODS</h5>
+                <h2 className={s.title}>3. Price of the GOODS</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         3.1. Prices in the online store are indicated in UAH per unit of GOODS.
@@ -218,7 +218,7 @@ const ContractOfferEN = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>4. Payment for the GOODS</h5>
+                <h2 className={s.title}>4. Payment for the GOODS</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         4.1. In the case of cash payment, the BENEFACTOR is obliged to pay the PUBLIC ORGANIZATION a
@@ -254,7 +254,7 @@ const ContractOfferEN = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>5. Delivery of the GOODS</h5>
+                <h2 className={s.title}>5. Delivery of the GOODS</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         5.1. The PUBLIC ORGANIZATION delivers the GOODS using its own or external delivery service.
@@ -300,7 +300,7 @@ const ContractOfferEN = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>6. Rights and obligations of the parties</h5>
+                <h2 className={s.title}>6. Rights and obligations of the parties</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         <b>6.1. The PUBLIC ORGANIZATION undertakes:</b> <br/>
@@ -354,7 +354,7 @@ const ContractOfferEN = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>7. Responsibility of the Parties and Dispute Resolution</h5>
+                <h2 className={s.title}>7. Responsibility of the Parties and Dispute Resolution</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         7.1. The parties are responsible for the non-performance or improper performance of this
@@ -413,7 +413,7 @@ const ContractOfferEN = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>8. Повернення і обмін товару8. Goods return and exchange</h5>
+                <h2 className={s.title}>8. Повернення і обмін товару8. Goods return and exchange</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         8.1. The GOODS received by the Benefactor from the PUBLIC ORGANIZATION in exchange for a
@@ -425,7 +425,7 @@ const ContractOfferEN = () => {
 
                 </div>
 
-                <h5 className={s.title}>9. Force majeure circumstances</h5>
+                <h2 className={s.title}>9. Force majeure circumstances</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         9.1. The parties are exempt from liability for non-performance or improper performance of
@@ -439,7 +439,7 @@ const ContractOfferEN = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>10. Duration of the contract</h5>
+                <h2 className={s.title}>10. Duration of the contract</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         10.1. This Agreement enters into force from the moment the Benefactor contacts the online store
@@ -448,7 +448,7 @@ const ContractOfferEN = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>11. Personal data</h5>
+                <h2 className={s.title}>11. Personal data</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         11.1. The PUBLIC ORGANIZATION collects and processes the personal data of the BENEFACTORS

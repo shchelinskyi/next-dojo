@@ -1,45 +1,108 @@
+import type { Metadata } from "next";
+
 import PrivacyPolicyPageUA from "@/components/PrivacyPolicyPage/PrivacyPolicyPageUA";
 import PrivacyPolicyPageRU from "@/components/PrivacyPolicyPage/PrivacyPolicyPageRU";
 import PrivacyPolicyPageEN from "@/components/PrivacyPolicyPage/PrivacyPolicyPageEN";
 
-import type { Metadata } from "next";
+type Locale = "uk" | "en" | "ru";
 
 type PageProps = {
     params: {
-        locale: string;
+        locale: Locale;
     };
 };
 
 export async function generateMetadata(
-    { params: { locale } }: PageProps
+    { params }: PageProps
 ): Promise<Metadata> {
 
-    const titles: Record<string, string> = {
-        uk: "Політика конфіденційності",
-        ru: "Политика конфиденциальности",
-        en: "Privacy Policy",
+    const locale = params.locale;
+
+    const slug = "privacy-policy";
+
+    const seo = {
+        uk: {
+            title: "Політика конфіденційності",
+            description:
+                "Політика конфіденційності сайту Misak Dojo. Правила збору та обробки персональних даних.",
+        },
+
+        en: {
+            title: "Privacy Policy",
+            description:
+                "Privacy Policy of the Misak Dojo website. Rules for collecting and processing personal data.",
+        },
+
+        ru: {
+            title: "Политика конфиденциальности",
+            description:
+                "Политика конфиденциальности сайта Misak Dojo. Правила сбора и обработки персональных данных.",
+        },
     };
 
-    const descriptions: Record<string, string> = {
-        uk: "Політика конфіденційності сайту Misak Dojo. Правила збору та обробки персональних даних.",
-        ru: "Политика конфиденциальности сайта Misak Dojo. Правила сбора и обработки персональных данных.",
-        en: "Privacy Policy of Misak Dojo website. Rules for collecting and processing personal data.",
+    const ogLocales = {
+        uk: "uk_UA",
+        en: "en_US",
+        ru: "ru_RU",
     };
+
+    const localizedUrls = {
+        uk: `/${slug}`,
+        en: `/en/${slug}`,
+        ru: `/ru/${slug}`,
+    };
+
+    const currentSeo = seo[locale] || seo.uk;
+
+    const canonical = localizedUrls[locale] || localizedUrls.uk;
 
     return {
-        title: titles[locale] || "Privacy Policy",
+        title: currentSeo.title,
 
-        description:
-            descriptions[locale] ||
-            "Privacy Policy of Misak Dojo website.",
+        description: currentSeo.description,
 
         alternates: {
-            canonical: `/${locale}/privacy-policy`,
+            canonical,
+
             languages: {
-                uk: "/uk/privacy-policy",
-                ru: "/ru/privacy-policy",
-                en: "/en/privacy-policy",
+                "uk-UA": localizedUrls.uk,
+                "en-US": localizedUrls.en,
+                "ru-RU": localizedUrls.ru,
+                "x-default": localizedUrls.uk,
             },
+        },
+
+        openGraph: {
+            title: currentSeo.title,
+
+            description: currentSeo.description,
+
+            url: `https://misakdojo.com${canonical}`,
+
+            siteName: "Misak Dojo",
+
+            locale: ogLocales[locale],
+
+            type: "website",
+
+            images: [
+                {
+                    url: "https://misakdojo.com/og-image.webp",
+                    width: 1680,
+                    height: 882,
+                    alt: currentSeo.title,
+                },
+            ],
+        },
+
+        twitter: {
+            card: "summary_large_image",
+
+            title: currentSeo.title,
+
+            description: currentSeo.description,
+
+            images: ["https://misakdojo.com/og-image.webp"],
         },
     };
 }

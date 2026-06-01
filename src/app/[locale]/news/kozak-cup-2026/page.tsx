@@ -1,43 +1,105 @@
+import type { Metadata } from 'next';
 import KozakCup2026 from "@/components/NewsCard/NewsItems/KozakCup2026";
 
-import type { Metadata } from "next";
+type Locale = 'uk' | 'en' | 'ru';
 
-type PageProps = {
+type Props = {
     params: {
-        locale: string;
+        locale: Locale;
     };
 };
 
 export async function generateMetadata(
-    { params: { locale } }: PageProps
+    { params }: Props
 ): Promise<Metadata> {
 
-    const titles: Record<string, string> = {
-        uk: "4-й кубок КДЮСШ «КОЗАК» 2026 — турнір з карате",
-        ru: "4-й кубок КДЮСШ «КОЗАК» 2026 — турнир по карате",
-        en: "The 4th Cup of sports school \"KOZAK\" — Karate Tournament",
+    const locale = params.locale;
+
+    const slug = 'kozak-cup-2026';
+
+    const seo = {
+        uk: {
+            title: '4-й Кубок КДЮСШ «Козак» з Кіокушинкай карате',
+            description:
+                'Спортсмени Misak Dojo успішно виступили на IV Кубку КДЮСШ «Козак» з Кіокушинкай карате, здобувши призові місця серед понад 500 учасників турніру.',
+        },
+
+        en: {
+            title: '4th CYSS “Kozak” Kyokushin Karate Cup',
+            description:
+                'Misak Dojo athletes successfully competed at the 4th CYSS “Kozak” Kyokushin Karate Cup, winning top places among more than 500 tournament participants.',
+        },
+
+        ru: {
+            title: '4-й Кубок КДЮСШ «Козак» по Киокушинкай карате',
+            description:
+                'Спортсмены Misak Dojo успешно выступили на IV Кубке КДЮСШ «Козак» по Киокушинкай карате, завоевав призовые места среди более чем 500 участников турнира.',
+        },
     };
 
-    const descriptions: Record<string, string> = {
-        uk: "Новини та результати турніру 4-й кубок КДЮСШ «КОЗАК»  з кіокушинкай карате від Misak Dojo.",
-        ru: "Новости и результаты турнира 4-й кубок КДЮСШ «КОЗАК» по киокушинкай карате от Misak Dojo.",
-        en: "News and results of the 4th Cup of sports school \"KOZAK\" tournament by Misak Dojo.",
+    const ogLocales = {
+        uk: 'uk_UA',
+        en: 'en_US',
+        ru: 'ru_RU',
     };
+
+    const localizedUrls = {
+        uk: `/news/${slug}`,
+        en: `/en/news/${slug}`,
+        ru: `/ru/news/${slug}`,
+    };
+
+    const currentSeo = seo[locale] || seo.uk;
+
+    const canonical = localizedUrls[locale] || localizedUrls.uk;
 
     return {
-        title: titles[locale],
+        title: currentSeo.title,
 
-        description:
-            descriptions[locale] ||
-            "Kozak Cup 2026 karate tournament news.",
+        description: currentSeo.description,
 
         alternates: {
-            canonical: `/${locale}/news/kozak-cup-2026`,
+            canonical,
+
             languages: {
-                uk: "/uk/news/kozak-cup-2026",
-                ru: "/ru/news/kozak-cup-2026",
-                en: "/en/news/kozak-cup-2026",
+                'uk-UA': localizedUrls.uk,
+                'en-US': localizedUrls.en,
+                'ru-RU': localizedUrls.ru,
+                'x-default': localizedUrls.uk,
             },
+        },
+
+        openGraph: {
+            title: currentSeo.title,
+
+            description: currentSeo.description,
+
+            url: canonical,
+
+            siteName: 'Misak Dojo',
+
+            locale: ogLocales[locale],
+
+            type: 'article',
+
+            images: [
+                {
+                    url: 'https://misakdojo.com/og-image.webp',
+                    width: 1680,
+                    height: 882,
+                    alt: currentSeo.title,
+                },
+            ],
+        },
+
+        twitter: {
+            card: 'summary_large_image',
+
+            title: currentSeo.title,
+
+            description: currentSeo.description,
+
+            images: ['https://misakdojo.com/og-image.webp'],
         },
     };
 }

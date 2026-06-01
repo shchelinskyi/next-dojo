@@ -3,7 +3,7 @@ import s from "./SocialLinks.module.scss";
 const SocialLinks = () => {
     return (
         <div className={s.socialLinks}>
-            <a href="https://www.instagram.com/misakdojo" target="_blank">
+            <a href="https://www.instagram.com/misakdojo" target="_blank" aria-label="Instagram">
                 <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                      height="512" viewBox="0 0 512 512"
                      version="1.1">
@@ -15,7 +15,7 @@ const SocialLinks = () => {
                         stroke="none" fill="#fbfbfb" fillRule="evenodd"/>
                 </svg>
             </a>
-            <a href="https://facebook.com/misakdojo" target="_blank">
+            <a href="https://facebook.com/misakdojo" target="_blank" aria-label="Facebook">
                 <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                      height="524"
                      viewBox="0 0 512 524" version="1.1">
@@ -27,7 +27,7 @@ const SocialLinks = () => {
                           stroke="none" fill="#040404" fillRule="evenodd"/>
                 </svg>
             </a>
-            <a href="https://www.youtube.com/@misakdojo/featured" target="_blank">
+            <a href="https://www.youtube.com/@misakdojo/featured" target="_blank" aria-label="Facebook">
                 <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                      height="536"
                      viewBox="0 0 512 536" version="1.1">
@@ -39,7 +39,7 @@ const SocialLinks = () => {
                         stroke="none" fill="#fbfbfb" fillRule="evenodd"/>
                 </svg>
             </a>
-            <a href="https://t.me/misakarzum" target="_blank">
+            <a href="https://t.me/misakarzum" target="_blank" aria-label="Telegram">
                 <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                      height="477"
                      viewBox="0 0 512 477" version="1.1">

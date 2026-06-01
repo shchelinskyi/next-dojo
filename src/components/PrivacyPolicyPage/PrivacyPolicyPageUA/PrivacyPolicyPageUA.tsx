@@ -27,8 +27,8 @@ const PrivacyPolicyPageUA = () => {
                         </Link>
                     </div>
                 </div>
-                <h3 className={s.mainTitle}>Політика конфіденційності</h3>
-                <h5 className={s.title}>1. Загальні положення</h5>
+                <h1 className={s.mainTitle}>Політика конфіденційності</h1>
+                <h2 className={s.title}>1. Загальні положення</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         Справжня політика обробки персональних даних створена відповідно до вимог
@@ -50,7 +50,7 @@ const PrivacyPolicyPageUA = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>2. Основні поняття, які використовуються в Політиці</h5>
+                <h2 className={s.title}>2. Основні поняття, які використовуються в Політиці</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -123,7 +123,7 @@ const PrivacyPolicyPageUA = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>3. Оператор може обробляти наступні персональні дані Користувача</h5>
+                <h2 className={s.title}>3. Оператор може обробляти наступні персональні дані Користувача</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -145,7 +145,7 @@ const PrivacyPolicyPageUA = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>4. Мета обробки персональних даних</h5>
+                <h2 className={s.title}>4. Мета обробки персональних даних</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -166,7 +166,7 @@ const PrivacyPolicyPageUA = () => {
 
                     </ol>
                 </div>
-                <h5 className={s.title}>5. Правові підстави обробки персональних даних</h5>
+                <h2 className={s.title}>5. Правові підстави обробки персональних даних</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -183,10 +183,10 @@ const PrivacyPolicyPageUA = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>
+                <h2 className={s.title}>
                     6. Порядок збору, зберігання, передачі та інших видів обробки персональних
                     даних
-                </h5>
+                </h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         Безпека персональних даних, які обробляються Оператором, забезпечується шляхом реалізації
@@ -214,7 +214,7 @@ const PrivacyPolicyPageUA = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>7. Транскордонна передача персональних даних</h5>
+                <h2 className={s.title}>7. Транскордонна передача персональних даних</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>
@@ -231,7 +231,7 @@ const PrivacyPolicyPageUA = () => {
                         </li>
                     </ol>
                 </div>
-                <h5 className={s.title}>8. Кінцеві положення</h5>
+                <h2 className={s.title}>8. Кінцеві положення</h2>
                 <div className={s.textBlock}>
                     <ol className={s.list}>
                         <li className={s.text}>

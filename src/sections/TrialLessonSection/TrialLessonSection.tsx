@@ -46,14 +46,14 @@ const TrialLessonSection = () => {
                     <Image className={s.girlImg} src={girl} style={calculateParallax(mousePosition, 50)} alt="karate girl"/>
                     <div className={s.centerItem}>
                         <div className={s.titleBlockS}>
-                            <h5 className={cn(s.centerItemTitle, gagalinFont.className)}>
+                            <h3 className={cn(s.centerItemTitle, gagalinFont.className)}>
                                 {t('freeS1')} <br/> {t('freeS2')} <span className={s.itemLabel}>{t('freeTask')}</span>
-                            </h5>
+                            </h3>
                         </div>
                         <div className={s.titleBlockML}>
-                            <h5 className={cn(s.centerItemTitle, gagalinFont.className)}>
+                            <h3 className={cn(s.centerItemTitle, gagalinFont.className)}>
                                 {t('free')} <br/> <span className={s.itemLabel}>{t('freeTask')}</span>
-                            </h5>
+                            </h3>
                         </div>
                         <p className={s.centerItemDescription}>
                             {t('freeSlogan1')} <br/> {t('freeSlogan2')}

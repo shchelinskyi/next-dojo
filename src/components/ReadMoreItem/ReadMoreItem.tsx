@@ -35,7 +35,7 @@ const ReadMoreItem: FC<ReadMoreItem> = ({item, children}) => {
     return (
         <>
             <div key={item.title.en} className={s.link} onClick={handleOpen}>
-                <div className={s.linkTitle}>{t(`title.${currentLanguage}`, (item.title as any)[currentLanguage] as string)}</div>
+                <h3 className={s.linkTitle}>{t(`title.${currentLanguage}`, (item.title as any)[currentLanguage] as string)}</h3>
                 <Image className={s.iconPlus} src={plus} alt="plus"/>
             </div>
             {isModalOpened && <ReadMoreModalItem onClose={handleClose}>

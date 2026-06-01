@@ -45,7 +45,7 @@ const ContactGymSocial: FC<ContactGymSocialProps> = ({address, addressLink, emai
             <div className={s.socials}>
                 <div className={s.icons}>
                     {socialLinks.instagramLink &&
-                        <a href={socialLinks.instagramLink} target="_blank">
+                        <a href={socialLinks.instagramLink} target="_blank" aria-label="Instagram">
                             <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                                  height="512" viewBox="0 0 512 512"
                                  version="1.1">
@@ -59,7 +59,7 @@ const ContactGymSocial: FC<ContactGymSocialProps> = ({address, addressLink, emai
                         </a>
                     }
                     {socialLinks.facebookLink &&
-                        <a href={socialLinks.facebookLink} target="_blank">
+                        <a href={socialLinks.facebookLink} target="_blank" aria-label="Facebook">
                             <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                                  height="524"
                                  viewBox="0 0 512 524" version="1.1">
@@ -73,7 +73,7 @@ const ContactGymSocial: FC<ContactGymSocialProps> = ({address, addressLink, emai
                         </a>
                     }
                     {socialLinks.youtubeLink &&
-                        <a href={socialLinks.youtubeLink} target="_blank">
+                        <a href={socialLinks.youtubeLink} target="_blank" aria-label="Youtube">
                             <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                                  height="536"
                                  viewBox="0 0 512 536" version="1.1">
@@ -87,7 +87,7 @@ const ContactGymSocial: FC<ContactGymSocialProps> = ({address, addressLink, emai
                         </a>
                     }
                     {socialLinks.telegramLink &&
-                        <a href={socialLinks.telegramLink} target="_blank">
+                        <a href={socialLinks.telegramLink} target="_blank" aria-label="Telegram">
                             <svg className={s.socialIcon} xmlns="http://www.w3.org/2000/svg" width="512"
                                  height="477"
                                  viewBox="0 0 512 477" version="1.1">

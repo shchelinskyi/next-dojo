@@ -53,7 +53,7 @@ const NewsSection = () => {
         <>
             <Container className={s.wrapper}>
                 <div className={s.container}>
-                    <h3  className={cn(s.title, gagalinFont.className)}>{t("news")}</h3>
+                    <h2  className={cn(s.title, gagalinFont.className)}>{t("news")}</h2>
                     <div className={s.content}>
                         {Object.values(newsData)
                             .slice(0, visibleItems)

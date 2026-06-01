@@ -21,7 +21,7 @@ const ContractOfferUA = () => {
                         </Link>
                     </div>
                 </div>
-                <h3 className={s.mainTitle}>Угода користувача</h3>
+                <h1 className={s.mainTitle}>Угода користувача</h1>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         Ця угода, адресована невизначеному колу осіб — фізичним та юридичним особам — відвідувачам сайту
@@ -32,7 +32,7 @@ const ContractOfferUA = () => {
                         особою (далі — Благодійник), предмет і істотні умови якого вказані нижче:
                     </p>
                 </div>
-                <h5 className={s.title}>Терміни та визначення:</h5>
+                <h2 className={s.title}>Терміни та визначення:</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         <b>Акцепт</b> — повне і безумовне прийняття угоди користувача шляхом вчинення дій по здійсненню
@@ -96,7 +96,7 @@ const ContractOfferUA = () => {
                         Сайті. ТОВАРИ представлені на Сайті через фото-зразки, що є власністю Продавця.
                     </p>
                 </div>
-                <h5 className={s.title}>1. Предмет договору-оферти</h5>
+                <h2 className={s.title}>1. Предмет договору-оферти</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         1.1. ГРОМАДСЬКА ОРГАНІЗАЦІЯ зобов&apos;язується передати у власність БЛАГОДІЙНИКУ , а
@@ -135,7 +135,7 @@ const ContractOfferUA = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>2. Момент укладання договору</h5>
+                <h2 className={s.title}>2. Момент укладання договору</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         2.1. Текст даного Договору є публічною офертою (відповідно до статті 638 та статті 641
@@ -197,7 +197,7 @@ const ContractOfferUA = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>3. Ціна товару</h5>
+                <h2 className={s.title}>3. Ціна товару</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         3.1. Ціни в Інтернет-магазині вказані в гривнях за одиницю ТОВАРУ.
@@ -221,7 +221,7 @@ const ContractOfferUA = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>4. Оплата товару</h5>
+                <h2 className={s.title}>4. Оплата товару</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         4.1. При готівковій формі оплати БЛАГОДІЙНИК зобов&apos;язаний сплатити ГРОМАДСЬКІЙ ОРГАНІЗАЦІЇ
@@ -257,7 +257,7 @@ const ContractOfferUA = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>5. Доставка товару</h5>
+                <h2 className={s.title}>5. Доставка товару</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         5.1. ГРОМАДСЬКА ОРГАНІЗАЦІЯ здійснює доставку ТОВАРУ за допомогою власної або зовнішньої служби
@@ -303,7 +303,7 @@ const ContractOfferUA = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>6. Права та обов&apos;язки сторін</h5>
+                <h2 className={s.title}>6. Права та обов&apos;язки сторін</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         <b>6.1. ГРОМАДСЬКА ОРГАНІЗАЦІЯ зобов&apos;язується:</b> <br/>
@@ -356,7 +356,7 @@ const ContractOfferUA = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>7. Відповідальність сторін та вирішення спорів</h5>
+                <h2 className={s.title}>7. Відповідальність сторін та вирішення спорів</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         7.1. Сторони несуть відповідальність за невиконання або неналежне виконання цього Договору в
@@ -413,7 +413,7 @@ const ContractOfferUA = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>8. Повернення і обмін товару</h5>
+                <h2 className={s.title}>8. Повернення і обмін товару</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         8.1. ТОВАР, отриманий Благодійником від ГРОМАДСЬКОЇ ОРГАНІЗАЦІЇ взамін на добровільну благодійну
@@ -425,7 +425,7 @@ const ContractOfferUA = () => {
 
                 </div>
 
-                <h5 className={s.title}>9. Форс-мажорні обставини</h5>
+                <h2 className={s.title}>9. Форс-мажорні обставини</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         9.1. Сторони звільняються від відповідальності за невиконання або неналежне виконання
@@ -440,7 +440,7 @@ const ContractOfferUA = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>10. Термін дії договору</h5>
+                <h2 className={s.title}>10. Термін дії договору</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         10.1. Даний Договір набирає чинності з моменту звернення Благодійника в Інтернет-магазин і
@@ -449,7 +449,7 @@ const ContractOfferUA = () => {
                     </p>
                 </div>
 
-                <h5 className={s.title}>11. Персональні дані</h5>
+                <h2 className={s.title}>11. Персональні дані</h2>
                 <div className={s.textBlock}>
                     <p className={s.text}>
                         11.1. ГРОМАДСЬКА ОРГАНІЗАЦІЯ збирає і обробляє персональні дані БЛАГОДІЙНИКІВ (а саме: прізвище,

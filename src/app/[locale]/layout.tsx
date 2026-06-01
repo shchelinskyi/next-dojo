@@ -10,36 +10,36 @@ import FacebookClientProvider from "@/providers/FacebookProvider";
 
 
 export const metadata: Metadata = {
-    title: 'Школа Кіокушинкай карате Misak Dojo для дітей та дорослих',
-    description: 'Кіокушинкай карате на Мінській, Оболоні та Позняках для дітей та дорослих. Ставай частиною нашої дружньої команди, займайся у сучасному Доджо!',
+    // title: 'Школа Кіокушинкай карате Misak Dojo для дітей та дорослих',
+    // description: 'Кіокушинкай карате на Мінській, Оболоні та Позняках для дітей та дорослих. Ставай частиною нашої дружньої команди, займайся у сучасному Доджо!',
     generator: 'Next.js',
     applicationName: 'Misak Dojo',
     metadataBase: new URL('https://misakdojo.com'),
     publisher:'https://www.facebook.com/misakdojo/',
-    alternates: {
-        canonical: '/',
-        languages: {
-            'en-US': '/en',
-            'ru-RU': '/ru',
-            'uk-UA':'/'
-        },
-    },
-    openGraph: {
-        title: 'Школа Кіокушинкай карате Misak Dojo для дітей та дорослих',
-        description: 'Кіокушинкай карате на Мінській, Оболоні та Позняках для дітей та дорослих. Ставай частиною нашої дружньої команди, займайся у сучасному Доджо!',
-        url: 'https://misakdojo.com/',
-        siteName: 'Школа «Кіокушинкай карате» в місті Київ, для дорослих та дітей',
-        type: 'website',
-        images: [
-            {
-                url: 'https://misakdojo.com/og-image.webp',
-                width: 1680,
-                height: 882,
-                alt: 'Dojo',
-            },
-        ],
-        locale: 'uk',
-    },
+    // alternates: {
+    //     canonical: '/',
+    //     languages: {
+    //         'en-US': '/en',
+    //         'ru-RU': '/ru',
+    //         'uk-UA':'/'
+    //     },
+    // },
+    // openGraph: {
+    //     title: 'Школа Кіокушинкай карате Misak Dojo для дітей та дорослих',
+    //     description: 'Кіокушинкай карате на Мінській, Оболоні та Позняках для дітей та дорослих. Ставай частиною нашої дружньої команди, займайся у сучасному Доджо!',
+    //     url: 'https://misakdojo.com/',
+    //     siteName: 'Школа «Кіокушинкай карате» в місті Київ, для дорослих та дітей',
+    //     type: 'website',
+    //     images: [
+    //         {
+    //             url: 'https://misakdojo.com/og-image.webp',
+    //             width: 1680,
+    //             height: 882,
+    //             alt: 'Dojo',
+    //         },
+    //     ],
+    //     locale: 'uk',
+    // },
     robots: {
         index: true,
         follow: true,
@@ -57,12 +57,12 @@ export const metadata: Metadata = {
         apple: '/favicon.ico',
     },
     manifest: 'https://misakdojo.com/manifest.json',
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Школа кіокушинкай карате Misak Dojo в Києві для дітей та дорослих',
-        description: 'Ставай частиною нашої дружньої команди, займайся у сучасному Доджо та розвивай силу і дух справжнього воїна!',
-        images: ['https://misakdojo.com/og-image.webp'],
-    },
+    // twitter: {
+    //     card: 'summary_large_image',
+    //     title: 'Школа кіокушинкай карате Misak Dojo в Києві для дітей та дорослих',
+    //     description: 'Ставай частиною нашої дружньої команди, займайся у сучасному Доджо та розвивай силу і дух справжнього воїна!',
+    //     images: ['https://misakdojo.com/og-image.webp'],
+    // },
     category: 'sports',
 }
 

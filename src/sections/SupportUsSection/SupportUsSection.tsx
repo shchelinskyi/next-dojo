@@ -37,7 +37,7 @@ const SupportUsSection = () => {
                     {language === "uk" && <Image src={supportUA} className={s.supportLabel} alt="icon"/>}
                     {language === "ru" && <Image src={supportRU} className={s.supportLabel} alt="icon"/>}
                     {language === "en" && <Image src={supportEN} className={s.supportLabel} alt="icon"/>}
-                    <a href="https://www.buymeacoffee.com/misakdojo" target="_blank" className={cn(s.link,s.btn)}>
+                    <a href="https://buymeacoffee.com/misakdojo" target="_blank" className={cn(s.link,s.btn)}>
                             <Image src={btnLabel} className={s.btnLabel} alt="icon" loading="lazy"/>
                     </a>
                     {language === "uk" && <div className={s.fingerBlock}>

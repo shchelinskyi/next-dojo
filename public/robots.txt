@@ -1,5 +1,3 @@
 User-agent: *
-User-agent: Googlebot
-Disallow: /*/contract-offer/
-Disallow: /*/privacy-policy/
+
 Sitemap: https://misakdojo.com/sitemap.xml
