@@ -1,5 +1,5 @@
 "use client"
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {useTranslation} from "react-i18next";
 import {useAppDispatch} from "@/lib/hooks";
 import {openForm} from "@/lib/store/features/form/formTrialSessionSlice";
@@ -24,6 +24,9 @@ import boy11 from "@/assets/images/main/boy1D.webp";
 import boy2 from "@/assets/images/main/boy2.webp";
 import boy22 from "@/assets/images/main/boy2D.webp";
 import fingerDown from "@/assets/images/main/fingerDown.webp";
+import bgMain from "@/assets/images/main/bg-main.webp";
+
+
 import {gagalinFont} from "@/fonts";
 import cn from "classnames";
 import s from "./MainSection.module.scss";
@@ -49,14 +52,68 @@ interface Position {
 
 const MainSection = ({refData}:TheMainPageProps) => {
     const dispatch = useAppDispatch();
-    const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
+    // const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
+    const [screenType, setScreenType] = useState<
+        'mobile' | 'tablet' | 'desktop'
+    >('desktop');
 
     const { t } = useTranslation();
 
+    const boy1Ref = useRef<HTMLImageElement | null>(null);
+    const boy2Ref = useRef<HTMLImageElement | null>(null);
+    const boy11Ref = useRef<HTMLImageElement | null>(null);
+    const boy22Ref = useRef<HTMLImageElement | null>(null);
+
+
     useEffect(() => {
-        const handleMouseMove = (e:MouseEvent) => {
-            requestAnimationFrame(() => {
-                setMousePosition({ x: e.clientX, y: e.clientY });
+        const updateScreenType = () => {
+            if (window.innerWidth <= 480) {
+                setScreenType('mobile');
+            } else if (window.innerWidth <= 992) {
+                setScreenType('tablet');
+            } else {
+                setScreenType('desktop');
+            }
+        };
+
+        updateScreenType();
+
+        window.addEventListener('resize', updateScreenType);
+
+        return () => {
+            window.removeEventListener('resize', updateScreenType);
+        };
+    }, []);
+
+    useEffect(() => {
+        if (screenType !== 'desktop') return;
+
+        let frameId = 0;
+
+        const handleMouseMove = (e: MouseEvent) => {
+            if (frameId) return;
+
+            frameId = requestAnimationFrame(() => {
+                const x = e.clientX;
+                const y = e.clientY;
+
+                const move = (
+                    element: HTMLElement | null,
+                    strength: number
+                ) => {
+                    if (!element) return;
+
+                    element.style.transform =
+                        `translate(${x / strength}px, ${y / strength}px)`;
+                };
+
+                move(boy1Ref.current, 50);
+                move(boy11Ref.current, 50);
+
+                move(boy2Ref.current, -50);
+                move(boy22Ref.current, -50);
+
+                frameId = 0;
             });
         };
 
@@ -64,12 +121,33 @@ const MainSection = ({refData}:TheMainPageProps) => {
 
         return () => {
             window.removeEventListener('mousemove', handleMouseMove);
-        };
-    }, []);
 
-    const calculateParallax = (position: Position, strength: number): { transform: string } => ({
-        transform: `translate(${position.x / strength}px, ${position.y / strength}px)`,
-    });
+            if (frameId) {
+                cancelAnimationFrame(frameId);
+            }
+        };
+    }, [screenType]);
+
+    // useEffect(() => {
+    //     const handleMouseMove = (e:MouseEvent) => {
+    //         requestAnimationFrame(() => {
+    //             setMousePosition({ x: e.clientX, y: e.clientY });
+    //         });
+    //     };
+    //
+    //     window.addEventListener('mousemove', handleMouseMove);
+    //
+    //     return () => {
+    //         window.removeEventListener('mousemove', handleMouseMove);
+    //     };
+    // }, []);
+
+
+
+
+    // const calculateParallax = (position: Position, strength: number): { transform: string } => ({
+    //     transform: `translate(${position.x / strength}px, ${position.y / strength}px)`,
+    // });
 
     const handleOpenModal = () => {
         dispatch(openForm())
@@ -78,7 +156,15 @@ const MainSection = ({refData}:TheMainPageProps) => {
     return (
         <>
         <div className={s.wrapper}>
+            <Image
+                src={bgMain}
+                alt="Фон"
+                fill
+                priority
+                style={{ objectFit: 'cover', objectPosition: 'center', zIndex: -1 }}
+            />
             <Container className={s.contentContainer}>
+
                 <div className={s.content}>
                     <div className={s.titleWrapper}>
                         <h1 className={cn(s.mainTitle, gagalinFont.className)}>{t('mainTitle1')}</h1>
@@ -102,10 +188,54 @@ const MainSection = ({refData}:TheMainPageProps) => {
                     <Image className={s.roundText} src={roundText} alt="karate scholl"/>
                     <Image className={s.lightning} src={lightning} alt="lightning"/>
                 </div>
-                <Image className={s.boy1} src={boy1} style={calculateParallax(mousePosition, 50)} alt="karate"/>
-                <Image className={s.boy2} src={boy2} style={calculateParallax(mousePosition, -50)} alt="karate"/>
-                <Image className={s.boy11} src={boy11} style={calculateParallax(mousePosition, 50)} alt="karate"/>
-                <Image className={s.boy22} src={boy22} style={calculateParallax(mousePosition, -50)} alt="karate"/>
+
+                {/*prev*/}
+                {/*<Image className={s.boy1} src={boy1} style={calculateParallax(mousePosition, 50)} alt="karate"/>*/}
+                {/*<Image className={s.boy2} src={boy2} style={calculateParallax(mousePosition, -50)} alt="karate"/>*/}
+                {/*<Image className={s.boy11} src={boy11} style={calculateParallax(mousePosition, 50)} alt="karate"/>*/}
+                {/*<Image className={s.boy22} src={boy22} style={calculateParallax(mousePosition, -50)} alt="karate"/>*/}
+
+
+                {screenType === 'tablet' ? (
+                    <>
+                        <Image
+                            className={s.boy11}
+                            src={boy11}
+                            ref={boy11Ref}
+                            alt="karate"
+                            sizes="251px"
+                        />
+
+                        <Image
+                            className={s.boy22}
+                            src={boy22}
+                            ref={boy22Ref}
+                            alt="karate"
+                            sizes="224px"
+                        />
+                    </>
+                ) : (
+                    <>
+                        <Image
+                            className={s.boy1}
+                            src={boy1}
+                            ref={boy1Ref}
+                            alt="karate"
+                            sizes="(max-width: 480px) 157px, (max-width: 1200px) 250px, 335px"
+                        />
+
+                        <Image
+                            className={s.boy2}
+                            src={boy2}
+                            ref={boy2Ref}
+                            alt="karate"
+                            sizes="(max-width: 480px) 140px, (max-width: 1200px) 224px, 300px"
+                        />
+                    </>
+                )}
+
+
+
                 <Image className={s.build} src={build} alt="build"/>
                 <Image className={s.arch} src={arch} alt="arch"/>
                 <Image className={s.volcano} src={volcano} alt="volcano"/>
