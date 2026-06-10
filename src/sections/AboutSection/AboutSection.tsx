@@ -139,8 +139,7 @@ const AboutSection = () => {
                 </div>
             </div>
             <div className={s.video}>
-                <video preload="auto" loop autoPlay={true} muted={true} className={s.videoItem}
-                       controls={true}>
+                <video preload="auto" loop autoPlay={true} muted={true} className={s.videoItem} controls={true}>
                     <source src="/video/karate.mp4" type="video/mp4"/>
                 </video>
                 <div className={s.titleTeamWrapper}>

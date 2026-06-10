@@ -1,3 +1,7 @@
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+    enabled: process.env.ANALYZE === 'true',
+});
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
@@ -33,8 +37,8 @@ const nextConfig = {
                 destination: 'https://misakdojo.com/:path*',
                 permanent: true,
             },
-        ]
+        ];
     },
-}
+};
 
-module.exports = nextConfig
+module.exports = withBundleAnalyzer(nextConfig);

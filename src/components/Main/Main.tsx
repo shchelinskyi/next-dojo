@@ -6,8 +6,10 @@ import {usePathname} from "next/navigation";
 import {useAppDispatch, useAppSelector} from "@/lib/hooks";
 import MainSection from "@/sections/MainSection";
 import AboutSection from "@/sections/AboutSection";
-import NewsSection from "@/sections/NewsSection";
-import GallerySection from "@/sections/GallerySection";
+// import NewsSection from "@/sections/NewsSection";
+import dynamic from "next/dynamic";
+
+// import GallerySection from "@/sections/GallerySection";
 import TeamSection from "@/sections/TeamSection";
 import GymsSection from "@/sections/GymsSection";
 import ReadMore from "@/sections/ReadMore";
@@ -21,6 +23,14 @@ import Cart from "@/components/Cart";
 import {closeInfoModal} from "@/lib/store/features/form/formTrialSessionSlice";
 import {closeAddToCartModal, closeOrderedModal, openCartModal} from "@/lib/store/features/cart/cartSlice";
 import s from "./Main.module.scss";
+
+
+const NewsSection = dynamic(
+    () => import("@/sections/NewsSection")
+);
+const GallerySection = dynamic(
+    () => import("@/sections/GallerySection")
+);
 
 const Main = () => {
 

@@ -5,7 +5,6 @@ import {useAppDispatch} from "@/lib/hooks";
 import {openForm} from "@/lib/store/features/form/formTrialSessionSlice";
 import Image from 'next/image';
 import {Container} from "react-bootstrap";
-import CustomButton from "@/components/CustomButton";
 import TheHeader from "@/components/TheHeader";
 import roundText from "@/assets/images/main/roundText.webp";
 import lightning from "@/assets/images/main/lightning.webp";
@@ -15,12 +14,8 @@ import cloudRt from "@/assets/images/main/cloud-rt.webp";
 import cloudRb from "@/assets/images/main/cloud-rb.webp";
 import build from "@/assets/images/main/build.webp";
 import arch from "@/assets/images/main/arch.webp";
-// import boy1 from "@/assets/images/main/boy1.gif";
-// import boy11 from "@/assets/images/main/boy1D.gif";
 import boy1 from "@/assets/images/main/boy1.webp";
 import boy11 from "@/assets/images/main/boy1D.webp";
-// import boy2 from "@/assets/images/main/boy2.gif";
-// import boy22 from "@/assets/images/main/boy2D.gif";
 import boy2 from "@/assets/images/main/boy2.webp";
 import boy22 from "@/assets/images/main/boy2D.webp";
 import fingerDown from "@/assets/images/main/fingerDown.webp";
@@ -52,7 +47,7 @@ interface Position {
 
 const MainSection = ({refData}:TheMainPageProps) => {
     const dispatch = useAppDispatch();
-    // const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
+
     const [screenType, setScreenType] = useState<
         'mobile' | 'tablet' | 'desktop'
     >('desktop');
@@ -61,8 +56,6 @@ const MainSection = ({refData}:TheMainPageProps) => {
 
     const boy1Ref = useRef<HTMLImageElement | null>(null);
     const boy2Ref = useRef<HTMLImageElement | null>(null);
-    const boy11Ref = useRef<HTMLImageElement | null>(null);
-    const boy22Ref = useRef<HTMLImageElement | null>(null);
 
 
     useEffect(() => {
@@ -108,10 +101,10 @@ const MainSection = ({refData}:TheMainPageProps) => {
                 };
 
                 move(boy1Ref.current, 50);
-                move(boy11Ref.current, 50);
+                // move(boy11Ref.current, 50);
 
                 move(boy2Ref.current, -50);
-                move(boy22Ref.current, -50);
+                // move(boy22Ref.current, -50);
 
                 frameId = 0;
             });
@@ -128,26 +121,6 @@ const MainSection = ({refData}:TheMainPageProps) => {
         };
     }, [screenType]);
 
-    // useEffect(() => {
-    //     const handleMouseMove = (e:MouseEvent) => {
-    //         requestAnimationFrame(() => {
-    //             setMousePosition({ x: e.clientX, y: e.clientY });
-    //         });
-    //     };
-    //
-    //     window.addEventListener('mousemove', handleMouseMove);
-    //
-    //     return () => {
-    //         window.removeEventListener('mousemove', handleMouseMove);
-    //     };
-    // }, []);
-
-
-
-
-    // const calculateParallax = (position: Position, strength: number): { transform: string } => ({
-    //     transform: `translate(${position.x / strength}px, ${position.y / strength}px)`,
-    // });
 
     const handleOpenModal = () => {
         dispatch(openForm())
@@ -189,48 +162,18 @@ const MainSection = ({refData}:TheMainPageProps) => {
                     <Image className={s.lightning} src={lightning} alt="lightning"/>
                 </div>
 
-                {/*prev*/}
-                {/*<Image className={s.boy1} src={boy1} style={calculateParallax(mousePosition, 50)} alt="karate"/>*/}
-                {/*<Image className={s.boy2} src={boy2} style={calculateParallax(mousePosition, -50)} alt="karate"/>*/}
-                {/*<Image className={s.boy11} src={boy11} style={calculateParallax(mousePosition, 50)} alt="karate"/>*/}
-                {/*<Image className={s.boy22} src={boy22} style={calculateParallax(mousePosition, -50)} alt="karate"/>*/}
+
 
 
                 {screenType === 'tablet' ? (
                     <>
-                        <Image
-                            className={s.boy11}
-                            src={boy11}
-                            ref={boy11Ref}
-                            alt="karate"
-                            sizes="251px"
-                        />
-
-                        <Image
-                            className={s.boy22}
-                            src={boy22}
-                            ref={boy22Ref}
-                            alt="karate"
-                            sizes="224px"
-                        />
+                        <Image className={s.boy11} src={boy11} alt="karate" sizes="251px"/>
+                        <Image className={s.boy22} src={boy22} alt="karate" sizes="224px"/>
                     </>
                 ) : (
                     <>
-                        <Image
-                            className={s.boy1}
-                            src={boy1}
-                            ref={boy1Ref}
-                            alt="karate"
-                            sizes="(max-width: 480px) 157px, (max-width: 1200px) 250px, 335px"
-                        />
-
-                        <Image
-                            className={s.boy2}
-                            src={boy2}
-                            ref={boy2Ref}
-                            alt="karate"
-                            sizes="(max-width: 480px) 140px, (max-width: 1200px) 224px, 300px"
-                        />
+                        <Image className={s.boy1} src={boy1} ref={boy1Ref} alt="karate" sizes="(max-width: 480px) 157px, (max-width: 1200px) 250px, 335px"/>
+                        <Image className={s.boy2} src={boy2} ref={boy2Ref} alt="karate" sizes="(max-width: 480px) 140px, (max-width: 1200px) 224px, 300px"/>
                     </>
                 )}
 
@@ -242,6 +185,7 @@ const MainSection = ({refData}:TheMainPageProps) => {
                 <Image className={s.cloudRt} src={cloudRt} alt="cloud"/>
                 <Image className={s.cloudRb} src={cloudRb} alt="cloud"/>
                 <Image className={s.cloudL} src={cloudL} alt="cloud"/>
+
                 <div className={s.moreItem}>
                     <p className={s.fingerText}>{t('more')}</p>
                     <Image src={fingerDown} style={{width: "35px", height:"auto"}} alt="finger down"/>
