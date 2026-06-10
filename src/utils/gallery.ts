@@ -8,7 +8,6 @@ export const gallery = [
         date: "15.03.2026",
         mainImg: "/images/gallery/150326.webp",
         images: [
-            "/images/gallery/150326.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906406/gallery/150326/DSC01285_result_mmd8v4.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906406/gallery/150326/DSC01262_result_fel1kl.webp",
             "https://res.cloudinary.com/dxdwrjw7w/image/upload/v1773906406/gallery/150326/DSC01252_result_wwgefl.webp",
