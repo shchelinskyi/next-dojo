@@ -90,26 +90,32 @@ const GymsSection = () => {
                             {/*</div>*/}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
+                                    <li className={s.timeText}>18:00 - 19:00</li>
+                                </ul>
+                                <p className={s.text}>{t("group0")}</p>
+                            </div>
+                            <div className={s.listWrapper}>
+                                <ul className={s.list}>
                                     <li className={s.timeText}>19:00 - 21:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group1")}</p>
                             </div>
                         </div>
 
-                        <div className={cn(s.item2times ,s.order2)}>
-                            {language === "uk" && <Image className={s.dayIcon} src={tuesdayUA} alt="вівторок"/>}
-                            {language === "ru" && <Image className={s.dayIcon} src={tuesdayRU} alt="вторник"/>}
-                            {language === "en" && <Image className={s.dayIcon} src={tuesdayEN} alt="tuesday"/>}
+                        {/*<div className={cn(s.item2times ,s.order2)}>*/}
+                        {/*    {language === "uk" && <Image className={s.dayIcon} src={tuesdayUA} alt="вівторок"/>}*/}
+                        {/*    {language === "ru" && <Image className={s.dayIcon} src={tuesdayRU} alt="вторник"/>}*/}
+                        {/*    {language === "en" && <Image className={s.dayIcon} src={tuesdayEN} alt="tuesday"/>}*/}
 
-                            <div className={s.listWrapper}>
-                                <ul className={s.list}>
-                                    <li className={s.timeText}>19:00 - 21:00</li>
-                                </ul>
-                                <p className={s.text}>{t("group11")}🥋👊</p>
-                            </div>
+                        {/*    <div className={s.listWrapper}>*/}
+                        {/*        <ul className={s.list}>*/}
+                        {/*            <li className={s.timeText}>19:00 - 21:00</li>*/}
+                        {/*        </ul>*/}
+                        {/*        <p className={s.text}>{t("group11")}🥋👊</p>*/}
+                        {/*    </div>*/}
 
 
-                        </div>
+                        {/*</div>*/}
 
                         <div className={cn(s.item2times , s.order3)}>
                             <Image className={s.smileIcon} src={smile} alt="smile"/>
@@ -130,24 +136,30 @@ const GymsSection = () => {
                             {/*</div>*/}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
+                                    <li className={s.timeText}>18:00 - 19:00</li>
+                                </ul>
+                                <p className={s.text}>{t("group0")}</p>
+                            </div>
+                            <div className={s.listWrapper}>
+                                <ul className={s.list}>
                                     <li className={s.timeText}>19:00 - 21:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group1")}</p>
                             </div>
                         </div>
 
-                        <div className={cn(s.item2times ,s.order4)}>
-                            {language === "uk" && <Image className={s.dayIcon} src={thursdayUA} alt="четверг"/>}
-                            {language === "ru" && <Image className={s.dayIcon} src={thursdayRU} alt="четверг"/>}
-                            {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}
+                        {/*<div className={cn(s.item2times ,s.order4)}>*/}
+                        {/*    {language === "uk" && <Image className={s.dayIcon} src={thursdayUA} alt="четверг"/>}*/}
+                        {/*    {language === "ru" && <Image className={s.dayIcon} src={thursdayRU} alt="четверг"/>}*/}
+                        {/*    {language === "en" && <Image className={s.dayIcon} src={thursdayEN} alt="thursday"/>}*/}
 
-                            <div className={s.listWrapper}>
-                                <ul className={s.list}>
-                                    <li className={s.timeText}>19:00 - 21:00</li>
-                                </ul>
-                                <p className={s.text}>{t("group11")}🥋👊</p>
-                            </div>
-                        </div>
+                        {/*    <div className={s.listWrapper}>*/}
+                        {/*        <ul className={s.list}>*/}
+                        {/*            <li className={s.timeText}>19:00 - 21:00</li>*/}
+                        {/*        </ul>*/}
+                        {/*        <p className={s.text}>{t("group11")}🥋👊</p>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
 
                         <div className={cn(s.item2times , s.order5)}>
                             {language === "uk" && <Image className={s.dayIcon} src={fridayUA} alt="п'ятниця"/>}
@@ -159,6 +171,12 @@ const GymsSection = () => {
                             {/*    </ul>*/}
                             {/*    <p className={s.text}>{t("group2")}</p>*/}
                             {/*</div>*/}
+                            <div className={s.listWrapper}>
+                                <ul className={s.list}>
+                                    <li className={s.timeText}>18:00 - 19:00</li>
+                                </ul>
+                                <p className={s.text}>{t("group0")}</p>
+                            </div>
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
                                     <li className={s.timeText}>19:00 - 21:00</li>
