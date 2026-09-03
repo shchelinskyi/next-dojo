@@ -210,16 +210,16 @@ const GymsSection = () => {
                             {language === "en" && <Image className={s.dayIcon} src={mondayEN} alt="monday"/>}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>18:00 - 19:00</li>
+                                    <li className={s.timeText}>18:40 - 20:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group6")}</p>
                             </div>
-                            <div className={s.listWrapper}>
-                                <ul className={s.list}>
-                                    <li className={s.timeText}>19:00 - 20:00</li>
-                                </ul>
-                                <p className={s.text}>{t("group7")}</p>
-                            </div>
+                            {/*<div className={s.listWrapper}>*/}
+                            {/*    <ul className={s.list}>*/}
+                            {/*        <li className={s.timeText}>19:00 - 20:00</li>*/}
+                            {/*    </ul>*/}
+                            {/*    <p className={s.text}>{t("group7")}</p>*/}
+                            {/*</div>*/}
                         </div>
 
                         <div className={cn(s.item2times, s.order3)}>
@@ -228,16 +228,16 @@ const GymsSection = () => {
                             {language === "en" && <Image className={s.dayIcon} src={wednesdayEN} alt="wednesday"/>}
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>18:00 - 19:00</li>
+                                    <li className={s.timeText}>18:40 - 20:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group6")}</p>
                             </div>
-                            <div className={s.listWrapper}>
-                                <ul className={s.list}>
-                                    <li className={s.timeText}>19:00 - 20:00</li>
-                                </ul>
-                                <p className={s.text}>{t("group7")}</p>
-                            </div>
+                            {/*<div className={s.listWrapper}>*/}
+                            {/*    <ul className={s.list}>*/}
+                            {/*        <li className={s.timeText}>19:00 - 20:00</li>*/}
+                            {/*    </ul>*/}
+                            {/*    <p className={s.text}>{t("group7")}</p>*/}
+                            {/*</div>*/}
                         </div>
 
                         <div className={cn(s.item2times, s.order5)}>
@@ -247,16 +247,16 @@ const GymsSection = () => {
                             <Image className={s.scrollIcon} src={scroll} alt="scroll"/>
                             <div className={s.listWrapper}>
                                 <ul className={s.list}>
-                                    <li className={s.timeText}>18:00 - 19:00</li>
+                                    <li className={s.timeText}>18:40 - 19:00</li>
                                 </ul>
                                 <p className={s.text}>{t("group6")}</p>
                             </div>
-                            <div className={s.listWrapper}>
-                                <ul className={s.list}>
-                                    <li className={s.timeText}>19:00 - 20:00</li>
-                                </ul>
-                                <p className={s.text}>{t("group7")}</p>
-                            </div>
+                            {/*<div className={s.listWrapper}>*/}
+                            {/*    <ul className={s.list}>*/}
+                            {/*        <li className={s.timeText}>19:00 - 20:00</li>*/}
+                            {/*    </ul>*/}
+                            {/*    <p className={s.text}>{t("group7")}</p>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                     <Image className={s.numIcon} src={num2} alt="number"/>
