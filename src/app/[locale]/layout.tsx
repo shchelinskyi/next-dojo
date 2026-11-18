@@ -7,6 +7,7 @@ import TheFooter from "@/components/TheFooter";
 import initTranslations from "@/app/i18n";
 import TranslationsProvider from "@/providers/TranslationsProvider";
 import FacebookClientProvider from "@/providers/FacebookProvider";
+import MetaPixel from "@/components/MetaPixel/MetaPixel";
 
 
 export const metadata: Metadata = {
@@ -83,6 +84,8 @@ export default async function RootLayout({children, params: {locale}}: {
     return (
         <html lang={locale} dir={dir(locale)}>
         <body>
+
+        <MetaPixel />
         <TranslationsProvider
             namespaces={i18nNamespaces}
             locale={locale}
